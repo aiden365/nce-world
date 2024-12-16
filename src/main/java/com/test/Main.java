@@ -1,4 +1,4 @@
-package com;
+package com.test;
 
 import com.lesson.third.ThirdLesson37;
 import com.word.ThirdWord;

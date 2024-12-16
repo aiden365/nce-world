@@ -1,4 +1,4 @@
-package com;
+package com.test;
 
 import cn.hutool.core.collection.CollUtil;
 import cn.hutool.core.util.StrUtil;
@@ -11,12 +11,13 @@ import lombok.SneakyThrows;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.Test;
 
-import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.InputStreamReader;
+import java.io.*;
 import java.lang.reflect.Method;
+import java.nio.channels.FileChannel;
+import java.nio.channels.FileLock;
 import java.nio.charset.StandardCharsets;
+import java.nio.file.Path;
+import java.nio.file.StandardOpenOption;
 import java.util.*;
 import java.util.concurrent.LinkedBlockingQueue;
 import java.util.stream.Collectors;
@@ -3464,14 +3465,27 @@ public class TestMain2 {
         TestFour.involve();
     }
 
-
     @SneakyThrows
     public static void main(String[] args) {
 
+        involve();
         LinkedBlockingQueue<String> strings = new LinkedBlockingQueue<>();
         strings.add("1");
         System.out.println(strings.isEmpty());
         strings.peek();
         System.out.println(strings.isEmpty());
     }
+
+
+    public static void main2(String[] args) {
+        String filePath = System.getProperty("user.dir").concat("/temp/lock.txt");
+        try (FileChannel open = FileChannel.open(Path.of(filePath), StandardOpenOption.WRITE)){
+            FileLock fileLock = open.lock();
+            FileLock fileLock1 = open.tryLock();
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+
+    }
+
 }
