@@ -4986,15 +4986,6 @@ public class TestToefl {
 
 
     /**
-     * @pronounce ɪn'dʌstrɪəlɪz(ə)m
-     * @explain n.产业主义,工业制度
-     * @e.g.1 Coal consumption in Manchester was measured in millions of tonnes, and its smoke became, as Lewis Mumford remarked, "the very incense of the new industrialism"..估计曼彻斯特消耗了数百万吨的煤炭，引用路易斯·芒福德的话说，这个城市上空飘着的烟“就是新工业主义的香气”。
-     * @same adj. industrial、industrialized，adv. industrially，n. industry、industrial、industrialization、industrialist，v. industrialized，vi. industrialize，vt. industrialize、industrialise，
-     */
-    public static void industrialism(){}
-
-
-    /**
      * @pronounce en,vairən'mentli
      * @explain adv.在环境方面地
      * @same adj. environmental，n. environment、environmentalist、environmentalism，vt. environ，
@@ -21554,6 +21545,7 @@ public class TestToefl {
      * @e.g.3 It happened purely by chance ..那件事纯属偶然。
      * @e.g.4 I do it purely and simply for the money..我纯粹是为了钱才干的。
      * @same adj. pure、purified，n. purity、purifier、purist、purifying、pureness、purism，v. purified、purifying，vi. purify，vt. purify，
+     *
      */
     public static void purely(){}
 

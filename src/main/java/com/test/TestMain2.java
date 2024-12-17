@@ -3467,9 +3467,16 @@ public class TestMain2 {
 
     @SneakyThrows
     public static void main(String[] args) {
-
-        involve();
         LinkedBlockingQueue<String> strings = new LinkedBlockingQueue<>();
+        industry();
+        industrial();
+        industrialist();
+        industrialise();
+        industrialize();
+        honor();
+        honour();
+        honourable();
+        honest();
         strings.add("1");
         System.out.println(strings.isEmpty());
         strings.peek();
