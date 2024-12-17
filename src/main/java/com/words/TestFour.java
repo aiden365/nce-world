@@ -21074,7 +21074,8 @@ public class TestFour {
     /**
      * @pronounce frɒst
      * @explain n.冰冻，严寒；霜
-     * @e.g.1 the risk of frost damage to crops.庄稼遭受霜冻灾害的危险
+     * @e.g.1 the car windows will frost when the inner temperature is much higher than the outer temperature during the winter
+     *
      * @same adj. frosted、frosty、frosting，adv. frostily，n. frosting、frostiness，v. frosted、frosting，
      */
     public static void frost(){}
@@ -22054,6 +22055,7 @@ public class TestFour {
      * @pronounce ɪn'vɒlv
      * @explain v.使卷入；牵涉
      * @e.g.1 If there was a cover-up, it involved people at the very highest levels of government..如果有掩盖真相的行为，它就牵扯到了处于政府最高层的那些人。
+     * @e.g.2 this case about corruption involves a lot of government hight-level officers
      * @same adj. involved，n. involvement，v. involved，
      */
     public static void involve(){}
@@ -22467,6 +22469,7 @@ public class TestFour {
      * @e.g.1 the members of the jury.陪审团成员
      * @e.g.2 The jury found him not guilty..陪审团裁定他无罪。
      * @e.g.3 the right to trial by jury.由陪审团进行审理的权利
+     * @e.g.4 this jury being made up of hundred judges
      * @same n. juror、juryman、jurywoman，
      */
     public static void jury(){}
@@ -27469,6 +27472,8 @@ public class TestFour {
      * @pronounce kən'sɜːn
      * @explain vt. 涉及，关系到；使担心 n. 关心；关系；关心的事
      * @e.g.1 His main concern is to be able to provide for his family..他最为关心的事就是能够养家。
+     * @e.g.2 this case about corruption concerns a lot of government hight-level officers
+     *
      * @same adj. concerned，adv. concernedly，v. concerned，
      */
     public static void concern(){}

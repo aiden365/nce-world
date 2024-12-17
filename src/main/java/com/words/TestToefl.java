@@ -1944,6 +1944,7 @@ public class TestToefl {
      * @e.g.1 Over these three years, miss her, read her person, what is he an eldest brother?But his love, destine and leave sorry!.这三年以来，想她，念她的人，何止他大哥一个？可是他的爱，注定是要留下遗憾的！
      * @e.g.2 Authorize the others is a half the battle, an all matters whether important or trivial, can't authorize work the other people's person, destine will meet tremendous obstacle..授权他人是成功的一半，一个事无巨细，不能将工作授权别人的人，注定会遇到极大的障碍。
      * @e.g.3 Some people destine to wait for other people..有些人是注定等待别人的。
+     * @e.g.4 the human destiny had been destined to destination of destruction
      * @same adj. destined，n. destination、destiny，v. destined，
      */
     public static void destine(){}

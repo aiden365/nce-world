@@ -5,6 +5,7 @@ import cn.hutool.core.util.StrUtil;
 import cn.hutool.poi.excel.ExcelReader;
 import cn.hutool.poi.excel.ExcelUtil;
 import com.alibaba.fastjson.JSONObject;
+import com.other.Chword;
 import com.other.Welcome10;
 import com.words.*;
 import lombok.SneakyThrows;
@@ -3104,13 +3105,9 @@ public class TestMain2 {
         TestFour.delight();
         TestFour.deliver();
         TestFour.depart();
-        TestFour.deny();
         TestFour.deceive();
         TestFour.decent();
         TestFour.improvement();
-        TestFour.inefficient();
-        TestFour.inexpensive();
-        TestFour.information();
         TestFour.demonstrate();
         TestFour.agriculture();
         TestFour.implication();
@@ -3118,71 +3115,41 @@ public class TestMain2 {
         TestFour.destruction();
         TestFour.distribution();
         TestFour.distinction();
-        TestFour.independence();
         TestFour.misunderstand();
         TestFour.fashionable();
         TestFour.indispensable();
         TestFour.distinguish();
         TestFour.increasingly();
-        TestFour.independent();
-        TestFour.destination();
-        TestFour.development();
-        TestFour.immediately();
+
         TestFour.illustration();
-        TestFour.imagination();
         TestFour.advertisement();
         TestFour.indifferent();
         TestFour.influential();
         TestFour.determination();
         TestFour.dew();
-        TestFour.dramatic();
-        TestFour.drift();
-        TestFour.drill();
-        TestFour.develop();
+
         TestFour.drag();
-        TestFour.dragon();
-        TestFour.dream();
         TestFour.drawer();
         TestFour.devil();
         TestFour.devise();
-        TestFour.dress();
-        TestFour.drama();
-        TestFour.downstairs();
         TestFour.draft();
-        TestFour.draw();
         TestFour.determine();
-        TestFour.dozen();
         TestFour.dread();
-        TestFour.driver();
         TestFour.drop();
         TestFour.devote();
-        TestFour.detect();
         TestFour.drawing();
-        TestFour.detection();
-        TestFour.detail();
-        TestFour.drip();
-        TestFour.device();
-        TestFour.drink();
-        TestFour.downward();
-        TestFour.go();
-        TestFour.my();
-        TestFour.by();
-        TestFour.oh();
+
         TestFour.assembly();
-        TestFour.consist();
-        TestFour.atmosphere();
+
         TestFour.conscience();
         TestFour.associate();
         TestFour.attend();
-        TestFour.conquer();
+
         TestFour.attention();
         TestFour.attentive();
         TestFour.attitude();
         TestFour.attraction();
-        TestFour.aunt();
         TestFour.conquest();
-        TestFour.Australia();
-        TestFour.Australian();
         TestFour.attempt();
         TestFour.auto();
         TestFour.attractive();
@@ -3194,49 +3161,34 @@ public class TestMain2 {
         TestFour.aural();
         TestFour.autumn();
         TestFour.congress();
-        TestFour.author();
         TestFour.consent();
         TestFour.auxiliary();
-        TestFour.avenue();
+
         TestFour.aviation();
         TestFour.Atlantic();
-        TestFour.avoid();
+
         TestFour.awake();
         TestFour.astonish();
         TestFour.aware();
-        TestFour.away();
-        TestFour.awful();
-        TestFour.awfully();
+
         TestFour.assignment();
         TestFour.astronaut();
         TestFour.awkward();
         TestFour.assess();
         TestFour.axis();
-        TestFour.athlete();
         TestFour.atomic();
         TestFour.assume();
-        TestFour.assistant();
         TestFour.assure();
-        TestFour.attain();
-        TestFour.audience();
-        TestFour.baby();
-        TestFour.background();
-        TestFour.assist();
-        TestFour.backward();
+
         TestFour.bacteria();
-        TestFour.bad();
-        TestFour.badly();
         TestFour.badminton();
         TestFour.bag();
         TestFour.attract();
         TestFour.award();
         TestFour.confuse();
-        TestFour.consider();
-        TestFour.memory();
-        TestFour.medicine();
-        TestFour.mechanic();
+
         TestFour.mature();
-        TestFour.meet();
+
         TestFour.mention();
         TestFour.maximum();
         TestFour.medium();
@@ -3245,58 +3197,38 @@ public class TestMain2 {
         TestFour.mercury();
         TestFour.merchant();
         TestFour.mercy();
-        TestFour.hospital();
         TestFour.meadow();
-        TestFour.medical();
+
         TestFour.mere();
-        TestFour.melt();
-        TestFour.merit();
-        TestFour.maths();
+
         TestFour.mechanics();
         TestFour.mend();
-        TestFour.horsepower();
         TestFour.merely();
-        TestFour.messenger();
-        TestFour.menu();
-        TestFour.meter();
+
         TestFour.merry();
-        TestFour.metre();
-        TestFour.meaning();
-        TestFour.meal();
+
+
         TestFour.meantime();
-        TestFour.meat();
-        TestFour.metal();
         TestFour.measurable();
         TestFour.metric();
-        TestFour.microphone();
         TestFour.material();
-        TestFour.mechanical();
-        TestFour.matter();
+
         TestFour.measure();
         TestFour.microscope();
-        TestFour.midday();
-        TestFour.midnight();
+
         TestFour.midst();
-        TestFour.might();
-        TestFour.mayor();
-        TestFour.mile();
-        TestFour.medal();
+
+
+
         TestFour.means();
         TestFour.memorial();
         TestFour.military();
-        TestFour.milk();
+
         TestFour.mild();
         TestFour.mill();
         TestFour.millimetre();
-        TestFour.million();
-        TestFour.fluid();
-        TestFour.fly();
-        TestFour.focus();
-        TestFour.meeting();
         TestFour.mate();
-        TestFour.meanwhile();
-        TestFour.maybe();
-        TestFour.freedom();
+
         TestFour.fruitful();
         TestFour.fry();
         TestFour.forecast();
@@ -3307,182 +3239,99 @@ public class TestMain2 {
         TestFour.fun();
         TestFour.fund();
         TestFour.folk();
-        TestFour.former();
         TestFour.formula();
-        TestFour.footstep();
-        TestFour.framework();
+
         TestFour.following();
         TestFour.foolish();
-        TestFour.forest();
-        TestFour.foot();
+
         TestFour.fortnight();
         TestFour.fourth();
         TestFour.frank();
-        TestFour.freely();
-        TestFour.four();
         TestFour.freight();
         TestFour.frequent();
-        TestFour.fresh();
-        TestFour.French();
+
+
         TestFour.fridge();
-        TestFour.friend();
+
         TestFour.fog();
         TestFour.forever();
-        TestFour.friendly();
-        TestFour.friendship();
-        TestFour.forget();
+
         TestFour.forehead();
         TestFour.formation();
         TestFour.forth();
-        TestFour.fox();
+
         TestFour.fountain();
         TestFour.frequently();
         TestFour.frighten();
         TestFour.fond();
         TestFour.foreign();
         TestFour.fold();
-        TestFour.food();
+
         TestFour.foreigner();
         TestFour.fortune();
         TestFour.fourteen();
         TestFour.forward();
         TestFour.friction();
         TestFour.frog();
-        TestFour.frontier();
+
         TestFour.frost();
         TestFour.frown();
-        TestFour.fruit();
         TestFour.for_();
         TestFour.forbid();
-        TestFour.football();
         TestFour.foremost();
         TestFour.fool();
         TestFour.forgive();
         TestFour.forty();
-        TestFour.France();
         TestFour.gasp();
-        TestFour.gas();
         TestFour.intention();
-        TestFour.interior();
-        TestFour.instead();
-        TestFour.further();
-        TestFour.gay();
+
         TestFour.insult();
         TestFour.insurance();
         TestFour.gallery();
         TestFour.gap();
         TestFour.garbage();
-        TestFour.gallon();
-        TestFour.gardener();
         TestFour.gather();
-        TestFour.install();
         TestFour.intend();
-        TestFour.gain();
         TestFour.institute();
         TestFour.garage();
         TestFour.gaseous();
         TestFour.gauge();
-        TestFour.intimate();
-        TestFour.invade();
-        TestFour.invent();
-        TestFour.funny();
-        TestFour.invest();
-        TestFour.investment();
+
+
         TestFour.invisible();
         TestFour.instantly();
         TestFour.invitation();
         TestFour.furnish();
         TestFour.inspire();
         TestFour.instinct();
-        TestFour.invasion();
-        TestFour.game();
+
         TestFour.insist();
-        TestFour.gang();
-        TestFour.inspection();
-        TestFour.funeral();
         TestFour.instruct();
-        TestFour.interest();
-        TestFour.internal();
         TestFour.interpret();
         TestFour.gasoline();
-        TestFour.general();
         TestFour.intensity();
         TestFour.interfere();
         TestFour.intensive();
-        TestFour.interview();
-        TestFour.into();
         TestFour.introduce();
-        TestFour.garden();
         TestFour.furious();
         TestFour.furnace();
         TestFour.intense();
         TestFour.invention();
-        TestFour.gate();
         TestFour.inventor();
         TestFour.gaze();
-        TestFour.fur();
-        TestFour.inspect();
         TestFour.insure();
         TestFour.furniture();
-        TestFour.coat();
-        TestFour.collective();
-        TestFour.come();
         TestFour.irregular();
-        TestFour.keeper();
-        TestFour.issue();
-        TestFour.collar();
-        TestFour.colleague();
-        TestFour.comfort();
-        TestFour.popular();
-        TestFour.jungle();
-        TestFour.coffee();
-        TestFour.jealous();
-        TestFour.justice();
-        TestFour.joy();
-        TestFour.keen();
-        TestFour.coast();
-        TestFour.inward();
-        TestFour.collision();
-        TestFour.cold();
-        TestFour.Italian();
-        TestFour.jazz();
-        TestFour.judge();
-        TestFour.jewish();
-        TestFour.jury();
-        TestFour.kettle();
-        TestFour.jail();
-        TestFour.coarse();
-        TestFour.isolate();
-        TestFour.jolly();
-        TestFour.colonel();
-        TestFour.colony();
-        TestFour.jewel();
-        TestFour.comb();
-        TestFour.judgement();
-        TestFour.its();
-        TestFour.itself();
-        TestFour.jaw();
-        TestFour.involve();
     }
 
     @SneakyThrows
     public static void main(String[] args) {
         LinkedBlockingQueue<String> strings = new LinkedBlockingQueue<>();
-        industry();
-        industrial();
-        industrialist();
-        industrialise();
-        industrialize();
-        honor();
-        honour();
-        honourable();
-        honest();
         strings.add("1");
         System.out.println(strings.isEmpty());
         strings.peek();
         System.out.println(strings.isEmpty());
     }
-
 
     public static void main2(String[] args) {
         String filePath = System.getProperty("user.dir").concat("/temp/lock.txt");
@@ -3492,7 +3341,5 @@ public class TestMain2 {
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
-
     }
-
 }

@@ -29,8 +29,34 @@ public enum Chword {
 
     enum_30("诚实的", "adj.", Arrays.asList("honest", "honorable")),
 
-    
+    enum_32("战斗", "n.", Arrays.asList("battle", "combat", "fight")),
 
+    enum_34("里面的", "adj.", Arrays.asList("inner", "inside", "inward", "internal", "interior")),
+    enum_35("外面的", "adj.", Arrays.asList("outer", "outside", "outward", "external", "exterior")),
+
+    enum_36("人口", "n.", Arrays.asList("populace", "population", "populous")),
+    enum_38("检查", "v.", Arrays.asList("check", "examine", "inspect")),
+    enum_39("垃圾", "n.", Arrays.asList("waste", "garbage", "rubbish")),
+    enum_40("方法", "n.", Arrays.asList("method", "way", "means")),
+
+    enum_42("获得", "v.", Arrays.asList("gain", "attain", "get", "obtain")),
+
+    enum_45("评估", "v.", Arrays.asList("estimate", "assess")),
+
+    enum_46("街道", "n.", Arrays.asList("street", "avenue")),
+
+    enum_48("同意", "v.", Arrays.asList("agree", "consent")),
+
+    enum_49("国会", "n.", Arrays.asList("parliament", "congress")),
+
+    enum_50("尝试(做)", "v.", Arrays.asList("try", "attempt", "have a smack at sth")),
+
+    enum_51("发明", "v.", Arrays.asList("invent", "devise")),
+    enum_52("拉", "v.", Arrays.asList("pull", "draw", "drag")),
+
+    enum_53("决定", "n.", Arrays.asList("determination", "decision")),
+
+    enum_54("识别", "v.", Arrays.asList("recognize", "identify", "distinguish")),
     ;
 
     String chinese;
