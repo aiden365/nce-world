@@ -3331,7 +3331,7 @@ public class TestMain2 {
         System.out.println(strings.isEmpty());
         strings.peek();
         System.out.println(strings.isEmpty());
-        System.out.println("444");
+        System.out.println("555");
     }
 
     public static void main2(String[] args) {
