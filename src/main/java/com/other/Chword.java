@@ -57,6 +57,24 @@ public enum Chword {
     enum_53("决定", "n.", Arrays.asList("determination", "decision")),
 
     enum_54("识别", "v.", Arrays.asList("recognize", "identify", "distinguish")),
+
+    enum_56("潮湿的", "adj.", Arrays.asList("wet", "damp", "humid")),
+
+    enum_57("推论（出）", "v.", Arrays.asList("conclude", "deduce", "infer")),
+
+    enum_65("命运", "n.", Arrays.asList("fortune", "fate")),
+
+    enum_67("名声", "n.", Arrays.asList("reputation", "fame")),
+
+    enum_69("飞机", "n.", Arrays.asList("airplane", "plane", "aircraft", "flight")),
+
+
+    enum_72("巨大的", "adj.", Arrays.asList("huge", "immense", "giant")),
+    enum_74("病", "n.", Arrays.asList("disease", "illness")),
+
+    enum_75("完成", "v.", Arrays.asList("complete", "achieve")),
+    enum_76("痛", "n.", Arrays.asList("pain", "ache")),
+
     ;
 
     String chinese;

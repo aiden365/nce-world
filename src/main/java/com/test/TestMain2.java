@@ -14,6 +14,7 @@ import org.junit.Test;
 
 import java.io.*;
 import java.lang.reflect.Method;
+import java.nio.channels.Channel;
 import java.nio.channels.FileChannel;
 import java.nio.channels.FileLock;
 import java.nio.charset.StandardCharsets;
@@ -2715,152 +2716,88 @@ public class TestMain2 {
         TestFour.abnormal();
         TestFour.asleep();
         TestFour.appliance();
-        TestFour.apple();
-        TestFour.appoint();
+
         TestFour.absorb();
         TestFour.academy();
         TestFour.arrival();
         TestFour.Arabian();
         TestFour.arithmetic();
-        TestFour.approach();
         TestFour.appreciate();
         TestFour.apparatus();
-        TestFour.around();
-        TestFour.article();
         TestFour.ashamed();
-        TestFour.art();
-        TestFour.Asian();
-        TestFour.army();
+
         TestFour.apartment();
-        TestFour.appearance();
         TestFour.approve();
         TestFour.applicable();
-        TestFour.arrive();
         TestFour.arrow();
         TestFour.approval();
-        TestFour.artificial();
         TestFour.apologize();
-        TestFour.artist();
-        TestFour.area();
-        TestFour.ash();
-        TestFour.ask();
-        TestFour.arrange();
-        TestFour.abandon();
         TestFour.ability();
         TestFour.able();
-        TestFour.appear();
         TestFour.adequate();
         TestFour.adverb();
-        TestFour.admit();
         TestFour.accumulate();
         TestFour.acre();
-        TestFour.advise();
-        TestFour.across();
-        TestFour.affect();
         TestFour.advisable();
         TestFour.afford();
         TestFour.afraid();
         TestFour.ache();
         TestFour.accord();
-        TestFour.accuse();
         TestFour.acceptable();
-        TestFour.actor();
         TestFour.adventure();
         TestFour.African();
-        TestFour.afternoon();
-        TestFour.acid();
         TestFour.advanced();
         TestFour.accessary();
         TestFour.accompany();
-        TestFour.accurate();
         TestFour.affection();
         TestFour.accuracy();
         TestFour.Africa();
-        TestFour.afterward();
         TestFour.aeroplane();
         TestFour.actually();
-        TestFour.actress();
-        TestFour.addition();
         TestFour.admission();
-        TestFour.again();
         TestFour.accident();
         TestFour.adjective();
-        TestFour.against();
         TestFour.accustomed();
-        TestFour.adopt();
         TestFour.accidental();
         TestFour.accent();
-        TestFour.age();
         TestFour.agency();
         TestFour.agent();
         TestFour.acceptance();
-        TestFour.admire();
+
         TestFour.achieve();
         TestFour.activity();
-        TestFour.adult();
         TestFour.acute();
-        TestFour.advantage();
         TestFour.affair();
         TestFour.aggressive();
         TestFour.agony();
         TestFour.accordance();
-        TestFour.agree();
-        TestFour.agreement();
         TestFour.accelerate();
-        TestFour.advice();
-        TestFour.ahead();
         TestFour.ago();
         TestFour.accustom();
         TestFour.accomplish();
-        TestFour.act();
         TestFour.imaginary();
         TestFour.aid();
-        TestFour.impatient();
         TestFour.hurry();
         TestFour.illness();
         TestFour.imply();
         TestFour.imagine();
-        TestFour.improve();
-        TestFour.inch();
         TestFour.incident();
         TestFour.hostile();
-        TestFour.hotel();
-        TestFour.however();
+
         TestFour.hunger();
         TestFour.idiom();
-        TestFour.huge();
-        TestFour.humorous();
-        TestFour.ice();
-        TestFour.humour();
-        TestFour.if_();
-        TestFour.illegal();
-        TestFour.house();
-        TestFour.immense();
-        TestFour.immediate();
+
         TestFour.hostess();
-        TestFour.airport();
-        TestFour.impact();
-        TestFour.import_();
-        TestFour.alcohol();
-        TestFour.airline();
         TestFour.household();
-        TestFour.idea();
         TestFour.illustrate();
         TestFour.importance();
         TestFour.ideal();
         TestFour.hurt();
-        TestFour.identify();
         TestFour.ignorant();
         TestFour.immigrant();
-        TestFour.aircraft();
-        TestFour.hot();
         TestFour.imitate();
-        TestFour.air();
-        TestFour.human();
-        TestFour.airplane();
-        TestFour.housewife();
         TestFour.humble();
-        TestFour.husband();
+
         TestFour.hut();
         TestFour.important();
         TestFour.impose();
@@ -2870,38 +2807,21 @@ public class TestMain2 {
         TestFour.impressive();
         TestFour.imprison();
         TestFour.hungry();
-        TestFour.hunt();
-        TestFour.alarm();
-        TestFour.hundred();
         TestFour.humid();
         TestFour.hydrogen();
         TestFour.identical();
-        TestFour.aim();
-        TestFour.Indian();
+
         TestFour.faith();
         TestFour.fame();
         TestFour.fearful();
-        TestFour.fast();
-        TestFour.indoors();
-        TestFour.fan();
-        TestFour.favour();
         TestFour.favourable();
-        TestFour.industry();
         TestFour.faculty();
         TestFour.Fahrenheit();
-        TestFour.fairly();
-        TestFour.farther();
         TestFour.famine();
-        TestFour.fashion();
         TestFour.fault();
         TestFour.feather();
-        TestFour.industrial();
-        TestFour.fade();
         TestFour.indeed();
-        TestFour.income();
         TestFour.faithful();
-        TestFour.famous();
-        TestFour.fate();
         TestFour.indication();
         TestFour.feasible();
         TestFour.faulty();
@@ -2910,24 +2830,17 @@ public class TestMain2 {
         TestFour.indefinite();
         TestFour.incorrect();
         TestFour.increase();
-        TestFour.farmer();
         TestFour.fasten();
         TestFour.facility();
         TestFour.fare();
         TestFour.factor();
-        TestFour.farm();
         TestFour.indicate();
-        TestFour.India();
         TestFour.fatigue();
         TestFour.minimum();
         TestFour.minority();
-        TestFour.fall();
-        TestFour.far();
         TestFour.feast();
-        TestFour.father();
         TestFour.ministry();
         TestFour.miracle();
-        TestFour.mirror();
         TestFour.incline();
         TestFour.faint();
         TestFour.indignant();
@@ -2935,107 +2848,81 @@ public class TestMain2 {
         TestFour.miserable();
         TestFour.fear();
         TestFour.familiar();
-        TestFour.mind();
-        TestFour.fancy();
         TestFour.favourite();
         TestFour.farewell();
-        TestFour.minister();
-        TestFour.individual();
-        TestFour.feel();
-        TestFour.fireman();
-        TestFour.fish();
-        TestFour.final_();
         TestFour.missing();
         TestFour.mixture();
         TestFour.moan();
-        TestFour.monkey();
         TestFour.fifth();
         TestFour.mislead();
-        TestFour.financial();
-        TestFour.miss();
+
         TestFour.mistress();
-        TestFour.modify();
-        TestFour.fisherman();
         TestFour.fist();
         TestFour.fit();
-        TestFour.figure();
         TestFour.mist();
         TestFour.feeble();
-        TestFour.finding();
-        TestFour.five();
-        TestFour.fix();
+
         TestFour.festival();
-        TestFour.feed();
+
         TestFour.flame();
-        TestFour.female();
-        TestFour.firm();
-        TestFour.finance();
+
         TestFour.missile();
         TestFour.flash();
         TestFour.fertilizer();
         TestFour.flare();
         TestFour.mission();
         TestFour.fetch();
-        TestFour.money();
         TestFour.Mister();
         TestFour.modest();
         TestFour.modern();
         TestFour.federal();
-        TestFour.feedback();
         TestFour.fellow();
         TestFour.fiction();
         TestFour.fibre();
-        TestFour.fight();
-        TestFour.feeling();
         TestFour.moisture();
         TestFour.mistake();
         TestFour.molecule();
         TestFour.fever();
-        TestFour.few();
+
         TestFour.fierce();
         TestFour.moist();
-        TestFour.film();
-        TestFour.finally_();
-        TestFour.fifteen();
+
         TestFour.moderate();
         TestFour.fee();
-        TestFour.fifty();
-        TestFour.mobile();
+
+
         TestFour.moment();
         TestFour.fertile();
-        TestFour.finger();
-        TestFour.fire();
+
         TestFour.injury();
         TestFour.curtain();
-        TestFour.cut();
+
         TestFour.infer();
         TestFour.injection();
         TestFour.daring();
-        TestFour.injure();
+
         TestFour.dash();
-        TestFour.dare();
         TestFour.dawn();
-        TestFour.flower();
-        TestFour.dead();
+
+
         TestFour.deaf();
         TestFour.infect();
         TestFour.flock();
         TestFour.influence();
         TestFour.inn();
         TestFour.damage();
-        TestFour.deal();
+
         TestFour.inherit();
         TestFour.dairy();
-        TestFour.flour();
+
         TestFour.fluent();
-        TestFour.infinite();
-        TestFour.daughter();
+
         TestFour.inferior();
-        TestFour.deadly();
+
         TestFour.damp();
-        TestFour.dance();
+
         TestFour.flesh();
-        TestFour.innocent();
+
         TestFour.curious();
         TestFour.curse();
         TestFour.customer();
@@ -3045,61 +2932,54 @@ public class TestMain2 {
         TestFour.inform();
         TestFour.cycle();
         TestFour.flight();
-        TestFour.float_();
+
         TestFour.flow();
-        TestFour.flu();
+
         TestFour.initial();
         TestFour.flood();
         TestFour.cushion();
         TestFour.inhabit();
-        TestFour.ink();
-        TestFour.custom();
+
         TestFour.curl();
         TestFour.daily();
         TestFour.dam();
-        TestFour.danger();
         TestFour.darling();
         TestFour.infant();
         TestFour.inhabitant();
         TestFour.fleet();
         TestFour.flexible();
-        TestFour.dangerous();
-        TestFour.flat();
-        TestFour.dear();
-        TestFour.death();
+
         TestFour.inevitable();
         TestFour.flavour();
         TestFour.debt();
-        TestFour.decision();
+
         TestFour.decrease();
         TestFour.deduce();
         TestFour.defect();
         TestFour.delivery();
-        TestFour.democratic();
+
         TestFour.dense();
         TestFour.density();
         TestFour.decay();
         TestFour.decorate();
-        TestFour.declare();
+
         TestFour.define();
-        TestFour.debate();
+
         TestFour.definitely();
         TestFour.delicate();
-        TestFour.delicious();
-        TestFour.decade();
-        TestFour.deceit();
+
         TestFour.defeat();
         TestFour.defend();
         TestFour.deepen();
-        TestFour.deck();
+
         TestFour.defence();
         TestFour.definition();
-        TestFour.degree();
+
         TestFour.demand();
-        TestFour.deep();
+
         TestFour.democracy();
         TestFour.deed();
-        TestFour.deer();
+
         TestFour.definite();
         TestFour.delegation();
         TestFour.delight();
@@ -3107,7 +2987,7 @@ public class TestMain2 {
         TestFour.depart();
         TestFour.deceive();
         TestFour.decent();
-        TestFour.improvement();
+
         TestFour.demonstrate();
         TestFour.agriculture();
         TestFour.implication();
@@ -3122,18 +3002,14 @@ public class TestMain2 {
         TestFour.increasingly();
 
         TestFour.illustration();
-        TestFour.advertisement();
-        TestFour.indifferent();
         TestFour.influential();
-        TestFour.determination();
         TestFour.dew();
 
         TestFour.drag();
         TestFour.drawer();
-        TestFour.devil();
         TestFour.devise();
-        TestFour.draft();
-        TestFour.determine();
+
+
         TestFour.dread();
         TestFour.drop();
         TestFour.devote();
@@ -3328,17 +3204,22 @@ public class TestMain2 {
     public static void main(String[] args) {
         LinkedBlockingQueue<String> strings = new LinkedBlockingQueue<>();
         strings.add("1");
+
         System.out.println(strings.isEmpty());
         strings.peek();
         System.out.println(strings.isEmpty());
-        System.out.println("555");
+        System.out.println("333");
     }
 
-    public static void main2(String[] args) {
+    @Test
+    public void main2() {
         String filePath = System.getProperty("user.dir").concat("/temp/lock.txt");
         try (FileChannel open = FileChannel.open(Path.of(filePath), StandardOpenOption.WRITE)){
             FileLock fileLock = open.lock();
             FileLock fileLock1 = open.tryLock();
+            fileLock1.release();
+            Channel channel = fileLock.acquiredBy();
+
         } catch (IOException e) {
             throw new RuntimeException(e);
         }

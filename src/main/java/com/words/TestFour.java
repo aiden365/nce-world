@@ -35671,11 +35671,7 @@ public class TestFour {
     /**
      * @pronounce dɪ'beɪt
      * @explain n&vi.争论，辩论
-     * @e.g.1 the gun-control debate in the US.美国有关控制枪支的争论
-     * @e.g.2 The new drug has become the subject of heated debate within the medical profession..这种新药成了医学界激烈争论的话题。
-     * @e.g.3 There was much lively debate about whether women should spend more time in the home..就妇女是否应该花更多时间待在家里这个话题有许多热烈的争论。
-     * @e.g.4 A fierce debate raged over which artist’s work should be chosen for the prize..就哪位艺术家的作品应该得奖一事展开了激烈的争论。
-     * @e.g.5 Nuclear power has always been a topic that has sparked off considerable debate ..核电一直是引起相当多争议的话题。
+     * @e.g.1 There is a debate on who discovered me
      * @same adj. debatable，n. debater，
      */
     public static void debate(){}
