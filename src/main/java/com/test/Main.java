@@ -46,11 +46,14 @@ public class Main {
             FileLock fileLock = open.lock();
             FileLock fileLock1 = open.tryLock();
             fileLock1.release();
-            Channel channel = fileLock1.acquiredBy();
-            apology();
-
-
-
+            chemist();
+            chemical();
+            alchemist();
+            biochemistry();
+            honesty();
+            portrait();
+            portraitist();
+            portraiture();
 
         } catch (IOException e) {
             throw new RuntimeException(e);

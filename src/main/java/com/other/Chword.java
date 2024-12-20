@@ -60,7 +60,7 @@ public enum Chword {
 
     enum_61("聪明的", "adj.", Arrays.asList("intellectual", "intelligent")),
 
-    enum_63("精确的", "adj.", Arrays.asList("accurate", "exact")),
+    enum_63("精确的", "adj.", Arrays.asList("accurate", "exact", "precise")),
 
     enum_65("旅行", "n.", Arrays.asList("journey", "travel", "tour", "trip")),
 
@@ -119,9 +119,37 @@ public enum Chword {
 
     enum_120("忽略", "v.", Arrays.asList("neglect", "ignore", "overlook")),
 
-    enum_122("安排", "v.", Arrays.asList("arrange", "schedule")),
+    enum_122("安排", "v.", Arrays.asList("arrange", "schedule", "")),
 
     enum_124("路线", "n.", Arrays.asList("line", "route")),
+
+    enum_126("百分比", "n.", Arrays.asList("percent", "percentage", "percentum")),
+
+    enum_128("视野", "n.", Arrays.asList("view", "sight", "vision")),
+
+    enum_130("相反的", "adj", Arrays.asList("reverse", "adverse", "converse", "opposite", "contrary")),
+
+    enum_132("宏伟壮丽的", "adj", Arrays.asList("magnificent", "splendid")),
+    enum_133("劝告", "v.", Arrays.asList("advise", "counsel")),
+
+    enum_135("组织", "v.", Arrays.asList("organize", "structure")),
+
+    enum_137("揭露", "v.", Arrays.asList("expose", "reveal")),
+
+    enum_139("仁慈的", "adj", Arrays.asList("merciful", "gracious")),
+
+    enum_141("承认", "v.", Arrays.asList("admit", "acknowledge")),
+
+    enum_143("混乱", "n.", Arrays.asList("disorder", "chaos")),
+
+    enum_145("糟糕的", "adj", Arrays.asList("terrible", "dreadful")),
+
+    enum_147("保护", "v.", Arrays.asList("protect", "preserve")),
+
+    enum_149("延期", "v.", Arrays.asList("delay", "postpone")),
+
+    enum_151("群", "n.", Arrays.asList("group", "flock", "crowd")),
+    
 
     ;
 

@@ -35377,7 +35377,7 @@ public class TestToefl {
 
     /**
      * @pronounce 'sʌbst(ə)ntɪv
-     * @explain adj.独立存在的，直接的
+     * @explain adj.真实的，实在的，实际的
      * @same adj. substantial、substantiated、substantival，adv. substantially，n. substantial、substance、substantiation、substantiality，v. substantiated，vt. substantiate，
      */
     public static void substantive(){}
