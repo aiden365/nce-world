@@ -1,6 +1,8 @@
 package com.test;
 
-import com.lesson.third.ThirdLesson37;
+import com.alibaba.fastjson.JSONObject;
+import com.book.SophiesWorld;
+import com.neclesson.ThirdVolume;
 import com.word.ThirdWord;
 import lombok.SneakyThrows;
 import lombok.extern.slf4j.Slf4j;
@@ -13,13 +15,25 @@ import java.nio.channels.FileLock;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Path;
 import java.nio.file.StandardOpenOption;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Optional;
 
 import static com.words.TestCz.*;
 import static com.words.TestGz.*;
-import static com.words.TestFour.*;
 import static com.words.TestIelts.*;
 import static com.words.TestToefl.*;
-
+import static com.words.TestFour1.*;
+import static com.words.TestFour2.*;
+import static com.words.TestFour3.*;
+import static com.words.TestFour4.*;
+import static com.words.TestFour5.*;
+import static com.words.TestFour6.*;
+import static com.words.TestFour7.*;
+import static com.words.TestFour8.*;
+import static com.words.TestFour9.*;
+import static com.words.TestFour10.*;
+import static com.words.TestFour11.*;
 
 @Slf4j
 public class Main {
@@ -27,15 +41,11 @@ public class Main {
 
     @SneakyThrows
     public static void main(String[] args) {
-        String property = System.getProperty("user.dir");
-        File file = new File("E:\\workspace\\java\\nce-world\\doc\\annotation");
-        BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(new FileInputStream(file), StandardCharsets.UTF_8));
-        String line = "";
-        log.info("/**");
-        while((line = bufferedReader.readLine()) != null){
-            log.info("     * @a" + line);
+
+
+        for (int i = 1; i <= 11; i++) {
+            System.out.println("import static com.words.TestFour"+i+".*;");
         }
-        log.info("*/");
     }
 
 
@@ -46,15 +56,8 @@ public class Main {
             FileLock fileLock = open.lock();
             FileLock fileLock1 = open.tryLock();
             fileLock1.release();
-            chemist();
-            chemical();
-            alchemist();
-            biochemistry();
-            honesty();
-            portrait();
-            portraitist();
-            portraiture();
-
+            Channel channel = fileLock1.acquiredBy();
+            SophiesWorld.sector1();
         } catch (IOException e) {
             throw new RuntimeException(e);
         }

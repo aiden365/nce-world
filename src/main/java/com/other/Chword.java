@@ -19,7 +19,7 @@ public enum Chword {
 
     enum_20("盘子", "n.", Arrays.asList("dish", "plate")),
 
-    enum_22("宣布", "v.", Arrays.asList("announce", "declare", "proclaim")),
+    enum_22("宣布", "v.", Arrays.asList("announce", "declare", "proclaim", "pronounce")),
 
     enum_24("裁判", "n.", Arrays.asList("judge", "judgement", "referee")),
 
@@ -36,7 +36,7 @@ public enum Chword {
 
     enum_36("人口", "n.", Arrays.asList("populace", "population", "populous")),
     enum_38("检查", "v.", Arrays.asList("check", "examine", "inspect")),
-    enum_39("垃圾", "n.", Arrays.asList("waste", "garbage", "rubbish")),
+    enum_39("垃圾", "n.", Arrays.asList("waste", "garbage", "rubbish", "junk")),
     enum_40("方法", "n.", Arrays.asList("method", "way", "means")),
 
     enum_42("获得", "v.", Arrays.asList("gain", "attain", "get", "obtain")),
@@ -82,7 +82,7 @@ public enum Chword {
 
     enum_83("明显地", "adv.", Arrays.asList("apparently", "obviously")),
 
-    enum_85("优秀的", "adj.", Arrays.asList("extraordinary", "excellent")),
+    enum_85("优秀的", "adj.", Arrays.asList("extraordinary", "excellent", "outstanding")),
 
     enum_87("愚蠢的", "adj.", Arrays.asList("dumb", "stupid")),
 
@@ -151,6 +151,32 @@ public enum Chword {
     enum_151("群", "n.", Arrays.asList("group", "flock", "crowd")),
     
 
+    enum_154("聪明的", "adj.", Arrays.asList("smart", "bright")),
+    enum_155("宽度", "n.", Arrays.asList("width", "breadth")),
+    enum_156("高度", "n.", Arrays.asList("height", "altitude")),
+    enum_157("自行车", "n.", Arrays.asList("bicycle", "bike")),
+    enum_158("球拍", "n.", Arrays.asList("racket", "bat")),
+
+    enum_160("争论", "v.", Arrays.asList("argue", "dispute")),
+    enum_161("抛弃", "v.", Arrays.asList("abandon", "desert")),
+    enum_162("决定", "v.", Arrays.asList("determine", "decide")),
+    enum_163("运送", "v.", Arrays.asList("transport", "convey")),
+    enum_164("价格", "n.", Arrays.asList("price", "cost")),
+    enum_165("谈话", "n.", Arrays.asList("conversation", "talk")),
+    enum_166("禁止", "v.", Arrays.asList("forbid", "prohibit")),
+    enum_167("绝望的", "adj.", Arrays.asList("desperate", "hopeless")),
+    enum_168("诚实的", "adj.", Arrays.asList("honest", "honourable")),
+    enum_169("管理", "n.", Arrays.asList("management", "administration")),
+
+    enum_171("结果", "n.", Arrays.asList("result", "consequence")),
+
+    enum_173("参加", "v.", Arrays.asList("attend", "join", "participate")),
+
+    enum_175("调查", "v.", Arrays.asList("inquire", "investigate")),
+
+    enum_177("运气", "n", Arrays.asList("luck", "fortune")),
+
+    enum_179("命运", "n.", Arrays.asList("fate", "destiny", "fortune")),
     ;
 
     String chinese;

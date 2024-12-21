@@ -12441,7 +12441,7 @@ public class TestIelts {
 
     /**
      * @pronounce 'bɜːdʒən
-     * @explain vi. 迅速成长； 发展
+     * @explain n. 嫩芽；嫩枝 v. 发芽；抽枝
      * @e.g.1 the burgeoning market for digital cameras.快速发展的数码相机市场
      */
     public static void burgeon(){}

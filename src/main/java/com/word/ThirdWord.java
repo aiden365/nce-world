@@ -1,12 +1,12 @@
 package com.word;
 
-import com.lesson.third.ThirdLesson37;
+import com.neclesson.ThirdVolume;
 
 public class ThirdWord {
 
 
     /**
-     * @see ThirdLesson37
+     * @see ThirdVolume
      */
     public static class Lesson37{
 

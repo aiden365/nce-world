@@ -1,4 +1,4 @@
-package com.lesson.third;
+package com.neclesson;
 
 /**
  * we have learned to expect that train will be punctual, after years of conditioning.
@@ -21,5 +21,5 @@ package com.lesson.third;
  *
  * @see com.word.ThirdWord.Lesson37
  */
-public class ThirdLesson37 {
+public class SecondVolume {
 }
