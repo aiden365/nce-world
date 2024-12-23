@@ -57,7 +57,15 @@ public class Main {
             FileLock fileLock1 = open.tryLock();
             fileLock1.release();
             Channel channel = fileLock1.acquiredBy();
-            SophiesWorld.sector1();
+            alert();
+            preservation();
+            patch();
+            patchy();
+            plenty();
+            plentifully();
+            plentiful();
+            plenty();
+
         } catch (IOException e) {
             throw new RuntimeException(e);
         }

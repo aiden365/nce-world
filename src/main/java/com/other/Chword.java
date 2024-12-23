@@ -9,7 +9,7 @@ public enum Chword {
 
     enum_1("复杂的", "adj.", Arrays.asList("complex", "complicated")),
     enum_2("生病的", "adj.", Arrays.asList("ill", "sick")),
-    enum_3("会议", "n.", Arrays.asList("meeting", "conference", "seminar")),
+    enum_3("会议", "n.", Arrays.asList("meeting", "conference", "seminar", "session")),
     enum_4("可能地", "adv.", Arrays.asList("probably", "perhaps", "maybe")),
     enum_5("妥协", "n.", Arrays.asList("concession", "compromise")),
     enum_6("努力", "v.", Arrays.asList("effort", "endeavour")),
@@ -68,7 +68,7 @@ public enum Chword {
 
     enum_69("情感", "n.", Arrays.asList("emotion", "mood")),
 
-    enum_71("扩大", "v.", Arrays.asList("extend", "expand")),
+    enum_71("扩大", "v.", Arrays.asList("extend", "expand", "enlarge")),
 
     enum_73("坚持", "v.", Arrays.asList("insist", "persist")),
 
@@ -142,16 +142,16 @@ public enum Chword {
 
     enum_143("混乱", "n.", Arrays.asList("disorder", "chaos")),
 
-    enum_145("糟糕的", "adj", Arrays.asList("terrible", "dreadful")),
+    enum_145("可怕的", "adj", Arrays.asList("terrible", "dreadful", "frightful")),
 
-    enum_147("保护", "v.", Arrays.asList("protect", "preserve")),
+    enum_147("保护", "v.", Arrays.asList("protect", "preserve", "conserve")),
 
     enum_149("延期", "v.", Arrays.asList("delay", "postpone")),
 
     enum_151("群", "n.", Arrays.asList("group", "flock", "crowd")),
     
 
-    enum_154("聪明的", "adj.", Arrays.asList("smart", "bright")),
+    enum_154("聪明的", "adj.", Arrays.asList("smart", "bright", "intelligent")),
     enum_155("宽度", "n.", Arrays.asList("width", "breadth")),
     enum_156("高度", "n.", Arrays.asList("height", "altitude")),
     enum_157("自行车", "n.", Arrays.asList("bicycle", "bike")),
@@ -177,6 +177,22 @@ public enum Chword {
     enum_177("运气", "n", Arrays.asList("luck", "fortune")),
 
     enum_179("命运", "n.", Arrays.asList("fate", "destiny", "fortune")),
+
+    enum_181("估计", "v.", Arrays.asList("estimate", "compute")),
+
+    enum_183("电影院", "n.", Arrays.asList("theater", "cinema")),
+
+    enum_185("减少", "v", Arrays.asList("decline", "decrease", "reduce")),
+
+    enum_187("货物", "n.", Arrays.asList("goods", "cargo")),
+
+    enum_189("咒骂", "v.", Arrays.asList("curse", "rail")),
+
+    enum_191("舒适的", "adj.", Arrays.asList("comfortable", "cozy")),
+
+    enum_193("凝视", "v.", Arrays.asList("gaze", "stare")),
+
+
     ;
 
     String chinese;

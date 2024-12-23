@@ -831,7 +831,7 @@ public class TestFour8 {
 
     /**
      * @pronounce əb'zɜːv
-     * @explain v.遵守；看到；说
+     * @explain vt. & vi. 观察；研究 vt. 看到；注意到
      * @e.g.1 Scientists have observed a drop in ozone levels over the Antarctic..科学家已经观察到南极洲上方的臭氧浓度有所下降。
      * @e.g.2 Predators have been observed to avoid attacking brightly coloured species..据观察发现，食肉动物会避免袭击色彩鲜艳的物种。
      * @same adj. observed、observant、observable、observing、observational，adv. observingly，n. observation、observer、observance、observable，v. observed、observing，
