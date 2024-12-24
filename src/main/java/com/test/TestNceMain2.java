@@ -22,24 +22,8 @@ import java.util.*;
 import java.util.concurrent.LinkedBlockingQueue;
 import java.util.stream.Collectors;
 
-import static com.words.TestCz.*;
-import static com.words.TestGz.*;
-import static com.words.TestIelts.*;
-import static com.words.TestToefl.*;
-import static com.words.TestFour1.*;
-import static com.words.TestFour2.*;
-import static com.words.TestFour3.*;
-import static com.words.TestFour4.*;
-import static com.words.TestFour5.*;
-import static com.words.TestFour6.*;
-import static com.words.TestFour7.*;
-import static com.words.TestFour8.*;
-import static com.words.TestFour9.*;
-import static com.words.TestFour10.*;
-import static com.words.TestFour11.*;
-
 @Slf4j
-public class TestMain2 {
+public class TestNceMain2 {
 
     private TestCz testCz = new TestCz();
     private TestGz testGz = new TestGz();
@@ -110,7 +94,7 @@ public class TestMain2 {
 
         all.parallelStream().forEach(welcome10 -> {
 
-            synchronized (TestMain2.class){
+            synchronized (TestNceMain2.class){
                 String headWord = welcome10.getHeadWord();
                 Welcome10.Welcome10Content content = welcome10.getContent();
                 Welcome10.ContentWord word = content.getWord();
@@ -2836,7 +2820,6 @@ public class TestMain2 {
         TestFour7.intense();
         TestFour7.invention();
         TestFour7.inventor();
-        TestFour6.gaze();
         TestFour7.insure();
         TestFour6.furniture();
         TestFour7.irregular();
@@ -2990,6 +2973,7 @@ public class TestMain2 {
             fileLock1.release();
             Channel channel = fileLock.acquiredBy();
             ThirdVolume.test1();
+
         } catch (IOException e) {
             throw new RuntimeException(e);
         }

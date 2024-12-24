@@ -51,20 +51,15 @@ public class Main {
 
     @Test
     public void main2() {
+        //But it was impossible. As soon as she concentrated on being alive now, the thought of dying also came into her mind.
         String filePath = System.getProperty("user.dir").concat("/temp/lock.txt");
         try (FileChannel open = FileChannel.open(Path.of(filePath), StandardOpenOption.WRITE)){
             FileLock fileLock = open.lock();
             FileLock fileLock1 = open.tryLock();
             fileLock1.release();
             Channel channel = fileLock1.acquiredBy();
-            alert();
-            preservation();
-            patch();
-            patchy();
-            plenty();
-            plentifully();
-            plentiful();
-            plenty();
+            SophiesWorld.sector1();
+            bliss();
 
         } catch (IOException e) {
             throw new RuntimeException(e);
