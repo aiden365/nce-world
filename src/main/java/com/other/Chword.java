@@ -192,6 +192,10 @@ public enum Chword {
 
     enum_193("凝视", "v.", Arrays.asList("gaze", "stare")),
 
+    enum_195("临时的", "adj.", Arrays.asList("temporary", "momentary")),
+
+    enum_197("魔术", "n.", Arrays.asList("magic", "conjure")),
+    
 
     ;
 
