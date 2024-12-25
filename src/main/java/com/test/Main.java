@@ -39,19 +39,23 @@ import static com.words.TestFour11.*;
 public class Main {
 
 
+
     @SneakyThrows
     public static void main(String[] args) {
-
-
+        //make it +adj +to do make it easy to learn
+        //动词 + one's way + 介词短语
+        //remind sb of sth 使某人想起…；提醒某人…
         for (int i = 1; i <= 11; i++) {
-            System.out.println("import static com.words.TestFour"+i+".*;");
+            log.info("import static com.words.TestFour"+i+".*;");
         }
     }
 
 
     @Test
     public void main2() {
-        //But it was impossible. As soon as she concentrated on being alive now, the thought of dying also came into her mind.
+        //Where does the world come from? She hadn’t the faintest idea.
+        //Sophie knew that the world was only a small planet in space.
+
         String filePath = System.getProperty("user.dir").concat("/temp/lock.txt");
         try (FileChannel open = FileChannel.open(Path.of(filePath), StandardOpenOption.WRITE)){
             FileLock fileLock = open.lock();
@@ -61,8 +65,10 @@ public class Main {
             SophiesWorld.sector1();
             bliss();
 
+
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
     }
+
 }

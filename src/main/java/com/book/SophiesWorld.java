@@ -53,6 +53,12 @@ public class SophiesWorld {
 
     }
 
+
+    /**
+     *
+     */
+    public static void sector0() {}
+
     /**
      * THE GARDEN OF EDEN
      * … at some point something must have come from nothing …
