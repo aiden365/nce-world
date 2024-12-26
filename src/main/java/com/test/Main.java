@@ -42,29 +42,37 @@ public class Main {
 
     @SneakyThrows
     public static void main(String[] args) {
-        //make it +adj +to do make it easy to learn
-        //动词 + one's way + 介词短语
-        //remind sb of sth 使某人想起…；提醒某人…
-        for (int i = 1; i <= 11; i++) {
-            log.info("import static com.words.TestFour"+i+".*;");
+        //when 也可以引导让步状语从句
+        //was supposed to do  应该做某事，其中be supposed to类似于should
+        //present sb with sth 向某人提供某物
+        //be sure (that) 确信...
+        //letter writer [n.] 写信者
+        //have trouble doing sth 做某事有困难
+        //come into being [vp.] 形成，产生，开始存在
+        //a human being [np.] 人
+        //catch up with [vp.] 追上，赶上
+        String aa = "E:\\workspace\\java\\nce-world\\doc\\aa.txt";
+        try(FileOutputStream os = new FileOutputStream(new File(aa))){
+            os.write("hello".getBytes(StandardCharsets.UTF_8));
+            os.flush();
         }
+
     }
 
 
     @Test
     public void main2() {
-        //Where does the world come from? She hadn’t the faintest idea.
-        //Sophie knew that the world was only a small planet in space.
-
+        // “I’m not that interested in card games any more.” Joanna looked surprised.
+        // “You’re not? Let’s play badminton then.” Sophie stared down at the pavement—then up at her friend.
         String filePath = System.getProperty("user.dir").concat("/temp/lock.txt");
         try (FileChannel open = FileChannel.open(Path.of(filePath), StandardOpenOption.WRITE)){
+
             FileLock fileLock = open.lock();
             FileLock fileLock1 = open.tryLock();
             fileLock1.release();
             Channel channel = fileLock1.acquiredBy();
             SophiesWorld.sector1();
-            bliss();
-
+            ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
 
         } catch (IOException e) {
             throw new RuntimeException(e);
