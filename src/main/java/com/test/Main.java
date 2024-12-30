@@ -42,6 +42,8 @@ public class Main {
 
     @SneakyThrows
     public static void main(String[] args) {
+
+
         //when 也可以引导让步状语从句
         //was supposed to do  应该做某事，其中be supposed to类似于should
         //present sb with sth 向某人提供某物
@@ -73,6 +75,8 @@ public class Main {
             Channel channel = fileLock1.acquiredBy();
             SophiesWorld.sector1();
             ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
+            ByteArrayOutputStream os = new ByteArrayOutputStream();
+
 
         } catch (IOException e) {
             throw new RuntimeException(e);
