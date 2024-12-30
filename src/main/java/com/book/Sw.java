@@ -12,7 +12,7 @@ import java.util.List;
 import java.util.Map;
 
 @Slf4j
-public class SophiesWorld {
+public class Sw {
 
     @SneakyThrows
     public static void main(String[] args) {

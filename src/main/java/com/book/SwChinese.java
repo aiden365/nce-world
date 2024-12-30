@@ -3,19 +3,19 @@ package com.book;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
-public class SophiesWorldChinese {
+public class SwChinese {
 
 
     public static void main(String[] args) {
 
-        SophiesWorldChinese.sector1();
+        SwChinese.sector1();
     }
 
     /**
      * @p 伊甸园
      *
      * @p 在某个时刻，事情必然从无到有
-     *
+     * at some point, something must have come from nothing
      * @p 索菲·阿蒙森放学回家。有一段路她和乔安娜同行，她们谈论着有关机器人的问题。乔安娜认为人的大脑就像是一部很先进的电脑。这一点索菲并不赞同，人绝对不应该只是一
      * 台机器。
      *

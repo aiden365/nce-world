@@ -1,9 +1,7 @@
 package com.test;
 
-import com.alibaba.fastjson.JSONObject;
-import com.book.SophiesWorld;
-import com.neclesson.ThirdVolume;
-import com.word.ThirdWord;
+import com.book.Sw;
+import com.book.SwChinese;
 import lombok.SneakyThrows;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.Test;
@@ -15,25 +13,6 @@ import java.nio.channels.FileLock;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Path;
 import java.nio.file.StandardOpenOption;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Optional;
-
-import static com.words.TestCz.*;
-import static com.words.TestGz.*;
-import static com.words.TestIelts.*;
-import static com.words.TestToefl.*;
-import static com.words.TestFour1.*;
-import static com.words.TestFour2.*;
-import static com.words.TestFour3.*;
-import static com.words.TestFour4.*;
-import static com.words.TestFour5.*;
-import static com.words.TestFour6.*;
-import static com.words.TestFour7.*;
-import static com.words.TestFour8.*;
-import static com.words.TestFour9.*;
-import static com.words.TestFour10.*;
-import static com.words.TestFour11.*;
 
 @Slf4j
 public class Main {
@@ -53,6 +32,8 @@ public class Main {
         //come into being [vp.] 形成，产生，开始存在
         //a human being [np.] 人
         //catch up with [vp.] 追上，赶上
+        //Put Up With Sb [vp.] 忍受某人/某事
+        //give sb away [vp.] 出卖某人
         String aa = "E:\\workspace\\java\\nce-world\\doc\\aa.txt";
         try(FileOutputStream os = new FileOutputStream(new File(aa))){
             os.write("hello".getBytes(StandardCharsets.UTF_8));
@@ -64,18 +45,19 @@ public class Main {
 
     @Test
     public void main2() {
-        // “I’m not that interested in card games any more.” Joanna looked surprised.
-        // “You’re not? Let’s play badminton then.” Sophie stared down at the pavement—then up at her friend.
+        //Sophie Amundsen went on her way home from school，
+        //Sophie went on the first part of the way with Joanna, They had been discussing the robots.
+        //
         String filePath = System.getProperty("user.dir").concat("/temp/lock.txt");
         try (FileChannel open = FileChannel.open(Path.of(filePath), StandardOpenOption.WRITE)){
-
             FileLock fileLock = open.lock();
             FileLock fileLock1 = open.tryLock();
             fileLock1.release();
             Channel channel = fileLock1.acquiredBy();
-            SophiesWorld.sector1();
+            Sw.sector1();
             ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
             ByteArrayOutputStream os = new ByteArrayOutputStream();
+            SwChinese.sector1();
 
 
         } catch (IOException e) {
