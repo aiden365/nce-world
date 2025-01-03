@@ -2956,12 +2956,11 @@ public class TestNceMain2 {
 
     @SneakyThrows
     public static void main(String[] args) {
-        LinkedBlockingQueue<String> strings = new LinkedBlockingQueue<>();
-        strings.add("1");
-        System.out.println(strings.isEmpty());
-        strings.peek();
-        System.out.println(strings.isEmpty());
-        System.out.println("333");
+        int a = 3;
+        System.out.println(65 & 64);
+        System.out.println(0 & 1);
+        System.out.println(0 & 2);
+        System.out.println(0 & 3);
     }
 
     @Test
