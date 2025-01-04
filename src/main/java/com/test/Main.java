@@ -1,5 +1,8 @@
 package com.test;
 
+import cn.hutool.Hutool;
+import cn.hutool.core.util.ClassLoaderUtil;
+import cn.hutool.core.util.ClassUtil;
 import com.book.Sw;
 import com.book.SwChinese;
 import lombok.SneakyThrows;
@@ -15,6 +18,23 @@ import java.nio.charset.StandardCharsets;
 import java.nio.file.Path;
 import java.nio.file.StandardOpenOption;
 
+import static com.words.TestFour4.*;
+import static com.words.TestCz.*;
+import static com.words.TestFour3.*;
+import static com.words.TestFour8.*;
+import static com.words.TestFour11.*;
+import static com.words.TestFour9.*;
+import static com.words.TestFour5.*;
+import static com.words.TestFour2.*;
+import static com.words.TestGz.*;
+import static com.words.TestFour1.*;
+import static com.words.TestFour6.*;
+import static com.words.TestFour10.*;
+import static com.words.TestIelts.*;
+import static com.words.TestToefl.*;
+import static com.words.TestFour7.*;
+
+
 @Slf4j
 public class Main {
 
@@ -23,24 +43,24 @@ public class Main {
     @SneakyThrows
     public static void main(String[] args) {
 
-        //stumble upon / on / across : 偶然发现...
-        //give any thought to : 考虑，想到
-        //new light : 新的眼光
-        //过去分词做名词的前置定语，含有被动或完成的之意，可以译为：被...的... 例如：an enchanted slumber 被施了魔法的睡眠，a closed gate 关着的大门
-        //stumble around : 跌跌撞撞地到处走，徘徊
-        //in this manner : 以这种方式
-        //aged two or three : aged [adj.] ...岁的，aged two 译为两岁的
-        //business : 名词，除了表示生意，还可以表示事情
-        //make (no) difference to sb. 这是一个固定搭配，译为：对某人(没)有影响/差别
-        //hood :作名词，可以表示发动起的引擎盖，例如 the hood of car
-        //turn :作名词，也可以表示依次的机会，例如：now it is my turn 现在轮到我了
-        //have to do with sth. : 与...有关
-        //medical attention : 医疗照顾
-        //once 引导时间状语从句，从句用现在完成，主句用一般现在
-        //what about 与 how about : [prep.] 后面跟跟代词、名词、动名词和不定式构成疑问句，用于提出建议、请求或者评论某人某事，例如 what about going for a walk? 但需要指出的是这种句子的主谓被省略了，其完整表达可以理解为是what do you think about going for a walk，但只能这样理解，因为英语中有些无法还原的省略句，what about 或 how about就是其中之一
-        //caught up [in/with] : 陷入，被卷入
-        //background [n.] 不显眼的位置，幕后
-        //stay : 逗留，度过
+
+        //No doubt about it  [n.] 毫无疑问，there is no doubt about it 那是毫无疑问的
+        //everyday existence [n.] 日常生活
+        //push sb. into [sp. / sth.] 把某人推向某地
+        //take it for granted : 把…当成理所当然
+        //lull [v./n.] 动词搭配：lull sb. into. sth 使人放松警惕或产生某种感觉；lull sb. to sleep 哄某人入睡。名词搭配：a lull in sth 指某件事情中的和平期或者间歇期
+        //once and for all. 一劳永逸地，最后一次的
+        //in other words 换句话说
+        //put it another way 换句话说
+        //deep down [adv.] 在深处，不仅仅是精神上的内心深处，可以加介词in来说明具体的物理上的位置，例如deep down in the woods 森林深处
+        //in a minute [adv.] 立即，马上
+        //do也可以用在陈述句中用于强调动词，通常表示确实、的确，具有澄清或反驳的作用。例如，she does like apples
+        //mixed [in/up] with sth. 和…混在一起
+        //bring up [vt.] 提出
+        //just about [adv.] 几乎
+        //precarious [adj.] 岌岌可危的，不稳定的
+        //breaks 之所以加s是因为不止一个课间休息
+        //an eternity [n.] 表达一个时间概念，表示永远、永无止境的时间
         String aa = "E:\\workspace\\java\\nce-world\\doc\\aa.txt";
         try(FileOutputStream os = new FileOutputStream(new File(aa))){
             os.write("hello".getBytes(StandardCharsets.UTF_8));
@@ -50,12 +70,15 @@ public class Main {
     }
 
 
+
+
     @Test
     public void main2() {
-        // Although philosophical questions concern us all,
-        // we do not all become philosophers.
-        // For various reasons most people get so caught up in everyday affairs that their astonishment at the world gets pushed into the background. (They crawl deep into the rabbit’s fur, snuggle down comfortably, and stay there for the rest of their lives.)
-        // To children, the world and everything in it is new, something that gives rise to astonishment. It is not like that for adults. Most adults accept the world as a matter of course.
+        // On the way home they talked about going camping as soon as the woods were dry enough.
+        // After what seemed an eternity she was once again at the mailbox.
+        // First she opened a letter postmarked in Mexico. It was from her father.
+        // He wrote about how much he was longing for home and how for the first time he had managed to beat the Chief Officer at chess. Apart from that he had almost finished the pile of books he had brought aboard with him after his winter leave. And then, there it was—a brown envelope with her name on it! Leaving her schoolbag and the rest of the mail in the house, Sophie ran to the den. She pulled out the new typewritten pages and began to read: THE MYTHOLOGICAL WORLD PICTURE Hello there, Sophie! We have a lot to do, so we’ll get started without delay.
+        drum();
         String filePath = System.getProperty("user.dir").concat("/temp/lock.txt");
         try (FileChannel open = FileChannel.open(Path.of(filePath), StandardOpenOption.WRITE)){
             FileLock fileLock = open.lock();
@@ -72,5 +95,12 @@ public class Main {
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
+    }
+
+    @Test
+    public void test66() {
+
+        ClassUtil.scanPackage("com.words").stream().map(Class::getName).forEach(e -> System.out.println("import static " + e + ".*;"));
+
     }
 }
