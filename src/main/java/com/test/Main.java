@@ -42,25 +42,18 @@ public class Main {
 
     @SneakyThrows
     public static void main(String[] args) {
-
-
-        //No doubt about it  [n.] 毫无疑问，there is no doubt about it 那是毫无疑问的
-        //everyday existence [n.] 日常生活
-        //push sb. into [sp. / sth.] 把某人推向某地
-        //take it for granted : 把…当成理所当然
-        //lull [v./n.] 动词搭配：lull sb. into. sth 使人放松警惕或产生某种感觉；lull sb. to sleep 哄某人入睡。名词搭配：a lull in sth 指某件事情中的和平期或者间歇期
-        //once and for all. 一劳永逸地，最后一次的
-        //in other words 换句话说
-        //put it another way 换句话说
-        //deep down [adv.] 在深处，不仅仅是精神上的内心深处，可以加介词in来说明具体的物理上的位置，例如deep down in the woods 森林深处
-        //in a minute [adv.] 立即，马上
-        //do也可以用在陈述句中用于强调动词，通常表示确实、的确，具有澄清或反驳的作用。例如，she does like apples
-        //mixed [in/up] with sth. 和…混在一起
-        //bring up [vt.] 提出
-        //just about [adv.] 几乎
-        //precarious [adj.] 岌岌可危的，不稳定的
-        //breaks 之所以加s是因为不止一个课间休息
-        //an eternity [n.] 表达一个时间概念，表示永远、永无止境的时间
+        //能够引导非限定性定语从句的关系代词={as,which,who,whom}，关系副词={when,where}
+        //to do with Thor 译与...有关
+        //call sth1 of sth2 称呼sth1为sth2
+        //Within Midgard lay Asgard 倒装句 强调主语在midgard之内
+        //resorted [vi.] 与to连用表示采用某种手段或方法
+        //refer to A as B 把A称作B
+        //to hold something in check 表示对某事物或某人进行控制或抑制，以防止其过度发展或产生负面影响，例如 the one of the vital ways of taking success was to hold ourselves temper in check
+        //His hammer could do more than make rain 这句话中do是中心谓语动词，make之所以用动词原型，它是不带to的动词不定式，虽然这是一个固定搭配，英语中有一些动词后若跟不定式做宾语补足语，余姚使用不带to的不定式形式，如四看：notice, observe, see, watch 三使役：have, let, make 二听：hear, listen to 一感觉：feel 半帮助：help 例如：I saw him leave the house
+        //struggle against 与...做斗争
+        //sit by [vi.] 坐视不管，等价于sit on one`s hands 例如，we can not [sit by / sit on our hands] and do nothing about these problems
+        //make sth. to sb. 给某人某物，等价于offer sth. to sb.或offer sb. sth.
+        //offer to do sth. 主动去做某事
         String aa = "E:\\workspace\\java\\nce-world\\doc\\aa.txt";
         try(FileOutputStream os = new FileOutputStream(new File(aa))){
             os.write("hello".getBytes(StandardCharsets.UTF_8));
@@ -74,11 +67,16 @@ public class Main {
 
     @Test
     public void main2() {
-        // On the way home they talked about going camping as soon as the woods were dry enough.
-        // After what seemed an eternity she was once again at the mailbox.
-        // First she opened a letter postmarked in Mexico. It was from her father.
-        // He wrote about how much he was longing for home and how for the first time he had managed to beat the Chief Officer at chess. Apart from that he had almost finished the pile of books he had brought aboard with him after his winter leave. And then, there it was—a brown envelope with her name on it! Leaving her schoolbag and the rest of the mail in the house, Sophie ran to the den. She pulled out the new typewritten pages and began to read: THE MYTHOLOGICAL WORLD PICTURE Hello there, Sophie! We have a lot to do, so we’ll get started without delay.
-        drum();
+        // This they did by performing various religious ceremonies, or rites.
+        // The most significant religious ceremony in Norse times was the offering.
+        // Making an offering to a god had the effect of increasing that god’s power.
+        // For example, mortals had to make offerings to the gods to give them the strength to conquer the forces of chaos.
+        // They could do this by sacrificing an animal to the god.
+        // The offering to Thor was usually a goat.
+        // Offerings to Odin sometimes took the form of human sacrifices.
+        // The myth that is best known in the Nordic countries comes from the Eddie poem “The Lay of Thrym.”
+        // It tells how Thor, rising from sleep, finds that his hammer is gone.
+
         String filePath = System.getProperty("user.dir").concat("/temp/lock.txt");
         try (FileChannel open = FileChannel.open(Path.of(filePath), StandardOpenOption.WRITE)){
             FileLock fileLock = open.lock();
@@ -89,7 +87,6 @@ public class Main {
             ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
             ByteArrayOutputStream os = new ByteArrayOutputStream();
             Sw.sector1();
-
 
 
         } catch (IOException e) {
