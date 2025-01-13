@@ -44,26 +44,14 @@ public class Main {
 
     @SneakyThrows
     public static void main(String[] args) {
-        //So far 迄今为止
-        //take a glimpse 使用take + 具有动作意义的名词 可以表示做这个动作
-        //Mythological notions of this kind 译为这种类型的宗教观念，他和this kind of Mythological notions 这种神话观念
-        //tamper [vi.] 与with连用表示篡改
-        //now that 从属连词，译为既然，由于，可引导让步或原因状语从句
-        //in written form 方式状语，以书面形式
-        //nothing but 等价于only译为只不过，类似的用法还有anything but 等价于not at all或never译为根本不；all but 等价于almost译为几乎；none but等价于no one except 译为只有
-        //from about 570 B.C. from [prep.]表示时间的起点 about [prep.] 译为大约
-        //recourse to sth. 求助，依赖
-        //develop from a to b 从a到b的发展
-        //rather than [conj.] 而不是
-        //at all [adv.] 完全，根本
-        //work out [vt.] 得出
-        //but then [conj.] 表转折，常译为然而
-        //and that [conj.] 表递进，常译为而且
-        //come out [vt.] 出现
-        //a few [locks/strands] of hair : 几缕头发
-        //in the end [adv.] 常位于句末，译为最终
-        //in the time before 介词短语，译为在某个时间之前
-        //look over one's shoulder [vp.] 严密监视
+        //in the direction of 朝...方向，沿...方向
+        //现在分词除了可以做伴随状语还可以做结果状语，常搭配thereby + 现在分词构成结果状语从句，例如he has redesigned the workflow thereby rising work efficiency
+        //of what the natural philosophers said and wrote 做
+        //what 除了可以引导名词性疑问分句，做疑问代词例如I am not sure what you mean，或疑问限定词例如Do you know what excuse he gave。还可以引导名词性关系分句，它相当于the thing that + 定语从句，做融合型关系代词，例如What (=the thing that) we need is a commitment。又可以做融合型关系限定词，仅限定不可数名词或可数名词复数的形式，虽意为“全部”，但暗含little、few之意，译为“仅有的全部”，例如1what little (=the little money that) he had spent on study. 2what little free time (= the little free time that) he had was spent with his wife and children。
+        //he 做代词除了表示他，还可以表示无生命物体的事物
+        //it is likely + [(to do) / (that + 从句)] 译为：可能...
+        //full of 译为：充满...
+        //mean sth1. by sth2. 通过某物(sth2)表达某种意思(sth1)，或者某物(sth2)的意思是某意思(sth1)，例如:what do you mean by happiness? I mean health by happiness
         String aa = "E:\\workspace\\java\\nce-world\\doc\\aa.txt";
         try(FileOutputStream os = new FileOutputStream(new File(aa))){
             os.write("hello".getBytes(StandardCharsets.UTF_8));
@@ -77,23 +65,19 @@ public class Main {
 
     @Test
     public void main2() {
-        // Is there a basic substance that everything else is made of?
-        //     * Can water turn into wine?
-        //     * How can earth and water produce a live frog!
+        // but it seems clear that he was not thinking of a known substance in the way that Thales had envisaged. Perhaps he meant that the substance which is the source of all things had to be something other than the things created. Because all created things are limited, that which comes before and after them must be “boundless.” It is clear that this basic stuff could not be anything as ordinary as water.
         String filePath = System.getProperty("user.dir").concat("/temp/lock.txt");
         try (FileChannel open = FileChannel.open(Path.of(filePath), StandardOpenOption.WRITE)){
             FileLock fileLock = open.lock();
             fileLock.release();
-            substance();
 
-
+            cock();
             FileLock fileLock1 = open.tryLock();
             fileLock1.release();
             Channel channel = fileLock1.acquiredBy();
-            Sw.sector1();
+            //only the book is mine on the shelf
             ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
             ByteArrayOutputStream os = new ByteArrayOutputStream();
-
 
 
         } catch (IOException e) {
@@ -107,6 +91,7 @@ public class Main {
         //ClassUtil.scanPackage("com.words").stream().map(Class::getName).forEach(e -> System.out.println("import static " + e + ".*;"));
         List<Integer> integers = Arrays.asList(1, 2, 3, 4);
         List<Integer> integers1 = Arrays.asList(2, 4, 6, 8);
+
 
     }
 }
