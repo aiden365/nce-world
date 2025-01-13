@@ -52,6 +52,7 @@ public class Main {
         //it is likely + [(to do) / (that + 从句)] 译为：可能...
         //full of 译为：充满...
         //mean sth1. by sth2. 通过某物(sth2)表达某种意思(sth1)，或者某物(sth2)的意思是某意思(sth1)，例如:what do you mean by happiness? I mean health by happiness
+        //In the way that 以...方式
         String aa = "E:\\workspace\\java\\nce-world\\doc\\aa.txt";
         try(FileOutputStream os = new FileOutputStream(new File(aa))){
             os.write("hello".getBytes(StandardCharsets.UTF_8));
