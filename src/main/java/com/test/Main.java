@@ -8,6 +8,7 @@ import com.book.SwChinese;
 import lombok.SneakyThrows;
 import lombok.extern.slf4j.Slf4j;
 import org.checkerframework.checker.units.qual.A;
+import org.hamcrest.core.Every;
 import org.junit.Test;
 
 import java.io.*;
@@ -68,6 +69,22 @@ public class Main {
         //know 表示经历，例如 she had known both happiness and sadness
         //take [(a) / (no)] pleasure in sth. 从...中得到乐趣，she take a pleasure in reading books，类似的还有she take a living by selling books
         //full [adj.] 吃饱的
+        //hydrogen and oxygen are part of water 可以理解为 氢和氧是水的一部分，或者氢和氧属于水，或者由氢和氧构成的水
+        //be present in sp. 存在于某处，其中present是形容词
+        //in a sense 在某种意义上，in a broad sense 在广义上，in a narrow sense 在狭义上
+        //loosen 可以指“使某物从某个地方分离”或“使其松动”
+        //and so on / and so forth 用在句尾表示等等，诸如此类，例如the holder
+        //something of everything 译为每种事物的一部分，或者不同事物的某些元素。也可以将everything看作代词，代词身体部位，那就译为身体所有部位的一部分，
+        //heavenly [adj.] 天上的。heavenly body 天体
+        //unlikely [adv.] 不太可能地。it is unlikely 这不太可能。it is not unlikely 这不是不可能地
+        //cost sb. no sth. 译为某人不需要花费任何东西，例如It cost him no money，它不需要花任何钱
+        //other than [prep.] 除了...之外
+        //common sense [n.] 常识
+        //change in 在...方面改变，但在这里in应该译为以任何形式的变化
+        //in a way [adv.] 在一定程度上
+        //to come right out and (to) do sth. 直截了当的做某事
+        //the way [conj.] 从属连词 译为用...的方法，
+        //after all 位于句首译为毕竟，位于句尾译为终究
         String aa = "E:\\workspace\\java\\nce-world\\doc\\aa.txt";
         try(FileOutputStream os = new FileOutputStream(new File(aa))){
             os.write("hello".getBytes(StandardCharsets.UTF_8));
@@ -79,19 +96,21 @@ public class Main {
 
     @Test
     public void main2() {
-        //“God is day and night, winter and summer, war and peace, hunger and satiety,” he said.
-        // He used the term “God,” but he was clearly not referring to the gods of the mythology. To Heraclitus, God—or the Deity—was something that embraced the whole world. Indeed, God can be seen most clearly in the constant transformations and contrasts of nature.
+        // She crawled out of the den and stood for a while looking across the garden.
+        // She thought about what happened yesterday.
+        // Her mother had teased her about the “love letter” again at breakfast this morning.
+        // She walked quickly over to the mailbox to prevent the same thing from happening today. Getting a love letter two days in a row would be doubly embarrassing.
         String filePath = System.getProperty("user.dir").concat("/temp/lock.txt");
         try (FileChannel open = FileChannel.open(Path.of(filePath), StandardOpenOption.WRITE)){
             FileLock fileLock = open.lock();
             fileLock.release();
+
             FileLock fileLock1 = open.tryLock();
             fileLock1.release();
             Channel channel = fileLock1.acquiredBy();
             ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
             ByteArrayOutputStream os = new ByteArrayOutputStream();
 
-            opposite();
 
         } catch (IOException e) {
             throw new RuntimeException(e);
