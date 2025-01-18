@@ -5,6 +5,7 @@ import cn.hutool.core.util.ClassLoaderUtil;
 import cn.hutool.core.util.ClassUtil;
 import com.book.Sw;
 import com.book.SwChinese;
+import lombok.Data;
 import lombok.SneakyThrows;
 import lombok.extern.slf4j.Slf4j;
 import org.checkerframework.checker.units.qual.A;
@@ -20,6 +21,7 @@ import java.nio.file.Path;
 import java.nio.file.StandardOpenOption;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Objects;
 
 import static com.words.TestFour4.*;
 import static com.words.TestCz.*;
@@ -93,7 +95,7 @@ public class Main {
         //blurt out sth. 不假思索地脱口而出某事
         //too [adj. / adv.] to sth. 太...而不能...，其中too为副词，而to为介词
         //sigh [v.] 叹气
-        //keep [an / one`s] eye on sth. [vt.] 注意，留意，关注
+        //keep [an / one`s] eye on sth. [vt.] 对某物保持注意
         String aa = "E:\\workspace\\java\\nce-world\\doc\\aa.txt";
         try(FileOutputStream os = new FileOutputStream(new File(aa))){
             os.write("hello".getBytes(StandardCharsets.UTF_8));
@@ -105,14 +107,14 @@ public class Main {
 
     @Test
     public void main2() {
-        // When Sophie got home from school the following day, there were several more pages for her in a big brown envelope.
-        // She took them upstairs to her room. She could not wait to read them,
-        // but she had to keep her eye on the mailbox at the same time.
+        //Democritus agreed with his predecessors that transformations in nature could not be due to the fact that anything actually “changed.”
+        // He therefore assumed that everything was built up of tiny invisible blocks,
+        // each of which was eternal and immutable. Democritus called these smallest units atoms.
         String filePath = System.getProperty("user.dir").concat("/temp/lock.txt");
         try (FileChannel open = FileChannel.open(Path.of(filePath), StandardOpenOption.WRITE)){
             FileLock fileLock = open.lock();
             fileLock.release();
-            indignant();
+
 
 
             FileLock fileLock1 = open.tryLock();
@@ -127,11 +129,29 @@ public class Main {
         }
     }
 
+    @Data
+    static class Peoson{
+        private String name;
+
+        @Override
+        public int hashCode() {
+            return 1;
+        }
+    }
+
     @Test
     public void test66() {
         //ClassUtil.scanPackage("com.words").stream().map(Class::getName).forEach(e -> System.out.println("import static " + e + ".*;"));
         List<Integer> integers = Arrays.asList(1, 2, 3, 4);
         List<Integer> integers1 = Arrays.asList(2, 4, 6, 8);
-        System.out.println();
+        System.out.println("aaa".equals(null));
+        //i should guess they may be playing with that you give me 1 btc and then i will doubly return it back
+        Peoson peoson1 = new Peoson();
+        //
+        Peoson peoson2 = new Peoson();
+        System.out.println(peoson1.hashCode());
+        System.out.println(peoson2.hashCode());
+        System.out.println(System.identityHashCode(peoson1));
+        System.out.println(System.identityHashCode(peoson2));
     }
 }
