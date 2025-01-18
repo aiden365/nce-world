@@ -85,6 +85,15 @@ public class Main {
         //to come right out and (to) do sth. 直截了当的做某事
         //the way [conj.] 从属连词 译为用...的方法，
         //after all 位于句首译为毕竟，位于句尾译为终究
+        //sth. occur to sb. 译为：某人想起（突然）某事，An idea occurs to me 我突然想起一个主意
+        //what more could ask of a toy? 或许我可以把what more 作为疑问代词短语看成一个整体共同充当ask的宾语，而在这个短语中what和more都是代词，译为更多的什么，还有什么？
+        //beyond sb. = beyond one`s ability 超出某人的能力 this problem is beyond [me / my ability]
+        //much as [sconj.] 引导让步状语从句，译为即使，即便，就算
+        //had been doing 过去完成进行时，表示某个动词在过去的某个时间点就已经开始，并且可能还没有完成，一直持续到这个时间点，例如she had been doing her homework when her mother got home，这里过去的动作就是做作业，在她妈妈到家前就已经开始了，而一直持续到母亲到家，可能还没结束
+        //blurt out sth. 不假思索地脱口而出某事
+        //too [adj. / adv.] to sth. 太...而不能...，其中too为副词，而to为介词
+        //sigh [v.] 叹气
+        //keep [an / one`s] eye on sth. [vt.] 注意，留意，关注
         String aa = "E:\\workspace\\java\\nce-world\\doc\\aa.txt";
         try(FileOutputStream os = new FileOutputStream(new File(aa))){
             os.write("hello".getBytes(StandardCharsets.UTF_8));
@@ -96,14 +105,15 @@ public class Main {
 
     @Test
     public void main2() {
-        // She crawled out of the den and stood for a while looking across the garden.
-        // She thought about what happened yesterday.
-        // Her mother had teased her about the “love letter” again at breakfast this morning.
-        // She walked quickly over to the mailbox to prevent the same thing from happening today. Getting a love letter two days in a row would be doubly embarrassing.
+        // When Sophie got home from school the following day, there were several more pages for her in a big brown envelope.
+        // She took them upstairs to her room. She could not wait to read them,
+        // but she had to keep her eye on the mailbox at the same time.
         String filePath = System.getProperty("user.dir").concat("/temp/lock.txt");
         try (FileChannel open = FileChannel.open(Path.of(filePath), StandardOpenOption.WRITE)){
             FileLock fileLock = open.lock();
             fileLock.release();
+            indignant();
+
 
             FileLock fileLock1 = open.tryLock();
             fileLock1.release();
