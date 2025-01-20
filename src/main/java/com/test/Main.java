@@ -96,6 +96,18 @@ public class Main {
         //too [adj. / adv.] to sth. 太...而不能...，其中too为副词，而to为介词
         //sigh [v.] 叹气
         //keep [an / one`s] eye on sth. [vt.] 对某物保持注意
+        //moreover [adv.] 表示递进的副词
+        //form [v.] 形成，构成
+        //however 引导从句时，用作强调程度或特性（如“多么无限”），需要将 "however + 形容词/副词" 提前，以突出强调的内容。这是一种常见的倒装用法。
+        //body [n.] 物体
+        //ascribe something to someone/something 将某种原因、属性、责任等归属于某人、某物或某个因素，she ascribes her failure to bad luck，在本句中尽管表现出“赋予”的含义，但本质上它更偏向“归因于”或“认为某人/某物具有某种特质
+        //the same + 名词 + as + 名词/代词，表示两者具有相同的事物或特性。 This car has the same color as that one.
+        //out of [prep.] 用...材料，如 we can form things out of clay
+        //establish [vt.] 证实
+        //这里的that引导的是一个限定性定语从句，限定了different ”atom“ 的范围，译为（能）再次联合与分散的原子
+        //somewhere along the line [adv.] 在某个阶段、某个时间点或者某个环节上
+        //access to [n.] 译为：通道;途徑;（接近某地或某人的）機會（或方法）;（使用某物的）權利
+        //come out of sth. 由...产生，从...出来
         String aa = "E:\\workspace\\java\\nce-world\\doc\\aa.txt";
         try(FileOutputStream os = new FileOutputStream(new File(aa))){
             os.write("hello".getBytes(StandardCharsets.UTF_8));
@@ -107,22 +119,17 @@ public class Main {
 
     @Test
     public void main2() {
-        //Democritus agreed with his predecessors that transformations in nature could not be due to the fact that anything actually “changed.”
-        // He therefore assumed that everything was built up of tiny invisible blocks,
-        // each of which was eternal and immutable. Democritus called these smallest units atoms.
-        String filePath = System.getProperty("user.dir").concat("/temp/lock.txt");
+        // Democritus did not believe in any “force” or “soul” that could intervene in natural processes. The only things that existed, he believed, were atoms and the void. Since he believed in nothing but material things, we call him a materialist.
+        String filePath = System.getProperty("user.dir").concat("/temp/lock.txt");constituent();
         try (FileChannel open = FileChannel.open(Path.of(filePath), StandardOpenOption.WRITE)){
             FileLock fileLock = open.lock();
             fileLock.release();
-
-
-
+            soul();
             FileLock fileLock1 = open.tryLock();
             fileLock1.release();
             Channel channel = fileLock1.acquiredBy();
             ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
             ByteArrayOutputStream os = new ByteArrayOutputStream();
-
 
         } catch (IOException e) {
             throw new RuntimeException(e);
