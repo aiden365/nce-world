@@ -108,6 +108,8 @@ public class Main {
         //somewhere along the line [adv.] 在某个阶段、某个时间点或者某个环节上
         //access to [n.] 译为：通道;途徑;（接近某地或某人的）機會（或方法）;（使用某物的）權利
         //come out of sth. 由...产生，从...出来
+        //intervene in [vt.] 干涉，干预
+        //nothing but + [名词（仅仅是某物）/ 动词原型（只做某事）] 例如：she wore nothing but a dress. 或者she does nothing but complain
         String aa = "E:\\workspace\\java\\nce-world\\doc\\aa.txt";
         try(FileOutputStream os = new FileOutputStream(new File(aa))){
             os.write("hello".getBytes(StandardCharsets.UTF_8));
@@ -119,12 +121,14 @@ public class Main {
 
     @Test
     public void main2() {
-        // Democritus did not believe in any “force” or “soul” that could intervene in natural processes. The only things that existed, he believed, were atoms and the void. Since he believed in nothing but material things, we call him a materialist.
+        //According to Democritus, there is no conscious “design” in the movement of atoms.
+        // In nature, everything happens quite mechanically. This does not mean that everything happens randomly,
+        // for everything obeys the inevitable laws of necessity. Everything that happens has a natural cause, a cause that is inherent in the thing itself. Democritus once said that he would rather discover a new cause of nature than be the King of Persia.
         String filePath = System.getProperty("user.dir").concat("/temp/lock.txt");constituent();
         try (FileChannel open = FileChannel.open(Path.of(filePath), StandardOpenOption.WRITE)){
             FileLock fileLock = open.lock();
             fileLock.release();
-            soul();
+            necessity();
             FileLock fileLock1 = open.tryLock();
             fileLock1.release();
             Channel channel = fileLock1.acquiredBy();
