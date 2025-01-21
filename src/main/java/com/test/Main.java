@@ -110,6 +110,16 @@ public class Main {
         //come out of sth. 由...产生，从...出来
         //intervene in [vt.] 干涉，干预
         //nothing but + [名词（仅仅是某物）/ 动词原型（只做某事）] 例如：she wore nothing but a dress. 或者she does nothing but complain
+        //sense perception [n.] 感觉
+        //for the time being 暂且，暂时
+        //go around someplace / doing 不只表示物理上的“走来走去”，它还有比喻的含义，表示反复进行某个活动或行为。
+        //puzzle over sth. [vt.] 在思考、困惑、琢磨某件事
+        //on one`s own 译为独自地，表示某人独立完成某事，没有别人的帮助
+        //can [not/hardly] help （几乎）不能避免,I can [not/hardly] help missing you
+        //nevertheless [adv.] 然而，仍然
+        //just in case 以防万一
+        //today of all days 直译：所有日子中的今天，意译：偏偏是今天
+        //sneak up [vi.] 悄悄地靠近
         String aa = "E:\\workspace\\java\\nce-world\\doc\\aa.txt";
         try(FileOutputStream os = new FileOutputStream(new File(aa))){
             os.write("hello".getBytes(StandardCharsets.UTF_8));
@@ -121,16 +131,15 @@ public class Main {
 
     @Test
     public void main2() {
-        //According to Democritus, there is no conscious “design” in the movement of atoms.
-        // In nature, everything happens quite mechanically. This does not mean that everything happens randomly,
-        // for everything obeys the inevitable laws of necessity. Everything that happens has a natural cause, a cause that is inherent in the thing itself. Democritus once said that he would rather discover a new cause of nature than be the King of Persia.
+        // Did she believe in Fate? She was not at all sure. But she knew a lot of people who did. There was a girl in her class who read horoscopes in magazines. But if they believed in astrology, they probably believed in Fate as well, because astrologers claimed that the position of the stars influenced people’s lives on Earth.
         String filePath = System.getProperty("user.dir").concat("/temp/lock.txt");constituent();
         try (FileChannel open = FileChannel.open(Path.of(filePath), StandardOpenOption.WRITE)){
             FileLock fileLock = open.lock();
             fileLock.release();
-            necessity();
             FileLock fileLock1 = open.tryLock();
             fileLock1.release();
+
+
             Channel channel = fileLock1.acquiredBy();
             ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
             ByteArrayOutputStream os = new ByteArrayOutputStream();
