@@ -3,6 +3,8 @@ package com.test;
 import cn.hutool.Hutool;
 import cn.hutool.core.util.ClassLoaderUtil;
 import cn.hutool.core.util.ClassUtil;
+import com.alibaba.fastjson.JSONArray;
+import com.alibaba.fastjson.JSONObject;
 import com.book.Sw;
 import com.book.SwChinese;
 import lombok.Data;
@@ -120,6 +122,8 @@ public class Main {
         //just in case 以防万一
         //today of all days 直译：所有日子中的今天，意译：偏偏是今天
         //sneak up [vi.] 悄悄地靠近
+        //much thought 名词短语，多少思考
+        //give + 动作名词 表示做出某个动作，例如 She gave a speech to the audience. 她向观众做一次演讲
         String aa = "E:\\workspace\\java\\nce-world\\doc\\aa.txt";
         try(FileOutputStream os = new FileOutputStream(new File(aa))){
             os.write("hello".getBytes(StandardCharsets.UTF_8));
@@ -131,7 +135,11 @@ public class Main {
 
     @Test
     public void main2() {
-        // Did she believe in Fate? She was not at all sure. But she knew a lot of people who did. There was a girl in her class who read horoscopes in magazines. But if they believed in astrology, they probably believed in Fate as well, because astrologers claimed that the position of the stars influenced people’s lives on Earth.
+        // The idea of free will made Sophie think of something else.
+        // Why should she put up with this mysterious philosopher playing cat and mouse with her?
+        // Why couldn’t she write a letter to him.
+        // He (or she) would quite probably put another big envelope in the mailbox during the night or sometime tomorrow morning.
+        // She would see to it that there was a letter ready for this person.
         String filePath = System.getProperty("user.dir").concat("/temp/lock.txt");constituent();
         try (FileChannel open = FileChannel.open(Path.of(filePath), StandardOpenOption.WRITE)){
             FileLock fileLock = open.lock();
@@ -161,17 +169,10 @@ public class Main {
 
     @Test
     public void test66() {
-        //ClassUtil.scanPackage("com.words").stream().map(Class::getName).forEach(e -> System.out.println("import static " + e + ".*;"));
-        List<Integer> integers = Arrays.asList(1, 2, 3, 4);
-        List<Integer> integers1 = Arrays.asList(2, 4, 6, 8);
-        System.out.println("aaa".equals(null));
-        //i should guess they may be playing with that you give me 1 btc and then i will doubly return it back
-        Peoson peoson1 = new Peoson();
-        //
-        Peoson peoson2 = new Peoson();
-        System.out.println(peoson1.hashCode());
-        System.out.println(peoson2.hashCode());
-        System.out.println(System.identityHashCode(peoson1));
-        System.out.println(System.identityHashCode(peoson2));
+        JSONObject jsonObject = new JSONObject();
+        jsonObject.put("aaa", Arrays.asList(1,2,3));
+
+        JSONArray objects = jsonObject.getJSONArray("aaa");
+        System.out.println(objects);
     }
 }
