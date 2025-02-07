@@ -124,6 +124,22 @@ public class Main {
         //sneak up [vi.] 悄悄地靠近
         //much thought 名词短语，多少思考
         //give + 动作名词 表示做出某个动作，例如 She gave a speech to the audience. 她向观众做一次演讲
+        //see to + ([n.] / [doing] / [that + 从句]) 确保某事完成
+        //appreciated by sb. 收到某人的感激感谢，但但最好翻译为主动语态，例如your generous help was greatly appreciated by us，译为我们非常感谢您慷慨的帮助
+        //in return [adv.] 作为报答
+        //care to do 意思上等价于want to do 但语气更委婉
+        //extend [vt.] 提供
+        //in advance [adv.] 提前
+        //turn out 结果是...，其中turn是系动词表示变得，变成
+        //a worry to sb. 让某人担心
+        //it is/was + 形容词 + of + sb. + to do sth. 对某人行为的品质评价，例如，it is generous of him to donate a lot of money，译为他真是慷慨捐了一大笔钱，通过捐款评价人的品质，其中的形容词表示人的品质。与之易混淆的句型it is/was + adj. + for sb. + to do sth. 例如its important for you to learn english.译为学习英语对你来说很重要，其中的形容词表示动作的性质
+        //check up on sb. 调查某人的身份
+        //that is final
+        //here in通常用于表示在某个具体地点或位置。‌例如，“I'm here in the office”表示“我在办公室里”。这种用法强调了说话者当前的位置或存在的具体环境。
+        //give sb. / sth. free rein 让某人或某个事物自由的发挥（不受限制），从语法角度这其实是一个简单的give双宾语结构 sb./sth.是间接宾语，free rein是直接宾语，例如：the director gaven the actors free rein to interpret their roles. if you give your creativity free rein, you will be amazed by the results
+        //be going on 表示某事正在发生，例如the party is still going on even though it is midnight. be going to 计划打算做某事，强调未来的计划或打算, 例如I`m going to study abroad next year，be going for 强调去做某项活动，通常是短期的、休闲的活动 I`m going for a coffee
+        //consult sb. about sth. 向某人请教咨询某事，I consult him about buying a car
+        //put sb. in sth. 把某人安排在某职位或角色中the manager put her in charge in the project 使某人进入某个状态the problem put her in a reflective mood
         String aa = "E:\\workspace\\java\\nce-world\\doc\\aa.txt";
         try(FileOutputStream os = new FileOutputStream(new File(aa))){
             os.write("hello".getBytes(StandardCharsets.UTF_8));
@@ -135,19 +151,17 @@ public class Main {
 
     @Test
     public void main2() {
-        // The idea of free will made Sophie think of something else.
-        // Why should she put up with this mysterious philosopher playing cat and mouse with her?
-        // Why couldn’t she write a letter to him.
-        // He (or she) would quite probably put another big envelope in the mailbox during the night or sometime tomorrow morning.
-        // She would see to it that there was a letter ready for this person.
+        // There were many heads of state who dared not go to war or take other decisive steps until they had consulted the oracle at Delphi.
+        // The priests of Apollo thus functioned more or less as diplomats, or advisers. They were experts with an intimate knowledge of the people and the country.
+
+        ambiguous();
         String filePath = System.getProperty("user.dir").concat("/temp/lock.txt");constituent();
         try (FileChannel open = FileChannel.open(Path.of(filePath), StandardOpenOption.WRITE)){
             FileLock fileLock = open.lock();
             fileLock.release();
             FileLock fileLock1 = open.tryLock();
             fileLock1.release();
-
-
+            thriller();
             Channel channel = fileLock1.acquiredBy();
             ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
             ByteArrayOutputStream os = new ByteArrayOutputStream();
@@ -171,6 +185,7 @@ public class Main {
     public void test66() {
         JSONObject jsonObject = new JSONObject();
         jsonObject.put("aaa", Arrays.asList(1,2,3));
+
 
         JSONArray objects = jsonObject.getJSONArray("aaa");
         System.out.println(objects);
