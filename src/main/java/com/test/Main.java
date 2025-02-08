@@ -140,6 +140,19 @@ public class Main {
         //be going on 表示某事正在发生，例如the party is still going on even though it is midnight. be going to 计划打算做某事，强调未来的计划或打算, 例如I`m going to study abroad next year，be going for 强调去做某项活动，通常是短期的、休闲的活动 I`m going for a coffee
         //consult sb. about sth. 向某人请教咨询某事，I consult him about buying a car
         //put sb. in sth. 把某人安排在某职位或角色中the manager put her in charge in the project 使某人进入某个状态the problem put her in a reflective mood
+        //function as 起...作用
+        //process of ...过的过程，例如process of thinking思考的过程
+        //divine [adj.] 神的，上帝的
+        //be unique to sb. 为某人所特有的，his way of thinking is unique to him
+        //in no way 介词短语，译为绝不
+        //concurrently with sth. 与...同时发生，类似的还有at the same time as sth. 都强调时间上的并行
+        //safeguard against sth. 用于防止问题发生的措施
+        //go off 离开，而course可以表示航线，航向，合计来就是偏离航向
+        //certain ethical rules 某些道德准则，其中certain做做代词表示某个，某些，某种
+        //go back (to sth.) 表示回到，回溯, 跟to sth. 表示回到具体的地点
+        //go for sth. 努力获取
+        //条件状语从句的省略形式，如果从句的主语和主句主语一致且从句中含有be动词或被动语态，则可以省略主语和be动词，例如If (I am) invited, I will attend the meeting.
+        //awake with a start 猛然醒来，突然醒来
         String aa = "E:\\workspace\\java\\nce-world\\doc\\aa.txt";
         try(FileOutputStream os = new FileOutputStream(new File(aa))){
             os.write("hello".getBytes(StandardCharsets.UTF_8));
@@ -151,10 +164,9 @@ public class Main {
 
     @Test
     public void main2() {
-        // There were many heads of state who dared not go to war or take other decisive steps until they had consulted the oracle at Delphi.
-        // The priests of Apollo thus functioned more or less as diplomats, or advisers. They were experts with an intimate knowledge of the people and the country.
+        // She felt under the bed with one hand. Yes—there lay the letter that had come during the night. It wasn’t only a dream.
 
-        ambiguous();
+
         String filePath = System.getProperty("user.dir").concat("/temp/lock.txt");constituent();
         try (FileChannel open = FileChannel.open(Path.of(filePath), StandardOpenOption.WRITE)){
             FileLock fileLock = open.lock();
