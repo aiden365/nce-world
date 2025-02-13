@@ -1,6 +1,7 @@
 package com.test;
 
 import cn.hutool.Hutool;
+import cn.hutool.core.collection.CollUtil;
 import cn.hutool.core.util.ClassLoaderUtil;
 import cn.hutool.core.util.ClassUtil;
 import com.alibaba.fastjson.JSONArray;
@@ -21,9 +22,8 @@ import java.nio.channels.FileLock;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Path;
 import java.nio.file.StandardOpenOption;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Objects;
+import java.time.YearMonth;
+import java.util.*;
 
 import static com.words.TestFour4.*;
 import static com.words.TestCz.*;
@@ -153,6 +153,16 @@ public class Main {
         //go for sth. 努力获取
         //条件状语从句的省略形式，如果从句的主语和主句主语一致且从句中含有be动词或被动语态，则可以省略主语和be动词，例如If (I am) invited, I will attend the meeting.
         //awake with a start 猛然醒来，突然醒来
+        //either 在否定含义的句中either表示两种情况都不成立，但这种用法依赖句中的否定词（no,not,never）与neither...nor...含义相同，但neither自带否定含义，例如I dont like either tea or coffee和I like neither tea nor coffee
+        //with可以表示具有，带有
+        //a couple of 几个
+        //with regard to sth. 关于...
+        //in person 亲自
+        //personally 亲自地
+        //from now on 介词短语做时间状语，译为从现在开始，后跟一般将来时，表示从现在开始，直到未来的某个时间或持续一段时间内发生的事情
+        //in the long run/term 从长远来看，归根到底，终究
+        //be embarrassed about sth. 对某事感到尴尬
+        //have an insight into
         String aa = "E:\\workspace\\java\\nce-world\\doc\\aa.txt";
         try(FileOutputStream os = new FileOutputStream(new File(aa))){
             os.write("hello".getBytes(StandardCharsets.UTF_8));
@@ -164,9 +174,7 @@ public class Main {
 
     @Test
     public void main2() {
-        // She felt under the bed with one hand. Yes—there lay the letter that had come during the night. It wasn’t only a dream.
-
-
+        // That was probably what people meant by “insight.”
         String filePath = System.getProperty("user.dir").concat("/temp/lock.txt");constituent();
         try (FileChannel open = FileChannel.open(Path.of(filePath), StandardOpenOption.WRITE)){
             FileLock fileLock = open.lock();
@@ -177,7 +185,8 @@ public class Main {
             Channel channel = fileLock1.acquiredBy();
             ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
             ByteArrayOutputStream os = new ByteArrayOutputStream();
-
+            regard();
+            mystify();
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
@@ -195,11 +204,12 @@ public class Main {
 
     @Test
     public void test66() {
-        JSONObject jsonObject = new JSONObject();
-        jsonObject.put("aaa", Arrays.asList(1,2,3));
 
-
-        JSONArray objects = jsonObject.getJSONArray("aaa");
-        System.out.println(objects);
+        List<Integer> list = new ArrayList<>();
+        list.add(1);
+        //
+        YearMonth yearMonth = YearMonth.of(2025, 3);
+        int dayOfMonth = yearMonth.atEndOfMonth().getDayOfMonth();
+        System.out.println(dayOfMonth);
     }
 }
