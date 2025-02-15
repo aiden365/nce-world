@@ -163,6 +163,9 @@ public class Main {
         //in the long run/term 从长远来看，归根到底，终究
         //be embarrassed about sth. 对某事感到尴尬
         //have an insight into
+        //so far so good 迄今为止，一切顺利
+        //could not help sth. 忍不住做某事，
+        //those things against they better judgement 其中against they better judgement发挥定语作用
         String aa = "E:\\workspace\\java\\nce-world\\doc\\aa.txt";
         try(FileOutputStream os = new FileOutputStream(new File(aa))){
             os.write("hello".getBytes(StandardCharsets.UTF_8));
@@ -174,7 +177,9 @@ public class Main {
 
     @Test
     public void main2() {
-        // That was probably what people meant by “insight.”
+        // In its mouth it held a big brown envelope which it dropped at Sophie’s feet. 书中作者这句话的是不是写的不对，我是说信的位置一开始是在狗的嘴里，然后在which从句中说信落到索菲的脚下。问题是定语从句不是用来描述、修饰、限定名词当信息吗，怎么还能改变呢
+        // It all happened so quickly that Sophie had no time to react. A second later she was sitting with the big envelope in her hands—and the golden Labrador had scampered off into the woods again.
+
         String filePath = System.getProperty("user.dir").concat("/temp/lock.txt");constituent();
         try (FileChannel open = FileChannel.open(Path.of(filePath), StandardOpenOption.WRITE)){
             FileLock fileLock = open.lock();
@@ -187,6 +192,7 @@ public class Main {
             ByteArrayOutputStream os = new ByteArrayOutputStream();
             regard();
             mystify();
+            //
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
