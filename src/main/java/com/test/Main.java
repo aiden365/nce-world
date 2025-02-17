@@ -166,6 +166,39 @@ public class Main {
         //so far so good 迄今为止，一切顺利
         //could not help sth. 忍不住做某事，
         //those things against they better judgement 其中against they better judgement发挥定语作用
+        //get by with 靠某物勉强应付 get by without 在没有某物的情况下勉强维持
+        //struggle to do sth. 尽力做某事
+        //shatter [v] 摧毁
+        //reservists [n] 后备军人
+        //shade [v] 遮挡
+        //care [vi] 关心
+        //troop 军队
+        //secure [v] (尤指经过努力）获得，取得，实现，保卫
+        //enemy [n] 敌人
+        //pursue [v] 抓捕，追捕
+        //hesitate [v] 犹豫
+        //keep sb. adj. 使某人保持某种状态
+        //enough 对……足够的
+        //prosper [v] 繁荣，使繁荣
+        //alongside [prep] 与...一起
+        //ingredient [n] 成分
+        //这里的“saga”指的是一个家族或民族的长篇叙事，通常包含多个世代的故事和历史
+        //connect [adj] 联在一起的，有关系的
+        //prescription [n] 处方
+        //poor [adj] 没有价值
+        //due [adj] 适当的
+        //attorney [n] 律师，代理人
+        //round up [v] 使逮捕，使聚集
+        //work [v] (使)工作
+        //what 融合性关系代词，等价于the thing what
+        //even as [prep] 正巧在…的时候
+        //the spin masters [n] 舆论专家，其中spin表示有导向性的陈述
+        //peddlers [n] <主新闻>不法商贩;(尤指)毒贩
+        //the politics of anything goes 是一个习语，意思是任何事情都可以接受，没有任何限制或规矩，所以这句话就是 什么都可以的政治观点
+        //conservative [adj] 保守的
+        //pundit [n] 专家
+        //slice [vt] 把...切成片
+        //dice [vt] 把...切块
         String aa = "E:\\workspace\\java\\nce-world\\doc\\aa.txt";
         try(FileOutputStream os = new FileOutputStream(new File(aa))){
             os.write("hello".getBytes(StandardCharsets.UTF_8));
@@ -177,13 +210,14 @@ public class Main {
 
     @Test
     public void main2() {
-        // In its mouth it held a big brown envelope which it dropped at Sophie’s feet. 书中作者这句话的是不是写的不对，我是说信的位置一开始是在狗的嘴里，然后在which从句中说信落到索菲的脚下。问题是定语从句不是用来描述、修饰、限定名词当信息吗，怎么还能改变呢
-        // It all happened so quickly that Sophie had no time to react. A second later she was sitting with the big envelope in her hands—and the golden Labrador had scampered off into the woods again.
+        // We worship an awesome God in the Blue States,
+        // and we don't like federal agents poking around our libraries in the Red States. We coach Little League in the Blue States and yes we got some gay friends in the Red States. There are patriots who opposed the war in Iraq and patriots who supported the war in Iraq. We are one people, all of us pledging allegiance to the stars and stripes, all of us defending the United States of America.
 
         String filePath = System.getProperty("user.dir").concat("/temp/lock.txt");constituent();
         try (FileChannel open = FileChannel.open(Path.of(filePath), StandardOpenOption.WRITE)){
             FileLock fileLock = open.lock();
             fileLock.release();
+
             FileLock fileLock1 = open.tryLock();
             fileLock1.release();
             thriller();
