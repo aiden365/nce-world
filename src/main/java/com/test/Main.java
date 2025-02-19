@@ -199,6 +199,35 @@ public class Main {
         //pundit [n] 专家
         //slice [vt] 把...切成片
         //dice [vt] 把...切块
+        //disillusioned with 对...感到失望
+        //purpose 目标
+        //defining [adj] 决定性的
+        //consumed [v] 吞噬
+        //that`s how 其中的how是一个名词引导定语从句，有点像what=the thing that，而how=the way that
+        //face [v] 应对
+        //take sth. back 拿回某物
+        //honest about 对...坦诚，诚实
+        //to get the job done 这里的get表示使变得，done [adj] 完成的
+        //by 与后面的by bring 视为相同的并列结构，做方式状语
+        //deserve [v] 应得
+        //like [v] 想要
+        //staff [n] 工作人员
+        //give it up for sb. 把掌声给某人， 让我们欢迎某人
+        //may 表示
+        //inevitable [n] 不可避免的，必然发生的
+        //instead of [prep] 而不是...
+        //tear sb. down 拆某人的太，意为贬低某人
+        //enormity [n] 虽然常用来指“极大的不道德的行为”或者“巨大的规模”，但在这种上下文中，它指的是任务的艰巨性和挑战性。
+        //sit on the sideline 其中sideline表示球场的界外区域，字面意思是坐在场外，意为袖手旁观
+        //shirk (from) [vi/vt] 逃避
+        //live out 住在外面，实践，实现
+        //safe [adj] 安全的
+        //rise up against sth 反抗某事
+        //the greatest of generations 这里，“最伟大的一代人”通常是指在第二次世界大战期间为自由和正义而战的那一代美国人
+        //brave sth. [vt] 勇敢的面对某事
+        //fire hose 消防水管 hose [n] 软管，胶管
+        //settle for sth 勉强接受某事，
+        //as 像...一样，比较状语从句，例如I hope things are as they should be
         String aa = "E:\\workspace\\java\\nce-world\\doc\\aa.txt";
         try(FileOutputStream os = new FileOutputStream(new File(aa))){
             os.write("hello".getBytes(StandardCharsets.UTF_8));
@@ -210,14 +239,15 @@ public class Main {
 
     @Test
     public void main2() {
-        // We worship an awesome God in the Blue States,
-        // and we don't like federal agents poking around our libraries in the Red States. We coach Little League in the Blue States and yes we got some gay friends in the Red States. There are patriots who opposed the war in Iraq and patriots who supported the war in Iraq. We are one people, all of us pledging allegiance to the stars and stripes, all of us defending the United States of America.
+        // He is very good-tempered—and moreover, a good deal more intelligent than a lot of people.
+        // In any event he never tries to give the impression of being cleverer than he is.
+        // You may also note that his name is not without significance.
 
         String filePath = System.getProperty("user.dir").concat("/temp/lock.txt");constituent();
         try (FileChannel open = FileChannel.open(Path.of(filePath), StandardOpenOption.WRITE)){
             FileLock fileLock = open.lock();
             fileLock.release();
-
+            ordinary();
             FileLock fileLock1 = open.tryLock();
             fileLock1.release();
             thriller();
