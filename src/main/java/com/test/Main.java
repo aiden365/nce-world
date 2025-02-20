@@ -228,6 +228,28 @@ public class Main {
         //fire hose 消防水管 hose [n] 软管，胶管
         //settle for sth 勉强接受某事，
         //as 像...一样，比较状语从句，例如I hope things are as they should be
+        //bother [v] 操心，花费时间精力(做某事)
+        //not for the moment 暂时不考虑
+        //keep sb.from sb. 使
+        //herewith [adv] 随同此信
+        //well-behaved [adj] 表现良好的，举止得体
+        //break with sth.  与...决裂/断绝关系，
+        //Each in his own way 每个人用自己的方式
+        //A. as well as B. 不仅A而且B，例如she has a degree in English as well as History
+        //fare 作为动词，"fare" 是不及物动词，表示表现、进展或结果如何。它不直接带宾语，自身也没有感情色彩，而是通过副词或介词短语来补充意义。 例如i regret how you fare here和I  delight how you fare here
+        //be hounded out 被迫离开，其中hound有追赶的意思，例如the dog was hounding a rabbit
+        //assembly [n] 除了表示装配，也可以表示集会，例如national popular assembly
+        //to take part in [vt] 参加
+        //itinerant [adj] 游走的，四处旅行的
+        //informed [adj] 见多识广的
+        //flock [vi] 成群而行 [n] 群 例如a flock of birds
+        //made a living out of sth. 靠...为生，类似于live on sth.
+        //riddle [n] 谜，等价于puzzle, enigma
+        //skepticism [n] 怀疑论
+        //in relation to 与...有关
+        //agnostic [n/adj] 不可知论
+        //whether or not ‌是一个固定短语，其词性为‌从属连词‌，主要用于引导名词性从句或让步从句
+        //categorically [adv] 直截了当地
         String aa = "E:\\workspace\\java\\nce-world\\doc\\aa.txt";
         try(FileOutputStream os = new FileOutputStream(new File(aa))){
             os.write("hello".getBytes(StandardCharsets.UTF_8));
@@ -239,24 +261,12 @@ public class Main {
 
     @Test
     public void main2() {
-        // He is very good-tempered—and moreover, a good deal more intelligent than a lot of people.
-        // In any event he never tries to give the impression of being cleverer than he is.
-        // You may also note that his name is not without significance.
-
+        // The Sophists were as a rule men who had traveled widely and seen different forms of government. Both conventions and local laws in the city-states could vary widely. This led the Sophists to raise the question of what was natural and what was socially induced. By doing this, they paved the way for social criticism in the city-state of Athens.
+        categorically();
         String filePath = System.getProperty("user.dir").concat("/temp/lock.txt");constituent();
         try (FileChannel open = FileChannel.open(Path.of(filePath), StandardOpenOption.WRITE)){
-            FileLock fileLock = open.lock();
-            fileLock.release();
-            ordinary();
-            FileLock fileLock1 = open.tryLock();
-            fileLock1.release();
-            thriller();
-            Channel channel = fileLock1.acquiredBy();
-            ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
-            ByteArrayOutputStream os = new ByteArrayOutputStream();
-            regard();
-            mystify();
-            //
+
+
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
