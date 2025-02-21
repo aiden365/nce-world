@@ -250,6 +250,26 @@ public class Main {
         //agnostic [n/adj] 不可知论
         //whether or not ‌是一个固定短语，其词性为‌从属连词‌，主要用于引导名词性从句或让步从句
         //categorically [adv] 直截了当地
+        //as a rule 赋词短语，译为一般来说
+        //socially induced [adj.] 由社会引起的
+        //pave the way for sth. 为...铺平道路
+        //for example [adv] 例如
+        //for 引导原因状语从句
+        //naked 做show这个动作的补语
+        //a matters of n. 一个...问题
+        //wrangle [vi./n.] 争吵
+        //norm [n] 标准
+        //stand [link.] 不是表示字面上的“站立”，而是作为一种表达状态或情境的系动词，常常用来描述一个人处于某种心理或情感状态。例如she stands corrected译为她纠正了自己的错误
+        //lost in thought 陷入沉思
+        //fairly/quite soon 很快
+        //hold [v] 认为
+        //make it possible
+        //for a certainty [adv] 毫无疑问地，确定无疑地
+        //be said of 被说成是...
+        //equal [n] 同样的人
+        //a number of 许多
+        //ascribe sth. to sb. [vt] 把某事归因于某人
+        //shroud a. in b. 把A包裹在B中
         String aa = "E:\\workspace\\java\\nce-world\\doc\\aa.txt";
         try(FileOutputStream os = new FileOutputStream(new File(aa))){
             os.write("hello".getBytes(StandardCharsets.UTF_8));
@@ -261,11 +281,9 @@ public class Main {
 
     @Test
     public void main2() {
-        // The Sophists were as a rule men who had traveled widely and seen different forms of government. Both conventions and local laws in the city-states could vary widely. This led the Sophists to raise the question of what was natural and what was socially induced. By doing this, they paved the way for social criticism in the city-state of Athens.
-        categorically();
-        String filePath = System.getProperty("user.dir").concat("/temp/lock.txt");constituent();
+        // The essential nature of Socrates’ art lay in the fact that he did not appear to want to instruct people. On the contrary he gave the impression of one desiring to learn from those he spoke with. So instead of lecturing like a traditional schoolmaster, he discussed.
+        String filePath = System.getProperty("user.dir").concat("/temp/lock.txt");
         try (FileChannel open = FileChannel.open(Path.of(filePath), StandardOpenOption.WRITE)){
-
 
         } catch (IOException e) {
             throw new RuntimeException(e);
