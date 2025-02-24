@@ -270,7 +270,28 @@ public class Main {
         //a number of 许多
         //ascribe sth. to sb. [vt] 把某事归因于某人
         //shroud a. in b. 把A包裹在B中
-        String aa = "E:\\workspace\\java\\nce-world\\doc\\aa.txt";
+        //confine to [sth] 限制于...之内
+        //give birth to sb. 生下某人
+        //put [v] 表达
+        //grasp [vt] 抓住，领会
+        //end up 译为最终成为/变成，最终做某事。表示某人或某事在一段时间或一系列事件之后，最终的状态或结果。end up + 动词-ing：表示最终做某事。end up + 形容词：表示最终成为某种状态。end up + 名词：表示最终变成某个名词所代表的状态或位置。end up with：指最终得到某物或处于某种情况。
+        //exasperating [adj] 惹人生气的; exasperate [vt] 激怒
+        //fellow beings 同胞
+        //inform [vt] 告诉 inform someone of/about something [vi] 告发 inform on/against sb. 检举告发某人的不当行为，she decided to inform on/against his colleagues having a part in the crime for police
+        //cost sb. one`s life 是一个习语，意思是导致某人失去生命或者使某人丧命，其cost一般用法为sth. cost sb. money 某物花费某人多少钱
+        //accepted [adj] 可接受的，公认的
+        //majority [adj. / n.] 大多数（的），通常指代群体中占多数的人或事物，或者在某一特定群体中占优的部分。
+        //accuse sb of sth vt.&vi.因某事指责某人
+        //slender [adj.] 微弱的
+        //leniency [n.] 宽大处理，等价于clemency
+        //assure sb （of） sth 向某人保证某事
+        //had only acted 这里使用过去完成时，是为了表达从句had acted发生在主句assured之前的
+        //in the best interest of the state 这句话译为为了国家的最大利益，其中in不能替换为for尽管他们都表示目的，但后者的目的性更强，而后者则表示在某个环境、范围或标准内进行某种行为时，它更侧重于某种标准或原则，而非单纯的目标或目的。
+        //condemn [vt.] 判刑，定罪，谴责
+        //in the presence of sb. 在某人的面前，等价于 in sb.'s presence
+        //thereafter [adv] 在那之后
+        //for the sake of sth. 为了...
+         String aa = "E:\\workspace\\java\\nce-world\\doc\\aa.txt";
         try(FileOutputStream os = new FileOutputStream(new File(aa))){
             os.write("hello".getBytes(StandardCharsets.UTF_8));
             os.flush();
@@ -281,10 +302,14 @@ public class Main {
 
     @Test
     public void main2() {
-        // The essential nature of Socrates’ art lay in the fact that he did not appear to want to instruct people. On the contrary he gave the impression of one desiring to learn from those he spoke with. So instead of lecturing like a traditional schoolmaster, he discussed.
+        // Why, Sophie?
+        // Why did Socrates have to die?
+        // People have been asking this question for 2,400 years.
+        // However, he was not the only person in history
+        // to have seen things through to the bitter end and suffered death for the sake of their convictions.
         String filePath = System.getProperty("user.dir").concat("/temp/lock.txt");
         try (FileChannel open = FileChannel.open(Path.of(filePath), StandardOpenOption.WRITE)){
-
+            convict();
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
