@@ -290,8 +290,56 @@ public class Main {
         //condemn [vt.] 判刑，定罪，谴责
         //in the presence of sb. 在某人的面前，等价于 in sb.'s presence
         //thereafter [adv] 在那之后
+        //现在完成进行时是英语中动词的一种基本时态，其构成为：主语+助动词（have/has）+been+动词的现在分词+其他成分。表示动作从过去某一时间开始，一直持续到现在，或者刚刚终止，或者可能仍然要继续下去。
+        //句中的seen things是否应该理解成经历，而through作副词表示从头到尾，强调坚持到事情的结尾，然后to the bitter end表示直到最后，其中的to表示方向，合起来就是从头到尾的经历某事，直到最后。例如：she saw the project through, no matter how difficult it was, to the bitter end. She has seen many struggles through to the bitter end.
         //for the sake of sth. 为了...
-         String aa = "E:\\workspace\\java\\nce-world\\doc\\aa.txt";
+        //句中的to表示对...而言，例如This explanation is clear to everyone.
+        //speak with sth. 用......的语气/方式说话
+        //characteristic [adj.] 特有的
+        //self-assuredness [n.] 自信
+        //on behalf of sth. 代表...
+        //trial [n] 审判
+        //"would have done" 是 虚拟语气 中的一种形式，表示对过去未发生的假设或推测，强调某种情况本可能发生，但实际上并未发生。
+        //command [vt] 指挥，命令，赢得。例如to command respect 这里 "command" 在这个语境中并不是指“命令”或“指挥”的意思，而是表示自然而然地获得某种结果或状态。
+        //draw one's attention to sth. 引起某人对某事的主意，使某人注意到某事，有时并不显式提及具体某人的注意，此时表示泛指人们的注意，例如I hope to draw attention to the issue of poverty 我希望引起人们对贫困问题的关注
+        //inseparable [adj] 密不可分的
+        //ethics [n] 伦理学
+        //say sth. of sb. 对某人发表某种看法，但大多数场景下sth.内容较多所以常常将内容放到of sb.的后面
+        //in the ture sense (of the word) 在真正意义上
+        //be central to sth. 对于某事来说极为重要
+        //hairsplitting [adj] 吹毛求疵的，咬文嚼字的
+        //from time immemorial 自古以来，immemorial [adj] 远古的
+        //be satisfied with sth. 对...感到满意
+        //self-opinionated [adj] 自以为是的
+        //know it all [n] <贬> 无所不知的人
+        //a whole lot 等价于 a lot 作副词，译为很多，许多。而a whole lot of 等价于 a lot of 作形容词，修饰可数名词复数和不可数名词，译为很多的，许多的
+        //boast of 自负
+        //come across sb. 碰巧遇到某人
+        //a different kettle of fish [n] 字面意思是不同壶的鱼，实际是一句习语，表示完全不同的人(或事)
+        //reality [n] 实际，现实
+        //strive [vi] 努力，奋斗
+        //knowledge of sth. 对某事有了解，例如：she has a good knowledge of computer programming, 她对计算机编程有了解
+        //previously [adv] 以前
+        //subversive [adj] 颠覆性的
+        //v. be not nearly as adj./adv. as + 相比的对象。用于比较两个事物或人在某方面的差距，例如he is not nearly as tall as his brother。有时第二个as可以被省略，例如The movie was not nearly as exciting.
+        //stark [adj./adv/] 完全的，全然地
+        //subject [n] （君主制国家的）臣民，国民。类似的citizen则表示（共和制国家）公民，市民
+        //dare [v] 敢。可以做实义动词后跟不定式，表示敢于做某事例如she dare to challenge the fate。也可以做情态动词后跟动词原型，意思一样例如he dare swim in cold river
+        //get + sth. + on 表示穿着什么衣服，例如he has got red shirt on. 他穿着一件红色的衬衫。
+        //to be (more) precise 译为(更)确切的说，经常做插入语补充主句中的信息，例如：the meeting will be held at 10 o`clock, to be (more) precise, it will start at 10:15 o`clock.基本等价于to be accurate
+        //shut one`s eyes to sth. 对某事视而不见，其中one`s是主语的所有格。例如：we can`t shut our eyes to the growing problem of education in our nation.
+        //indifferent [adj] 漠不关心的，冷淡的
+        //generally speaking [adv] 总的来说。例如He is generally speaking very friendly. 基本上等价于in general
+        //deep down [adv] 表位置：深处，表程度：深深地
+        //deck [n] 甲板，一副牌
+        //into [prep.] 表结果：变成，分成
+        //tu put it mildly 说得委婉些
+        //excess [n] 过量，过度。[adj] 过量的，过度的。excessive [adj] 过分的，极度的。excessively [adv] 过分地，极度地。
+        //turn out [vi.] 结果是：常用来表示某个事件、情况或行为最终的结果或发展，原来是：表示事物或情况的真正性质或状态，通常是与预期或假设不同。常见搭配：turn out that, turn out to be. 例如the movie turned out to be more interesting than I expected. it turned out that the project was completed ahead of schedule
+        //necessary [adj.] 必要的，必须的
+        //decidedly [adv] 确定无疑地
+        //lead to [vt.] 通向，导致
+        String aa = "E:\\workspace\\java\\nce-world\\doc\\aa.txt";
         try(FileOutputStream os = new FileOutputStream(new File(aa))){
             os.write("hello".getBytes(StandardCharsets.UTF_8));
             os.flush();
@@ -302,14 +350,11 @@ public class Main {
 
     @Test
     public void main2() {
-        // Why, Sophie?
-        // Why did Socrates have to die?
-        // People have been asking this question for 2,400 years.
-        // However, he was not the only person in history
-        // to have seen things through to the bitter end and suffered death for the sake of their convictions.
+        // As I have mentioned earlier, Socrates claimed that he was guided by a divine inner voice, and that this “conscience” told him what was right. “He who knows what good is will do good,” he said.
         String filePath = System.getProperty("user.dir").concat("/temp/lock.txt");
         try (FileChannel open = FileChannel.open(Path.of(filePath), StandardOpenOption.WRITE)){
-            convict();
+            FileLock fileLock = open.tryLock();
+
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
