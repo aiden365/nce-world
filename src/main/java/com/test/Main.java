@@ -339,6 +339,18 @@ public class Main {
         //necessary [adj.] 必要的，必须的
         //decidedly [adv] 确定无疑地
         //lead to [vt.] 通向，导致
+        //insight [n] 深刻的理解（或见解、认识）。通常搭配介词into表示对某一事物的深刻认识，例如his insight into the economic situation helped him get through the economic crisis. 但在本句中并没有显式的指出对某个事物的见解，但通过逻辑应该理解成对目标（the right action）有真正的见解
+        //virtuous [adj.] 有道德的，正直的
+        //go on doing sth. 继续做某事（同一件事）。stop doing sth. 停止做某事。stop to do sth. 转去做另一件事，例如after studying for an hour, she decided to stop to have a cup of coffee。
+        //speak ill of someone. 说某人的坏话。其中speak of sb.|sth. 表示谈论某人或某事。ill作副词表示不友善地，恶意地，也可以替换成well，如speak well of someone. 表示称赞某人
+        //be aware [of. sth. | that sc.] 意识到...。其中aware是形容词表示意识到的
+        //in order [to do sth. | that sc.] 为了...
+        //to do the dishes. 去洗碗。这里的dish [n.] （待清洗的）餐具
+        //stagger [v.] 步履蹒跚、摇摇晃晃地走
+        //preoccupied [adj.] 心事重重，全神贯注的。be preoccupied with sth. 指某人专注于、全神贯注于某件事情，常用于描述一个人因某种事物而忽略其他事物或感到困扰。He seemed preoccupied with thinking about her future
+        //rather [adv.] 程度副词，译为相当。
+        //tumbled [vi.] 摔倒，跌倒，坠落，例如人从楼梯上摔倒 she tumbled downstairs. 或者价格等暴跌，如股价暴跌 the value of stocks tumbled. 在这里比喻这些话不受控制的从她嘴里出来。
+        //as a result + sc. 连词，译为因此、结果，后面一般接结果从句例如 he was sent away from school. 类似的还有 as a result of + sth. 介词短语，译为原因，例如the football match had to be put off as a result of a heavy rain.
         String aa = "E:\\workspace\\java\\nce-world\\doc\\aa.txt";
         try(FileOutputStream os = new FileOutputStream(new File(aa))){
             os.write("hello".getBytes(StandardCharsets.UTF_8));
@@ -350,11 +362,13 @@ public class Main {
 
     @Test
     public void main2() {
-        // As I have mentioned earlier, Socrates claimed that he was guided by a divine inner voice, and that this “conscience” told him what was right. “He who knows what good is will do good,” he said.
+        // Her mother stared at her, wide-eyed.
+        // “It was just so sad that he had to die as a result,” Sophie went on thoughtfully.
+        tumble();
         String filePath = System.getProperty("user.dir").concat("/temp/lock.txt");
         try (FileChannel open = FileChannel.open(Path.of(filePath), StandardOpenOption.WRITE)){
             FileLock fileLock = open.tryLock();
-
+            live();
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
