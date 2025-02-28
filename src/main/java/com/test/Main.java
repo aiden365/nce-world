@@ -2,6 +2,7 @@ package com.test;
 
 import cn.hutool.Hutool;
 import cn.hutool.core.collection.CollUtil;
+import cn.hutool.core.io.FileUtil;
 import cn.hutool.core.util.ClassLoaderUtil;
 import cn.hutool.core.util.ClassUtil;
 import com.alibaba.fastjson.JSONArray;
@@ -20,6 +21,7 @@ import java.nio.channels.Channel;
 import java.nio.channels.FileChannel;
 import java.nio.channels.FileLock;
 import java.nio.charset.StandardCharsets;
+import java.nio.file.FileSystem;
 import java.nio.file.Path;
 import java.nio.file.StandardOpenOption;
 import java.time.YearMonth;
@@ -350,7 +352,9 @@ public class Main {
         //preoccupied [adj.] 心事重重，全神贯注的。be preoccupied with sth. 指某人专注于、全神贯注于某件事情，常用于描述一个人因某种事物而忽略其他事物或感到困扰。He seemed preoccupied with thinking about her future
         //rather [adv.] 程度副词，译为相当。
         //tumbled [vi.] 摔倒，跌倒，坠落，例如人从楼梯上摔倒 she tumbled downstairs. 或者价格等暴跌，如股价暴跌 the value of stocks tumbled. 在这里比喻这些话不受控制的从她嘴里出来。
-        //as a result + sc. 连词，译为因此、结果，后面一般接结果从句例如 he was sent away from school. 类似的还有 as a result of + sth. 介词短语，译为原因，例如the football match had to be put off as a result of a heavy rain.
+        //as a result + sc. 副词，译为因此、结果，后面一般接句子，表示因果关系，例如 as a result he was sent away from school. 类似的还有 as a result of + sth. 介词短语，译为原因，例如the football match had to be put off as a result of a heavy rain.
+        //thoughtfully [adv] 若有所思地，意味深长地;
+        //speechless [adj. | adv. | n.] （由于强烈的感情、震惊等）说不出话
         String aa = "E:\\workspace\\java\\nce-world\\doc\\aa.txt";
         try(FileOutputStream os = new FileOutputStream(new File(aa))){
             os.write("hello".getBytes(StandardCharsets.UTF_8));
@@ -362,13 +366,13 @@ public class Main {
 
     @Test
     public void main2() {
-        // Her mother stared at her, wide-eyed.
-        // “It was just so sad that he had to die as a result,” Sophie went on thoughtfully.
-        tumble();
+
+        // “It’s not him who’s disturbed. But he likes to disturb others—to shake them out of their rut.”
         String filePath = System.getProperty("user.dir").concat("/temp/lock.txt");
         try (FileChannel open = FileChannel.open(Path.of(filePath), StandardOpenOption.WRITE)){
             FileLock fileLock = open.tryLock();
-            live();
+
+
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
@@ -387,11 +391,16 @@ public class Main {
     @Test
     public void test66() {
 
-        List<Integer> list = new ArrayList<>();
+        /*List<Integer> list = new ArrayList<>();
         list.add(1);
         //
         YearMonth yearMonth = YearMonth.of(2025, 3);
         int dayOfMonth = yearMonth.atEndOfMonth().getDayOfMonth();
-        System.out.println(dayOfMonth);
+        System.out.println(dayOfMonth);*/
+
+        FileUtil.writeString("123", "D:\\data\\新建文件夹\\1.txt", StandardCharsets.UTF_8);
+
     }
+
+
 }
