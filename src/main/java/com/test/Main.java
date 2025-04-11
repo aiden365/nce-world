@@ -26,6 +26,7 @@ import java.nio.file.Path;
 import java.nio.file.StandardOpenOption;
 import java.time.YearMonth;
 import java.util.*;
+import java.util.stream.Stream;
 
 import static com.words.TestFour4.*;
 import static com.words.TestCz.*;
@@ -355,6 +356,32 @@ public class Main {
         //as a result + sc. 副词，译为因此、结果，后面一般接句子，表示因果关系，例如 as a result he was sent away from school. 类似的还有 as a result of + sth. 介词短语，译为原因，例如the football match had to be put off as a result of a heavy rain.
         //thoughtfully [adv] 若有所思地，意味深长地;
         //speechless [adj. | adv. | n.] （由于强烈的感情、震惊等）说不出话
+        //talk back 定罪
+        //How on earth [adv] 鬼知道
+        //passed judgement [vi.] 做出判决。此处的pass不表示通过、经过的含义，而表示：“做出”。类似于make a judgement但pass更具权威性和官方性，同时pass 后面跟的是不可数名词不加冠词表示“进行裁决/评判”这种行为，而make与要加冠词表示“做出一个具体的判断”
+        //date back to 追溯到，从...开始有
+        //olive [n.] 橄榄，[adj.] 橄榄色
+        //subdued [adj.] 平静的
+        //count on = look to + sb. + doing，译为指望某人做某事
+        //as if by magic [adv.] 不可思议地
+        //in person [adv.] 亲自
+        //At any rate [adv.] 无论如何
+        //over there/here [adv.] 在那边，在这边
+        //unkempt [adj.] 不修边幅的，不整洁的
+        //snub [adj.] 短扁上翘的
+        //gimlet [n.] 吉姆雷特（一款鸡尾酒），点钻
+        //chubby [adj.] 丰满的（形容人的身材）
+        //from the start 从一开始
+        //go too far [vi.] 做的过火
+        //have (not) been to [vi] （不）曾去过某地
+        //with a start 介词短语做状语，译为猛地一惊
+        //wide awake 是一个固定搭配，表示“完全清醒”或“毫无睡意”
+        //after all 毕竟，终究
+        //never mind! 没关系
+        //she was acting a bit nuts 这句话使用主语+不及物动词+形容词表状态结构，可以将act看作是系动词a bit 是副词修饰nuts 而nuts是形容词表示主语的状态，类似的还有the sun was rising red 其中的red表示太阳升起时的状态，译为太阳正红彤彤的升起
+        //a drop of crystal 一滴水晶
+        //wipe off 通常用于描述清除或去除某物表面的污渍，例如she wipes off the surface of the table
+        //as if 可跟在look, seem等系动词后引导表语从句，表示好像、似乎、仿佛的意思。it seems as if it is raining. 外面看起来像是下雨了。（陈述语气表示真的下雨了），而it seems as if it was raining. 外面看起来像是下雨了。（虚拟语气表示推测或者并没有下雨）
         String aa = "E:\\workspace\\java\\nce-world\\doc\\aa.txt";
         try(FileOutputStream os = new FileOutputStream(new File(aa))){
             os.write("hello".getBytes(StandardCharsets.UTF_8));
@@ -366,13 +393,14 @@ public class Main {
 
     @Test
     public void main2() {
+        // Then a satisfied smile spread over Sophie’s face.
+        // She remembered how once she and her father went shopping while her mother was busy baking Christmas cookies.
+        // When they got back there were a lot of gingerbread men spread out on the kitchen table. Even though they weren’t all perfect, in a way they were all the same. And why was that? Obviously because her mother had used the same mold for all of them.
 
-        // “It’s not him who’s disturbed. But he likes to disturb others—to shake them out of their rut.”
         String filePath = System.getProperty("user.dir").concat("/temp/lock.txt");
         try (FileChannel open = FileChannel.open(Path.of(filePath), StandardOpenOption.WRITE)){
             FileLock fileLock = open.tryLock();
-
-
+            FileChannel channel = fileLock.channel();
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
@@ -381,6 +409,7 @@ public class Main {
     @Data
     static class Peoson{
         private String name;
+        private String address;
 
         @Override
         public int hashCode() {
@@ -390,17 +419,24 @@ public class Main {
 
     @Test
     public void test66() {
-
+        // we must do it quickly before the guards discover us
         /*List<Integer> list = new ArrayList<>();
         list.add(1);
         //
         YearMonth yearMonth = YearMonth.of(2025, 3);
         int dayOfMonth = yearMonth.atEndOfMonth().getDayOfMonth();
         System.out.println(dayOfMonth);*/
+        /*String aa = "/UploadFile/DaumFile/6bc6ca66789ee78af29b52ff961e506a/83b7d32963ab4fc4ae1b583cdefb8eeb/83b7d32963ab4fc4ae1b583cdefb8eeb.dwg";
+        String png = aa.replaceAll("(?i)dwg", "png");
+        System.out.println(png);
+        String[] split = aa.split("/");
 
-        FileUtil.writeString("123", "D:\\data\\新建文件夹\\1.txt", StandardCharsets.UTF_8);
+        System.out.println(split[split.length - 1]);*/
+
 
     }
+
+
 
 
 }
