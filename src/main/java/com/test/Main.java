@@ -382,6 +382,14 @@ public class Main {
         //a drop of crystal 一滴水晶
         //wipe off 通常用于描述清除或去除某物表面的污渍，例如she wipes off the surface of the table
         //as if 可跟在look, seem等系动词后引导表语从句，表示好像、似乎、仿佛的意思。it seems as if it is raining. 外面看起来像是下雨了。（陈述语气表示真的下雨了），而it seems as if it was raining. 外面看起来像是下雨了。（虚拟语气表示推测或者并没有下雨）
+        //be busy doing sth. 忙着做某事。
+        //in a way. 状语，从某种意义上
+        //on the contrary. 反面，相反
+        //when译为：这时（突然）时主句中往往含有表示即将做某事如be about to do sth.或者ready等关键词，这时的when引导的从句表示发生了某事，从而打断了原来要做的事
+        //but still 尽管如此
+        //had something in common. 有共同之处
+        //had yet to do sth. 还没有做某事
+        //independently of 独立于...之外，与...无关
         String aa = "E:\\workspace\\java\\nce-world\\doc\\aa.txt";
         try(FileOutputStream os = new FileOutputStream(new File(aa))){
             os.write("hello".getBytes(StandardCharsets.UTF_8));
@@ -393,9 +401,9 @@ public class Main {
 
     @Test
     public void main2() {
-        // Then a satisfied smile spread over Sophie’s face.
-        // She remembered how once she and her father went shopping while her mother was busy baking Christmas cookies.
-        // When they got back there were a lot of gingerbread men spread out on the kitchen table. Even though they weren’t all perfect, in a way they were all the same. And why was that? Obviously because her mother had used the same mold for all of them.
+        // Inside she had always been the same young girl
+        // The thought of the “young girl” led Sophie to the last question: Are women and men equally sensible?
+        // She was not so sure about that. It depended on what Plato meant by sensible.
 
         String filePath = System.getProperty("user.dir").concat("/temp/lock.txt");
         try (FileChannel open = FileChannel.open(Path.of(filePath), StandardOpenOption.WRITE)){
