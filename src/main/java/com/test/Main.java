@@ -390,6 +390,21 @@ public class Main {
         //had something in common. 有共同之处
         //had yet to do sth. 还没有做某事
         //independently of 独立于...之外，与...无关
+        //lessen [v.] 减少
+        //这里的what可以理解为the time that，例如，she stood quite still for the time that seemed like an eternity
+        //may/might as well do 不妨做某事
+        //without further ado 介词短语状语表示：直接了当地
+        //do more than + bare infinitive 是英语中的固定结构，译为：不仅仅做某事
+        //endeavor [v.] 努力 [n.] 事业，活动
+        //striking [adj.] 显著的
+        //no doubt [adv.] 无疑，肯定
+        //in addition to 介词短语，译为：除...之外。等价于besides
+        //due to 介词短语，译为：因为
+        //not least (of all) 副词短语，译为：尤其
+        //named after 根据...命名，其中named是形容词，after仅在与named搭配时才表示根据的含义，如the city is named after the famous explorer
+        //not far from someplace. 离某地不远
+        //known as 被称为
+        //by chance [adv.] 偶然地，意外地
         String aa = "E:\\workspace\\java\\nce-world\\doc\\aa.txt";
         try(FileOutputStream os = new FileOutputStream(new File(aa))){
             os.write("hello".getBytes(StandardCharsets.UTF_8));
@@ -401,10 +416,13 @@ public class Main {
 
     @Test
     public void main2() {
-        // Inside she had always been the same young girl
-        // The thought of the “young girl” led Sophie to the last question: Are women and men equally sensible?
-        // She was not so sure about that. It depended on what Plato meant by sensible.
-
+        StringBuffer buffer = new StringBuffer();
+        //Briefly,
+        // we can establish that Plato was concerned with the relationship between what is eternal and immutable,
+        // on the one hand, and what “flows,” on the other. (Just like the pre-Socratics, in fact.)
+        // We’ve seen how the Sophists and Socrates turned their attention from questions of natural philosophy to problems related to man and society.
+        // And yet in one sense, even Socrates and the Sophists were preoccupied with the relationship between the eternal and immutable, and the “flowing.” They were interested in the problem as it related to human morals and society’s ideals or virtues. Very briefly, the Sophists thought that perceptions of what was right or wrong varied from one city-state to another, and from one generation to the next. So right and wrong was something that “flowed.” This was totally unacceptable to Socrates. He believed in the existence of eternal and absolute rules for what was right or wrong. By using our common sense we can all arrive at these immutable norms, since human reason is in fact eternal and immutable.
+        immutable();
         String filePath = System.getProperty("user.dir").concat("/temp/lock.txt");
         try (FileChannel open = FileChannel.open(Path.of(filePath), StandardOpenOption.WRITE)){
             FileLock fileLock = open.tryLock();
