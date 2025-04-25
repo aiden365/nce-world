@@ -401,10 +401,46 @@ public class Main {
         //in addition to 介词短语，译为：除...之外。等价于besides
         //due to 介词短语，译为：因为
         //not least (of all) 副词短语，译为：尤其
-        //named after 根据...命名，其中named是形容词，after仅在与named搭配时才表示根据的含义，如the city is named after the famous explorer
+        //named after 根据...命名，其中named是形容词，after在与named搭配时表示根据的含义，如the city is named after the famous explorer
         //not far from someplace. 离某地不远
         //known as 被称为
         //by chance [adv.] 偶然地，意外地
+        //establish [vt.] 确定，建立
+        //relation to = with relation to + sth. 译为：与...有关
+        //and yet 可是
+        //in one sense 从某种意义上说
+        //very briefly 简而言之
+        //vary from a. to b. 通常用来表示某事物在不同的范围、方面或条件下有所变化、差异
+        //in fact [adv.] 事实上，实际上
+        //then along comes Plato. 句子被到装了，正常语序是then Plato comes along.
+        //as regards sth. 介词短语，译为：关于...
+        //one and the same. 完全一样，一回事
+        //topical affairs. 时事，topical [adj.] 时下关注的，热门话题的
+        //at a time 每次，一次
+        //subsequent [adj.] 后续的
+        //as such 介词短语，跟在名词后作后置定语，译为：这样的...，例如the proposition as such. 这样的观点
+        //belong to 表示某物属于某人或某个地方，强调的是所有权或者归属关系。例如：the book belongs to me. 类似的belong in 则表示这个短语通常用于描述某物“应该在”某个特定的空间、领域或范围内。例如the proposition that women belong in the kitchen has outdated
+        //in time [adv.] 迟早。on time [adv.] 准时
+        //let me put it like this. 让我这样说吧。put [v.] 说
+        //without having to do sth. 不用做某事.
+        //in the midst of 在...之中
+        //building block [n.] 基本单元
+        //for that matter [adv.] 而且，甚至
+        //get at 某人试图传达某种信息或意图，等价于say 译为：说，表达。例如what are you getting at? 你在说什么？
+        //just in case 以防万一
+        //of one`s own accord. [adv.] 自愿地，自发地
+        //be made from sth. 由...制成
+        //remain [link.] 保持某种状态 + adj.
+        //do with. 处理，等价于deal with
+        //drop in [vi.] 突然到来，例如She dropped in last night. 她昨晚突然来访。也可以指明突然到哪里She dropped in at my place last night. 类型的搭配由 drop in on sb. 顺道拜访某人，若想表示正式访问可以使用call in on sb.
+        //stumble into sth. 不经意间遇到某人或某事，译为：突然遇到，遇到某事， 例如I stumble on my friend in the street yesterday. 如果想表达不经意间做某事使用stumble upon doing sth. I stumbled upon picking one hundred dollars.
+        //sb. catch sight/glimpse of sth. 不经意间看到某物
+        //might well [adv.] 可能，例如I thought she might well have gone away. 我想象她可能已经走了。 形似的表达might (just) as well [adv.] 不妨， 例如 has it been rot, it might just as well throw away.
+        //be formed in sth. 由...制成
+        //in comparison with sth. 与...相比，例如this is more beautiful in comparison with these crude copies
+        //irresistible [adj.] 不可抗力的
+        //desire [n.] 欲望
+        //seize [vt.] 抓住，控制, 例如I seized the opportunity to go to the party. 我抓住了这个机会去参加聚会。在本句中则表示：控制
         String aa = "E:\\workspace\\java\\nce-world\\doc\\aa.txt";
         try(FileOutputStream os = new FileOutputStream(new File(aa))){
             os.write("hello".getBytes(StandardCharsets.UTF_8));
@@ -417,16 +453,18 @@ public class Main {
     @Test
     public void main2() {
         StringBuffer buffer = new StringBuffer();
-        //Briefly,
-        // we can establish that Plato was concerned with the relationship between what is eternal and immutable,
-        // on the one hand, and what “flows,” on the other. (Just like the pre-Socratics, in fact.)
-        // We’ve seen how the Sophists and Socrates turned their attention from questions of natural philosophy to problems related to man and society.
-        // And yet in one sense, even Socrates and the Sophists were preoccupied with the relationship between the eternal and immutable, and the “flowing.” They were interested in the problem as it related to human morals and society’s ideals or virtues. Very briefly, the Sophists thought that perceptions of what was right or wrong varied from one city-state to another, and from one generation to the next. So right and wrong was something that “flowed.” This was totally unacceptable to Socrates. He believed in the existence of eternal and absolute rules for what was right or wrong. By using our common sense we can all arrive at these immutable norms, since human reason is in fact eternal and immutable.
-        immutable();
+        // He was astonished at the way all natural phenomena could be so alike,
+        // and he concluded that it had to be because there are a limited number of forms “behind” everything we see around us.
+        // Plato called these forms ideas.
+        // Behind every horse, pig, or human being, there is the “idea horse,” “idea pig,” and “idea human being.”
+        // (In the same way, the bakery we spoke of can have gingerbread men, gingerbread horses, and gingerbread pigs.
+        // Because every self-respecting bakery has more than one mold.
+        // But one mold is enough for each type of gingerbread cookie.)
         String filePath = System.getProperty("user.dir").concat("/temp/lock.txt");
         try (FileChannel open = FileChannel.open(Path.of(filePath), StandardOpenOption.WRITE)){
             FileLock fileLock = open.tryLock();
             FileChannel channel = fileLock.channel();
+
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
@@ -436,6 +474,7 @@ public class Main {
     static class Peoson{
         private String name;
         private String address;
+
 
         @Override
         public int hashCode() {
