@@ -441,6 +441,10 @@ public class Main {
         //irresistible [adj.] 不可抗力的
         //desire [n.] 欲望
         //seize [vt.] 抓住，控制, 例如I seized the opportunity to go to the party. 我抓住了这个机会去参加聚会。在本句中则表示：控制
+        //come across [vt.] 遇到，遇到某事，例如I came across a man with a large amount of money. 我遇到了一个拥有大量钱的男人。
+        //train of thought [n.] 思路
+        //in the same way [adv.] 以同样地方式
+        //mean to do 想要/打算做某事 I mean to call her tomorrow. mean doing 表示某个行为意味着某种后果，例如：his silence means breaking up.
         String aa = "E:\\workspace\\java\\nce-world\\doc\\aa.txt";
         try(FileOutputStream os = new FileOutputStream(new File(aa))){
             os.write("hello".getBytes(StandardCharsets.UTF_8));
@@ -453,14 +457,10 @@ public class Main {
     @Test
     public void main2() {
         StringBuffer buffer = new StringBuffer();
-        // He was astonished at the way all natural phenomena could be so alike,
-        // and he concluded that it had to be because there are a limited number of forms “behind” everything we see around us.
-        // Plato called these forms ideas.
-        // Behind every horse, pig, or human being, there is the “idea horse,” “idea pig,” and “idea human being.”
-        // (In the same way, the bakery we spoke of can have gingerbread men, gingerbread horses, and gingerbread pigs.
-        // Because every self-respecting bakery has more than one mold.
-        // But one mold is enough for each type of gingerbread cookie.)
+        // Partly because one would hardly have time to study it in depth before it burst,
+        // and partly because it would probably be rather difficult to find a market for a philosophic treatise on something nobody has ever seen, and which only existed for five seconds.
         String filePath = System.getProperty("user.dir").concat("/temp/lock.txt");
+        //
         try (FileChannel open = FileChannel.open(Path.of(filePath), StandardOpenOption.WRITE)){
             FileLock fileLock = open.tryLock();
             FileChannel channel = fileLock.channel();
