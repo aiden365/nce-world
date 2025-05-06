@@ -445,6 +445,10 @@ public class Main {
         //train of thought [n.] 思路
         //in the same way [adv.] 以同样地方式
         //mean to do 想要/打算做某事 I mean to call her tomorrow. mean doing 表示某个行为意味着某种后果，例如：his silence means breaking up.
+        //partial [adj.] 部分的 partly [adv.] 在一定程度上，部分地
+        //sooner or later [adv.] 迟早。 强调无论时间快慢必然发生
+        //be meant to do: 1. 必然性（注定要做某事）：I believe he is meant to be a teacher. 2. 义务性（按规则、道理应做某事）：I was meant to help the kid with her homework. 3. 功能性（某物被设计用于特定的目的）：the tool is meant to cut metal.
+        //a dozen of sth. 一打东西， dozens of sth. 许多东西
         String aa = "E:\\workspace\\java\\nce-world\\doc\\aa.txt";
         try(FileOutputStream os = new FileOutputStream(new File(aa))){
             os.write("hello".getBytes(StandardCharsets.UTF_8));
@@ -457,10 +461,10 @@ public class Main {
     @Test
     public void main2() {
         StringBuffer buffer = new StringBuffer();
-        // Partly because one would hardly have time to study it in depth before it burst,
-        // and partly because it would probably be rather difficult to find a market for a philosophic treatise on something nobody has ever seen, and which only existed for five seconds.
+
+        // Plato found mathematics very absorbing because mathematical states never change.
+        // They are therefore states we can have true knowledge of. But here we need an example.
         String filePath = System.getProperty("user.dir").concat("/temp/lock.txt");
-        //
         try (FileChannel open = FileChannel.open(Path.of(filePath), StandardOpenOption.WRITE)){
             FileLock fileLock = open.tryLock();
             FileChannel channel = fileLock.channel();
