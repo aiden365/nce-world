@@ -449,6 +449,13 @@ public class Main {
         //sooner or later [adv.] 迟早。 强调无论时间快慢必然发生
         //be meant to do: 1. 必然性（注定要做某事）：I believe he is meant to be a teacher. 2. 义务性（按规则、道理应做某事）：I was meant to help the kid with her homework. 3. 功能性（某物被设计用于特定的目的）：the tool is meant to cut metal.
         //a dozen of sth. 一打东西， dozens of sth. 许多东西
+        //to the end of time. [adv.] 直到时间的尽头，永远
+        //这两个短语 "come to be" 和 "pass away" 是不及物动词短语，因此它们不需要宾语或其他成分。它们只描述动作的过程或状态的变化。
+        //closet [n.] 橱窗
+        //stir [vt.] 可以表示引发某种情感，例如speaker-masters extremely are good at stirring with a luxuriant words the emotions of audience
+        //from now on. [adv] 从今以后
+        //by no means + 泛指词（all/many/everyone等）：译为并非所有..., 这种结构通过否定"全部性"来强调部分例外，比单纯说"not all"语气更强。
+        //set + 宾语 + 形容词：表示让宾语进入某种状态， 例如 the news set her happy. 其中set作为使役动词
         String aa = "E:\\workspace\\java\\nce-world\\doc\\aa.txt";
         try(FileOutputStream os = new FileOutputStream(new File(aa))){
             os.write("hello".getBytes(StandardCharsets.UTF_8));
@@ -462,12 +469,15 @@ public class Main {
     public void main2() {
         StringBuffer buffer = new StringBuffer();
 
-        // Plato found mathematics very absorbing because mathematical states never change.
-        // They are therefore states we can have true knowledge of. But here we need an example.
+        //  Most people cling to the sensory world’s reflections of ideas.
+        //  They see a horse—and another horse.
+        //  But they never see that of which every horse is only a feeble imitation.
+        //  (They rush into the kitchen and stuff themselves with gingerbread cookies without so much as a thought as to where they came from.) What Plato describes is the philosophers’way. His philosophy can be read as a description of philosophic practice.
         String filePath = System.getProperty("user.dir").concat("/temp/lock.txt");
         try (FileChannel open = FileChannel.open(Path.of(filePath), StandardOpenOption.WRITE)){
             FileLock fileLock = open.tryLock();
             FileChannel channel = fileLock.channel();
+
 
         } catch (IOException e) {
             throw new RuntimeException(e);
