@@ -9,6 +9,7 @@ import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
 import com.book.Sw;
 import com.book.SwChinese;
+import com.words.TestYschzj;
 import lombok.Data;
 import lombok.SneakyThrows;
 import lombok.extern.slf4j.Slf4j;
@@ -43,6 +44,8 @@ import static com.words.TestFour10.*;
 import static com.words.TestIelts.*;
 import static com.words.TestToefl.*;
 import static com.words.TestFour7.*;
+import static com.words.TestYschzj.*;
+
 
 
 @Slf4j
@@ -469,7 +472,6 @@ public class Main {
     public void main2() {
         StringBuffer buffer = new StringBuffer();
 
-        //  Most people cling to the sensory world’s reflections of ideas.
         //  They see a horse—and another horse.
         //  But they never see that of which every horse is only a feeble imitation.
         //  (They rush into the kitchen and stuff themselves with gingerbread cookies without so much as a thought as to where they came from.) What Plato describes is the philosophers’way. His philosophy can be read as a description of philosophic practice.
@@ -511,6 +513,8 @@ public class Main {
         String[] split = aa.split("/");
 
         System.out.println(split[split.length - 1]);*/
+
+        Class_timeAndDate.array_4();
 
 
     }
