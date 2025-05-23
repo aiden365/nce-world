@@ -503,7 +503,7 @@ public class Main {
         // we must do it quickly before the guards discover us
         /*List<Integer> list = new ArrayList<>();
         list.add(1);
-        //
+        //such information is very helpful to learners.
         YearMonth yearMonth = YearMonth.of(2025, 3);
         int dayOfMonth = yearMonth.atEndOfMonth().getDayOfMonth();
         System.out.println(dayOfMonth);*/
@@ -511,10 +511,11 @@ public class Main {
         String png = aa.replaceAll("(?i)dwg", "png");
         System.out.println(png);
         String[] split = aa.split("/");
-
+        The phrase the table refers to another thing, the Landmark of the preposition. The
+        preposition locates the Subject (the candle) in relation to the Landmark (the table).
         System.out.println(split[split.length - 1]);*/
-
-        Class_timeAndDate.array_4();
+        Class_timeAndDate.array_5();
+        //
 
 
     }

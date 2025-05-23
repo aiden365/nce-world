@@ -2128,7 +2128,7 @@ public class TestFour7 {
     /**
      * @pronounce ɪk'spɪərɪəns; ek-
      * @explain n.经验，感受；经历
-     * @e.g.1 The advice in the booklet reflects the practical experience we have gained (= experience gained by actually doing something, rather than knowledge from books etc )..小册子中的建议反映了我们所获得的实践经验。
+     * q@e.g.1 we are maybe experiencing the worst Mancherster united all of time
      * @e.g.2 I had some experience in fashion design..我有一些时装设计方面的经验。
      * @e.g.3 She was turned down on the grounds of lack of experience..她因缺乏经验而被拒绝。
      * @e.g.4 I have first-hand experience (= experience gained by doing something myself ) of running a school..我有办学的亲身经验。

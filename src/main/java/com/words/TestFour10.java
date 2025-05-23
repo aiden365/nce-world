@@ -2389,7 +2389,7 @@ public class TestFour10 {
     /**
      * @pronounce faɪnd
      * @explain v.找到；发觉；找出
-     * @e.g.1 I can’t find the car keys..我找不到汽车钥匙。
+     * @e.g.1 Issac  Newton found  universal gravitation
      * @e.g.2 Hold on while I find a pen..别挂电话，我找支笔。
      * @e.g.3 Her body was later found hidden in the bushes..后来有人发现她的尸体被藏在了灌木丛里。
      * @e.g.4 I have to find somewhere else to live..我得另找住处。

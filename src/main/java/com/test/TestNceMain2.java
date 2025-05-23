@@ -21,6 +21,22 @@ import java.nio.file.StandardOpenOption;
 import java.util.*;
 import java.util.concurrent.LinkedBlockingQueue;
 import java.util.stream.Collectors;
+import static com.words.TestFour4.*;
+import static com.words.TestCz.*;
+import static com.words.TestFour3.*;
+import static com.words.TestFour8.*;
+import static com.words.TestFour11.*;
+import static com.words.TestFour9.*;
+import static com.words.TestFour5.*;
+import static com.words.TestFour2.*;
+import static com.words.TestGz.*;
+import static com.words.TestFour1.*;
+import static com.words.TestFour6.*;
+import static com.words.TestFour10.*;
+import static com.words.TestIelts.*;
+import static com.words.TestToefl.*;
+import static com.words.TestFour7.*;
+import static com.words.TestYschzj.*;
 
 @Slf4j
 public class TestNceMain2 {
@@ -152,57 +168,20 @@ public class TestNceMain2 {
     }
 
 
-    public static void methodListCz() {
-    }
-    public static void methodListGz(){
 
-    }
-
+    @SneakyThrows
     public static void methodListFour2(String[] args) {
-        TestFour9.apply();
-        TestFour3.map();
-        TestFour7.collect();
-        TestFour10.fill();
-        TestFour8.of();
-        TestFour11.original();
-        TestFour5.count();
-        TestFour9.ad();
-        TestFour3.cause();
-        TestFour8.off();
-        TestFour11.other();
-        TestFour2.limit();
-        TestFour8.pattern();
-        TestFour1.last();
-        TestFour2.limited();
-        TestFour2.list();
-        TestFour2.line();
-        TestFour7.code();
-        TestFour6.from();
-        TestFour4.transform();
-        TestFour11.data();
-        TestFour1.multiple();
-        TestFour9.a();
-        TestFour4.record();
-        TestFour3.make();
-        TestFour10.filter();
-        TestFour4.empty();
-        TestFour1.kind();
-        TestFour8.component();
-        TestFour11.dot();
-        TestFour2.location();
-        TestFour10.fact();
-        TestFour3.candidate();
-        TestFour10.feature();
-        TestFour10.field();
-        TestFour10.factory();
-        TestFour7.out();
-        TestFour3.constant();
-        TestFour6.host();
-        TestFour10.first();
-        TestFour4.register();
-        TestFour8.compute();
-        TestFour10.find();
-        TestFour2.security();
+
+        List<Integer> integers1 = Arrays.asList(1, 2, 3, 4);
+        List<Integer> integers2 = Arrays.asList(3, 4, 5, 6);
+
+        Collection<Integer> subtract1 = CollUtil.subtract(integers1, integers2);
+        System.out.println(subtract1);
+
+        Collection<Integer> subtract2 = CollUtil.subtract(integers2, integers1);
+        System.out.println(subtract2);
+
+        resolve();
         TestFour4.resolve();
         TestFour3.match();
         TestFour10.file();
@@ -2818,16 +2797,12 @@ public class TestNceMain2 {
         TestFour6.furious();
         TestFour6.furnace();
         TestFour7.intense();
-        TestFour7.invention();
-        TestFour7.inventor();
-        TestFour7.insure();
-        TestFour6.furniture();
-        TestFour7.irregular();
-    }
 
-    @SneakyThrows
-    @Test
-    public  void test2849() {
+        System.out.println(System.getProperty("user.dir"));
+        String filePath = System.getProperty("user.dir").concat("/doc/a4.txt");
+        BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(filePath)));
+
+
 
     }
 
@@ -2836,6 +2811,8 @@ public class TestNceMain2 {
     @Test
     public  void test2848() {
 
+        String str = "23456";
+        System.out.println(System.getProperty("user.dir"));
         String filePath = System.getProperty("user.dir").concat("/doc/a4.txt");
         BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(filePath)));
         String line = null;
