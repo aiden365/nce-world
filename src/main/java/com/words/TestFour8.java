@@ -2257,7 +2257,7 @@ public class TestFour8 {
     /**
      * @pronounce kə'nekt
      * @explain v.连接，连结；联系
-     * @e.g.1 We’d like two rooms with connecting doors (= doors that join the rooms ) ..我们想要两个有门相通的房间。
+     * @e.g.1 people usually say eyes are window connected with the spirit
      * @same adj. connected、connective、connectible，n. connection、connector、connectivity、connective、connectedness、connecter、connectionist，v. connected，
      */
     public static void connect(){}

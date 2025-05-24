@@ -1464,7 +1464,7 @@ public class TestFour9 {
     /**
      * @pronounce ə'laʊ
      * @explain v.允许，准许；任
-     * @e.g.1 We don’t allow diving in the pool..泳池内禁止跳水。
+     * @e.g.1 the constitution allow people to use their own power
      * @same adj. allowable，adv. allowably，n. allowance，vt. allowance，
      */
     public static void allow(){}

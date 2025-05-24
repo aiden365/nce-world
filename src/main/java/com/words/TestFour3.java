@@ -1281,7 +1281,7 @@ public class TestFour3 {
     /**
      * @pronounce mætʃ
      * @explain n.比赛，竞赛；对手
-     * @e.g.1 It’s our last match of the season..这是我们本赛季最后一场比赛。
+     * @e.g.1 you must be sure of the budget matchs with the real spending
      * @e.g.2 They’re preparing for a big match tomorrow..他们在为明天的一场大赛做准备。
      * @e.g.3 McClaire’s goal earned him the title of man of the match (= the person in a team who plays best ) ..麦克莱尔的进球为他赢得了“本场最佳球员”的称号。
      * @same adj. matching、matchless、matchmaking，n. matching、matchmaker、matchmaking、matcher，v. matching，
