@@ -2146,7 +2146,7 @@ public class TestFour10 {
     /**
      * @pronounce fens
      * @explain n.栅栏
-     * @e.g.1 Villagers say the fence would restrict public access to the hills..村民们说栅栏将限制公众进入山区。
+     * @e.g.1 the famer fences in all his cattle (fence in sth. 用栅栏将某物围起来)
      * @same n. fencing、fencer，v. fencing，
      */
     public static void fence(){}
@@ -2551,7 +2551,7 @@ public class TestFour10 {
     /**
      * @pronounce flæg
      * @explain n.旗，旗帜；旗舰旗
-     * @e.g.1 Children waving flags greeted the Russian leader..孩子们挥舞着旗帜，欢迎俄罗斯领导人。
+     * @e.g.1 the national flag of America
      * @e.g.2 the flag of Kenya.肯尼亚国旗
      * @e.g.3 the Spanish flag.西班牙国旗
      * @same adj. flagging，n. flagship、flagging，v. flagging，

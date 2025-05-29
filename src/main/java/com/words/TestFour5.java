@@ -611,8 +611,7 @@ public class TestFour5 {
      * @pronounce prɪnt
      * @explain v.印刷
      * @explain n.印刷；正片
-     * @e.g.1 Over five million copies of the paper are printed every day..这份报纸每日印量超过五百万。
-     * @e.g.2 When the book was first written no publisher would print it..这本书刚写成时没有出版商愿意出版。
+     * @e.g.1 the makr of feet printed on the sandbeach
      * @same adj. printable，n. printer、printing，
      */
     public static void print(){}

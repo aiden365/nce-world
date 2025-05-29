@@ -1155,7 +1155,7 @@ public class TestFour11 {
     /**
      * @pronounce 'dɪst(ə)ns
      * @explain n.距离，间距；远处
-     * @e.g.1 Measure the distance between the two points..量出两点之间的距离。
+     * @e.g.1 the shortest distance between two points is a straight line
      * @e.g.2 The cottage is some distance (= quite a long distance ) from the road..小屋离开大路有些距离。
      * @same adj. distant，adv. distantly，
      */

@@ -670,6 +670,7 @@ public class TestFour2 {
      * @pronounce ʃɪft
      * @explain v.替换，转移
      * @explain n.转换
+     * @e.g.2 FC Barcelona shifted from defend to attack in the second half of games
      * @e.g.1 They need to shift from farming to industry, and they need to do so desperately..他们需要从农业领域转移到工业领域。 他们需要拼命地那么做。
      * @same adj. shifting、shifty，n. shifting、shifter，v. shifting，
      */
@@ -1036,7 +1037,7 @@ public class TestFour2 {
      * @pronounce slaɪs
      * @explain n.薄片，切片；部分
      * @e.g.1 pizza slices.比萨块
-     * @e.g.2 Cut the tomatoes into slices ..把番茄切成片。
+     * @e.g.2 first, cut the watermelon in half, then slice it into thin pieces
      * @same adj. sliced，n. slicing、slicer，v. sliced，
      */
     public static void slice(){}
@@ -1255,7 +1256,7 @@ public class TestFour2 {
      * @pronounce sɔːt
      * @explain n.种类；类别
      * @explain v.整理
-     * @e.g.1 Most of the victims developed psychological problems of one sort or another (= of various different types ) ..大多数受害者都出现了这样那样的心理问题。
+     * @e.g.1 she sorted the books by subject..她按类别整理了书。
      * @e.g.2 They do burgers, pizzas, that sort of thing ..他们供应汉堡包、比萨饼什么的。
      * @same adj. sorted，n. sorting、sorter，v. sorted，
      */

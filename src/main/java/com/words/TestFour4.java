@@ -46,7 +46,7 @@ public class TestFour4 {
     /**
      * @pronounce træns'fɜː; trɑːns-; -nz-
      * @explain v.转移；调动vi转移
-     * @e.g.1 He was transferred for a fee of £8 million..他以800万英镑的转会费转到了其他球队。
+     * @e.g.1 he was transfered other club for a fee of 8 million pounds
      * @same [生化]. transferase，adj. transferable、transferrable，n. transference、transferee、transferability、transferor、transferrin、transferer、transferrer，
      */
     public static void transfer(){}
@@ -1414,9 +1414,7 @@ public class TestFour4 {
     /**
      * @pronounce rɪ'djuːs
      * @explain v.减少，减小；简化
-     * @e.g.1 The governor announced a new plan to reduce crime..州长宣布了一项降低犯罪率的新计划。
-     * @e.g.2 The helmet law should reduce injuries in motorcycle accidents..头盔法的实施应该能减少摩托车事故的受伤率。
-     * @e.g.3 Small businesses will need to reduce costs in order to survive..小企业要想生存必须削减成本。
+     * @e.g.1 a lot of  tradition job  opportunities are reducing along with artificial intelligence
      * @same adj. reduced、reductive、reducible，n. reduction、reducer、reducing、reductive，v. reducing，
      */
     public static void reduce(){}
@@ -1445,7 +1443,7 @@ public class TestFour4 {
     /**
      * @pronounce 'ref(ə)r(ə)ns
      * @explain n.参考；出处；提及
-     * @e.g.1 ...a reference from the Koran..…一段《可兰经》的引文。
+     * @e.g.1 this news made reference to sensitive topics (make refernece to sth. 提到/涉及)
      * @same adj. referenced、referential、referable，n. referral、referee、referent，v. referenced，vi. refer、referee，vt. refer、referee，
      */
     public static void reference(){}
@@ -1701,7 +1699,7 @@ public class TestFour4 {
     /**
      * @pronounce rɪ'liːs
      * @explain v.释放；放松；发表
-     * @e.g.1 Police arrested several men, who were later released..警察逮捕了几个人，后来都释放了。
+     * @e.g.1 Polices went through hell and high water to arrested men, however,  who were later released
      * @e.g.2 The bears are eventually released into the wild..这些熊最后被放回野生环境中。
      * @same n. releasing，v. releasing，
      */
@@ -2890,6 +2888,7 @@ public class TestFour4 {
      * @pronounce rɪˈzjuːm; ˈrɛzjʊmeɪ
      * @explain v.恢复；重新开始
      * @e.g.1 Peace talks will resume tomorrow..和平谈判明天重新启动。
+     * @e.g.2 we resume our works after a rest
      * @same n. resumption，
      */
     public static void resume(){}

@@ -1237,7 +1237,7 @@ public class TestFour3 {
      * @explain n.面具；伪装
      * @explain v.掩饰
      * @e.g.1 a surgical face mask.外科手术口罩
-     * @e.g.2 He was attacked and robbed by two people wearing masks ..他被两个蒙面人袭击并抢劫。
+     * @e.g.2 an illusion of love masks her insecurity
      * @same adj. masked，n. masking、masker，v. masking、masked，
      */
     public static void mask(){}
@@ -1978,8 +1978,8 @@ public class TestFour3 {
     /**
      * @pronounce 'kæns(ə)l
      * @explain v.取消，撤消；删去
+     * @e.g.2 I am afraid  having to be going to cancel our meeting
      * @e.g.1 Our flight was cancelled..我们的航班取消了。
-     * @e.g.2 I’m afraid I’ll have to cancel our meeting tomorrow..恐怕我得取消我们明天的会议。
      * @e.g.3 You’ll just have to ring John and cancel..你只能打电话给约翰取消了。
      * @same n. cancellation，
      */

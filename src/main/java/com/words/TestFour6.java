@@ -2319,7 +2319,7 @@ public class TestFour6 {
      * @pronounce friːz
      * @explain v.冻；结冻
      * @explain v.使结冰
-     * @e.g.1 The lake had frozen overnight..湖上一夜之间就结了冰。
+     * @e.g.1 in summer fruits adn vegetables should be refrigrated, but meats are more suitable for freezing
      * @same adj. frozen、freezing，n. freezer，v. frozen，
      */
     public static void freeze(){}
