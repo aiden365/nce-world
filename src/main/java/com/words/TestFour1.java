@@ -343,6 +343,7 @@ public class TestFour1 {
      * @pronounce 'mʌltɪplaɪ
      * @explain v.使增加；乘
      * @e.g.1 Children will learn to multiply in the second grade..儿童在二年级学习乘法。
+     * add subtract multiply divide
      * @same adj. multiple、multiplex、multiplicative、multipliable、multistorey、multistory，n. multiple、multiplication、multiplier、multiplex、multiplicity、multiplicative，vi. multiplex，vt. multiplex，
      */
     public static void multiply(){}
@@ -4099,6 +4100,7 @@ public class TestFour1 {
      * @pronounce daɪ'næmɪk
      * @explain adj.有活力的；动力的
      * @e.g.1 dynamic and ambitious people.精力充沛且雄心勃勃的人
+     * @e.g.1 computer programming is a dynamic filed, so you have to keep learning
      * @same adj. dynamical，adv. dynamically，n. dynamics、dynamism、dynamometer，
      */
     public static void dynamic(){}

@@ -22,7 +22,7 @@ import java.nio.file.StandardOpenOption;
 import java.util.*;
 import java.util.stream.Collectors;
 
-import static com.words.TestFour3.*;
+import static com.words.TestFour1.*;
 import static com.words.TestFour3.*;
 import static com.words.TestFour4.*;
 import static com.words.TestFour11.*;
@@ -38,6 +38,7 @@ import static com.words.TestFour10.*;
 
 @Slf4j
 public class TestMain2 {
+
 
     private TestCz testCz = new TestCz();
     private TestGz testGz = new TestGz();
@@ -178,37 +179,6 @@ public class TestMain2 {
 
         Collection<Integer> subtract2 = CollUtil.subtract(integers2, integers1);
         System.out.println(subtract2);
-
-        TestFour3.upper();
-        TestFour2.lower();
-        TestFour3.guard();
-        TestFour3.major();
-        TestFour10.minor();
-        TestFour1.dynamic();
-        TestFour7.color();
-        TestFour2.seed();
-        TestFour6.instance();
-        TestFour1.left();
-        TestFour1.multiply();
-        TestFour8.ax();
-        TestFour5.product();
-        TestFour7.direction();
-        TestFour2.signal();
-        TestFour6.head();
-        TestFour6.hook();
-        TestFour2.local();
-        TestFour4.raw();
-        TestFour11.display();
-        TestFour4.red();
-        TestFour9.bit();
-        TestFour9.before();
-        TestFour9.after();
-        TestFour3.build();
-        TestFour8.optional();
-        TestFour3.halt();
-        TestFour7.environment();
-        TestFour8.command();
-        TestFour8.compose();
         TestFour4.range();
         TestFour7.parallel();
         TestFour10.fair();

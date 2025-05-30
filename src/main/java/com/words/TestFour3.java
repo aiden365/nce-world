@@ -631,8 +631,8 @@ public class TestFour3 {
      * @pronounce gɑːd
      * @explain v.守卫；看守
      * @explain n.卫兵
-     * @e.g.1 The Sergeant told Swift to guard the entrance..中士叫斯威夫特守着入口。
-     * @e.g.2 a lioness guarding her cubs.守护着幼狮的母狮
+     * @e.g.1 you must always guard againt who try to take advantage of a woman
+     * @e.g.1 she makes use of her free time to learn English
      * @same adj. guarded，adv. guardedly，v. guarded，
      */
     public static void guard(){}

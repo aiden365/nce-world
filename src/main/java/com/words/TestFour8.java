@@ -1871,7 +1871,7 @@ public class TestFour8 {
     /**
      * @pronounce kəm'pəʊz
      * @explain v.组成，构成；创作
-     * @e.g.1 Barrington has composed the music for a new production of ‘A Midsummer Night’s Dream’..巴林顿为新版的《仲夏夜之梦》谱了曲。
+     * @e.g.1 my diet is compose of vitamin tables, powder protain and vegegable
      * @same adj. composite、composed、composing、compositional，n. composition、composite、composer、composure、composing、compositor，v. composed、composing，vt. composite，
      */
     public static void compose(){}

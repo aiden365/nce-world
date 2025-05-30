@@ -2,7 +2,7 @@ package com.test;
 
 import cn.hutool.core.util.StrUtil;
 
-import static com.words.TestFour3.*;
+import static com.words.TestFour1.*;
 import static com.words.TestFour3.*;
 import static com.words.TestFour4.*;
 import static com.words.TestFour11.*;
@@ -32,6 +32,13 @@ public class TestMain3 {
 
 
     public static void unknown1(String[] args) {
+        compose();
+        halt();
+        optional();
+        production();
+        product();
+        ax();
+        seed();
         plane();
         previous();
         grow();
