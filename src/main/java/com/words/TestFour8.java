@@ -46,7 +46,7 @@ public class TestFour8 {
      * @pronounce pætʃ
      * @explain n.补钉；碎片
      * @explain v.补缀
-     * @e.g.1 a jacket with leather patches at the elbows.肘部有皮革补丁的短上衣
+     * @e.g.1 my mother is patching cloth, my father is repairing his car, so no one can help me to mend my toys
      * @same adj. patchy，n. patchiness、patching，v. patching，
      */
     public static void patch(){}

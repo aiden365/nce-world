@@ -2151,8 +2151,8 @@ public class TestFour11 {
      * @pronounce 'waɪd(ə)n
      * @explain v.加宽
      * @explain v.变宽
+     * @e.g.2 you need to widen your horizon
      * @e.g.1 They’re widening the road..他们正在拓宽马路。
-     * @e.g.2 The river widens and splits..这条河有变宽的河段，也有分流的河段。
      * @same adj. wide、widish，adv. wide，n. width、wide，
      */
     public static void widen(){}

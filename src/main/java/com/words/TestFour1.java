@@ -3465,7 +3465,7 @@ public class TestFour1 {
      * @pronounce 'lev(ə)l
      * @explain n.水平面
      * @explain adj.水平的
-     * @e.g.1 Inflation fell to its lowest level in 30 years..通货膨胀降至30年来最低点。
+     * @e.g.1 the temperature in this area would rise to highest level in this summer of all time——minus one degrees
      * @same n. leveling、leveler、leveller，
      */
     public static void level(){}

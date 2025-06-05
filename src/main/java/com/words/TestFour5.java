@@ -898,7 +898,7 @@ public class TestFour5 {
      * @pronounce 'prɒmɪs
      * @explain n.诺言；指望
      * @explain v.允诺
-     * @e.g.1 If you make a promise, you should keep it..如果你许下一个诺言，你就应该遵守它。
+     * @e.g.1 don't make a promise easily to who love each other
      * @same adj. promising、promissory，adv. promisingly，n. promisee、promisor、promiser，v. promising，
      */
     public static void promise(){}

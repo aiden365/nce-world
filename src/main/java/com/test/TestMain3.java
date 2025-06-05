@@ -1,6 +1,7 @@
 package com.test;
 
 import cn.hutool.core.util.StrUtil;
+import org.junit.Test;
 
 import static com.words.TestFour1.*;
 import static com.words.TestFour3.*;
@@ -18,20 +19,25 @@ import static com.words.TestFour10.*;
 
 public class TestMain3 {
 
-    public static void main(String[] args) {
+    @Test
+    public void t1() {
 
-        String str = "aaa.doc";
-
-        StringBuffer insert = new StringBuffer(str).insert(str.lastIndexOf("."), "（保密）");
-
-        System.out.println(insert);
-
-        System.out.println(System.getProperty("os.name"));
-
+        String str = "aaa.doc|2|";
+        String[] split = str.split("\\|");
+        System.out.println(split.length);
+        System.out.println(split);
     }
 
 
     public static void unknown1(String[] args) {
+        pair();
+        origin();
+        promise();
+        seek();
+        verify();
+        unload();
+        acquire();
+        attach();
         compose();
         halt();
         optional();

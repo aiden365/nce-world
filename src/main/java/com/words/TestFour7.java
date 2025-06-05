@@ -207,8 +207,9 @@ public class TestFour7 {
 
     /**
      * @pronounce ,ɪntə'miːdɪət
-     * @explain adj.中间的；中级的
-     * @e.g.1 an intermediate stage during which the disease is dormant.疾病处于潜伏状态的中期
+     * @explain adj.中间的；中级的 (所以，middle 更侧重位置，而 intermediate 更侧重过程中的位置或阶段。)
+     * @e.g.1 elemental intermediate advance level
+     * @e.g.2 She is an intermediate level player.
      * @same adj. intermediary、interlocking、interlocutory，adv. intermediately，n. intermediary、interlocking、intermediation、intermediator，
      */
     public static void intermediate(){}

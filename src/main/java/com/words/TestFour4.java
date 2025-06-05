@@ -966,8 +966,8 @@ public class TestFour4 {
     /**
      * @pronounce reɪz
      * @explain v.举起；引起；提高
+     * @e.g.2 ant was called weightlifting expert because of they can raise something heavy over itself a lot of multiples
      * @e.g.1 Can you raise the lamp so I can see?.你能把灯举高点好让我看清吗？
-     * @e.g.2 William raised his hat and smiled at her..威廉抬一抬帽子，朝她笑了笑。
      * @e.g.3 Raise your hand if you know the right answer..知道正确答案的话，请举手。
      * @same adj. raised，n. raising，v. raised、raising，
      */
