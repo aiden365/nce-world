@@ -180,10 +180,6 @@ public class TestMain2 {
         Collection<Integer> subtract2 = CollUtil.subtract(integers2, integers1);
         System.out.println(subtract2);
 
-        item();
-        TestFour7.item();
-        TestFour6.may();
-        TestFour5.conversion();
         TestFour3.content();
         TestFour5.control();
         TestFour5.country();

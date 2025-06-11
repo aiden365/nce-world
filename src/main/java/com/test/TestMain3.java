@@ -1,6 +1,9 @@
 package com.test;
 
 import cn.hutool.core.util.StrUtil;
+import com.alibaba.fastjson.JSONObject;
+import com.alibaba.fastjson.annotation.JSONField;
+import lombok.Data;
 import org.junit.Test;
 
 import java.util.HashMap;
@@ -22,11 +25,22 @@ import static com.words.TestFour10.*;
 
 public class TestMain3 {
 
+    @Data
+    public static class TTT{
+
+        @JSONField(name = "aas", label = "名称")
+        private String aas;
+    }
+
     @Test
     public void t1() {
 
-        Map<String, String> m = new HashMap<>();
-        System.out.println(m.get(null));
+        TTT ttt = new TTT();
+        ttt.setAas("小明");
+        System.out.println(JSONObject.toJSONString(ttt));
+        String ttt2 = "{\"aas\":\"小明\"}";
+        TTT ttt1 = JSONObject.parseObject(ttt2, TTT.class);
+        System.out.println(JSONObject.toJSONString(ttt1));
 
     }
 
