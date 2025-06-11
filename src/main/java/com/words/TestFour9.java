@@ -2878,7 +2878,7 @@ public class TestFour9 {
     /**
      * @pronounce ə'kɒmədeɪt
      * @explain v.容纳；供应，供给
-     * @e.g.1 He bought a huge house to accommodate his library..他买了一座大房子来放他的藏书。
+     * @e.g.1 the children found it easy to accommodate new school.
      * @e.g.2 The ballroom can accommodate 400 people..那个舞厅可容纳400人。
      * @same adj. accommodating、accommodative，n. accommodation、accommodator，v. accommodating，
      */

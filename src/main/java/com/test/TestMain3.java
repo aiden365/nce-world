@@ -3,6 +3,9 @@ package com.test;
 import cn.hutool.core.util.StrUtil;
 import org.junit.Test;
 
+import java.util.HashMap;
+import java.util.Map;
+
 import static com.words.TestFour1.*;
 import static com.words.TestFour3.*;
 import static com.words.TestFour4.*;
@@ -22,14 +25,18 @@ public class TestMain3 {
     @Test
     public void t1() {
 
-        String str = "aaa.doc|2|";
-        String[] split = str.split("\\|");
-        System.out.println(split.length);
-        System.out.println(split);
+        Map<String, String> m = new HashMap<>();
+        System.out.println(m.get(null));
+
     }
 
 
     public static void unknown1(String[] args) {
+        percent();
+        stale();
+        stall();
+        stalk();
+        attribute();
         pair();
         origin();
         promise();
