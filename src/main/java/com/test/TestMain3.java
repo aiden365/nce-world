@@ -1,11 +1,16 @@
 package com.test;
 
+import cn.hutool.core.map.MapUtil;
 import cn.hutool.core.util.StrUtil;
+import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
+import com.alibaba.fastjson.JSONValidator;
 import com.alibaba.fastjson.annotation.JSONField;
+import com.alibaba.fastjson.serializer.*;
 import lombok.Data;
 import org.junit.Test;
 
+import java.util.Collections;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -25,6 +30,52 @@ import static com.words.TestFour10.*;
 
 public class TestMain3 {
 
+    public static final Map<String, String> KEY_MAP;
+
+    static {
+        Map<String, String> logMap = new HashMap<>();
+        logMap.put("roomNo", "会议室id");
+        logMap.put("pageNo", "页码");
+        logMap.put("pageSize", "页数");
+        logMap.put("endTime", "结束时间");
+        logMap.put("openTime", "开始时间");
+        logMap.put("meetingSearch", "会议查询参数");
+        logMap.put("meetingId", "会议id");
+        logMap.put("meetingID", "会议id");
+        logMap.put("shoutSearch", "呼叫查询参数");
+        logMap.put("noticeSearch", "通知查询参数");
+        logMap.put("voteSearch", "投票查询参数");
+        logMap.put("topicId", "会议议题id");
+        logMap.put("topicID", "会议议题id");
+        logMap.put("isTiming", "是否定时");
+        logMap.put("datumSearch", "文件查询参数");
+        logMap.put("catalogueId", "编号id");
+        logMap.put("meetingTopicSearch", "会议议题查询参数");
+        logMap.put("year", "年份");
+        logMap.put("search", "查询参数");
+        logMap.put("startMonth", "开始月份");
+        logMap.put("endMonth", "结束月份");
+        logMap.put("depId", "部门id");
+        logMap.put("newPwd", "新密码");
+        logMap.put("oldPwd", "原密码");
+        logMap.put("userId", "用户id");
+        logMap.put("permitStatus", "授权状态");
+        logMap.put("tenantId", "租户id");
+        logMap.put("nodeId", "设备id");
+        logMap.put("tenantName", "租户名称");
+        logMap.put("pageNum", "页码");
+        logMap.put("afterScreenId", "后屏id");
+        logMap.put("beforeScreenId", "前屏id");
+        logMap.put("onlyMeetingServiceUser", "只支持会议服务用户");
+        logMap.put("departmentId", "部门id");
+        logMap.put("meetingStatuses", "会议状态列表");
+        logMap.put("meetingTemplateId", "会议模板id");
+        logMap.put("templateName", "模板名称");
+        logMap.put("title", "标题");
+
+        KEY_MAP = Collections.unmodifiableMap(logMap);
+    }
+
     @Data
     public static class TTT{
 
@@ -35,12 +86,24 @@ public class TestMain3 {
     @Test
     public void t1() {
 
-        TTT ttt = new TTT();
-        ttt.setAas("小明");
-        System.out.println(JSONObject.toJSONString(ttt));
-        String ttt2 = "{\"aas\":\"小明\"}";
-        TTT ttt1 = JSONObject.parseObject(ttt2, TTT.class);
-        System.out.println(JSONObject.toJSONString(ttt1));
+        KEY_MAP.forEach((k,v) -> {
+
+            System.out.println(""+k+"(\""+v+"\"),");
+
+        });
+
+        String jsonString = JSONObject.toJSONString(KEY_MAP);
+
+        JSONObject jsonObject = JSONObject.parseObject(jsonString);
+
+        Map<String, Object> innerMap = jsonObject.getInnerMap();
+
+        System.out.println(111);
+
+
+
+
+        System.out.println(JSONObject.isValid("123"));
 
     }
 
