@@ -1543,8 +1543,8 @@ public class TestFour7 {
     /**
      * @pronounce ɪ'væljʊeɪt
      * @explain v.评价，估…的价
+     * @e.g.2 the distance between the house and the downtown is so far that its estimate may be no high
      * @e.g.1 You should be able to evaluate your own work..你应该能够评估自己的工作。
-     * @e.g.2 We need to evaluate the success of the campaign..我们要评估一下这次运动是否成功。
      * @e.g.3 It can be difficult to evaluate the effectiveness of different treatments..要对各种治疗方法的效果作出评估会很难。
      * @same adj. evaluative，n. evaluation，
      */
@@ -2295,7 +2295,7 @@ public class TestFour7 {
     /**
      * @pronounce ɪk'stenʃ(ə)n; ek-
      * @explain n.延长部分；伸展
-     * @e.g.1 a loft extension.增建的阁楼
+     * @e.g.1 the anime is an extension of japanese culture
      * @same adj. extensive、extended、extensible、extendable、extensional、extendible，adv. extensively，n. extensiveness，v. extended，vi. extend，vt. extend，
      */
     public static void extension(){}

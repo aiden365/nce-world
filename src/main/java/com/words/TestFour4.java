@@ -2382,7 +2382,7 @@ public class TestFour4 {
      * @pronounce ɪn'lɑːdʒ; en-
      * @explain v.扩大，扩展；放大
      * @e.g.1 an operation to enlarge her breasts.她的丰胸手术
-     * @e.g.2 Police will have the pictures enlarged in an attempt to identify the thief..为了确认窃贼的身份，警方会将这些照片放大。
+     * @e.g.2 the pupil will be enlarged when people get fright
      * @same adj. enlarged，n. enlargement、enlarger，v. enlarged，
      */
     public static void enlarge(){}

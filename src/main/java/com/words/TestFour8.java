@@ -36,6 +36,7 @@ public class TestFour8 {
     /**
      * @pronounce pæt
      * @explain n&vt&n.轻拍
+     * @e.g.1 he patted his head as if realizing something
      * @e.g.1 He patted the dog affectionately..他亲热地轻轻拍了拍那只狗。
      * @same n. patter，vi. patter，vt. patter，
      */

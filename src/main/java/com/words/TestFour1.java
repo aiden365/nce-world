@@ -249,6 +249,7 @@ public class TestFour1 {
     /**
      * @pronounce 'maʊθfʊl; -f(ə)l
      * @explain n.满口，一口，少量
+     * @e.g.1 she took a mouthful of rice
      * @e.g.1 Michael told his story between mouthfuls..迈克尔边吃边讲他的故事。
      */
     public static void mouthful(){}
@@ -533,7 +534,7 @@ public class TestFour1 {
      * @pronounce neɪl
      * @explain n.钉；指甲
      * @explain v.钉
-     * @e.g.1 The key was hanging on a nail by the door..钥匙挂在门边的一颗钉子上。
+     * @e.g.1 you must periodically cut your nail
      * @same n. nailer，
      */
     public static void nail(){}
@@ -693,7 +694,7 @@ public class TestFour1 {
     /**
      * @pronounce nævɪ'geɪʃ(ə)n
      * @explain n.航行；航海术；导航
-     * @e.g.1 compasses and other instruments of navigation.罗盘及其他导航仪器
+     * @e.g.1 the phone navigation have gotten an essential tool
      * @same adj. navigational、navigable，n. navigator，vi. navigate，vt. navigate，
      */
     public static void navigation(){}

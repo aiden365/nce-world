@@ -2,6 +2,7 @@ package com.test;
 
 import cn.hutool.core.map.MapUtil;
 import cn.hutool.core.util.StrUtil;
+import cn.hutool.crypto.digest.MD5;
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
 import com.alibaba.fastjson.JSONValidator;
@@ -10,6 +11,10 @@ import com.alibaba.fastjson.serializer.*;
 import lombok.Data;
 import org.junit.Test;
 
+import javax.swing.filechooser.FileSystemView;
+import java.io.File;
+import java.nio.charset.Charset;
+import java.nio.charset.StandardCharsets;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.Map;
@@ -101,14 +106,34 @@ public class TestMain3 {
         System.out.println(111);
 
 
+        String s = MD5.create().digestHex("DeskMedia123@", StandardCharsets.UTF_8);
+        System.out.println(s);
 
+        String aa = "D:\\AndrowsData";
 
+        File file = new File(aa);
+        long freeSpace = file.getFreeSpace();
+        System.out.println(freeSpace);
         System.out.println(JSONObject.isValid("123"));
 
     }
 
 
     public static void unknown1(String[] args) {
+        navy();
+        nasty();
+        naked();
+        nail();
+        kite();
+        generous();
+        navigation();
+        preserve();
+        present();
+        evaluate();
+        consume();
+        atom();
+        castle();
+        submit();
         percent();
         stale();
         stall();
