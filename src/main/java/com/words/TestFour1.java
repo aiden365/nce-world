@@ -155,7 +155,7 @@ public class TestFour1 {
     /**
      * @pronounce 'məʊtɪveɪt
      * @explain v.促动；激励，激发
-     * @e.g.1 A good teacher has to be able to motivate her students..好教师必须能够激发学生的积极性。
+     * @e.g.1 examination do not motivate students to seek more knowledges
      * @same adj. motor、motive、motivated、motionless、motivational、motional、motiveless，n. motion、motivation、motor、motive、motif、motivator、motivity，v. motivated，vi. motion、motor，vt. motion、motor、motive，
      */
     public static void motivate(){}
@@ -220,7 +220,7 @@ public class TestFour1 {
     /**
      * @pronounce mɔːn
      * @explain v.哀痛，哀悼
-     * @e.g.1 Hundreds of people gathered to mourn the slain president..成百上千人聚集在一起悼念遇刺的总统。
+     * @e.g.1 all the people mourned for their president's passing
      * @same adj. mournful，adv. mournfully，n. mourning、mourner，v. mourning，
      */
     public static void mourn(){}
@@ -315,7 +315,7 @@ public class TestFour1 {
     /**
      * @pronounce 'mʌdɪ
      * @explain adj.多泥的，泥泞的
-     * @e.g.1 Take your boots off outside if they’re muddy..要是靴子上都是泥，你就脱在门外吧。
+     * @e.g.1 when braking on a muddy road, the tires can easly spin or drift and cause traffic accident
      * @e.g.2 the muddy waters of the lake.浑浊的湖水
      * @same adj. muddled、muddleheaded，n. mud、muddle、mudder、muddiness，v. muddled，vi. mud、muddle，vt. mud、muddle，
      */
@@ -477,8 +477,8 @@ public class TestFour1 {
     /**
      * @pronounce 'mjuːtʃʊəl; -tjʊəl
      * @explain adj.相互的；共同的
+     * @e.g.2 the two men are being a mutual pleasantry
      * @e.g.1 I didn’t like Dev, and the feeling seemed to be mutual..我不喜欢德夫，他好像也不喜欢我。
-     * @e.g.2 The two men were a mutual admiration society , gushing about how much they were learning from each other..两个男人互相吹捧，盛赞对方让自己受益匪浅。
      * @same adv. mutually，n. mutuality、mutualism、mutualist，
      */
     public static void mutual(){}
@@ -730,6 +730,7 @@ public class TestFour1 {
     /**
      * @pronounce dʒenə'reɪʃ(ə)n
      * @explain n.一代，一代人；产生
+     * @e.g.1 the second generation communist member
      * @e.g.1 Like most of my generation, I had never known a war..和我们这一代的大多数人一样，我并没有经历过战争。
      * @e.g.2 In my generation the divorce rate is very high..我们这一代人离婚率很高。
      * @e.g.3 the need to preserve the planet for future generations.为子孙后代保护地球的必要性
@@ -950,7 +951,9 @@ public class TestFour1 {
     /**
      * @pronounce niːl
      * @explain v.跪，跪下，跪着
+     * @e.g.1 she knelt down to pray
      * @e.g.1 Tom knelt down and patted the dog..汤姆跪下来轻轻拍了拍那只狗。
+     *
      * @same n. kneeling、kneeler，v. kneeling，
      */
     public static void kneel(){}
@@ -972,7 +975,7 @@ public class TestFour1 {
      * @explain v.把…编结
      * @explain v.编织
      * @e.g.1 I had endless hours to knit and sew..我有无数的时间来缝缝织织。
-     * @e.g.2 I have already started knitting baby clothes..我已经开始织婴儿的衣服了。
+     * @e.g.2 the phenomenon that the spider is able to knit net since borning is called the instinct
      * @same n. knitting、knitter，v. knitting，
      */
     public static void knit(){}
@@ -1021,7 +1024,7 @@ public class TestFour1 {
      * @pronounce spɜː
      * @explain n.刺激物
      * @explain v.刺激
-     * @e.g.1 The band were spurred on by the success of their last two singles..乐队因最近两张单曲唱片的成功而深受鼓舞。
+     * @e.g.1 it was childhood experiences which finally spurred him to endeavour learning
      * @e.g.2 It was an article in the local newspaper which finally spurred him into action ..是当地报纸上的一篇文章最终促使他行动起来。
      */
     public static void spur(){}
@@ -1049,6 +1052,7 @@ public class TestFour1 {
     /**
      * @pronounce stə'bɪlɪtɪ
      * @explain n.稳定，稳定性，巩固
+     * @e.g.1 the triangle has the highest stability
      * @e.g.1 a period of relative stability.相对稳定的一段时期
      * @same adj. stable、stabilized、stabile，adv. stably，n. stable、stabilization、stabilizer、stabilizing、stabile、stableness，v. stabilized、stabilizing，vi. stable、stabilize、stabilise，vt. stable、stabilize、stabilise，
      */

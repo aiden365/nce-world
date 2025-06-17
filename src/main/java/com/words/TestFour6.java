@@ -1821,9 +1821,7 @@ public class TestFour6 {
     /**
      * @pronounce 'fɒləʊ
      * @explain v.跟随；结果是
-     * @e.g.1 Are those men following us?.那些人在跟着我们吗？
-     * @e.g.2 The patrol car followed the BMW for a few miles and then lost it..巡逻车跟了那辆宝马几英里，后来就跟丢了。
-     * @e.g.3 Tom’s already gone out to Rome and his wife and children will follow shortly..汤姆已经去罗马了，他的妻儿很快就会跟着去。
+     * @e.g.1 are there any following us
      * @same adj. following，n. following、follower，v. following，
      */
     public static void follow(){}

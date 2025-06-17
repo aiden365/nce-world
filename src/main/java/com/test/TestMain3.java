@@ -120,6 +120,20 @@ public class TestMain3 {
 
 
     public static void unknown1(String[] args) {
+        motor();
+        motivate();
+        mosquito();
+        monument();
+        squeeze();
+        staff();
+        stability();
+        stair();
+        statue();
+        stake();
+        steady();
+        stain();
+        cease();
+        mutter();
         navy();
         nasty();
         naked();
