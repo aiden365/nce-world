@@ -3,7 +3,9 @@ package com.test;
 import cn.hutool.core.collection.CollUtil;
 import cn.hutool.core.util.StrUtil;
 import cn.hutool.json.JSONObjectIter;
+import cn.hutool.system.SystemUtil;
 import com.alibaba.fastjson.JSONObject;
+import com.book.FifteenArticle;
 import com.neclesson.ThirdVolume;
 import com.other.Welcome10;
 import com.words.*;
@@ -13,9 +15,14 @@ import org.junit.Test;
 
 import java.io.*;
 import java.lang.reflect.Method;
+import java.net.InetAddress;
+import java.net.NetworkInterface;
+import java.net.SocketException;
+import java.net.UnknownHostException;
 import java.nio.channels.Channel;
 import java.nio.channels.FileChannel;
 import java.nio.channels.FileLock;
+import java.nio.charset.Charset;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Path;
 import java.nio.file.StandardOpenOption;
@@ -46,6 +53,8 @@ public class TestMain2 {
     private TestToefl testToefl = new TestToefl();
 
 
+
+
     static final List<String> keywords = Arrays.asList("abstract", "assert", "boolean",
 
             "break", "byte", "case", "catch", "char", "class", "const",
@@ -66,7 +75,7 @@ public class TestMain2 {
 
 
     @Test
-    public void showMethods() throws NoSuchMethodException {
+    public void showMethods() throws NoSuchMethodException, SocketException, UnknownHostException {
 
         Class<TestToefl> TestFourClass = TestToefl.class;
         List<Method> methodList = Arrays.asList(TestFourClass.getMethods());
@@ -77,7 +86,48 @@ public class TestMain2 {
                 log.info("TestToefl." + e.getName() + "();");
             }
         });
+
+        String address = SystemUtil.getHostInfo().getAddress();
+        System.out.println(address);
+
+        Enumeration<NetworkInterface> networkInterfaces = NetworkInterface.getNetworkInterfaces();
+        networkInterfaces.asIterator().forEachRemaining(networkInterface -> {
+            Enumeration<InetAddress> inetAddresses = networkInterface.getInetAddresses();
+            while(inetAddresses.hasMoreElements()) {
+                InetAddress inetAddr = (InetAddress)inetAddresses.nextElement();
+                if (!inetAddr.isLoopbackAddress() && !inetAddr.isLinkLocalAddress() && !inetAddr.isMulticastAddress()) {
+                    System.out.println(networkInterface.getName() + ":" + inetAddr.getHostAddress() + ":" + getMacByInetAddress(networkInterface.getInetAddresses().nextElement()));
+                }
+            }
+        });
+
     }
+
+    protected static String getMacByInetAddress(InetAddress inetAddr) {
+        try {
+            byte[] mac = NetworkInterface.getByInetAddress(inetAddr).getHardwareAddress();
+            StringBuffer stringBuffer = new StringBuffer();
+
+            for(int i = 0; i < mac.length; ++i) {
+                if (i != 0) {
+                    stringBuffer.append("-");
+                }
+
+                String temp = Integer.toHexString(mac[i] & 255);
+                if (temp.length() == 1) {
+                    stringBuffer.append("0" + temp);
+                } else {
+                    stringBuffer.append(temp);
+                }
+            }
+
+            return stringBuffer.toString().toUpperCase();
+        } catch (SocketException var6) {
+            return null;
+        }
+    }
+
+
 
     @SneakyThrows
     @Test
@@ -171,15 +221,17 @@ public class TestMain2 {
     @SneakyThrows
     public static void methodListFour2(String[] args) {
 
+        // One disadvantage of being young and ambitious was that both of them needed to devote untold hours to their busy schedules.
         List<Integer> integers1 = Arrays.asList(1, 2, 3, 4);
         List<Integer> integers2 = Arrays.asList(3, 4, 5, 6);
+
 
         Collection<Integer> subtract1 = CollUtil.subtract(integers1, integers2);
         System.out.println(subtract1);
 
         Collection<Integer> subtract2 = CollUtil.subtract(integers2, integers1);
         System.out.println(subtract2);
-
+        marriage();
 
         TestFour4.ribbon();
         TestFour5.scholar();
