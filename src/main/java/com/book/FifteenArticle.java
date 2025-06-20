@@ -8,6 +8,17 @@ package com.book;
  * 5. in order to do. 介词短句构成的目的状语。
  * 6. some day. 将来的某一天
  * 7. come [vt.] 句子the dreamlike marriage came smashing down.中的come是系动词用法，表示到达某种状态，其后的shaming充当表语
+ * 8. as a result of sth. 因为或作为...的结果，例如as a result of his hard work. 译为因为他努力工作的结果
+ * 9. these late hours. 其中的late表示接近深夜的
+ * 10. after house [adj.] 办公时间以后的
+ * 11. accuse sb. of sth. 因某事而指责某人
+ * 12. set 可以作为使役动词来用，set sb. 表示通过某种动作或事件让某个过程开始或进入某种状态。有点类似make，如to make her angry 但set强调的是推动过程或动作，并且在搭配上常用介词短语做宾补，而make强调的是产生某种状态或情绪。
+ * 13. daydream [vi.] 空想、幻想
+ * 14. wear on [vi.] （时间）流逝、消逝
+ * 15. agitate [vt.] 使焦虑不安，this news agitated citizens. agitated [adj./done.] 焦虑不安的
+ * 16. apprehensive [adj.] 焦虑不安的
+ * 17. make phone calls. 拨打电话
+ * 18. at the back of my mind 固定搭配，表示在内心深处，在潜意识中。并未字面上的在后脑勺
  */
 public class FifteenArticle {
 

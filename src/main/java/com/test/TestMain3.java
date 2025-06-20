@@ -1,5 +1,6 @@
 package com.test;
 
+import cn.hutool.core.collection.IterUtil;
 import cn.hutool.core.map.MapUtil;
 import cn.hutool.core.util.StrUtil;
 import cn.hutool.crypto.digest.MD5;
@@ -13,8 +14,10 @@ import org.junit.Test;
 
 import javax.swing.filechooser.FileSystemView;
 import java.io.File;
+import java.lang.reflect.Field;
 import java.nio.charset.Charset;
 import java.nio.charset.StandardCharsets;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.Map;
@@ -84,8 +87,10 @@ public class TestMain3 {
     @Data
     public static class TTT{
 
-        @JSONField(name = "aas", label = "名称")
+        @JSONField(label = "名称")
         private String aas;
+        @JSONField(label = "开关")
+        private boolean switch1;
     }
 
     @Test
@@ -116,6 +121,49 @@ public class TestMain3 {
         System.out.println(freeSpace);
         System.out.println(JSONObject.isValid("123"));
 
+        System.out.println(IterUtil.isEqualList(Arrays.asList("11","22"), Arrays.asList("11","22")));
+
+        innerMap.get(null);
+
+        TTT ttt = new TTT();
+        ttt.setAas("小白");
+
+        //将属性输出为中文
+        NameFilter nameFilter = (object, name, value) -> {
+            try {
+
+                Class<?> aClass = object.getClass();
+                JSONField annotation = aClass.getDeclaredField(name).getAnnotation(JSONField.class);
+                String label = annotation.label();
+                return label;
+            } catch (Exception e) {
+                System.out.println("保存日志时解析参数失败");
+            }
+            return name;
+        };
+        ValueFilter valueFilter = (object, name, value) -> {
+            try {
+                return value;
+            } catch (Exception e) {
+                System.out.println("保存日志时解析参数失败");
+            }
+            return name;
+        };
+
+        System.out.println(JSON.toJSONString(ttt, new SerializeFilter[]{valueFilter}));
+
+        String ab = "111";
+        String unknown = unknown(ab);
+
+        System.out.println(ab);
+        System.out.println(unknown);
+    }
+
+    public static String unknown(String aaa) {
+
+        aaa = aaa + "0";
+
+        return aaa;
     }
 
 

@@ -221,10 +221,11 @@ public class TestMain2 {
     @SneakyThrows
     public static void methodListFour2(String[] args) {
 
-        // One disadvantage of being young and ambitious was that both of them needed to devote untold hours to their busy schedules.
+        // Lesley felt a knot forming in her stomach as a crazy thought persisted at the back of her mind.
+        // She was absolutely sure something was wrong.
         List<Integer> integers1 = Arrays.asList(1, 2, 3, 4);
         List<Integer> integers2 = Arrays.asList(3, 4, 5, 6);
-
+        persist();
 
         Collection<Integer> subtract1 = CollUtil.subtract(integers1, integers2);
         System.out.println(subtract1);
