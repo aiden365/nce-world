@@ -221,8 +221,14 @@ public class TestMain2 {
     @SneakyThrows
     public static void methodListFour2(String[] args) {
 
-        // Lesley felt a knot forming in her stomach as a crazy thought persisted at the back of her mind.
-        // She was absolutely sure something was wrong.
+        //He gave little thought to whatsoever the fact this act could lead to his conviction if he was tracked down by the cops.
+        // Meanwhile,
+        // for Lesley the nightmare continued to unfold as the reality of the situation deepened.
+        disappear();
+        conviction();
+
+
+        gain();
         List<Integer> integers1 = Arrays.asList(1, 2, 3, 4);
         List<Integer> integers2 = Arrays.asList(3, 4, 5, 6);
         persist();

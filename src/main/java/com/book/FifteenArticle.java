@@ -18,7 +18,15 @@ package com.book;
  * 15. agitate [vt.] 使焦虑不安，this news agitated citizens. agitated [adj./done.] 焦虑不安的
  * 16. apprehensive [adj.] 焦虑不安的
  * 17. make phone calls. 拨打电话
- * 18. at the back of my mind 固定搭配，表示在内心深处，在潜意识中。并未字面上的在后脑勺
+ * 18. at the back of my mind 固定搭配，表示在内心深处，在潜意识中。并非字面上的在后脑勺
+ * 19. frustrated [adj.] 常用来描述因无法达到某个目标或者完成某个人物而感到沮丧与失望，例如her was frustrated with her slow progress at work.
+ * 20. for good = for good and all [adv.] 永远地
+ * 21. undertake [vt.] 承担、承诺、着手/开始做某事
+ * 22. appear [link v.] 感官动词，译为似乎，类似seem, sound, smell, taste, feel, 后面跟表语说明主语的情况
+ * 23. depart for sp. 前往某地
+ * 24. track down [vt.] 找到、抓到。其中track表示追踪的意思，down表示某个动作完成，那追踪完成就表示找到了，例如the cop tracked him down by locating
+ * 25. give a thought to [vt.] 考虑到
+ * 26. whatsoever = whatever 加强语气
  */
 public class FifteenArticle {
 
