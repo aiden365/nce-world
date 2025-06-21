@@ -27,6 +27,11 @@ package com.book;
  * 24. track down [vt.] 找到、抓到。其中track表示追踪的意思，down表示某个动作完成，那追踪完成就表示找到了，例如the cop tracked him down by locating
  * 25. give a thought to [vt.] 考虑到
  * 26. whatsoever = whatever 加强语气
+ * 27. mount [vi.] 上升
+ * 28. alarm [n.] 恐慌，忧虑
+ * 29. boost [v.] 推动，驱使
+ * 30. slop [vi.] （液体）溢出，例如he soup slopped over the edge of the bowl when she carried it. 句中slopped by 表示时间像水一样流走
+ * 31. as though [conj.] 仿佛，好像
  */
 public class FifteenArticle {
 

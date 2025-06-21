@@ -221,11 +221,20 @@ public class TestMain2 {
     @SneakyThrows
     public static void methodListFour2(String[] args) {
 
-        //He gave little thought to whatsoever the fact this act could lead to his conviction if he was tracked down by the cops.
-        // Meanwhile,
-        // for Lesley the nightmare continued to unfold as the reality of the situation deepened.
-        disappear();
-        conviction();
+        // Another year passed and her hopes dimmed.
+        // Unexpectedly, late in August a promising lead brought her to Los Angeles.
+        // The interior of the bar was dark. Her quest to locate Jeff and Zac had taken two years.
+        interior();
+        unexpected();
+
+
+
+
+
+
+
+
+
 
 
         gain();
