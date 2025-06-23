@@ -32,6 +32,8 @@ package com.book;
  * 29. boost [v.] 推动，驱使
  * 30. slop [vi.] （液体）溢出，例如he soup slopped over the edge of the bowl when she carried it. 句中slopped by 表示时间像水一样流走
  * 31. as though [conj.] 仿佛，好像
+ * 32. (right) on cue
+ * 33. 可以使用be + 形容词 + in doing sth在表示主语在做某事方面表现的怎么怎么样，例如she She was clever/ in handling the negotiation. 但这并不是一个对所有形容词都通用的表达方式，例如不能说be happy in doing sth. 应该说be happy to do sth.
  */
 public class FifteenArticle {
 

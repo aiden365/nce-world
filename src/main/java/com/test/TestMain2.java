@@ -221,23 +221,11 @@ public class TestMain2 {
     @SneakyThrows
     public static void methodListFour2(String[] args) {
 
-        // Another year passed and her hopes dimmed.
-        // Unexpectedly, late in August a promising lead brought her to Los Angeles.
-        // The interior of the bar was dark. Her quest to locate Jeff and Zac had taken two years.
-        interior();
-        unexpected();
+        //The landlord was generous in allowing the land rent to fall into arrears, due to the difficult times. However, as weather conditions continued to worsen, the little family became pessimistic and felt desperate about the direction of their lives.
 
-
-
-
-
-
-
-
-
-
-
-        gain();
+        rent();
+        generous();
+        estate();
         List<Integer> integers1 = Arrays.asList(1, 2, 3, 4);
         List<Integer> integers2 = Arrays.asList(3, 4, 5, 6);
         persist();
