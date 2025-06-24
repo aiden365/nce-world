@@ -34,6 +34,18 @@ package com.book;
  * 31. as though [conj.] 仿佛，好像
  * 32. (right) on cue
  * 33. 可以使用be + 形容词 + in doing sth在表示主语在做某事方面表现的怎么怎么样，例如she She was clever/ in handling the negotiation. 但这并不是一个对所有形容词都通用的表达方式，例如不能说be happy in doing sth. 应该说be happy to do sth.
+ * 34. bound for 形容词短语，译为前往，开往。其中的bound是形容词，表示准备去的，由boun演变而来。可以跟在名词后做后置定语，也可以做表语，bound
+ * 35. aboard [prep.] 在...上，可以视为on board的缩写，后面只能跟交通工具
+ * 36. acknowledge [vt.] 承认，认为
+ * 37. lie at anchor [vi.] 停泊
+ * 38. plenty of 很多的
+ * 39. fresh water [n.] 淡水
+ * 40. craft [n.] 船
+ * 41. brackish [adj.] 微咸的，不纯的（水）。通常是指混入了海水之后的味道，引申为令人不快的。而salty则更加通用就表示味道是咸的。
+ * 42. of + 抽象名词，构成形容词性短语，等价于这个抽象名词同根的形容词，可以做表语或者定语。在正式场合较多出现，例如the chance is of great importance = important
+ * 43. even [adj.] 平稳的
+ * 44. set one's sights on/towards sp. 将某人的视线朝向到某处
+ * 45. make landfall [vi.] 登陆，到达海岸。等价于disembark，例如eventually this tiny ship [made landfall/disembarked] in American
  */
 public class FifteenArticle {
 
@@ -119,6 +131,7 @@ public class FifteenArticle {
      * They would share their secret fears regarding their new lives, their hopes for their children's future and enjoy each other's companionship. Twenty years slipped by and John Love died at the early age of 47. Several years later, son James and his family, as well as widow Lily, his Mother, made the decision to leave Pennsylvania and settle in Canada.
      * They made the arduous trek over Indian trails, crossing the Niagara River to settle in what we now call Ontario. I am a Canadian. Having traced my roots and followed in the footsteps of these early settlers, I feel a sense of gratitude to my ancestors who faced extreme difficulties and severe hardship to settle in a new land. Liberty, then and in today's world, is a priceless inheritance .
      * Once more, I glanced at the silver pin before returning it to the velvet box. Once again, I questioned, "What did I inherit from my Love ancestors? " I realize the answer has been revealed while writing this story. I have determination, strength, loyalty and a love of adventure. This is my inheritance.
+     *
      *
      */
     public static void two(){}

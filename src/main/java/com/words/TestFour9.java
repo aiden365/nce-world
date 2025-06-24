@@ -3064,7 +3064,7 @@ public class TestFour9 {
 
     /**
      * @pronounce 'eɪkə
-     * @explain n.英亩(=607亩)
+     * @explain n.英亩(=6.07亩)
      * @e.g.1 They own 200 acres of farmland..他们拥有200英亩农田。
      * @e.g.2 a 200-acre wood.一片200英亩的林地
      * @same n. acreage，
