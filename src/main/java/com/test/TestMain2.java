@@ -221,16 +221,17 @@ public class TestMain2 {
     @SneakyThrows
     public static void methodListFour2(String[] args) {
 
-        // Eight weeks later,
-        // plus on day, the Hannah made landfall
-        // and the Love family disembarked in America and became American newest immigrants.
-        // Gazing at the mainland after so many days of sailing was indeed a glorious sight.
-        //the winds lessened and the Captain was able to set his sights towards America. 这句话中的winds为什么复数，风应该是不可数名词才对，还有句中的sight为什么也用复试，
-        glorious();
+        // they would "squat " on the property erecting only a temporary, humble shelter to stave off the weather.
+        // Once their families arrived, they would inspire the men to build proper cabins. Neither fancy nor elegant, these log structures would be their first real homes.
+
+        shelter();
+        humble();
+        erect();
+        purchase();
+        settle();
+
         List<Integer> integers1 = Arrays.asList(1, 2, 3, 4);
         List<Integer> integers2 = Arrays.asList(3, 4, 5, 6);
-        persist();
-
 
         Collection<Integer> subtract1 = CollUtil.subtract(integers1, integers2);
         System.out.println(subtract1);

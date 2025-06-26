@@ -46,6 +46,11 @@ package com.book;
  * 43. even [adj.] 平稳的
  * 44. set one's sights on/towards sp. 将某人的视线朝向到某处
  * 45. make landfall [vi.] 登陆，到达海岸。等价于disembark，例如eventually this tiny ship [made landfall/disembarked] in American
+ * 46. pass through [vt.] 通过，穿过
+ * 47. immigration [n.] 移民，移民局检查站。相关的搭配有：immigration office [n.] 移民局。immigration official [n.] 移民局官员。illegal immigration [n.] 非法移民
+ * 48. 句型it seem/appear (to sb.) + [that / as if] + 从句，用于描述（对某人来说）似乎怎么怎么样，例如it seemed to her as if the world was at an end. 在她看来,仿佛世界末日到了。it appears as if it will ran 看起来好像要下雨了
+ * 49. as far away from the government as possible 译为：尽可能的远离政府。使用了as...as...结构,其中 far away from 表示远离...
+ * 50. stave off [vt.] 躲避，避免，避开, stave off attacks 躲避攻击
  */
 public class FifteenArticle {
 
