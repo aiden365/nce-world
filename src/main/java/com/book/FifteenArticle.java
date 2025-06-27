@@ -51,22 +51,16 @@ package com.book;
  * 48. 句型it seem/appear (to sb.) + [that / as if] + 从句，用于描述（对某人来说）似乎怎么怎么样，例如it seemed to her as if the world was at an end. 在她看来,仿佛世界末日到了。it appears as if it will ran 看起来好像要下雨了
  * 49. as far away from the government as possible 译为：尽可能的远离政府。使用了as...as...结构,其中 far away from 表示远离...
  * 50. stave off [vt.] 躲避，避免，避开, stave off attacks 躲避攻击
+ * 51. but rather
+ * 52. designate [vt.] 有四种用法：1任命，委派：the board designated her a new chairman. 2标示，标明：this yellow area was designated (as) a no-parking zone. 3命名：this mainland sunk is designated Atlantis. 4职务名词 - designate表示已任命未就职的人员，中文成为候任：the president-designated
+ * 53. be wary of sth. 警惕某物
+ * 54. spread [v.] 1物理性的展开：the map spread on the table. 2抽象的传播扩散：the fire spread to the adjacent building，3事物在空间或时间上延伸：the exam was spread over two days (考试分两天进行)，vines spread across the wall
+ * 55. strike up 演奏
+ * 56. tend to do [vt.] 倾向于做某事
+ * 57. look forward to sth. 盼望，期待, 如：the children look forward to growing up
+ *
  */
 public class FifteenArticle {
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     /**
      *

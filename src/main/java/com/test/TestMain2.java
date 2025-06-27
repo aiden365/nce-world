@@ -221,17 +221,11 @@ public class TestMain2 {
     @SneakyThrows
     public static void methodListFour2(String[] args) {
 
-        // they would "squat " on the property erecting only a temporary, humble shelter to stave off the weather.
-        // Once their families arrived, they would inspire the men to build proper cabins. Neither fancy nor elegant, these log structures would be their first real homes.
-
-        shelter();
-        humble();
-        erect();
-        purchase();
-        settle();
+        //Once more, I glanced at the silver pin before returning it to the velvet box. Once again, I questioned, "What did I inherit from my Love ancestors? " I realize the answer has been revealed while writing this story. I have determination, strength, loyalty and a love of adventure. This is my inheritance.
 
         List<Integer> integers1 = Arrays.asList(1, 2, 3, 4);
         List<Integer> integers2 = Arrays.asList(3, 4, 5, 6);
+        integers1.subList(0, 3);
 
         Collection<Integer> subtract1 = CollUtil.subtract(integers1, integers2);
         System.out.println(subtract1);
