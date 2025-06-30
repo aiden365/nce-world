@@ -220,8 +220,12 @@ public class TestMain2 {
 
     @SneakyThrows
     public static void methodListFour2(String[] args) {
-
-        //Once more, I glanced at the silver pin before returning it to the velvet box. Once again, I questioned, "What did I inherit from my Love ancestors? " I realize the answer has been revealed while writing this story. I have determination, strength, loyalty and a love of adventure. This is my inheritance.
+        // In 1865, George began to accumulate parcels of land by obtaining 46,000 acres of the Piedra Blanco Ranch
+        // on California's Central Coast.
+        // There he began a successful cattle ranch , eventually enlarging it to 250,000 acres
+        // stretching 50 miles along the coast.
+        // William loved the ranch where he spent his summer vacations as a youngster and a youth,
+        // playing in the rugged canyons , descending the cliffs and camping in colorful Arab-style tents in the mountains with his family.
 
         List<Integer> integers1 = Arrays.asList(1, 2, 3, 4);
         List<Integer> integers2 = Arrays.asList(3, 4, 5, 6);

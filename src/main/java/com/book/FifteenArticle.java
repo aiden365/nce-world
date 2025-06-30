@@ -63,7 +63,6 @@ package com.book;
 public class FifteenArticle {
 
     /**
-     *
      * UNIT1 A Question of Rights
      * Unfortunately, a crime was about to be committed but at that moment Lesley was unaware of the impending event , which would affect her life so drastically for the next two years.
      * For the moment at least, her holiday at the cottage had been ideal. She had spent many idle hours relaxing on the deck , reading , eating a sandwich when she was hungry and in the evening watching the sky turn from brilliant orange to peach and finally to pale purple , eventually the light becoming dim.
@@ -96,9 +95,9 @@ public class FifteenArticle {
      * She stared straight ahead with a vacant look, trying to grasp the important moment. Vivid scenes, from the pass two years' search, flashed through her mind.
      * The following day, happily for Lesley, the headline of the local paper read, "Father turns over child, Mother slams system." Lesley and Zac's subsequent life could now resume some form of normalcy.
      * however, the stress and strain of the past two years would always remain as a part of this renewed relationship in the memory.
-     *
      */
-    public static void one(){}
+    public static void one() {
+    }
 
 
     /**
@@ -130,8 +129,55 @@ public class FifteenArticle {
      * They would share their secret fears regarding their new lives, their hopes for their children's future and enjoy each other's companionship. Twenty years slipped by and John Love died at the early age of 47. Several years later, son James and his family, as well as widow Lily, his Mother, made the decision to leave Pennsylvania and settle in Canada.
      * They made the arduous trek over Indian trails, crossing the Niagara River to settle in what we now call Ontario. I am a Canadian. Having traced my roots and followed in the footsteps of these early settlers, I feel a sense of gratitude to my ancestors who faced extreme difficulties and severe hardship to settle in a new land. Liberty, then and in today's world, is a priceless inheritance .
      * Once more, I glanced at the silver pin before returning it to the velvet box. Once again, I questioned, "What did I inherit from my Love ancestors? " I realize the answer has been revealed while writing this story. I have determination, strength, loyalty and a love of adventure. This is my inheritance.
-     *
-     *
      */
-    public static void two(){}
+    public static void two() {
+    }
+
+    /**
+     * UNIT3 The Man and His Castle (Ⅰ)
+     * La Cuesta Encantada (The Enchanted Castle) is one of the most remarkable displays of power and passion in the world. This marvelous tourist site now known as Hearst San Simeon State Historical Monument is better known as Hearst Castle. It is located six hours south of San Francisco and five hours north of Los Angeles. Sheltered by the mountains in northern San Luis Obispo County, the complex of 165rooms and 127 acres of gardens, terraces , pools, fountains and footpaths draws approximately 800,000 visitors
+     * annually. To understand the castle, you have to understand the man who built it, William Randolph Hearst. And to understand the man, you have to understand the land upon which he built his dream. Born on April 29, 1863, William Randolph Hearst was the only child of Gorge Hearst and his wife, Phoebe. George was a multimillionaire who amassed his fortune through partnerships in three of the ever largest mining discoveries of copper, silver, and gold ores.
+     * In 1865, George began to accumulate parcels of land by obtaining 46,000 acres of the Piedra Blanco Ranch on California's Central Coast. There he began a successful cattle ranch , eventually enlarging it to 250,000 acres stretching 50 miles along the coast. William loved the ranch where he spent his summer vacations as a youngster and a youth, playing in the rugged canyons , descending the cliffs and camping in colorful Arab-style tents in the mountains with his family.
+     * Phoebe was delighted in exposing her darling child to the beauties and wonders of the world and spared no expense doing so. During one of their adventures, an 18-month tour of the historic palaces and castles of Europe, William began a lifelong love of collecting. With his first acquisitions, German picture books, he embarked on a 78-year session of excessive spending. He confessed to a love of the finer things in life and, as he had a bottomless purse, would never deny himself anything he wanted.
+     * In 1887, while William was at Harvard University, he decided to take over the small newspaper, the San Francisco Examiner, which his father had accepted as payment for a gambling debt several years earlier. George would have preferred that his son be involved in the mining and ranching interests, but William declined this offer and was given ownership of the Examiner in March 1887.
+     * He was determined to increase the popularity of the paper and acquire the best equipment and writers available. William's resolve to succeed inspired him to publish juicy tales of vice and stories full of drama.
+     * and motivation. In 1895, he purchased the New York Morning Journal, putting him in direct competition with the distinguished Joseph Pulitzer and a circulation war began. Both the Hearst and Pulitzer newspapers started to include sensational stories about the Cuban Insurrection .
+     * The stories greatly exaggerated claims of Spanish troops placing Cubans in concentration camps, forcing them to live under substandard conditions, disease-ridden, starving and dying. This style of reporting became known as "Yellow Journalism ". The newspapers were transformed as the scope of the news broadened and became less conservative.
+     * Circulation soared as the public could get enough of the banner headlines and abundant illustrations. At the time, many people believed William actually might have initiated the Spanish-American War to encourage sales.
+     * According to one report, when one of his correspondents, Frederick Remington, requested to return from Havana, William responded that if Remington would furnish the pictures, William would furnish the war. He was once quoted in an editorial as saying, "Make the news thorough Print all the news.
+     * Condense it if necessary. Frequently it is better when intelligently condensed." Another classic example of his influence occurred when; merely months after he advocated political assassination in an editorial, American President McKinley was assassinated.
+     * As an intelligent and dynamic business man, William generated increased readership by employing some of the most talented writers in the United States, recruiting figures from the literary community, like Mark Twain and Stephen Crane, and the previously mentioned illustrator, Frederick Remington. He also showed his initiative when he chartered a yacht , equipped it as a miniature newspaper headquarters, anchored off the coast of Cuba, and led his army of reporters into the field.
+     * William's interests led him to follow in his father's footsteps, inspiring him to enter into politics. He was elected to the U. S. Congress as a senator representing the State of New York in 1902 and served until 1907. He was a candidate for the office of mayor of New York City and governor of New York State, but failed in both of these attempts.
+     * While honeymooning in Europe after his marriage to Millicent Wilson in 1903, he expanded his publishing empire with Motor Magazine. The Hearst Corporation grew to comprise a total of 12 newspapers, including the Examiner, and 25 magazines, including Cosmopolitan. Not satisfied with just his publishing enterprises, he expanded his business operations into radio, and later produced movie newsreels . (To Be Continued)
+     */
+    public static void three() {}
+
+    /**
+     *
+     * UNIT4 This influential media giant was not without his faults. His prejudices were common knowledge. His career was blemished(玷污) by his offensive remarks about Spaniards, Japanese, Filipinos, and Russians.
+     * He printed lies, forged documents, falsified stories of violence, wrote provocative editorials, and published sensational cartoons and photographs to support his opinions. William hated minorities. He took advantage of every opportunity to heighten racial tensions. His real motive for his hatred of Mexicans may have been the loss of 800,000 acres of prime timber land to the Mexican outlaw , Pancho Villa.
+     * His papers described them as marijuana-smoking, job-stealing, lazy, wicked, and violent degenerates . Some suggest he saw the Mexicans as a threat to his empire. During this period, William met and fell in love with a young actress, Marion Davies. Millicent, his wife and the mother of his five sons, including a set of twins, refused to dissolve the marriage, which obliged William to "live in sin" with the woman whom the tour guides refer to as his "friend" or "companion".
+     * With the death of his mother in 1919, William inherited the beloved quarter-million-acre ranch. At first, he planned to build modest ranch house on his favorite campsite but as he became more involved in the project, his vision of a monument to display his collections gained momentum .
+     * Working closely with family architect, Julia Morgan, William created a glorious and extraordinary castle-like structure, blending Spanish, European, and Californian architectural styles. Huge warehouses were built in San Simeon to store the shiploads of splendid antiques, including entire carved ceilings and walls hung with enormous tapestries .
+     * They could be installed in the completed rooms. Landscaping integrated exotic plants, hedges, and trees with native flora . As William was in his 60's, he had the insight to know he couldn't wait for them to grow, but he was optimistic.
+     * He ordered tons of fertile topsoil to cover the grounds to a depth of five feet and full-grown specimens of the plants were trucked up the mountain for planting. With thousands of acres of land covered with grassland, trees, natural ponds, and man-made reservoirs available for use, William stocked the estate with herds of rare oxen and deer, and flocks of sheep and lambs.
+     * These animals flourished as they were allowed to wander freely. Larger, more dangerous beasts, including tigers, ostriches, buffalo, yaks, emus, kangaroos, llamas, zebras and giraffes were enclosed in the largest private zoo in the world.
+     *
+     * The "complex" was ready for occupancy in 1927, but additions continued until 1947. Eventually it comprised the main house and three cottages, all of which are furnished with a variety of valuable antiques. Even the lavatories were specially equipped.
+     * William's favorite room was said to be the library with its collections of more than 5,000 books, ancient Greek vases, and an antique Spanish ceiling suspended by cables so it will sway in the event of an earthquake (all the antique furnishings and treasures are anchored as a precaution as this is earthquake country). In the '20s, '30s, and '40s, William loved part-time at the estate with his mistress, Marion Davies. They entertained to an excessive extent. To be invited to the castle was a privilege.
+     * Movie stars, politicians, businessmen, and even royalty were frequent guests. Many of these guests, including a British lord, Sir Charles Kingsford-Smith, Amelia Ear hart, and Charles Lindbergh, flew to the ranch, landing on the private airstrip . Life on the "hill" was never dull. The visitors stayed in the main house or the cottages, depending on their prominence or their intimacy with the family and were free to roam the grounds, go riding on their choice of horses on the property.
+     * Company was expected, however, to meet in the main drawing room at 7:30 p. m. sharp, principally to amuse their host. Dinner was a formal affair beginning at 9:00 p. m. this meal was held in the immense dining room, the walls of which are lined with priceless panels from ancient European cathedrals . Following dinner, movies were shown in the private theater, starting at 11:00.
+     * There were, however, three rules guests had to follow: do not get drunk; do not swear or tell off-color jokes; sleep in separate bedrooms if an unmarried couple. Food was not allowed in the rooms. If you wanted to eat, you could visit the kitchen… if you could find it. Although William was closely involved in all aspects of the construction and decoration of the mansion , he continued his business and social interest.
+     * No stranger to scandal, in November 1924, he found himself in the topic of headlines. The most enduring rumor was that, during a party on his yacht, he had found Marion kissing Charlie Chaplin. In a fit of jealousy he took a shot at Chaplin, missed, and accidentally his Thomas Ince, killing him.
+     * However, even though the morning papers carried the story, the evening paper and successive editions printed that Ince had died of acute indigestion . In 1945, William initiated the Hearst Foundation and created the California Charities Foundation in 1948 (the name was changed to the William Randolph Hearst Foundation soon after his death in 1951).
+     * The Great Depression took its toll on even the wealthiest and William Randolph Hearst was no exception. His fantastically decadent lifestyle couldn't last forever, and gradually his finances began to suffer, beginning the next chapter in the saga of excesses.
+     * He came close to being bankrupt but Marion rescued him from debt, unselfishly selling her jewels and some other property to raise over a million dollars. In 1947, due to his poor health, he was forced to move permanently to Beverly Hills. Marion looked after him during this time, seldom leaving his side. When he died in 1951 at the age of 88, she was shunned by his family and forbidden to attend his funeral.
+     * The castle, its furnishings, the artworks in the gallery, and 127 acres of land were given to the state of California in 1957. Since that time, the California Department of Parks and Recreation has kept the castle open to tourists. Today a visit to the estate begins near the site of the old airstrip. Guests are transported to the top of the hill via bus.
+     * One can still see the signs giving wandering animals the "right-of-way" on the lanes. Deer, cattle, and sheep often halt the buses' progress up or down the mountain as they meander to the salt licks. Depending on the tour one chooses, guides escort the public through a variety of rooms, gardens, cottages, and pools.
+     * The luxury of a bygone era is evident at every turn. From the moment you arrive at the stairway to the Neptune Pool until you bid farewell to your guides at the magnificent, golden and blue Roman Pool, you are reminded that a man had a dream. He had power and influence. Furthermore, he was prosperous enough to achieve his objectives and implement his dream.
+     */
+    public static void four() {}
+    
+
+
 }
