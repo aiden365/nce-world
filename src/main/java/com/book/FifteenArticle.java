@@ -58,6 +58,7 @@ package com.book;
  * 55. strike up 演奏
  * 56. tend to do [vt.] 倾向于做某事
  * 57. look forward to sth. 盼望，期待, 如：the children look forward to growing up
+ * 58. take over 接手，接管
  *
  */
 public class FifteenArticle {

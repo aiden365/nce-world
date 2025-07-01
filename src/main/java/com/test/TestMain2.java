@@ -220,23 +220,17 @@ public class TestMain2 {
 
     @SneakyThrows
     public static void methodListFour2(String[] args) {
-        // In 1865, George began to accumulate parcels of land by obtaining 46,000 acres of the Piedra Blanco Ranch
-        // on California's Central Coast.
-        // There he began a successful cattle ranch , eventually enlarging it to 250,000 acres
-        // stretching 50 miles along the coast.
-        // William loved the ranch where he spent his summer vacations as a youngster and a youth,
-        // playing in the rugged canyons , descending the cliffs and camping in colorful Arab-style tents in the mountains with his family.
-
+        // While honeymooning in Europe after his marriage to Millicent Wilson in 1903, he expanded his publishing empire with Motor Magazine. The Hearst Corporation grew to comprise a total of 12 newspapers, including the Examiner, and 25 magazines, including Cosmopolitan. Not satisfied with just his publishing enterprises, he expanded his business operations into radio, and later produced movie newsreels . (To Be Continued)
         List<Integer> integers1 = Arrays.asList(1, 2, 3, 4);
         List<Integer> integers2 = Arrays.asList(3, 4, 5, 6);
         integers1.subList(0, 3);
+
 
         Collection<Integer> subtract1 = CollUtil.subtract(integers1, integers2);
         System.out.println(subtract1);
 
         Collection<Integer> subtract2 = CollUtil.subtract(integers2, integers1);
         System.out.println(subtract2);
-        marriage();
 
         TestFour4.ribbon();
         TestFour5.scholar();
