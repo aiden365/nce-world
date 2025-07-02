@@ -220,10 +220,17 @@ public class TestMain2 {
 
     @SneakyThrows
     public static void methodListFour2(String[] args) {
-        // While honeymooning in Europe after his marriage to Millicent Wilson in 1903, he expanded his publishing empire with Motor Magazine. The Hearst Corporation grew to comprise a total of 12 newspapers, including the Examiner, and 25 magazines, including Cosmopolitan. Not satisfied with just his publishing enterprises, he expanded his business operations into radio, and later produced movie newsreels . (To Be Continued)
+        // They could be installed in the completed rooms.
+        // Landscaping integrated exotic plants, hedges, and trees with native flora .
+        // As William was in his 60's,
+        // he had the insight to know he couldn't wait for them to grow,
+        // but he was optimistic.
         List<Integer> integers1 = Arrays.asList(1, 2, 3, 4);
         List<Integer> integers2 = Arrays.asList(3, 4, 5, 6);
         integers1.subList(0, 3);
+        optimistic();
+        optimism();
+        optimization();
 
 
         Collection<Integer> subtract1 = CollUtil.subtract(integers1, integers2);

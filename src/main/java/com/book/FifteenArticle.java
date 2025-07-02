@@ -59,6 +59,13 @@ package com.book;
  * 56. tend to do [vt.] 倾向于做某事
  * 57. look forward to sth. 盼望，期待, 如：the children look forward to growing up
  * 58. take over 接手，接管
+ * 59. took advantage of sth. 利用...
+ * 60. a motive for + 行为. 译为：做某事的动机，例如：a motive for the murder
+ * 61. loss sth. to sb. 失去某物给某人
+ * 62. fall in love with sb. 爱上某人
+ * 63. refer to A. as B. 把A称作B
+ * 64. flora [n.] 植物群。fauna [n.] 动物群
+ * 65. insight [n.] 了解，深知
  *
  */
 public class FifteenArticle {
@@ -159,7 +166,7 @@ public class FifteenArticle {
      * He printed lies, forged documents, falsified stories of violence, wrote provocative editorials, and published sensational cartoons and photographs to support his opinions. William hated minorities. He took advantage of every opportunity to heighten racial tensions. His real motive for his hatred of Mexicans may have been the loss of 800,000 acres of prime timber land to the Mexican outlaw , Pancho Villa.
      * His papers described them as marijuana-smoking, job-stealing, lazy, wicked, and violent degenerates . Some suggest he saw the Mexicans as a threat to his empire. During this period, William met and fell in love with a young actress, Marion Davies. Millicent, his wife and the mother of his five sons, including a set of twins, refused to dissolve the marriage, which obliged William to "live in sin" with the woman whom the tour guides refer to as his "friend" or "companion".
      * With the death of his mother in 1919, William inherited the beloved quarter-million-acre ranch. At first, he planned to build modest ranch house on his favorite campsite but as he became more involved in the project, his vision of a monument to display his collections gained momentum .
-     * Working closely with family architect, Julia Morgan, William created a glorious and extraordinary castle-like structure, blending Spanish, European, and Californian architectural styles. Huge warehouses were built in San Simeon to store the shiploads of splendid antiques, including entire carved ceilings and walls hung with enormous tapestries .
+     * Working closely with family architect, Julia Morgan, William created a glorious and extraordinary castle-like structure, blending Spanish, European, and Californian architectural styles. Huge warehouses were built in San Simeon to store the shiploads of splendid antiques, including entire carved ceilings and walls hung with enormous tapestries.
      * They could be installed in the completed rooms. Landscaping integrated exotic plants, hedges, and trees with native flora . As William was in his 60's, he had the insight to know he couldn't wait for them to grow, but he was optimistic.
      * He ordered tons of fertile topsoil to cover the grounds to a depth of five feet and full-grown specimens of the plants were trucked up the mountain for planting. With thousands of acres of land covered with grassland, trees, natural ponds, and man-made reservoirs available for use, William stocked the estate with herds of rare oxen and deer, and flocks of sheep and lambs.
      * These animals flourished as they were allowed to wander freely. Larger, more dangerous beasts, including tigers, ostriches, buffalo, yaks, emus, kangaroos, llamas, zebras and giraffes were enclosed in the largest private zoo in the world.
