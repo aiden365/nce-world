@@ -66,6 +66,18 @@ package com.book;
  * 63. refer to A. as B. 把A称作B
  * 64. flora [n.] 植物群。fauna [n.] 动物群
  * 65. insight [n.] 了解，深知
+ * 66. landscape [vt.] 给…做园林美化，they used the bushy hedge to landscape own house.
+ * 67. stock sp. with + 动物/物品 表示：在某个地方放养/储备某物，例如:they stocked the lake with schools of fish 他们在湖里放养了大量的鱼群
+ * 69. when it it come to sth. 句型，表示：当...时、在...方面、说到...时，例如：do not be an ostrich when it comes to security system
+ * 70. alpaca [n.] 羊驼。llama [n.] 大羊驼。vicuna [n.] 小羊驼。camel [n.] 骆驼
+ * 71. be furnish with sth. 固定搭配，指房屋配有某物，如all of the rooms was furnished with a minibar and and coffee machine
+ * 72. be said to be 据说是...
+ * 73. furniture = furnishing [n.] 家具。
+ * 74. property [n.] 庄园，物业
+ * 75. drawing room = living room [n.] 会客厅。
+ * 76. line [v.] 意为：(在某物的内部)形成一层，中文对应："内衬着..."、"铺着..."、"镶有...". 主动：we line the box with foil。被动（常用）：the box was lined with foils
+ * 77. follow [v.] 听从
+ * 78. off-color jokes
  *
  */
 public class FifteenArticle {

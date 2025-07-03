@@ -220,18 +220,15 @@ public class TestMain2 {
 
     @SneakyThrows
     public static void methodListFour2(String[] args) {
-        // They could be installed in the completed rooms.
-        // Landscaping integrated exotic plants, hedges, and trees with native flora .
-        // As William was in his 60's,
-        // he had the insight to know he couldn't wait for them to grow,
-        // but he was optimistic.
-        List<Integer> integers1 = Arrays.asList(1, 2, 3, 4);
-        List<Integer> integers2 = Arrays.asList(3, 4, 5, 6);
-        integers1.subList(0, 3);
-        optimistic();
-        optimism();
-        optimization();
 
+        // There were, however, three rules guests had to follow:
+        // do not get drunk;
+        // do not swear or tell off-color jokes;
+        // sleep in separate bedrooms if an unmarried couple. Food was not allowed in the rooms. If you wanted to eat, you could visit the kitchen… if you could find it. Although William was closely involved in all aspects of the construction and decoration of the mansion , he continued his business and social interest.starting at 11:00.
+        swear();
+        List<Integer> integers1 = Arrays.asList(1, 2, 3, 4);
+        integers1.subList(0, 3);
+        List<Integer> integers2 = Arrays.asList(3, 4, 5, 6);
 
         Collection<Integer> subtract1 = CollUtil.subtract(integers1, integers2);
         System.out.println(subtract1);
