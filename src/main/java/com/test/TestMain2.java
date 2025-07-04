@@ -220,12 +220,17 @@ public class TestMain2 {
 
     @SneakyThrows
     public static void methodListFour2(String[] args) {
-
-        // There were, however, three rules guests had to follow:
-        // do not get drunk;
-        // do not swear or tell off-color jokes;
-        // sleep in separate bedrooms if an unmarried couple. Food was not allowed in the rooms. If you wanted to eat, you could visit the kitchen… if you could find it. Although William was closely involved in all aspects of the construction and decoration of the mansion , he continued his business and social interest.starting at 11:00.
-        swear();
+        // When the gold deposits were depleted,
+        // these early settler stayed,
+        // moving into occupations like gardening, farming, domestic service, road construction, and railway building.
+        // By 1871,
+        // these were approximately 3,000 Chinese inhabitants in the province, only 53 of whom being women.
+        deposit();
+        settle();
+        posit();
+        deplete();
+        approximate();
+        construction();
         List<Integer> integers1 = Arrays.asList(1, 2, 3, 4);
         integers1.subList(0, 3);
         List<Integer> integers2 = Arrays.asList(3, 4, 5, 6);
