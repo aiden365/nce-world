@@ -98,7 +98,10 @@ package com.book;
  * 96. by sea [adv.] 乘船
  * 97. overland [adv.] 经陆路（的/地）
  * 98. deplete [vt.] 使大量减少，使耗尽
- *
+ * 99. bring sth. with sb. 将某物带给某人，
+ * 100. cultivate [vt.] 培养...某种爱好、技能、品质等
+ * 102. brand 一般用法是把一个东西印到另一个东西上，如the company brand its logo on every product  延伸用法brand sth. on/into one`s mind/memory  使某事/某观念深植人心
+ * 102. brand sb. as sth. 将某人污名化/丑化成某物，给某人打上某种负面标签。例如：the media branded he as the traitor
  */
 public class FifteenArticle {
 

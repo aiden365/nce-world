@@ -220,17 +220,10 @@ public class TestMain2 {
 
     @SneakyThrows
     public static void methodListFour2(String[] args) {
-        // When the gold deposits were depleted,
-        // these early settler stayed,
-        // moving into occupations like gardening, farming, domestic service, road construction, and railway building.
-        // By 1871,
-        // these were approximately 3,000 Chinese inhabitants in the province, only 53 of whom being women.
-        deposit();
-        settle();
-        posit();
-        deplete();
-        approximate();
-        construction();
+        // Guilds were set up to provide lodging and employment for the emigrants, for a fee of course. The fee ensured that the worker would be paid a decent wage and that his employer would not deceive him.
+        lodge();
+        guild();
+
         List<Integer> integers1 = Arrays.asList(1, 2, 3, 4);
         integers1.subList(0, 3);
         List<Integer> integers2 = Arrays.asList(3, 4, 5, 6);
