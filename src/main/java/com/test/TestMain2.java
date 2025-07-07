@@ -222,6 +222,8 @@ public class TestMain2 {
     public static void methodListFour2(String[] args) {
         // The company provided Chinese Canadians with merchandise not readily available in Vancouver and exported Canadian foodstuffs to China.
         merchandise();
+        readily();
+        available();
 
         List<Integer> integers1 = Arrays.asList(1, 2, 3, 4);
         integers1.subList(0, 3);
