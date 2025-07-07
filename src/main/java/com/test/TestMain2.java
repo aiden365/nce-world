@@ -220,7 +220,8 @@ public class TestMain2 {
 
     @SneakyThrows
     public static void methodListFour2(String[] args) {
-        // The company provided Chinese Canadians with merchandise not readily available in Vancouver and exported Canadian foodstuffs to China.
+        // The company provided Chinese Canadians with merchandise not readily available in Vancouver
+        // and exported Canadian foodstuffs to China.
         merchandise();
         readily();
         available();
