@@ -220,9 +220,8 @@ public class TestMain2 {
 
     @SneakyThrows
     public static void methodListFour2(String[] args) {
-        // Guilds were set up to provide lodging and employment for the emigrants, for a fee of course. The fee ensured that the worker would be paid a decent wage and that his employer would not deceive him.
-        lodge();
-        guild();
+        // The company provided Chinese Canadians with merchandise not readily available in Vancouver and exported Canadian foodstuffs to China.
+        merchandise();
 
         List<Integer> integers1 = Arrays.asList(1, 2, 3, 4);
         integers1.subList(0, 3);

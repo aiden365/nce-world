@@ -100,8 +100,15 @@ package com.book;
  * 98. deplete [vt.] 使大量减少，使耗尽
  * 99. bring sth. with sb. 将某物带给某人，
  * 100. cultivate [vt.] 培养...某种爱好、技能、品质等
- * 102. brand 一般用法是把一个东西印到另一个东西上，如the company brand its logo on every product  延伸用法brand sth. on/into one`s mind/memory  使某事/某观念深植人心
+ * 101. brand 一般用法是把一个东西印到另一个东西上，如the company brand its logo on every product  延伸用法brand sth. on/into one`s mind/memory  使某事/某观念深植人心
  * 102. brand sb. as sth. 将某人污名化/丑化成某物，给某人打上某种负面标签。例如：the media branded he as the traitor
+ * 103. for a fee 收费， free (of charge) 免费
+ * 104. earned a living 谋生， earned a living by sth. 靠...谋生
+ * 105. cigar roller [n.] 卷烟工人
+ * 106. meet [v.] 遇见，满足
+ * 107. specialize in sth. [vt.] 专门研究/从事某事
+ * 108. open [vt.] 除了表示打开外，还可以是指 “创办、开张（一家企业）”，即 “开始运营某个生意”。如he opends an import-export business in Canada
+ * 109. provide sb. with. sth. 为某人提供某物
  */
 public class FifteenArticle {
 
