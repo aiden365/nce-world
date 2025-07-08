@@ -109,6 +109,13 @@ package com.book;
  * 107. specialize in sth. [vt.] 专门研究/从事某事
  * 108. open [vt.] 除了表示打开外，还可以是指 “创办、开张（一家企业）”，即 “开始运营某个生意”。如he opends an import-export business in Canada
  * 109. provide sb. with. sth. 为某人提供某物
+ * 110. The company provided Chinese Canadians with merchandise not readily available in Vancouver 这句话中的not readily available in Vancouver其实是形容词短语做后置定语，而形容词做后置定语的本质就是省略了that was的定语从句
+ * 111. story [n.] 楼层。如：a three-story resident, 三层住房
+ * 112. build of [vt.] 由...(材料)...建造
+ * 113. can't help but do sth. 不得不做/被迫做某事， can't help but doing. 忍不住做某事
+ * 114. pave [vt.] 铺（路），创造条件。其中铺容易理解就是道路铺设，如：workers was paving with durable bricks in order to rise the durability of the way，而创造条件就是为某件事创造条件、铺平道路, 如：it paves the way for a future success
+ * 115. more [adj.] 另外的，更多的。there are three more bottle of milk。意思是指现在至少有4瓶牛奶对吗
+ * 116. warehouse [n.] 仓库，[vt.] 把...存储到仓库
  */
 public class FifteenArticle {
 

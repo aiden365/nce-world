@@ -220,14 +220,15 @@ public class TestMain2 {
 
     @SneakyThrows
     public static void methodListFour2(String[] args) {
-        // The company provided Chinese Canadians with merchandise not readily available in Vancouver
-        // and exported Canadian foodstuffs to China.
-        merchandise();
-        readily();
-        available();
-
+        // Yip Sang's involvement with shipping companies
+        // and his own business demonstrated his understanding of the freight industry
+        // and his ability to work fluently in both Chinese and English languages.
+        freight();
+        freighter();
+        demonstrate();
         List<Integer> integers1 = Arrays.asList(1, 2, 3, 4);
         integers1.subList(0, 3);
+
         List<Integer> integers2 = Arrays.asList(3, 4, 5, 6);
 
         Collection<Integer> subtract1 = CollUtil.subtract(integers1, integers2);
