@@ -116,6 +116,17 @@ package com.book;
  * 114. pave [vt.] 铺（路），创造条件。其中铺容易理解就是道路铺设，如：workers was paving with durable bricks in order to rise the durability of the way，而创造条件就是为某件事创造条件、铺平道路, 如：it paves the way for a future success
  * 115. more [adj.] 另外的，更多的。there are three more bottle of milk。意思是指现在至少有4瓶牛奶对吗
  * 116. warehouse [n.] 仓库，[vt.] 把...存储到仓库
+ * 117. act as [vt.] 担任，担当
+ * 118. bring [vt.] 带来，bring in其中的in副词小品词表示方向
+ * 119. in conjunction with sth. 介词短语，意为：与...共同；与...一起；连同。如：the police was working in injunction with tax department
+ * 120. spur [vt.] 意思是“刺激”、“激励”。
+ * 121. serve as [vt.] 担任
+ * 122. result in [vt.] 导致，结果是
+ * 123. take pleasure in (doing) something 对（做）某事感到高兴/感到乐趣，喜欢做某事
+ * 124. moderate [vt.] 核心含义是“使……变得缓和/适度/均衡，或者调和/协调”。它强调的是对某种极端或单一状态进行调整，以达到更平衡、更合理的状态。
+ * 125. equation [n.] 公式,等式，方程式（数）。也可以抽象地表示平衡（多种因素间的平衡）
+ * 126. in the absence of sth. [prep.] 缺少，缺少什么
+ * 127. consider [vt.] 把...看作，认为
  */
 public class FifteenArticle {
 
