@@ -127,6 +127,23 @@ package com.book;
  * 125. equation [n.] 公式,等式，方程式（数）。也可以抽象地表示平衡（多种因素间的平衡）
  * 126. in the absence of sth. [prep.] 缺少，缺少什么
  * 127. consider [vt.] 把...看作，认为
+ * 128. honor [vt.] 使荣耀，
+ * 129. well over [adv.] 远超
+ * 130. as well as B. 连词短语，表示：以及，与...一样，如：the work requires brian as well as brawn
+ * 131. eligible [adj.] 有资格的，符合条件的
+ * 132. check [n.] 支票
+ * 133. in either case [adv.] 无论如何，无论什么情况下
+ * 134. to take the plunge 尝试（冒着风险）
+ * 135. part way [adv.]  somewhere halfway through
+ * 136. apply for [vt.] 申请
+ * 137. run for [vt.] 竞选（某个职位）
+ * 138. poll [n.] 民意调查，投票所
+ * 139. dimension [n.] 物理尺寸（physical size） 如：the room's dimension was 10m by 5m；空间维度（spatial dimension）如：we are live in the three dimension world
+ * 140. senior citizen [n.] 老年人
+ * 141. search someplace for something. 在某地搜寻某物
+ * 142. amid [prep.] 在...之中
+ * 143. sympathize with [vt.] 与...产生共鸣，同情
+ *
  */
 public class FifteenArticle {
 

@@ -220,22 +220,9 @@ public class TestMain2 {
 
     @SneakyThrows
     public static void methodListFour2(String[] args) {
-        // When he died at the age of 82,
-        // Yip Sang was not only one of the wealthiest merchants in Vancouver;
-        // he was also considered a pillar of the community.
-        // Yip Sang's descendants continue to honor his values and remain active in the Vancouver Community.
         List<Integer> integers1 = Arrays.asList(1, 2, 3, 4);
         integers1.subList(0, 3);
-        absence();
-        elder();
-        community();
 
-        descend();
-        descendant();
-        contemporary();
-        benevolent();
-        sponsor();
-        keen();
         List<Integer> integers2 = Arrays.asList(3, 4, 5, 6);
 
         Collection<Integer> subtract1 = CollUtil.subtract(integers1, integers2);
@@ -2383,15 +2370,19 @@ public class TestMain2 {
         BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(filePath)));
 
 
-
     }
 
 
     @SneakyThrows
     @Test
     public  void test2848() {
-
+        // but found that most positions were for one or two years.
+        // I could sympathize with the amount of paper work needed to arrange for a person to accept one of those positions
+        // and realized that it was wiser for people to spend a year or two in one location.
         String str = "23456";
+        arrange();
+
+
         System.out.println(System.getProperty("user.dir"));
         String filePath = System.getProperty("user.dir").concat("/doc/a4.txt");
         BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(filePath)));
@@ -2403,9 +2394,7 @@ public class TestMain2 {
         JSONObject json = null;
         while ((line = br.readLine()) != null){
             line = line.trim();
-
             if(line.contains("Lesson ")){
-
 
                 if(json == null){
                     json = new JSONObject();

@@ -457,7 +457,7 @@ public class TestFour2 {
 
     /**
      * @pronounce 'siːnɪə; 'siːnjə
-     * @explain adj.年少的；地位较高的
+     * @explain adj.年长的；地位较高的
      * @e.g.1 the senior Democrat on the House committee.众议院委员会中的资深民主党人
      * @e.g.2 White men hold most of the jobs in senior management ..白人占据高级管理层的大部分职位。
      * @e.g.3 the senior partner in a law firm.律师事务所里的资深合伙人
