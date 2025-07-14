@@ -143,6 +143,18 @@ package com.book;
  * 141. search someplace for something. 在某地搜寻某物
  * 142. amid [prep.] 在...之中
  * 143. sympathize with [vt.] 与...产生共鸣，同情
+ * 144. arrange [vt.] arrange for someone to do something 的结构，表示“安排某人做某事”。
+ * 145. personal belonging [n.] 私人物品
+ * 146. a lot of time and efforts. [n.] 大量的时间和精力
+ * 147. depreciate [vi.] 贬值，掉价
+ * 148. battery-operated [adj.] 电池供电的，
+ * 149. be used to sth. 译为“习惯于某事”或“适应了某事”，如：she was used to the weather cold
+ * 150. in case [prep.] 万一...，如果...
+ * 151. 三防：waterproof、dustproof、quakeproof
+ * 152. no longer [adv.] 不再，still [adv.] 仍然
+ * 153. shut [adj.] 关闭
+ * 154. transparent tape [n.] 透明胶带
+ * 155. seal [n.] 海豹，印章、[vt.] 封闭，密封
  *
  */
 public class FifteenArticle {

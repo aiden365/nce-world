@@ -2376,13 +2376,11 @@ public class TestMain2 {
     @SneakyThrows
     @Test
     public  void test2848() {
-        // but found that most positions were for one or two years.
-        // I could sympathize with the amount of paper work needed to arrange for a person to accept one of those positions
-        // and realized that it was wiser for people to spend a year or two in one location.
+        // I was careful not to abbreviate the names of items in the lists lest that would mislead me as to the contents.
         String str = "23456";
-        arrange();
-
-
+        abbreviate();
+        
+        // When I finally snapped the lid of a box shut 这句话中的shut在句中做什么成分，看上去它和snap重复了，因为他们都有‘关上’的含义
         System.out.println(System.getProperty("user.dir"));
         String filePath = System.getProperty("user.dir").concat("/doc/a4.txt");
         BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(filePath)));
