@@ -2376,11 +2376,10 @@ public class TestMain2 {
     @SneakyThrows
     @Test
     public  void test2848() {
-        // I was careful not to abbreviate the names of items in the lists lest that would mislead me as to the contents.
+        // On the spur of the moment I decided to loan my sofa and my rug to my niece who was moving to a larger home. That would mean a few less things to put into storage. I fulfilled my obligation to provide proof of good health. I had a chest x-ray taken. I had a complete physical examination. I had dental check up. Because my health reports all indicated I was in excellent health, all of the health care professionals I visited encouraged me to pursue my adventure.
         String str = "23456";
-        abbreviate();
-        
-        // When I finally snapped the lid of a box shut 这句话中的shut在句中做什么成分，看上去它和snap重复了，因为他们都有‘关上’的含义
+
+
         System.out.println(System.getProperty("user.dir"));
         String filePath = System.getProperty("user.dir").concat("/doc/a4.txt");
         BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(filePath)));

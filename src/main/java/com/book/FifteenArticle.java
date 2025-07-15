@@ -155,6 +155,9 @@ package com.book;
  * 153. shut [adj.] 关闭
  * 154. transparent tape [n.] 透明胶带
  * 155. seal [n.] 海豹，印章、[vt.] 封闭，密封
+ * 156. lest [prep.] 免得，以免
+ * 157. remark [vi.] remark that + 从句 表示说..., remark up/upon + sth. 表示对某物发表评论
+ * 158. copyright [vt.] 为...申请、取得版权
  *
  */
 public class FifteenArticle {
