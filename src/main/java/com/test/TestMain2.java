@@ -2376,9 +2376,8 @@ public class TestMain2 {
     @SneakyThrows
     @Test
     public  void test2848() {
-        // On the spur of the moment I decided to loan my sofa and my rug to my niece who was moving to a larger home. That would mean a few less things to put into storage. I fulfilled my obligation to provide proof of good health. I had a chest x-ray taken. I had a complete physical examination. I had dental check up. Because my health reports all indicated I was in excellent health, all of the health care professionals I visited encouraged me to pursue my adventure.
+        // How much I have learned! It has been a wonderful, rewarding experience and the one comment that comes to my mind is "I wouldn't have missed it for the world! "
         String str = "23456";
-
 
         System.out.println(System.getProperty("user.dir"));
         String filePath = System.getProperty("user.dir").concat("/doc/a4.txt");

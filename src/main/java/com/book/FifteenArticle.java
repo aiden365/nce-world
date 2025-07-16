@@ -158,6 +158,22 @@ package com.book;
  * 156. lest [prep.] 免得，以免
  * 157. remark [vi.] remark that + 从句 表示说..., remark up/upon + sth. 表示对某物发表评论
  * 158. copyright [vt.] 为...申请、取得版权
+ * 159. On the spur of the moment 一时冲动之下，心血来潮之际
+ * 160. physical [adj.] 身体的，物质的
+ * 161. check up = check-up [n.] 检查
+ * 162. sanctioned [n./vt.] 认可、鼓励
+ * 163. scarcely (any/ever) [adv.] 几乎不
+ * 164. as if [prep.] 好像
+ * 165. for one's sake 为了某人的利益/为了某人的缘故/为了某人着想
+ * 166. know [vt.] 知道、知晓、之情。before they know it. 在他们知道之前，不知不觉中
+ * 167. insist on/upon [vt.] 坚持
+ * 168. surrender to [vt.] 向...投降
+ * 169. one student in particular 的用法有些特别，字面上看应该译为：一个特别的学生，但实际应该译为：特别是有一个学生，这是一种强调从整体中突出某个具体对象，所以可以看作是省略了整体的概念，可以还原成：one student (was) in particular among all the students, 有时会在上下文中给出整体的概念：she studies renaissance art, Italian painter in particular， 在整个文艺复兴时期的艺术中尤其研究是意大利画家
+ * 170. idea == concept == [n.] 概念
+ * 171. anthem [n.] 国歌，赞歌
+ * 172. a delicious/tasty treat [n.] 美味佳肴
+ * 173. rack [n.] 支架、行李架，架子。例如：Put your bag in the rack. 但在肉类语境中，a rack of... 指的是一块完整、带骨、骨头平行排列的肉，其形状像一个“架子”。所以a rack of ribs 可以说成是一排肋骨，译为中文就是：一扇排骨
+ * 174. resort to [vt.] 表示“诉诸于”、“求助于”或“不得不采用（某种方法）”
  *
  */
 public class FifteenArticle {
