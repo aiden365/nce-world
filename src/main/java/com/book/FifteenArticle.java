@@ -174,6 +174,26 @@ package com.book;
  * 172. a delicious/tasty treat [n.] 美味佳肴
  * 173. rack [n.] 支架、行李架，架子。例如：Put your bag in the rack. 但在肉类语境中，a rack of... 指的是一块完整、带骨、骨头平行排列的肉，其形状像一个“架子”。所以a rack of ribs 可以说成是一排肋骨，译为中文就是：一扇排骨
  * 174. resort to [vt.] 表示“诉诸于”、“求助于”或“不得不采用（某种方法）”
+ * 175. 结构：[形容词最高级] + of + [名词复数] 用于强调最高级程度，例如：the most cheerful and holy of holidays 表示在众多节日中最欢乐和最神圣的节日，the best of friends 表示在众多朋友中最好的，介词of起到限定范围的作用
+ * 176. boast [vt./vi] 直接接名词，表示某人/某地以某事物为荣。如：the museum boasts the rare collection of artifacts，后接介词 about 或 of 引出夸耀内容，或接 that 从句描述细节，如：she boasts of/about the academic achievement 或 he boasted that he would resolve the problem alone。
+ * 177. falls on + 日期：表示某个特定的事件或日期落在某一天上
+ * 178. take place [vi.] 发生
+ * 179. for sure adv. 确实；毫无疑问地
+ * 180. reputation for [n./vt.] 以...闻名，因...而出名
+ * 190. hung by sp. 挂在某处
+ * 191. in which 引导定语从句时，若先行词时地点则相当于where，如：原句：I saw the movie, the villain was arrested jail. 从句：I saw the movie in which the villain was arrested jail. 若先行词时时间则相当于when，如：原句：
+ * 192. plot [vt.] 谋划，计划，策划
+ * 193. tell of [vt.] 讲述
+ * 194. in the dead of sth. 用于强调某个时间段或状态达到最极端的阶段，如：in the dead of a war 译为：在战争最激烈的时刻
+ * 195. department store [n.] 百货公司
+ * 196. get together [vi.] 聚会，聚集
+ * 197. the yield of sth. 某物的产量，某项活动的收益，如：the yield of wheat 翻译为：小麦产量，the yield of investment
+ * 198. as a matter of fact [adv.] 事实上，实际上
+ * 199. make a killing 大赚一笔
+ * 200. Boxing Day [n.] 节礼日（圣诞节次日或是圣诞节后的第一个星期日）
+ * 201. unload [vt.] 卸货,抛售
+ * 202. far and wide [adj. adv.] 大范围地；广泛地;
+ * 203. be different from 与...不同
  *
  */
 public class FifteenArticle {

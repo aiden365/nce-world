@@ -2372,15 +2372,20 @@ public class TestMain2 {
 
     }
 
+    @Test
+    public void main3() {
+        List<String> integers = Arrays.asList("1, 2, 3".split(","));
+    }
+
+
 
     @SneakyThrows
     @Test
     public  void test2848() {
-        // How much I have learned! It has been a wonderful, rewarding experience and the one comment that comes to my mind is "I wouldn't have missed it for the world! "
-        String str = "23456";
-
         System.out.println(System.getProperty("user.dir"));
         String filePath = System.getProperty("user.dir").concat("/doc/a4.txt");
+
+
         BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(filePath)));
         String line = null;
         List<JSONObject> jsonObjectList = new ArrayList<>();
