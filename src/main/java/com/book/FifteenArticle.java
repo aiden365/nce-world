@@ -194,6 +194,9 @@ package com.book;
  * 201. unload [vt.] 卸货,抛售
  * 202. far and wide [adj. adv.] 大范围地；广泛地;
  * 203. be different from 与...不同
+ * 204. tight [adv. adj.] 紧紧的
+ * 205. dress with [vt.] 穿着...（衣服）
+ * 206. moreover [adv.] 此外
  *
  */
 public class FifteenArticle {

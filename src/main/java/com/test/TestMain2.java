@@ -2487,14 +2487,16 @@ public class TestMain2 {
 
             try{
 
-
-
                 String substring = line.substring(line.indexOf(".") + 1, line.indexOf("("));
                 Method method = methodMap.get(substring);
                 if(method != null){
                     log.info(method.getDeclaringClass().getSimpleName() + "." + method.getName() + "();");
                 }
+                // His eyes revealed so much when they crinkled with laughter, the mask removed, or conversely remained inscrutable，like still pools of liquid chocolate,
+                // containing only a hint of belief. (8 minutes ago)
+
             }catch (StringIndexOutOfBoundsException e){
+
             }
 
         }
@@ -2508,6 +2510,9 @@ public class TestMain2 {
         System.out.println(0 & 1);
         System.out.println(0 & 2);
         System.out.println(0 & 3);
+
+        System.out.println(String.format("%05d", 123456));
+
     }
 
     @Test
@@ -2519,7 +2524,6 @@ public class TestMain2 {
             fileLock1.release();
             Channel channel = fileLock.acquiredBy();
             ThirdVolume.test1();
-
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
