@@ -2492,8 +2492,6 @@ public class TestMain2 {
                 if(method != null){
                     log.info(method.getDeclaringClass().getSimpleName() + "." + method.getName() + "();");
                 }
-                // His eyes revealed so much when they crinkled with laughter, the mask removed, or conversely remained inscrutable，like still pools of liquid chocolate,
-                // containing only a hint of belief. (8 minutes ago)
 
             }catch (StringIndexOutOfBoundsException e){
 
@@ -2513,6 +2511,18 @@ public class TestMain2 {
 
         System.out.println(String.format("%05d", 123456));
 
+
+        List<String> list = Arrays.asList("111101", "000102", "001103", "101104", "105");
+        list.sort(String::compareTo);
+        for (String s : list) {
+            System.out.println(s);
+        }
+        inward();
+
+
+        String replace = StrUtil.replace("999999999999", 4, 8, "8888");
+        System.out.println(replace);
+        System.out.println("111122223333".substring(8));
     }
 
     @Test
