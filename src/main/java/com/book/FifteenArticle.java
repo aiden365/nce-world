@@ -197,6 +197,10 @@ package com.book;
  * 204. tight [adv. adj.] 紧紧的
  * 205. dress with [vt.] 穿着...（衣服）
  * 206. moreover [adv.] 此外
+ * 207. 在使用不定式时，for + 宾格代词/名词 + to-infinitive 用来明确不定式动作的逻辑主语。它在多种句型和语境中都会出现，而不仅仅局限于 in order (for sb./sth.) to do 结构。
+ * 208. up to: 介词短语，构成固定搭配 be up to someone，意思是“由某人负责”、“取决于某人”或“是某人的责任/选择”。
+ * 209. drive [(from)/(out of)] [vt.] 是指从……中得到/获得/得出
+ * 210. a waft of sth. 一阵，一缕，
  *
  */
 public class FifteenArticle {

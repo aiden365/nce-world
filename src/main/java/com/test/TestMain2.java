@@ -2520,7 +2520,7 @@ public class TestMain2 {
         inward();
 
 
-        String replace = StrUtil.replace("999999999999", 4, 8, "8888");
+        String replace = StrUtil.replace("111122223333", 4, 8, "8888");
         System.out.println(replace);
         System.out.println("111122223333".substring(8));
     }
@@ -2532,6 +2532,7 @@ public class TestMain2 {
             FileLock fileLock = open.lock();
             FileLock fileLock1 = open.tryLock();
             fileLock1.release();
+            
             Channel channel = fileLock.acquiredBy();
             ThirdVolume.test1();
         } catch (IOException e) {
