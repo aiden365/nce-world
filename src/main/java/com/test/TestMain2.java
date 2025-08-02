@@ -27,6 +27,7 @@ import java.nio.charset.StandardCharsets;
 import java.nio.file.Path;
 import java.nio.file.StandardOpenOption;
 import java.util.*;
+import java.util.concurrent.CountDownLatch;
 import java.util.stream.Collectors;
 
 import static com.words.TestFour1.*;
@@ -2517,9 +2518,22 @@ public class TestMain2 {
         for (String s : list) {
             System.out.println(s);
         }
-        inward();
+
+        CountDownLatch latch = new CountDownLatch(1);
 
 
+        new Thread(() -> {
+            try {
+                FileInputStream inputStream = new FileInputStream("C:\\Users\\Administrator\\Desktop\\slicing (3).log");
+                System.out.println("文件大小" + inputStream.available());
+                latch.countDown();
+            } catch (Exception e) {
+                throw new RuntimeException(e);
+            }
+        }).start();
+        penetrate();
+        artery();
+        intense();
         String replace = StrUtil.replace("111122223333", 4, 8, "8888");
         System.out.println(replace);
         System.out.println("111122223333".substring(8));
@@ -2532,8 +2546,8 @@ public class TestMain2 {
             FileLock fileLock = open.lock();
             FileLock fileLock1 = open.tryLock();
             fileLock1.release();
-            
             Channel channel = fileLock.acquiredBy();
+
             ThirdVolume.test1();
         } catch (IOException e) {
             throw new RuntimeException(e);

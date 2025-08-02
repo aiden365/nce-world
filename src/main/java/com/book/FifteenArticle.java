@@ -201,6 +201,19 @@ package com.book;
  * 208. up to: 介词短语，构成固定搭配 be up to someone，意思是“由某人负责”、“取决于某人”或“是某人的责任/选择”。
  * 209. drive [(from)/(out of)] [vt.] 是指从……中得到/获得/得出
  * 210. a waft of sth. 一阵，一缕，
+ * 211. drawing [n.] 画
+ * 212. precede [vt.] 在...之前，如：the end time cannot precedes the start time
+ * 213. shed [vt.] 流；淌；落, weep [vi.] 流泪，哭泣
+ * 214. a high academic achiever [n.] 学业成绩优异者
+ * 215. in an attempt to do [prep.] 尝试做某事
+ * 216. Departure day dawned clear and bright 其中的dawn是不及物动词，表示变得清楚，破晓。而后面的clear and bright则是省略了being的形容词做状语，类似的I come back school (being) happy, 其中的happy也是形容词做状语，可以表示原因或伴随的状态，有时位置再句首
+ * 217. right at home. 介词短语，译为：宾至如归，日中right是副词表示完全，at home 在家
+ * 218. the pace of life [n.] 生活节奏，其中pace表示步伐
+ * 219. head off 如果后面是 for/to/towards + 地点/目的，那就是“出发/前往”，如：We're heading off for a barbecue on the beach。如果后面是 直接宾语（人或事物），那就是“阻止/拦截”，如：We need to head off the spread of the virus.
+ * 220. out to do sth. 应该做某事
+ * 221. fight off [vt.] 击退，竭力避免
+ * 222. a coil of sth. 一卷...
+ * 223. retain [vt.] 雇佣
  *
  */
 public class FifteenArticle {
@@ -453,7 +466,7 @@ public class FifteenArticle {
      * The interview preceded well, Megan taking the initiative to underline her strengths. After school some of her friends gathered for coffee in the caf near the school. They confessed to Megan that they were rather envious of the opportunity she might have to live in another country. They enquired about the details of the interview. Two weeks later Megan received a phone call notifying her of the successful results of the interview.
      * Her parents were slightly nervous experiencing some negative feelings about Megan leaving the safety of home to live in another country. They knew the experience would broaden her horizons however, her destination, Montserrat, within the past year had a huge volcano erupt , disrupting people s lives. Unstable conditions, loss of homes and fear of more eruptions all tended to breed trouble among the poor of the island. Her parents concerns were for Megan s safety.
      * Departure day dawned clear and bright. Farewells were made to family and friends and she was off for the adventure of a lifetime. Megan s arrival on Montserrat was both welcoming and initially uneventful . The island family where she was to live for the next six months, made her feels right at home.
-     * As the pace of life on the island was more relaxed that at home, she was very happy. Her new schoolmates included her in their lives and she adapted quickly. Swimming in the warm ocean water, and sitting underneath waving palm trees in a mild climate, was a pleasant change from the cold northern winters.
+     * As the pace of life on the island was more relaxed than at home, she was very happy. Her new schoolmates included her in their lives and she adapted quickly. Swimming in the warm ocean water, and sitting underneath waving palm trees in a mild climate, was a pleasant change from the cold northern winters.
      *
      * One Saturday evening a gang of kids piled into a taxi, heading off for a barbecue on the beach. Some of the girls decided to walk along the beach. Megan joined them, lagging slightly behind. She knew she ought to hurry to catch up but the moist sand felt good under her feet. Water lapped at her toes; the tide was coming in. the violet light of dusk began to darken the sky.
      * In the growing darkness a van pulled alongside her, stopping with a squeal of brakes. Before she knew what was happening two masked men leapt out of the car and began to chase her, grabbing her and finally throwing her to the ground. The gross attack that followed was brutal and unexplainable. Initially Megan tried to fight off her attackers by clawing at their faces with her nails. Using a coil of rope to bind her hands, the men were free to proceed. First a fist broke her upper jaw leaving her unconscious.
