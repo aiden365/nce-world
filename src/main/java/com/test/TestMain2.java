@@ -2493,7 +2493,7 @@ public class TestMain2 {
                 if(method != null){
                     log.info(method.getDeclaringClass().getSimpleName() + "." + method.getName() + "();");
                 }
-
+                // As the water dripped from my balcony and accumulated into free-flowing rivers on the road beneath, I was reminded of the extreme weather that affected the residents of North America. (5 minutes ago)
             }catch (StringIndexOutOfBoundsException e){
 
             }
@@ -2531,9 +2531,6 @@ public class TestMain2 {
                 throw new RuntimeException(e);
             }
         }).start();
-        penetrate();
-        artery();
-        intense();
         String replace = StrUtil.replace("111122223333", 4, 8, "8888");
         System.out.println(replace);
         System.out.println("111122223333".substring(8));
@@ -2543,12 +2540,7 @@ public class TestMain2 {
     public void main2() {
         String filePath = System.getProperty("user.dir").concat("/temp/lock.txt");
         try (FileChannel open = FileChannel.open(Path.of(filePath), StandardOpenOption.WRITE)){
-            FileLock fileLock = open.lock();
-            FileLock fileLock1 = open.tryLock();
-            fileLock1.release();
-            Channel channel = fileLock.acquiredBy();
-
-            ThirdVolume.test1();
+            
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
