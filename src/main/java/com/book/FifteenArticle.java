@@ -252,6 +252,16 @@ package com.book;
  * 260. trunk [n.] 后备箱
  * 261. thanks to [vt.] 多亏了..., 由于..., 归功于...
  * 262. stretch [n.] 一段， 如：a stretch of road
+ * 267. end up, end in, end by, end with [vt.] 1. end up + (end up + 地点/状态/doing sth.):表示最终的结果，常译为最终如何如何，例如We ended up getting lost. (我们最终迷路了。) 2.end in + (名词), end by + (doing sth.), end with + (名词)， 表示以方式，动作，事物结束，
+ * 268. deed [n.] 行为
+ * 269. lead to/into [vt.] 引起，导致
+ * 270. deprivation 作名词其主要含义是贫困或匮乏。它指的是缺乏生活必需品或基本权利的状态，同时作为动词deprive的名词形式译为剥夺（指剥夺权利、机会、自由以及生活必需品。）
+ * 271. acute [adj.] 强烈的
+ * 272. plight [n.] 困境
+ * 273. following [prep.] 由于;在(某事)以后;
+ * 274. by + 时间， 表示：在...时候，截止到...时候
+ * 275. dictate [vi./vt.] 其中dict源自拉丁语表示说（带有强调语气的说），ate则是动词后缀，所以其含义：命令，要求，口述
+ * 276. file [n.] 野外（等价于open country）
  *
  *
  *
@@ -620,7 +630,7 @@ public class FifteenArticle {
      * We must all learn the spirit of absolute selflessness from him. After a very simple funeral, as he, had requested, Dr. Norman Bethune was buried in the Mausoleum of the Martyrs in Shih Chia Chuang, southeast of Beijing. The Chinese named a medical school and a hospital in his memory. Many other memorials have been erected in his memory over the years.
      * One ironic tragedy of all of this was that, up until 1973, Dr. Bethune had never received much recognition from his native country of Canada. Furthermore, he was not even acknowledged for his accomplishments, presumably because of his communist connection. In 1973, Prime Minister Pierre Trudeau, another Canadian who had spent a good deal of time in China in his earlier years, convinced his Government to purchase the Bethune house in Graven Hurst, Ontario, and dedicated it as Bethune Memorial House .
      * Dr. Bethune s impact on medicine was not singular. His career was very comprehensive, as noted above, as he attained an extraordinary list of accomplishments of highest merit. Among his many goals, was one goal that was not fulfilled until after his death? In 1938, while in china, he recommended a universal health system for Canada. Ironically, Donald Sutherland, the Canadian actor who played Bethune in the movie about the latter s life, called Bethune: the Making of a Hero , had been married to the daughter of Douglas.
-     * Douglas, when he was the Socialist Premier of Saskatchewan, a western province in Canada, set up a social medicine scheme in his province. Later, in the 1960 s, as a Member of Parliament in the national government, Douglas Played a significant role in establishing a national health system. He later became known as the father of Canada s Medicare system, as it was eventually called. [06:45.25Bethune is probably best known for his introduction of the mobile blood bank to the battlefield, and giving blood transfusions in the midst of heavy fighting. China worships him almost as a saint.
+     * Douglas, when he was the Socialist Premier of Saskatchewan, a western province in Canada, set up a social medicine scheme in his province. Later, in the 1960 s, as a Member of Parliament in the national government, Douglas Played a significant role in establishing a national health system. He later became known as the father of Canada s Medicare system, as it was eventually called. Bethune is probably best known for his introduction of the mobile blood bank to the battlefield, and giving blood transfusions in the midst of heavy fighting. China worships him almost as a saint.
      * Upon his death, the Chinese gave him a fond farewell. The charity of his soul still lives on among many Chinese. As Canadian teachers in China, we are often greeted by Chinese people, who make references of praise to this Great Canadian Doctor and humanitarian. Unfortunately, many Canadians know little about the incredible work for humanity undertaken by this remarkable man. This decent, in many ways, simple man was, indeed, one of the great world ambassadors who fought for the poor and less fortunate.
      *
      */
