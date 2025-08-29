@@ -268,7 +268,11 @@ package com.book;
  * 281. engagement [n.] 即engage的名词形式，表示雇佣，聘请，邀请，订婚，从事，与…建立密切关系, 这些含义都含有约定，承诺之意，因为他们都源自最初的含义：通过承诺或誓言而被束缚，这里的束缚是指被绑定到这个承诺中不能随意更改
  * 282. meet [vt.] 遇见，满足
  * 283. be little short of + sth. 几乎没有缺少某物、几乎等于某物、简直就是某物。其中little作副词表示几乎没有，short of表示缺少，合起来有点双重否定的含义
- *
+ * 284. blood poisoning  血中毒，是败血症的非正式术语
+ * 285. in [prep.] 在....(时间)之后， 与after不同的是，after表示从过去的某个时间开始算起，多用于过去式，而in表示从现在开始算起，常用于将来时态，如：I am about to go off work in finishing this task. 2 he eventually still returned hometown that ever hated after leading a wandering life for a few years in bustling cities.
+ * 286. above all [adv.] 首要的是; 尤其；尤其是
+ * 287. name...in memory of sb. / in sb.’s memory “以某人的名义命名某物，以纪念某人”。类似的表达还有两个：name...after sb.; name...in honor of sb. 都是
+ * 288. in memory of sb. / in sb.’s memory “为纪念某人”，常用在纪念碑、纪念馆、捐赠等场景里。
  *
  *
  *
@@ -631,7 +635,7 @@ public class FifteenArticle {
      * In the company of the Eighth Route Army, Bethune practiced his profession as best as he could. There were no mobile units and there was a desperate need to recruit medical trainees and convey his knowledge and skills to meet the needs of the soldiers. Consequently, there was an urgent requirement for illustrated medical manuals.
      * Both soldiers and peasants required a good deal of medical attention. Again, under very trying conditions, and with a lot of nerve, determination and courage, Bethune and his crew of Chinese assistants were eventually able to establish and coordinate over twenty medical and nursing teaching hospitals. Because of shortages of personnel and
      * other difficulties, Bethune himself routinely operated for days without reasonable breaks. In one period, he worked continually for sixty-nine hours on a total of one hundred and fifteen patients. His ability to endure such hard conditions and retain his sanity was little short of a miracle . It was under these conditions that his life became abruptly doomed . In October of 1939, possible suffering from extreme fatigue, he accidentally cut his left hand with the blade of his scalpel .
-     * Without proper medical supplies and with germs everywhere, his hand became infected and blood poisoning (a disease called septicemia) spread. He died on November 12, 1939. Dr. Norman Bethune s stature became even greater in death. The affection of the Chinese people for him swelled Emotions ran high upon the news of his death.
+     * Without proper medical supplies and with germs everywhere, his hand became infected and blood poisoning (a disease called septicemia) spread. He died on November 12, 1939. Dr. Norman Bethune s stature became even greater in death. The affection of the Chinese people for him swelled. Emotions ran high upon the news of his death.
      * His capacity to move people, and his insight into humanity was never so evident as during this period. The Chinese people were extremely grateful that such a man had crossed their paths. During this solemn time, tributes to Bethune came from many parts of the world. He was described as an activist, a writer, a teacher, an administrator, and above all, a great doctor. Mao said of him,
      * We must all learn the spirit of absolute selflessness from him. After a very simple funeral, as he, had requested, Dr. Norman Bethune was buried in the Mausoleum of the Martyrs in Shih Chia Chuang, southeast of Beijing. The Chinese named a medical school and a hospital in his memory. Many other memorials have been erected in his memory over the years.
      * One ironic tragedy of all of this was that, up until 1973, Dr. Bethune had never received much recognition from his native country of Canada. Furthermore, he was not even acknowledged for his accomplishments, presumably because of his communist connection. In 1973, Prime Minister Pierre Trudeau, another Canadian who had spent a good deal of time in China in his earlier years, convinced his Government to purchase the Bethune house in Graven Hurst, Ontario, and dedicated it as Bethune Memorial House .
