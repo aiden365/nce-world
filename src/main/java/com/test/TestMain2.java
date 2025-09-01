@@ -2540,7 +2540,7 @@ public class TestMain2 {
     public void main2() {
         String filePath = System.getProperty("user.dir").concat("/temp/lock.txt");
         try (FileChannel open = FileChannel.open(Path.of(filePath), StandardOpenOption.WRITE)){
-        // His career was very comprehensive, as noted above, as he attained an extraordinary list of accomplishments of highest merit. 这句话中的 an extraordinary list of accomplishments of highest merit. 该怎么理解，
+            // A sore throat, a cough or a stiff neck might also be diagnosed and treatment prescribed.
         } catch (IOException e) {
             throw new RuntimeException(e);
         }

@@ -273,6 +273,16 @@ package com.book;
  * 286. above all [adv.] 首要的是; 尤其；尤其是
  * 287. name...in memory of sb. / in sb.’s memory “以某人的名义命名某物，以纪念某人”。类似的表达还有两个：name...after sb.; name...in honor of sb. 都是
  * 288. in memory of sb. / in sb.’s memory “为纪念某人”，常用在纪念碑、纪念馆、捐赠等场景里。
+ * 289. fond [adj.] 喜欢的，温柔的，深情的
+ * 290. make references of sth. 提到、提及、引用某事
+ * 291. remarkable man [n.] 杰出的人
+ * 292. make it one's business (to do sth.) 把做某事当作是自己的职责， she makes it her business to help the poor
+ * 293. get a glimpse of [vt.] 瞥见
+ * 294. in addition to sth. 除...之外（还有），例如：she speaks English and japanese in addition to these languages, she also speaks little german.
+ * 295. illness and diseases [n.] 疾病
+ * 296. commitment [n.] 承诺，投入
+ * 297. be equivalent to [sth.] 与...相等
+ * 298. remedy [n.] 治疗，药品，解决方法，[v.] 纠正，改进
  *
  *
  *
@@ -664,7 +674,7 @@ public class FifteenArticle {
      * A cure for cancer would be considered a miracle. Could the disease be conquered with adequate commitment of federal funds to furnish financial resources? Accomplishment
      * of this project would be a triumph of enormous proportions. It would be equivalent to sending several rockets to Mars simultaneously . It would improve the welfare of all humanity .
      * Instead of using a thermometer to take our temperature, maybe we will have sensors implanted in our bodies that will be read by a personal health care monitor.
-     * The machine could tell us if we are in need of more oxygen in our blood or if the food we just ate in difficult to digest because of too much acid in our stomachs.
+     * The machine could tell us if we are in need of more oxygen in our blood or if the food we just ate is difficult to digest because of too much acid in our stomachs.
      * Will an appointment with a doctor be automatic if we are in need of treatment or will that profession become obsolete ?
      * The monitor might also have the ability to prescribe a lifestyle program for us. A woman might be able to determine if she is pregnant from the use of this machine.
      * A remedy for a sore limb might be verified if the person is uncertain how to treat it. A sore throat, a cough or a stiff neck might also be diagnosed and treatment prescribed.
