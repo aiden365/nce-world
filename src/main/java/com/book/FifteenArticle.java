@@ -283,7 +283,8 @@ package com.book;
  * 296. commitment [n.] 承诺，投入
  * 297. be equivalent to [sth.] 与...相等
  * 298. remedy [n.] 治疗，药品，解决方法，[v.] 纠正，改进
- *
+ * 299. make use of [vt.] 利用，使用，使用某物
+ * 230. clarify [v.] 使清晰易懂
  *
  *
  */

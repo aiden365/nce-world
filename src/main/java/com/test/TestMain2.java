@@ -2540,7 +2540,7 @@ public class TestMain2 {
     public void main2() {
         String filePath = System.getProperty("user.dir").concat("/temp/lock.txt");
         try (FileChannel open = FileChannel.open(Path.of(filePath), StandardOpenOption.WRITE)){
-            // A sore throat, a cough or a stiff neck might also be diagnosed and treatment prescribed.
+            // Supposing a life-threatening virus could be controlled, by inference viruses would no longer constitute a threat to our well-being. 其中by的作用
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
