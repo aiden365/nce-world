@@ -27,6 +27,7 @@ import java.nio.charset.StandardCharsets;
 import java.nio.file.Path;
 import java.nio.file.StandardOpenOption;
 import java.util.*;
+import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.CountDownLatch;
 import java.util.stream.Collectors;
 
@@ -2536,13 +2537,114 @@ public class TestMain2 {
         System.out.println("111122223333".substring(8));
     }
 
+
+
     @Test
     public void main2() {
         String filePath = System.getProperty("user.dir").concat("/temp/lock.txt");
         try (FileChannel open = FileChannel.open(Path.of(filePath), StandardOpenOption.WRITE)){
-            // Supposing a life-threatening virus could be controlled, by inference viruses would no longer constitute a threat to our well-being. 其中by的作用
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
     }
+
+    static Map<String, String> map1 = new ConcurrentHashMap<>();
+
+    CountDownLatch latch = new CountDownLatch(3);
+
+    @Test
+    public void main5() throws InterruptedException {
+
+        map1.put("A", "A");
+        map1.put("B", "B");
+        map1.put("C", "C");
+
+        new Thread(() -> {
+
+
+            Set<String> keys = map1.keySet();
+
+            log.info("读取元素，当前key.size=" + keys.size());
+            try {
+                Thread.sleep(3000);
+            } catch (InterruptedException e) {
+                throw new RuntimeException(e);
+            }
+            for (String aaa : keys) {
+                log.info(map1.get(aaa));
+            }
+
+            latch.countDown();
+
+            log.info("读取完毕");
+
+        }).start();
+
+        new Thread(() -> {
+            try {
+                Thread.sleep(1000);
+            } catch (InterruptedException e) {
+                throw new RuntimeException(e);
+            }
+            map1.remove("A");
+            latch.countDown();
+            log.info("删除元素");
+        }).start();
+
+        for (int i = 0; i < 10; i++) {
+            int finalI = i;
+            new Thread(() -> {
+                map1.put(Integer.toString(finalI), Integer.toString(finalI));
+            }).start();
+        }
+
+        latch.await();;
+
+    }
+
+
+    @Test
+    public void main6() throws InterruptedException {
+
+        // 初始化数据
+        for (int i = 0; i < 100; i++) {
+            map1.put(Integer.toString(i), "Value-" + i);
+        }
+
+        // 线程1：遍历读取
+        Thread reader = new Thread(() -> {
+            try {
+                Set<Map.Entry<String, String>> entries = map1.entrySet();
+                for (Map.Entry<String, String> entry : entries) {
+                    System.out.println("Read: " + entry.getKey() + " -> " + entry.getValue());
+                    Thread.sleep(10); // 故意加点延迟，制造并发
+                }
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+        });
+
+        // 线程2：删除
+        Thread remover = new Thread(() -> {
+            for (int i = 0; i < 50; i++) {
+                map1.remove(Integer.toString(i));
+                System.out.println("Removed key: " + i);
+                try {
+                    Thread.sleep(20);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+            }
+        });
+
+        reader.start();
+        remover.start();
+
+        reader.join();
+        remover.join();
+
+        System.out.println("Final map size: " + map1.size());
+    }
+
+
 }
