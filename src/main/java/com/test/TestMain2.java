@@ -2548,7 +2548,7 @@ public class TestMain2 {
         }
     }
 
-    static Map<String, String> map1 = new ConcurrentHashMap<>();
+    static Map<String, String> map1 = new HashMap<>();
 
     CountDownLatch latch = new CountDownLatch(3);
 
@@ -2639,9 +2639,13 @@ public class TestMain2 {
 
         reader.start();
         remover.start();
-
         reader.join();
         remover.join();
+        surge();
+        institute();
+        stature();
+        statue();
+        // Will a typical breakfast menu include toast and jam? (10 minutes ago)
 
         System.out.println("Final map size: " + map1.size());
     }
