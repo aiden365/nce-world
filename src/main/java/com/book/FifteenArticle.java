@@ -284,8 +284,11 @@ package com.book;
  * 297. be equivalent to [sth.] 与...相等
  * 298. remedy [n.] 治疗，药品，解决方法，[v.] 纠正，改进
  * 299. make use of [vt.] 利用，使用，使用某物
- * 230. clarify [v.] 使清晰易懂
- * 231. have sth. done. 属于固定结构，本质上是 使役动词 have 的一种特殊用法，表示“让某事被做”。例如：He had his wallet stolen.类似的结构还有have sb. do sth.但区别在于后者显式的表达动作的发出者，如：I had that mechanic fix my car
+ * 300. clarify [v.] 使清晰易懂
+ * 301. have sth. done. 属于固定结构，本质上是 使役动词 have 的一种特殊用法，表示“让某事被做”。例如：He had his wallet stolen.类似的结构还有have sb. do sth.但区别在于后者显式的表达动作的发出者，如：I had that mechanic fix my car
+ * 302. substitute [n.] 代替，替代品 [v.] 取代，代替，[adj.] 代替的，替补的， 如：a substitute for B, a substitute B with/by A
+ * 303. nourishing [adj.] 富有营养的,滋补的
+ * 304. dessert [n.] （饭后）甜点
  *
  *
  */

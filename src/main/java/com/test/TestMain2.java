@@ -2636,17 +2636,12 @@ public class TestMain2 {
                 }
             }
         });
-
+        //对于‘一碗热水’ a bowl of hot water 和 a hot bowl of water究竟那个是正确的表达
         reader.start();
         remover.start();
         reader.join();
         remover.join();
-        surge();
-        institute();
-        stature();
-        statue();
-        // Will a typical breakfast menu include toast and jam? (10 minutes ago)
-
+        // a special appliance that takes our food order and prepares the food and delivers it to us.
         System.out.println("Final map size: " + map1.size());
     }
 
