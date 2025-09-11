@@ -289,6 +289,7 @@ package com.book;
  * 302. substitute [n.] 代替，替代品 [v.] 取代，代替，[adj.] 代替的，替补的， 如：a substitute for B, a substitute B with/by A
  * 303. nourishing [adj.] 富有营养的,滋补的
  * 304. dessert [n.] （饭后）甜点
+ * 305. print [n.] 指纹
  *
  *
  */
