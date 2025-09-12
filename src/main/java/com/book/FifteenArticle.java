@@ -290,6 +290,11 @@ package com.book;
  * 303. nourishing [adj.] 富有营养的,滋补的
  * 304. dessert [n.] （饭后）甜点
  * 305. print [n.] 指纹
+ * 306. heat [vt.] 使变暖，使加热
+ * 307. access to [vt.] 接近，有权使用
+ * 308. tell A from B 区分A和B
+ * 309. enjoyment [n.] 乐趣
+ * 310. be in the habit of 有...的习惯
  *
  *
  */
