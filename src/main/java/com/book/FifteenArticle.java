@@ -295,6 +295,7 @@ package com.book;
  * 308. tell A from B 区分A和B
  * 309. enjoyment [n.] 乐趣
  * 310. be in the habit of 有...的习惯
+ * 311. tend to do [vt.] 往往
  *
  *
  */
@@ -748,7 +749,7 @@ public class FifteenArticle {
     /**
      *
      * UNIT15 The Ancient Olympics
-     * With great anticipation, China is busily preparing for the 2008Summer Olympic Games. Beijing will be added to a long list of the great cities that have invited the world to honor the world's greatest athletes in the modern ear of the Olympic Games. China will also become part of an important, rich heritage that goes back more than 2000 years. The origins of the ancient Olympic Games tend to be submerged in sea of Greek myths. One popular myth suggests that Pelops, a prince from Lydia, in Asia Minor (nowadays Turkey), won the hand of a princess by unfairly defeating a competing suitor in a chariot race.
+     * With great anticipation, China is busily preparing for the 2008 Summer Olympic Games. Beijing will be added to a long list of the great cities that have invited the world to honor the world's greatest athletes in the modern ear of the Olympic Games. China will also become part of an important, rich heritage that goes back more than 2000 years. The origins of the ancient Olympic Games tend to be submerged in sea of Greek myths. One popular myth suggests that Pelops, a prince from Lydia, in Asia Minor (nowadays Turkey), won the hand of a princess by unfairly defeating a competing suitor in a chariot race.
      * The loser was to be condemned to beheading. The prince rigged his opponent's chariot to crash during the race. Later, the chariot did crash, killing the driver. The princess became Pelop's bride, and he instituted the Olympic Games to celebrate his victory. However, others claimed that the first Olympic event was a funeral festival to honor his dead competitor.
      * Another myth involved Hercules, the mythical strong man. Hercules was the son of Zeus, the Greek god, and one of the god's mistresses. Hera, Zeus' wife, and also his sister, was very upset. She attempted in many ways, to kill Hercules as a baby. Hercules survived. Later, after he had married, Hera successfully put a spell on him, demanding that he kill his wife.
      * Because he was the son of the god, Zeus, Hercules was destined to become a god himself. In order to accomplish this, Hercules had to be cleansed of his wife's murder. To do this, he was directed to perform twelve difficult labors. If he successfully completed these, he would become an immortal god, like his father.
