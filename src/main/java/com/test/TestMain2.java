@@ -2513,6 +2513,9 @@ public class TestMain2 {
 
         System.out.println(String.format("%05d", 123456));
 
+        String aa = "f0b8011fd18948ce963c9b2c5f498546.docx";
+        String string = new StringBuffer(aa).insert(aa.lastIndexOf("."), "-copy-read").toString();
+        System.out.println(string);
 
         List<String> list = Arrays.asList("111101", "000102", "001103", "101104", "105");
         list.sort(String::compareTo);
@@ -2638,10 +2641,7 @@ public class TestMain2 {
             }
         });
 
-
-
+        
         System.out.println("Final map size: " + map1.size());
     }
-
-
 }

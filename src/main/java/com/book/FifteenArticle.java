@@ -296,6 +296,8 @@ package com.book;
  * 309. enjoyment [n.] 乐趣
  * 310. be in the habit of 有...的习惯
  * 311. tend to do [vt.] 往往
+ * 312. ban from sth. 禁止参与某事
+ * 313. specialize in [sth.] 专门从事，专门研究
  *
  *
  */
