@@ -2629,6 +2629,7 @@ public class TestMain2 {
 
         // 线程2：删除
         Thread remover = new Thread(() -> {
+
             for (int i = 0; i < 50; i++) {
 
                 map1.remove(Integer.toString(i));
@@ -2641,7 +2642,6 @@ public class TestMain2 {
             }
         });
 
-        
         System.out.println("Final map size: " + map1.size());
     }
 }

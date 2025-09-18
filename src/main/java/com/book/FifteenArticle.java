@@ -298,6 +298,7 @@ package com.book;
  * 311. tend to do [vt.] 往往
  * 312. ban from sth. 禁止参与某事
  * 313. specialize in [sth.] 专门从事，专门研究
+ * 314. hire out (sth.) to sb.
  *
  *
  */
