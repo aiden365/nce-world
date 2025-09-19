@@ -299,6 +299,9 @@ package com.book;
  * 312. ban from sth. 禁止参与某事
  * 313. specialize in [sth.] 专门从事，专门研究
  * 314. hire out (sth.) to sb.
+ * 315. much as [prep.] 即使，尽管
+ * 316. alike [adv.]其中alike通常跟在 A and B 这样的并列名词之后，表示同样的，二者都，译为：A和B都一样 [adj.] 当形容词时只能做表语，例如：the kitties are very alike
+ * 317. become part of sth.  成为某物中的一员, 参与到某事当中
  *
  *
  */
