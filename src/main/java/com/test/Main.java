@@ -517,6 +517,7 @@ public class Main {
         Class_timeAndDate.array_5();
         //
 
+        Arrays.asList("one","two","three","four","five","six","seven","eight","nine","ten","eleven","twelve","thirteen","fourteen","fifteen","sixteen","seventeen","eighteen", "nineteen");
 
     }
 
