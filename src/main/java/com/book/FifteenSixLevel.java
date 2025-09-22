@@ -4,6 +4,11 @@ import java.util.Arrays;
 
 /**
  * get ready for sth. 为...做准备
+ * think back to [vt.] 回想起
+ * cradle [n.] 摇篮，发源地 [vt.] 轻轻抱着；像放在摇篮里似地兜着
+ * peer group [n.] 同年龄群体
+ * be covered with [vt.] 有大量的(满是, 被...覆盖)
+ * prior to [prep.] 在...之前
  *
  *
  */
