@@ -9,6 +9,7 @@ import java.util.Arrays;
  * peer group [n.] 同年龄群体
  * be covered with [vt.] 有大量的(满是, 被...覆盖)
  * prior to [prep.] 在...之前
+ * in + 一段时间 (用于将来时)，表示动作在这个时间后进行
  *
  *
  */

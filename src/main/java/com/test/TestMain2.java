@@ -2637,7 +2637,7 @@ public class TestMain2 {
                 }
             }
         });
-        // A close friend of the family was contacted and invited to sing a solo just prior to the ceremony.
+
 
         System.out.println("Final map size: " + map1.size());
     }
