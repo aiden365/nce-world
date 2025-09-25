@@ -2638,6 +2638,7 @@ public class TestMain2 {
             }
         });
 
+        // Some lucky children may receive cookies from a freshly baked batch of chocolate chip cookies.
 
         System.out.println("Final map size: " + map1.size());
     }

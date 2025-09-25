@@ -10,8 +10,15 @@ import java.util.Arrays;
  * be covered with [vt.] 有大量的(满是, 被...覆盖)
  * prior to [prep.] 在...之前
  * in + 一段时间 (用于将来时)，表示动作在这个时间后进行
- *
- *
+ * catch a glimpse of [vt.] 瞥见，看见
+ * be overcome with/by + 情感名词，译为被某种情感所淹没，这是 overcome 一个非常重要的引申用法，常以被动语态出现，指被一种强烈的情感深深影响，以至于难以正常思考或行动。 如：When she heard the good news, she was overcome with joy.
+ * reception [n.] 招待会
+ * as is customary 在这种结构中，as 不仅仅是一个连词，它更像一个关系代词 (Relative Pronoun)，指代的是前面整个主句的内容。
+ * far away from [prep.] 远离...
+ * dressed up [adj.] 盛装打扮的，精心装扮的
+ * far off [adj.] 遥远的，久远的
+ * affiliate a with b 将a与b联系起来
+ * batch [n.] 一批，一堆。如：a batch of goods
  */
 
 public class FifteenSixLevel {
