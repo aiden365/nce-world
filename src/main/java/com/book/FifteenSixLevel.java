@@ -21,6 +21,14 @@ import java.util.Arrays;
  * batch [n.] 一批，一堆。如：a batch of goods
  * scuttle [vi.] 和scurry一样，都是指动物或昆虫步伐小而轻快地快速移动。译为：碎步疾跑
  * swoop [vi.] 俯冲，突然的下降，常见与down to/on, about, 其中swoop about通常用来描述鸟类或其他飞行物体迅速而低矮地盘旋。如：the bats swoop about in dark 蝙蝠在黑暗中盘旋。
+ * involve in [vt.] 参与，涉及，卷入
+ * from cover to cover [adv.] 从头到尾
+ * about, as to, regarding [prep.] 都表示关于，在大多数情况下可以互换
+ *
+ *
+ *
+ *
+ *
  */
 
 public class FifteenSixLevel {
