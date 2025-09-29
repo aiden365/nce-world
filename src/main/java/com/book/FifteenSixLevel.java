@@ -24,7 +24,10 @@ import java.util.Arrays;
  * involve in [vt.] 参与，涉及，卷入
  * from cover to cover [adv.] 从头到尾
  * about, as to, regarding [prep.] 都表示关于，在大多数情况下可以互换
- *
+ * water soluble [adj.] 水溶性的
+ * 在主系表结构中，如果表语是形容词，那么可以使用介词来进一步限定形容词的范围，例如this two phones are very similar in design, but different in the price，但后面介词+名词在句中是一个整体，做状语，看似修饰形容词其实修饰的是整个谓语部分(be+adj.)
+ * in the shape of 以…的形式；呈…的形状
+ * mistake A for B = take A for B 把A误认为B，相反的 regard A as B = see / view A as B = identify A as B = recognize A as B 将A识别为B
  *
  *
  *
