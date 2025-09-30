@@ -28,6 +28,15 @@ import java.util.Arrays;
  * 在主系表结构中，如果表语是形容词，那么可以使用介词来进一步限定形容词的范围，例如this two phones are very similar in design, but different in the price，但后面介词+名词在句中是一个整体，做状语，看似修饰形容词其实修饰的是整个谓语部分(be+adj.)
  * in the shape of 以…的形式；呈…的形状
  * mistake A for B = take A for B 把A误认为B，相反的 regard A as B = see / view A as B = identify A as B = recognize A as B 将A识别为B
+ * the baby boomer [n.] 婴儿潮时代出生的人
+ * work with [vt.] 1与某人一起做某事，2利用某物做某事，如：most of the artists who paint prefer to work with watercolor，3对人或事产生效果，如：the new treatment way works with most of advance cancer patients
+ * ego [n.] 自尊心
+ * as compare to 与...相比
+ * console [v.] 安慰
+ * erosion [n.] (河流、气候等的)侵蚀，指物质表面因自然力、化学或生物作用导致的渐进性损耗，亦指抽象概念的削弱。
+ * keep sb. from doing sth. 避免某人做某事
+ * fixture [n.] 固定装置, 如公园中常见的摆件
+ * prune [vt.] 修剪（植物）
  *
  *
  *
