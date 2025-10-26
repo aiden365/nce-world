@@ -37,6 +37,23 @@ import java.util.Arrays;
  * keep sb. from doing sth. 避免某人做某事
  * fixture [n.] 固定装置, 如公园中常见的摆件
  * prune [vt.] 修剪（植物）
+ * relish [vt.] 享受
+ * in addition [adv.] 此外
+ * riddle [vt.] 使布满窟窿
+ * brood [vi.] 沉思、忧虑
+ * impulse [n.] 冲动
+ * off [prep.] 在...附近
+ * overnight stay [n.] 过夜，住一晚
+ * arrange for sth. 安排某事
+ * a couple of sths. [n.] 几个（通常2-3个）
+ * pick up [vt.] 动词核心含义为“用手拾取”，延伸出收集物品、接送乘客、恢复活动等具体动作
+ * drop [vt.] 中途放下（某人）, 中途卸下（某物）
+ * get/be caught up in sth./doing 忙于,专注于或陷入某事，达出一种“身不由己”或“全情投入以致忽略他物”的感觉
+ * aesthetically [adv.] 在美学上, 从美学角度上
+ * dot [vt.] 星罗棋布于, 遍布（像小点一样）
+ * periodically [adv.] 偶尔
+ * ride [n.] 指代乘坐交通工具的一段行程、旅程; (乘坐汽车等的)旅行, 如 a half hour boat ride，半个小时的船程 a half hour car ride, 半个小时的车程 a half hour flight 半个小时的航程
+ * lost或long lost 在谈论人际关系10时，"lost" 或 "long-lost" 是一个固定搭配，指那些因为时间、距离或家庭变故而失去联系的人。一位久违的朋友
  *
  *
  *
