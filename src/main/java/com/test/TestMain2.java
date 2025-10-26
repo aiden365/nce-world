@@ -8,6 +8,7 @@ import com.other.Welcome10;
 import com.words.*;
 import lombok.SneakyThrows;
 import lombok.extern.slf4j.Slf4j;
+import org.junit.Before;
 import org.junit.Test;
 
 import java.io.*;
@@ -2601,7 +2602,6 @@ public class TestMain2 {
 
     }
 
-
     @Test
     public void main6() throws InterruptedException {
 
@@ -2632,7 +2632,8 @@ public class TestMain2 {
             // 管理员可以维护人体每日所需营养成分标准，如膳食指南标准所需的各类食物标准
             // 管理员可以维护用户信息，查看用户用餐记录
             // 食材与菜品之间的关系，食材、菜品与菜品照片的关系，食材、菜品与制作步骤的关系，食材、菜品与营养成分的关系，
-            // 提供用户注册登录功能，允许用户维护个人信息，如年龄，所在地区，系统可根据用户信息因地制宜的推荐当地常见食材及菜品
+            // 提供用户注册登录功能，允许用户维护个人信息，如年龄，所在地区系统可根据用户信息因地制宜的推荐当地常见食材及菜品
+            // 用户可以维护自身健康信息，如月经状况、基础疾病，系统再推荐菜品时会避免用户服用相关食物
             // 如果用户确认某个菜品则将其记录到用户的一餐选择中，
             // 通过大模型分析用户近几次的用餐，并结合中国居民膳食指南，给出下一次用餐推荐，为用户提供合理健康的饮食
             // 用户可根据大模型给出的制作步骤上传自己的制作菜品的过程以及成品图，管理员可对用户分享的图片加精处理
@@ -2642,7 +2643,7 @@ public class TestMain2 {
                 System.out.println("Removed key: " + i);
                 try {
                     Thread.sleep(20);
-                } catch (InterruptedException e) {
+                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
             }
@@ -2653,6 +2654,18 @@ public class TestMain2 {
     }
 
     public static void main3(String[] args) {
-        //
+        // The Fraud
+        // Flushed with excitement, Kate stepped into the spatial vestibule and was immediately dazzled by the scene before her.
+        // The inlaid marble floor paved the way to a circular staircase rising three levels above her.
+        // In a fountain in the center of the entryway stood a bronze dolphin balancing on its tail, its snout pointed to the lofty domed, stained glass skylight forty feet above.
+        // A massive chandelier, luminous in the bright sunlight, cast rainbow fairies dancing through the pink, green, and gold floral patterns of the floor and around the snowy white walls.
+        // Before she could fully appreciate the beauty of the intricate plaster work decorating the edges of the shallow niches installed in the walls to frame the numerous paintings, or, indeed, to appreciate the canvases themselves, her host, Victor Stone, approached.
+        // Small by North American standards, he was perfectly proportioned. Slightly balding at the forehead, his silver hair curved onto the collar of his pale blue shirt at the nape of his neck.
+        // Laughing blue eyes startled her with their clarity. A straight, aristocratic nose rose to meet his slightly arched brows.
+        // His carefully manicured hands bore a single gold pinkie ring. He held out his hand to take hers.
+        highlight();
+        ;
+
+
     }
 }
