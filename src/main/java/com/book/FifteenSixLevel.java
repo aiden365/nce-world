@@ -55,6 +55,9 @@ import java.util.Arrays;
  * ride [n.] 指代乘坐交通工具的一段行程、旅程; (乘坐汽车等的)旅行, 如 a half hour boat ride，半个小时的船程 a half hour car ride, 半个小时的车程 a half hour flight 半个小时的航程
  * lost或long lost 在谈论人际关系10时，"lost" 或 "long-lost" 是一个固定搭配，指那些因为时间、距离或家庭变故而失去联系的人。一位久违的朋友
  * in that [prep.] 可引导原因状语从句，译为：因为、由于
+ * pinkie ring [n.] 小指戒指，其中pinkie [n.] 小指
+ * show sb. around 带某人四处看看
+ * vintage [adj.] （指葡萄酒）优质的、上等的
  *
  *
  *

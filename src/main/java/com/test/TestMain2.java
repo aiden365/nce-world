@@ -1,6 +1,7 @@
 package com.test;
 
 import cn.hutool.core.collection.CollUtil;
+import cn.hutool.core.io.IoUtil;
 import cn.hutool.core.util.StrUtil;
 import cn.hutool.system.SystemUtil;
 import com.alibaba.fastjson.JSONObject;
@@ -2637,13 +2638,13 @@ public class TestMain2 {
             // 如果用户确认某个菜品则将其记录到用户的一餐选择中，
             // 通过大模型分析用户近几次的用餐，并结合中国居民膳食指南，给出下一次用餐推荐，为用户提供合理健康的饮食
             // 用户可根据大模型给出的制作步骤上传自己的制作菜品的过程以及成品图，管理员可对用户分享的图片加精处理
-            //
+            // 系统要确保系统的回答宁缺毋滥，宁可少而精，也不贪多求全
             for (int i = 0; i < 50; i++) {
                 map1.remove(Integer.toString(i));
                 System.out.println("Removed key: " + i);
                 try {
                     Thread.sleep(20);
-                 } catch (InterruptedException e) {
+                } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
             }
@@ -2653,19 +2654,15 @@ public class TestMain2 {
         System.out.println("Final map size: " + map1.size());
     }
 
-    public static void main3(String[] args) {
-        // The Fraud
-        // Flushed with excitement, Kate stepped into the spatial vestibule and was immediately dazzled by the scene before her.
-        // The inlaid marble floor paved the way to a circular staircase rising three levels above her.
-        // In a fountain in the center of the entryway stood a bronze dolphin balancing on its tail, its snout pointed to the lofty domed, stained glass skylight forty feet above.
-        // A massive chandelier, luminous in the bright sunlight, cast rainbow fairies dancing through the pink, green, and gold floral patterns of the floor and around the snowy white walls.
-        // Before she could fully appreciate the beauty of the intricate plaster work decorating the edges of the shallow niches installed in the walls to frame the numerous paintings, or, indeed, to appreciate the canvases themselves, her host, Victor Stone, approached.
-        // Small by North American standards, he was perfectly proportioned. Slightly balding at the forehead, his silver hair curved onto the collar of his pale blue shirt at the nape of his neck.
-        // Laughing blue eyes startled her with their clarity. A straight, aristocratic nose rose to meet his slightly arched brows.
-        // His carefully manicured hands bore a single gold pinkie ring. He held out his hand to take hers.
-        highlight();
-        ;
-
-
+    public static void main3(String[] args) throws IOException {
+        ProcessBuilder processBuilder = new ProcessBuilder();
+        processBuilder.command("javac");
+        Process start = processBuilder.start();
+        String read = IoUtil.readUtf8(start.getInputStream());
+        System.out.println(read);
+        indication();
+        // They began the tour in the wine cellar. A heavy, double thick door opened to reveal row upon row of gleaming glass bottles of vintage wines,
+        // all lying on their sides, cradled by the solid oak racks.
+        
     }
 }
