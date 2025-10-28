@@ -29,7 +29,7 @@ public enum Synonym {
 
     enum_32("战斗", "n.", Arrays.asList("battle", "combat", "fight")),
 
-    enum_34("里面的", "adj.", Arrays.asList("inner", "inside", "inward", "internal", "interior")),
+    enum_34("里面的", "adj.", Arrays.asList("inner", "inside", "inward", "internal", "interior", "intrinsic")),
     enum_35("外面的", "adj.", Arrays.asList("outer", "outside", "outward", "external", "exterior")),
 
     enum_36("人口", "n.", Arrays.asList("populace", "population", "populous")),
@@ -196,7 +196,8 @@ public enum Synonym {
 
     enum_198("装饰", "v.", Arrays.asList("decorate", "upholster")),
     enum_199("招待", "v.", Arrays.asList("treat", "entertain")),
-    
+    enum_200("瓷器", "n.", Arrays.asList("pottery", "ceram", "porcelain")),
+
 
     ;
 

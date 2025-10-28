@@ -59,6 +59,15 @@ import java.util.Arrays;
  * show sb. around 带某人四处看看
  * vintage [adj.] （指葡萄酒）优质的、上等的
  * led [vt.] 带领 led sb. to sp. she led his horse to lake. [vi.] 通往某地 sth. led to sp. the narrow trail led to the sea
+ * evening [n.] 晚会
+ * the games of chance 其中chance [n.] 侥幸，机会
+ * limp [n.] 一瘸一拐
+ * please to sb. 取悦某人，使某人感到愉悦
+ * piece [n.] （量词）一片、一件、一张、一个，[n.] （文学、艺术作品的）一首、一幅、一篇、一本
+ * rest [n.] 休息、剩余部分
+ * manifest [n.] 载货清单、乘客名单 [vt./vi.] 证明，表明
+ * trim [v./n.] 修剪，修整，点缀
+ * hand [n.] 手、手工
  *
  *
  *
