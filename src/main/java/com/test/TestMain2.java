@@ -2660,9 +2660,12 @@ public class TestMain2 {
         Process start = processBuilder.start();
         String read = IoUtil.readUtf8(start.getInputStream());
         System.out.println(read);
-        indication();
-        // They began the tour in the wine cellar. A heavy, double thick door opened to reveal row upon row of gleaming glass bottles of vintage wines,
-        // all lying on their sides, cradled by the solid oak racks.
-        
+        slide();
+        enclose();
+        kidney();
+        // the kidney shaped swimming pool 其中作为形容词的shaped为什么放到了名词kidney后面？
+        // Sliding glass doors led from the lowest level of the living area to the enclosed kidney shaped swimming pool. 剧中的led后面是不是少了宾语呀？
+
+
     }
 }

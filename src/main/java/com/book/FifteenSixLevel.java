@@ -58,6 +58,7 @@ import java.util.Arrays;
  * pinkie ring [n.] 小指戒指，其中pinkie [n.] 小指
  * show sb. around 带某人四处看看
  * vintage [adj.] （指葡萄酒）优质的、上等的
+ * led [vt.] 带领 led sb. to sp. she led his horse to lake. [vi.] 通往某地 sth. led to sp. the narrow trail led to the sea
  *
  *
  *

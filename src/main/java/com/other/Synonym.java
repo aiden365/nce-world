@@ -1,11 +1,9 @@
 package com.other;
 
-import lombok.Data;
-
 import java.util.Arrays;
 import java.util.List;
 
-public enum Chword {
+public enum Synonym {
 
     enum_1("复杂的", "adj.", Arrays.asList("complex", "complicated")),
     enum_2("生病的", "adj.", Arrays.asList("ill", "sick")),
@@ -195,6 +193,9 @@ public enum Chword {
     enum_195("临时的", "adj.", Arrays.asList("temporary", "momentary")),
 
     enum_197("魔术", "n.", Arrays.asList("magic", "conjure")),
+
+    enum_198("装饰", "v.", Arrays.asList("decorate", "upholster")),
+    enum_199("招待", "v.", Arrays.asList("treat", "entertain")),
     
 
     ;
@@ -203,7 +204,7 @@ public enum Chword {
     String pos;
     List<String> engList;
 
-    Chword(String chinese, String pos, List<String> engList) {
+    Synonym(String chinese, String pos, List<String> engList) {
         this.chinese = chinese;
         this.pos = pos;
         this.engList = engList;
