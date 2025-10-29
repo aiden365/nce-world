@@ -1,6 +1,7 @@
 package com.test;
 
 import cn.hutool.core.collection.CollUtil;
+import cn.hutool.core.io.FileUtil;
 import cn.hutool.core.io.IoUtil;
 import cn.hutool.core.util.StrUtil;
 import cn.hutool.system.SystemUtil;
@@ -2654,12 +2655,20 @@ public class TestMain2 {
         System.out.println("Final map size: " + map1.size());
     }
 
+    @Test
+    public void test1(){
+        File ff = new File("E:/workdata/five_meeting_upload/UploadFile/DaumFile/54e20740187cadc206e93f6dff3c9b5e/99e5c2ec1c86494bad61026962d69ee2/99e5c2ec1c86494bad61026962d69ee2_unpass.pdf");
+        FileUtil.rename(ff, "99e5c2ec1c86494bad61026962d69ee2", true, true);
+
+
+    }
+
     public static void main3(String[] args) throws IOException {
         ProcessBuilder processBuilder = new ProcessBuilder();
         processBuilder.command("javac");
         Process start = processBuilder.start();
         String read = IoUtil.readUtf8(start.getInputStream());
-        fossilize();
+        sheer();
 
     }
 }

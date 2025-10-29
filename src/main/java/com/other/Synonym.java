@@ -197,6 +197,12 @@ public enum Synonym {
     enum_198("装饰", "v.", Arrays.asList("decorate", "upholster")),
     enum_199("招待", "v.", Arrays.asList("treat", "entertain")),
     enum_200("瓷器", "n.", Arrays.asList("pottery", "ceram", "porcelain")),
+    enum_201("雕刻", "v.", Arrays.asList("carve", "sculpture")),
+    enum_202("宽广的", "adj.", Arrays.asList("broad", "expansive", "wide", "spacious")),
+    enum_203("超过", "v.", Arrays.asList("exceed","excess", "surpass", "overrun")),
+
+
+
 
 
     ;

@@ -68,6 +68,8 @@ import java.util.Arrays;
  * manifest [n.] 载货清单、乘客名单 [vt./vi.] 证明，表明
  * trim [v./n.] 修剪，修整，点缀
  * hand [n.] 手、手工
+ * upholster [vt.] 为…装上垫子〔套子、弹簧等〕；布置，装潢，sb. upholster B. with A.
+ * overwhelming [adj.] 难以抗拒的
  *
  *
  *
