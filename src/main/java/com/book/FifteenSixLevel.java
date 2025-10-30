@@ -70,6 +70,7 @@ import java.util.Arrays;
  * hand [n.] 手、手工
  * upholster [vt.] 为…装上垫子〔套子、弹簧等〕；布置，装潢，sb. upholster B. with A.
  * overwhelming [adj.] 难以抗拒的
+ * fool sb. into doing sth. 哄骗某人做某事；
  *
  *
  *

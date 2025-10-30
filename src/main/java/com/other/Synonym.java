@@ -200,6 +200,10 @@ public enum Synonym {
     enum_201("雕刻", "v.", Arrays.asList("carve", "sculpture")),
     enum_202("宽广的", "adj.", Arrays.asList("broad", "expansive", "wide", "spacious")),
     enum_203("超过", "v.", Arrays.asList("exceed","excess", "surpass", "overrun")),
+    enum_204("高兴", "v.", Arrays.asList("pleasure", "rejoice", "delight", "cheer", "joy")),
+    enum_205("赞助商", "n.", Arrays.asList("sponsor", "patron", "delight", "cheer", "joy")),
+    enum_206("商标", "n.", Arrays.asList("logo", "brand", "trademark")),
+    enum_207("决定", "v.", Arrays.asList("determine", "decide", "resolve")),
 
 
 

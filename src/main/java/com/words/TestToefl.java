@@ -4018,11 +4018,6 @@ public class TestToefl {
     public static void advantageously(){}
 
 
-    /**
-     * @pronounce null
-     * @explain n.商品,货物 v买卖
-     */
-    public static void merchandis(){}
 
 
     /**

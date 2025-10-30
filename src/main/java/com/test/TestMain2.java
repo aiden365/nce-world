@@ -8,6 +8,7 @@ import cn.hutool.system.SystemUtil;
 import com.alibaba.fastjson.JSONObject;
 import com.other.Welcome10;
 import com.words.*;
+import kotlin.reflect.KParameter;
 import lombok.SneakyThrows;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.Before;
@@ -2659,8 +2660,6 @@ public class TestMain2 {
     public void test1(){
         File ff = new File("E:/workdata/five_meeting_upload/UploadFile/DaumFile/54e20740187cadc206e93f6dff3c9b5e/99e5c2ec1c86494bad61026962d69ee2/99e5c2ec1c86494bad61026962d69ee2_unpass.pdf");
         FileUtil.rename(ff, "99e5c2ec1c86494bad61026962d69ee2", true, true);
-
-
     }
 
     public static void main3(String[] args) throws IOException {
@@ -2668,7 +2667,11 @@ public class TestMain2 {
         processBuilder.command("javac");
         Process start = processBuilder.start();
         String read = IoUtil.readUtf8(start.getInputStream());
-        sheer();
+        reciprocate();
+        favor();
+
+
+
 
     }
 }
