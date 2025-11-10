@@ -3,6 +3,8 @@ package com.test;
 import cn.hutool.core.collection.CollUtil;
 import cn.hutool.core.io.FileUtil;
 import cn.hutool.core.io.IoUtil;
+import cn.hutool.core.io.unit.DataSize;
+import cn.hutool.core.io.unit.DataSizeUtil;
 import cn.hutool.core.util.StrUtil;
 import cn.hutool.system.SystemUtil;
 import com.alibaba.fastjson.JSONObject;
@@ -16,6 +18,8 @@ import org.junit.Test;
 
 import java.io.*;
 import java.lang.reflect.Method;
+import java.math.BigDecimal;
+import java.math.RoundingMode;
 import java.net.InetAddress;
 import java.net.NetworkInterface;
 import java.net.SocketException;
@@ -55,8 +59,6 @@ public class TestMain2 {
     private TestToefl testToefl = new TestToefl();
 
 
-
-
     static final List<String> keywords = Arrays.asList("abstract", "assert", "boolean",
 
             "break", "byte", "case", "catch", "char", "class", "const",
@@ -73,7 +75,7 @@ public class TestMain2 {
 
             "synchronized", "this", "throw", "throws", "transient", "true",
 
-            "try", "void", "volatile", "while" );
+            "try", "void", "volatile", "while");
 
 
     @Test
@@ -84,7 +86,7 @@ public class TestMain2 {
 
         methodList.stream().forEach(e -> {
 
-            if(e.getDeclaringClass().getName().equals("com.demo.text.TestToefl")){
+            if (e.getDeclaringClass().getName().equals("com.demo.text.TestToefl")) {
                 log.info("TestToefl." + e.getName() + "();");
             }
         });
@@ -95,8 +97,8 @@ public class TestMain2 {
         Enumeration<NetworkInterface> networkInterfaces = NetworkInterface.getNetworkInterfaces();
         networkInterfaces.asIterator().forEachRemaining(networkInterface -> {
             Enumeration<InetAddress> inetAddresses = networkInterface.getInetAddresses();
-            while(inetAddresses.hasMoreElements()) {
-                InetAddress inetAddr = (InetAddress)inetAddresses.nextElement();
+            while (inetAddresses.hasMoreElements()) {
+                InetAddress inetAddr = (InetAddress) inetAddresses.nextElement();
                 if (!inetAddr.isLoopbackAddress() && !inetAddr.isLinkLocalAddress() && !inetAddr.isMulticastAddress()) {
                     System.out.println(networkInterface.getName() + ":" + inetAddr.getHostAddress() + ":" + getMacByInetAddress(networkInterface.getInetAddresses().nextElement()));
                 }
@@ -110,7 +112,7 @@ public class TestMain2 {
             byte[] mac = NetworkInterface.getByInetAddress(inetAddr).getHardwareAddress();
             StringBuffer stringBuffer = new StringBuffer();
 
-            for(int i = 0; i < mac.length; ++i) {
+            for (int i = 0; i < mac.length; ++i) {
                 if (i != 0) {
                     stringBuffer.append("-");
                 }
@@ -128,7 +130,6 @@ public class TestMain2 {
             return null;
         }
     }
-
 
 
     @SneakyThrows
@@ -155,13 +156,13 @@ public class TestMain2 {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(new FileInputStream(file), StandardCharsets.UTF_8));
         String temp = null;
         List<Welcome10> all = new ArrayList<>();
-        while ((temp = bufferedReader.readLine()) != null){
+        while ((temp = bufferedReader.readLine()) != null) {
             all.add(JSONObject.parseObject(temp, Welcome10.class));
         }
 
         all.parallelStream().forEach(welcome10 -> {
 
-            synchronized (TestMain2.class){
+            synchronized (TestMain2.class) {
                 String headWord = welcome10.getHeadWord();
                 Welcome10.Welcome10Content content = welcome10.getContent();
                 Welcome10.ContentWord word = content.getWord();
@@ -169,7 +170,7 @@ public class TestMain2 {
 
                 headWord = headWord.replaceAll(" ", "_").replaceAll("-", "_");
 
-                if(collect.contains(headWord) || collect2.contains(headWord) || collect3.contains(headWord) || collect4.contains(headWord)){
+                if (collect.contains(headWord) || collect2.contains(headWord) || collect3.contains(headWord) || collect4.contains(headWord)) {
                     return;
                 }
 
@@ -182,17 +183,17 @@ public class TestMain2 {
                     log.info("* @explain " + tran.getPos() + "." + tran.getTranCN());
                 }
 
-                if(content1.getSentence() != null && content1.getSentence().getSentences() != null){
+                if (content1.getSentence() != null && content1.getSentence().getSentences() != null) {
                     for (int i = 0; i < content1.getSentence().getSentences().length; i++) {
 
                         Welcome10.SentenceSentence sentence = content1.getSentence().getSentences()[i];
-                        int i_temp = i+1;
-                        log.info("* @e.g."+i_temp+" " + sentence.getSContent() + "." + sentence.getSCN());
+                        int i_temp = i + 1;
+                        log.info("* @e.g." + i_temp + " " + sentence.getSContent() + "." + sentence.getSCN());
                     }
                 }
 
                 Welcome10.RelWord relWord = content1.getRelWord();
-                if(relWord != null){
+                if (relWord != null) {
                     String rwtxt = "";
                     rwtxt += "* @same ";
                     for (int i = 0; i < relWord.getRels().length; i++) {
@@ -201,23 +202,22 @@ public class TestMain2 {
                         rwtxt += "，";
                     }
 
-                    if(StrUtil.isNotBlank(rwtxt)){
+                    if (StrUtil.isNotBlank(rwtxt)) {
                         log.info(rwtxt);
                     }
                 }
 
                 log.info("*/");
-                if(keywords.contains(headWord)){
+                if (keywords.contains(headWord)) {
                     headWord += "_";
                 }
 
-                log.info("public static void "+headWord+"(){}");
+                log.info("public static void " + headWord + "(){}");
                 log.info("\n");
             }
         });
         log.info("总数量" + all.size());
     }
-
 
 
     @SneakyThrows
@@ -2380,10 +2380,9 @@ public class TestMain2 {
     }
 
 
-
     @SneakyThrows
     @Test
-    public  void test2848() {
+    public void test2848() {
         System.out.println(System.getProperty("user.dir"));
         String filePath = System.getProperty("user.dir").concat("/doc/a4.txt");
 
@@ -2395,13 +2394,13 @@ public class TestMain2 {
         StringBuffer peBuff = null;
         StringBuffer pcBuff = null;
         JSONObject json = null;
-        while ((line = br.readLine()) != null){
+        while ((line = br.readLine()) != null) {
             line = line.trim();
-            if(line.contains("Lesson ")){
+            if (line.contains("Lesson ")) {
 
-                if(json == null){
+                if (json == null) {
                     json = new JSONObject();
-                }else{
+                } else {
                     json.put("pc", pcBuff);
                     pcBuff = null;
                     jsonObjectList.add(json);
@@ -2409,39 +2408,39 @@ public class TestMain2 {
                 }
             }
 
-            if(line.contains("Lesson ")){
+            if (line.contains("Lesson ")) {
                 teBuff = new StringBuffer();
             }
 
-            if(line.contains("First listen")){
+            if (line.contains("First listen")) {
                 json.put("te", teBuff.toString());
                 teBuff = null;
                 peBuff = new StringBuffer();
             }
 
-            if(line.contains("生词和短语")){
+            if (line.contains("生词和短语")) {
                 json.put("pe", peBuff.toString());
                 peBuff = null;
             }
 
-            if(line.contains("参考译文")){
+            if (line.contains("参考译文")) {
                 pcBuff = new StringBuffer();
             }
 
-            if(teBuff != null){
+            if (teBuff != null) {
                 teBuff.append(line);
             }
 
-            if(peBuff != null){
-                if(!line.contains("First listen") && !line.contains("听录音，")){
-                    if(!((line.startsWith("W") || line.startsWith("H")) && line.endsWith("?"))){
+            if (peBuff != null) {
+                if (!line.contains("First listen") && !line.contains("听录音，")) {
+                    if (!((line.startsWith("W") || line.startsWith("H")) && line.endsWith("?"))) {
                         peBuff.append(line);
                     }
                 }
 
             }
 
-            if(pcBuff != null){
+            if (pcBuff != null) {
                 pcBuff.append(line);
             }
 
@@ -2458,12 +2457,12 @@ public class TestMain2 {
             String pc = e.getString("pc");
 
             String aa = "/**\n" +
-                    " * @te "+te+"\n" +
-                    " * @pe "+pe+"\n" +
-              //      " * @tc "+tc+"\n" +
-                    " * @pc "+pc+"\n" +
+                    " * @te " + te + "\n" +
+                    " * @pe " + pe + "\n" +
+                    //      " * @tc "+tc+"\n" +
+                    " * @pc " + pc + "\n" +
                     " */\n" +
-                    "public static void lesson"+i+"(){};";
+                    "public static void lesson" + i + "(){};";
             log.info("\n");
             log.info(aa);
         }
@@ -2472,7 +2471,7 @@ public class TestMain2 {
 
     @SneakyThrows
     @Test
-    public  void methodListFour() {
+    public void methodListFour() {
 
         List<Method> methods = new ArrayList<>();
         for (int i = 1; i <= 11; i++) {
@@ -2485,17 +2484,17 @@ public class TestMain2 {
         String filePath = System.getProperty("user.dir").concat("/doc/a3");
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(new FileInputStream(filePath)));
         String line = null;
-        while ((line = bufferedReader.readLine()) != null){
+        while ((line = bufferedReader.readLine()) != null) {
 
-            try{
+            try {
 
                 String substring = line.substring(line.indexOf(".") + 1, line.indexOf("("));
                 Method method = methodMap.get(substring);
-                if(method != null){
+                if (method != null) {
                     log.info(method.getDeclaringClass().getSimpleName() + "." + method.getName() + "();");
                 }
                 // As the water dripped from my balcony and accumulated into free-flowing rivers on the road beneath, I was reminded of the extreme weather that affected the residents of North America. (5 minutes ago)
-            }catch (StringIndexOutOfBoundsException e){
+            } catch (StringIndexOutOfBoundsException e) {
 
             }
 
@@ -2541,11 +2540,10 @@ public class TestMain2 {
     }
 
 
-
     @Test
     public void main2() {
         String filePath = System.getProperty("user.dir").concat("/temp/lock.txt");
-        try (FileChannel open = FileChannel.open(Path.of(filePath), StandardOpenOption.WRITE)){
+        try (FileChannel open = FileChannel.open(Path.of(filePath), StandardOpenOption.WRITE)) {
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
@@ -2601,7 +2599,8 @@ public class TestMain2 {
             }).start();
         }
 
-        latch.await();;
+        latch.await();
+        ;
 
     }
 
@@ -2657,21 +2656,47 @@ public class TestMain2 {
     }
 
     @Test
-    public void test1(){
+    public void test1() {
         File ff = new File("E:/workdata/five_meeting_upload/UploadFile/DaumFile/54e20740187cadc206e93f6dff3c9b5e/99e5c2ec1c86494bad61026962d69ee2/99e5c2ec1c86494bad61026962d69ee2_unpass.pdf");
         FileUtil.rename(ff, "99e5c2ec1c86494bad61026962d69ee2", true, true);
     }
 
-    public static void main3(String[] args) throws IOException {
-        ProcessBuilder processBuilder = new ProcessBuilder();
-        processBuilder.command("javac");
-        Process start = processBuilder.start();
-        String read = IoUtil.readUtf8(start.getInputStream());
-        reciprocate();
-        favor();
+    @Test
+    public void test2() throws IOException {
 
+        String lowerCase = System.getProperty("os.name").toLowerCase();
 
+        if (lowerCase.contains("win")) {
+
+        } else {
+
+        }
+        Process start = new ProcessBuilder().command("cmd.exe", "/c", "wmic csproduct get UUID").start();
+        List<String> lines = IoUtil.readLines(start.getInputStream(), StandardCharsets.UTF_8, new ArrayList<String>());
+        String uuid = lines.stream().map(StrUtil::trim).filter(e -> StrUtil.isNotBlank(e) && !e.equalsIgnoreCase("UUID")).collect(Collectors.joining(""));
+        System.out.println(uuid);
 
 
     }
+
+
+    @Test
+    public void test3() throws IOException {
+
+        BigDecimal decimal = new BigDecimal(1024);
+        String ss = "3.77813811E+9";
+        Double v = new Double(ss);
+        BigDecimal decimal1 = new BigDecimal(ss);
+        DataSize dataSize = DataSize.ofBytes(v.longValue());
+        attain();
+        attain();
+        obtain();
+        // he was greeted by a squad of police waiting to detain him on charges of smuggling cocaine.
+        System.out.println(new BigDecimal(dataSize.toMegabytes()).divide(decimal, 2, RoundingMode.HALF_UP).toString());
+        System.out.println(dataSize.toKilobytes());
+        System.out.println(decimal1.longValue());
+
+
+    }
+
 }
