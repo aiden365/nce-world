@@ -2688,15 +2688,16 @@ public class TestMain2 {
         Double v = new Double(ss);
         BigDecimal decimal1 = new BigDecimal(ss);
         DataSize dataSize = DataSize.ofBytes(v.longValue());
-        attain();
-        attain();
-        obtain();
-        // he was greeted by a squad of police waiting to detain him on charges of smuggling cocaine.
+
         System.out.println(new BigDecimal(dataSize.toMegabytes()).divide(decimal, 2, RoundingMode.HALF_UP).toString());
         System.out.println(dataSize.toKilobytes());
         System.out.println(decimal1.longValue());
+        // Paradoxically, just before he hopped over the edge of the trench he scorned the day he had heeded the call to enlist.
 
 
     }
+
+
+
 
 }

@@ -72,6 +72,14 @@ import java.util.Arrays;
  * overwhelming [adj.] 难以抗拒的
  * fool sb. into doing sth. 哄骗某人做某事；
  * irrespective of sth. [prep.] 等价于in spite of, despite 译为：尽管
+ * preliminary hearing [n.] 初步聆讯，预审
+ * turn in [vt.] 检举，告发，上交
+ * catch up with [sb.] 追上某人，其中catch up 是不及物动词，表示：追上，跟上，达到
+ * acrid [adj.]  刺鼻的，难闻的
+ * fire at [vt.] 向...开火
+ * go to one's aid 帮助某人
+ * hit [vt.] 使(身体部位)碰上(某物) 例如：his head hits（撞） the corner of table，he hit（踩） the muddy terrain
+ * hindsight [n.] 事后的领悟
  *
  *
  *

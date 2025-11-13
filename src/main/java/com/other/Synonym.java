@@ -204,6 +204,12 @@ public enum Synonym {
     enum_205("赞助商", "n.", Arrays.asList("sponsor", "patron", "delight", "cheer", "joy")),
     enum_206("商标", "n.", Arrays.asList("logo", "brand", "trademark")),
     enum_207("决定", "v.", Arrays.asList("determine", "decide", "resolve")),
+    enum_208("敌人", "n.", Arrays.asList("enemy", "foe")),
+    enum_209("尸体", "n.", Arrays.asList("corpse", "cadaver")),
+    enum_210("边界", "n.", Arrays.asList("edge", "rim", "border")),
+    enum_211("休息", "n.", Arrays.asList("rest", "break", "respite", "repose")),
+    enum_212("古怪的", "adj.", Arrays.asList("weird", "bizarre")),
+    enum_213("注意", "v.", Arrays.asList("attend", "notice", "heed")),
 
 
 
