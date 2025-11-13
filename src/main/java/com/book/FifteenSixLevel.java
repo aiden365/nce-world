@@ -80,6 +80,7 @@ import java.util.Arrays;
  * go to one's aid 帮助某人
  * hit [vt.] 使(身体部位)碰上(某物) 例如：his head hits（撞） the corner of table，he hit（踩） the muddy terrain
  * hindsight [n.] 事后的领悟
+ * heeded [vt.] 听从（警告，建议），注意
  *
  *
  *
