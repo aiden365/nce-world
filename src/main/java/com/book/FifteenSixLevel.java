@@ -81,6 +81,15 @@ import java.util.Arrays;
  * hit [vt.] 使(身体部位)碰上(某物) 例如：his head hits（撞） the corner of table，he hit（踩） the muddy terrain
  * hindsight [n.] 事后的领悟
  * heeded [vt.] 听从（警告，建议），注意
+ * crust [n.] 硬壳（物体表面）[vi.] 指某物自己变硬或结壳。常见搭配：crust over (with sth.) 其中crust表示结壳变硬这个动作，副词over表示这个动词发生在物体表面并完全覆盖的意思，with sth. 用什么东西所覆盖而后形成硬壳。如：The pond crusted over (with ice) during the night 池塘在夜间结了一层（冰）壳。
+ * better和better off 都表示更好的，但 better 关注内在特质（如更聪明、更健康）而better off 关注外在条件（如更富裕、更舒适）例如：he would be better (off) working  for a bigger company， 前者表示自身的能力会更好得到更多的成长，后者表示经济和环境等外在条件会更好。
+ * any more adv. 再也不，不再
+ * underbelly [n.] 薄弱地带,易受攻击的地带，下腹部
+ * misfire [vi.] 哑火（枪弹），发动不起来（汽车发动机）
+ * bore [n.] (管道、枪炮等的)孔
+ * casing [n.] 外壳
+ * prone [adj.] 趴着的、有...倾向的
+ *
  *
  *
  *
