@@ -2640,9 +2640,16 @@ public class TestMain2 {
             // 通过大模型分析用户近几次的用餐，并结合中国居民膳食指南，给出下一次用餐推荐，为用户提供合理健康的饮食
             // 用户可根据大模型给出的制作步骤上传自己的制作菜品的过程以及成品图，管理员可对用户分享的图片加精处理
             // 系统要确保系统的回答宁缺毋滥，宁可少而精，也不贪多求全
+            // 文献综述-研究背景：对于饮食与健康的思考，X年以前人们的认识和实践，现代人的认识和实践，
+            // 文献综述-课题现状：基于上述的背景，带着X的问题，现代人做出了那些活动（UGC，PGC），这些活动又解决那些问题，带来了那些好处，同时又产生了那些坏处
+            // 文献综述-发展趋势：为了解决这些从活动中带来的坏处，现存的解决方案，以及当前科技发展又带来了那些潜在的解决思路（AIGC）
+            // 主要研究-内容：顺着这样的背景，基于现存的解决方案，利用新的手段去落实潜在的解决方案。新的解决方案有哪些问题，怎么克服这些问题
+            // 主要研究-方法：解决方案的落实步骤，1从现有数据的收集开始，2分析提炼这些数据得到预处理数据，3存储这些预处理数据，4收集用户的个性化信息（饮食与状况），5将用户信息与预处理数据结合交由大模型分析，6将分析结果呈现给用户，7对用户的数据再次收集使分析结果更加准确（评论与用餐记录）
+            // 主要研究-预期：基于以上的步骤，对比现存解决方案，系统解决了那些问题，带来了哪些好处
             for (int i = 0; i < 50; i++) {
                 map1.remove(Integer.toString(i));
                 System.out.println("Removed key: " + i);
+                //
                 try {
                     Thread.sleep(20);
                 } catch (InterruptedException e) {
@@ -2671,6 +2678,7 @@ public class TestMain2 {
         } else {
 
         }
+
         Process start = new ProcessBuilder().command("cmd.exe", "/c", "wmic csproduct get UUID").start();
         List<String> lines = IoUtil.readLines(start.getInputStream(), StandardCharsets.UTF_8, new ArrayList<String>());
         String uuid = lines.stream().map(StrUtil::trim).filter(e -> StrUtil.isNotBlank(e) && !e.equalsIgnoreCase("UUID")).collect(Collectors.joining(""));
@@ -2688,12 +2696,9 @@ public class TestMain2 {
         Double v = new Double(ss);
         BigDecimal decimal1 = new BigDecimal(ss);
         DataSize dataSize = DataSize.ofBytes(v.longValue());
-
         System.out.println(new BigDecimal(dataSize.toMegabytes()).divide(decimal, 2, RoundingMode.HALF_UP).toString());
         System.out.println(dataSize.toKilobytes());
         System.out.println(decimal1.longValue());
-
-
 
     }
 
