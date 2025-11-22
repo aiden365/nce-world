@@ -2646,6 +2646,7 @@ public class TestMain2 {
             // 主要研究-内容：顺着这样的背景，基于现存的解决方案，利用新的手段去落实潜在的解决方案。新的解决方案有哪些问题，怎么克服这些问题
             // 主要研究-方法：解决方案的落实步骤，1从现有数据的收集开始，2分析提炼这些数据得到预处理数据，3存储这些预处理数据，4收集用户的个性化信息（饮食与状况），5将用户信息与预处理数据结合交由大模型分析，6将分析结果呈现给用户，7对用户的数据再次收集使分析结果更加准确（评论与用餐记录）
             // 主要研究-预期：基于以上的步骤，对比现存解决方案，系统解决了那些问题，带来了哪些好处
+            // 根据中国居民营养与简况状况检测2010-2013年综合报告指出全国6岁及以上居民过去一周内在外吃早餐、午餐和晚餐的比例分别为9.8%、9.4%和8.3%。
             for (int i = 0; i < 50; i++) {
                 map1.remove(Integer.toString(i));
                 System.out.println("Removed key: " + i);
@@ -2667,18 +2668,21 @@ public class TestMain2 {
         File ff = new File("E:/workdata/five_meeting_upload/UploadFile/DaumFile/54e20740187cadc206e93f6dff3c9b5e/99e5c2ec1c86494bad61026962d69ee2/99e5c2ec1c86494bad61026962d69ee2_unpass.pdf");
         FileUtil.rename(ff, "99e5c2ec1c86494bad61026962d69ee2", true, true);
     }
-
+    //
     @Test
     public void test2() throws IOException {
-
+        // 研究背景
+        // 饮食与营养是维持人类生命健康的物质基础，健康是实现人生价值的前提和促进人的全面发展的必然要求。人们从食物中获取人体所需的各种营养例如蛋白质，维生素等这些营养元素经过吸收和代谢后转换为能量从而维持生命活动。这不仅仅是生命的本能，更是对生命质量的追求。对于饮食和健康的关联源远流长，是贯穿人类文明史永恒的命题。从公元前1700年美索不达米亚地区的人们将食谱刻契到泥板上，这些泥板可以被视为人类历史上最早的“菜谱数据库”，它标志着人类第一次使用存储物质固化和传承有关怎么吃的知识，再到大约成书于2000多年前的《黄帝内经》，它在饮食方面提出了五谷为养等许多重要理论，这些理论不仅成为了传统中医中药食同源理论基础，还传承了人们怎么吃的健康的知识。最后到现代营养学的帮助下，通过合理的搭配和平衡饮食中食物的种类和比例最大限度的满足人们需要，科学的对人们从食物中获取的营养素进行管理，避免缺乏和过量营养摄入，有针对性地为不同年龄、身体状况的人群定制个性化的饮食方案等，通过这些科学的饮食管理不仅意味着人们能够获得更精准更有效的营养支持，也意味着我们从思考怎么吃的健康进一步开始思考怎么健康的吃。在过去的几十年里，随着我国的经济和社会的迅速发展，人们的生活方式也产生了巨大的变化，这也带来了许许多多的挑战，其中一个重要问题是人们的饮食结构和方式发生了很大改变，根据研究显示我国的食品消费从满足大众基础型消费为主，向个性定制型食品消费转型。在此背景下构建健康导向型饮食系统，以及推进饮食与营养的需求的相适宜，为人们提供科学合理的饮食具有至关重要的意义。前面为了实现和解决当前社会发展提出的饮食与健康问题和挑战，中国营养学协会在国家卫健委的组织和领导下，根据科学原则和人体营养需要紧密结合我国饮食消费和营养状况修订了《中国居民膳食指南（2022年版）》，该指南已经成为人们食物选择和健康教育的指导性文件，本次论文实践也正是在学习该指南的过程中逐步构思并形成的。
+        // 国内外研究现状
+        // 从上面的背景中，我们知道人们对于怎么吃、怎么吃的健康和怎么健康的吃做出的探索和及其重要意义。如今的人们在饮食文化的积累和计算机信息技术的支持下很容易就能获取到食物的制作方法，从内容产出角度主要可以分为两大类：专业生产内容（Professionally-generated Content）简称PCG和用户生产内容（User-generated Content）简称UCG，前者是由专业机构或个人通常经过严格审核和编辑制作的内容，其特点是内容质量高专业性强但成本较高获取不易。以中国大百科全书出版社出版的《中国烹饪百科全书》为例，其作为中餐界的权威工具书，包含了中国菜系和菜品制作要素与调味等方面的庞大知识体系，它以系统的方式展示了中餐烹饪的博大精深。后者是由一般人士自主创作并发布的内容，常见于社交媒体、论坛、视频平台等其特点是内容形式多样但内容质量参差不齐，以北京瑞荻互动科技有限公司出品的菜谱网站下厨房和北京香哈网络股份有限公司两大为例，截至目前已累计收录约数百万道菜谱，在餐品划分上更是种类繁多不胜枚举。
+        // 发展趋势
+        // 尽管现在的人们获取饮食与健康的方式变得无比方便快捷，但信息载体是纸张还是网页，无论是PCG还是UCG，我们获取饮食和健康的建议依然停留在检索阶段，即从用户想要的角度出发，被动的提供既定的、静态的饮食的制作与健康的指导。然而随着计算机及其他科学技术的不断发展，人工智能诞生了，我们有机会尝试从用户想要转变为用户需要，从静态的检索走向动态的生成，从被动的提供建议走向主动的提出建议。
+        //
         String lowerCase = System.getProperty("os.name").toLowerCase();
 
         if (lowerCase.contains("win")) {
-
         } else {
-
         }
-
         Process start = new ProcessBuilder().command("cmd.exe", "/c", "wmic csproduct get UUID").start();
         List<String> lines = IoUtil.readLines(start.getInputStream(), StandardCharsets.UTF_8, new ArrayList<String>());
         String uuid = lines.stream().map(StrUtil::trim).filter(e -> StrUtil.isNotBlank(e) && !e.equalsIgnoreCase("UUID")).collect(Collectors.joining(""));
@@ -2696,13 +2700,12 @@ public class TestMain2 {
         Double v = new Double(ss);
         BigDecimal decimal1 = new BigDecimal(ss);
         DataSize dataSize = DataSize.ofBytes(v.longValue());
+        silhouette();
         System.out.println(new BigDecimal(dataSize.toMegabytes()).divide(decimal, 2, RoundingMode.HALF_UP).toString());
         System.out.println(dataSize.toKilobytes());
         System.out.println(decimal1.longValue());
+        System.out.println("-----------");
+
 
     }
-
-
-
-
 }

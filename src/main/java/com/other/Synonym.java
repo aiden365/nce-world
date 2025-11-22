@@ -210,6 +210,10 @@ public enum Synonym {
     enum_211("休息", "n.", Arrays.asList("rest", "break", "respite", "repose")),
     enum_212("古怪的", "adj.", Arrays.asList("weird", "bizarre")),
     enum_213("注意", "v.", Arrays.asList("attend", "notice", "heed")),
+    enum_214("检查", "v.", Arrays.asList("check", "inspect", "examine")),
+    enum_215("姿势", "n.", Arrays.asList("posture", "gesture", "attitude", "manner")),
+    enum_216("轮廓", "n.", Arrays.asList("figure", "silhouette")),
+
 
 
 

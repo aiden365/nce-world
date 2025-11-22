@@ -89,6 +89,9 @@ import java.util.Arrays;
  * bore [n.] (管道、枪炮等的)孔
  * casing [n.] 外壳
  * prone [adj.] 趴着的、有...倾向的
+ * start with 从...开始
+ * overpass [n.] 立交桥，天桥 [v.] 超过
+ * qualitatively [adv.] 在质量上，在品质上
  *
  *
  *
