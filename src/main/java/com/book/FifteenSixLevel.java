@@ -92,7 +92,12 @@ import java.util.Arrays;
  * start with 从...开始
  * overpass [n.] 立交桥，天桥 [v.] 超过
  * qualitatively [adv.] 在质量上，在品质上
- *
+ * cling on to sth和cling to sth 表示：坚持某事
+ * station [n.] 站 stationary [adj.] 固定的，静止的。
+ * circulate [v.] 循环，流传
+ * numb [v.] 使麻木 [adj.] 麻木的
+ * tilt away from 与 tilt against = 向远离某物的方向倾斜 与 倾斜靠在
+ * take a/its toll on sth. 这会对某些东西造成影响。
  *
  *
  *

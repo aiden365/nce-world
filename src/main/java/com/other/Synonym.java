@@ -214,7 +214,7 @@ public enum Synonym {
     enum_215("姿势", "n.", Arrays.asList("posture", "gesture", "attitude", "manner")),
     enum_216("轮廓", "n.", Arrays.asList("figure", "silhouette")),
     enum_217("走", "v.", Arrays.asList("go", "hick", "stroll", "wander", "walk", "move", "track", "wend", "pad", "step")),
-
+    enum_218("到达", "v.", Arrays.asList("arrive", "reach", "get in")),
 
 
 

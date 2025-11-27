@@ -2731,7 +2731,6 @@ public class TestMain2 {
             } catch (StringIndexOutOfBoundsException e) {
 
             }
-
         }
     }
 
@@ -2751,6 +2750,7 @@ public class TestMain2 {
         System.out.println(decimal1.longValue());
         System.out.println("-----------");
 
+        //
 
 
     }
