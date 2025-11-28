@@ -98,6 +98,18 @@ import java.util.Arrays;
  * numb [v.] 使麻木 [adj.] 麻木的
  * tilt away from 与 tilt against = 向远离某物的方向倾斜 与 倾斜靠在
  * take a/its toll on sth. 这会对某些东西造成影响。
+ * whip [n.] 鞭子，纪律委员 [n.] 鞭打，猛地朝一个方向移动
+ * be after him. 追赶某人
+ * tiresome [adj.] 令人讨厌的，烦躁的
+ * wrench [vt.] 猛拉，猛拽。
+ * stitch [n.] 突然的剧痛
+ * die from + sth. 死于
+ * fight one's way to sth. 为某事而奋斗，艰难的做某事
+ * gridiron [n.] 烤架，橄榄球场（因为橄榄球场也是网格状的）
+ * be aware of sth. 意识到某事
+ * ward [n.] 病房 [v.] 守卫，守护
+ *
+ *
  *
  *
  *

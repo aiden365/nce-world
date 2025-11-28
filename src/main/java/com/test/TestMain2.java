@@ -2750,8 +2750,6 @@ public class TestMain2 {
         System.out.println(decimal1.longValue());
         System.out.println("-----------");
 
-        //
-
 
     }
 }
