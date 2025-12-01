@@ -108,9 +108,16 @@ import java.util.Arrays;
  * gridiron [n.] 烤架，橄榄球场（因为橄榄球场也是网格状的）
  * be aware of sth. 意识到某事
  * ward [n.] 病房 [v.] 守卫，守护
- *
- *
- *
+ * grateful [adj.] 感激的，庆幸的
+ * come right out with it 直截了当地说出来
+ * normality [n.] 正常，正常状态 abnormality [n.] 不正常，异常状态
+ * condition [n.] 条件，状况，疾病
+ * escape [vi.] escape from (从不愉快或危险处境中)逃脱 [vt.] 做不及物动词核心仍然是‘从某个地方离开，某个东西不在某个方’（被某人）想不起来，被遗忘 Her name escapes me，
+ * or so [adv.] 大约
+ * [时间] + along 一般表示怀孕多长时间了，如how far
+ * beside和besides对比 beside 是介词，主要表示“在……旁边”或“与……相比”；而 besides 可作介词或副词，表示“除……之外（还有）”或“此外”。
+ * hold [v.] 拥抱
+ * turn to sb./sth. 想某人某物寻求帮助
  *
  *
  */

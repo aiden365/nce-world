@@ -9,7 +9,7 @@ public enum Synonym {
     enum_3("会议", "n.", Arrays.asList("meeting", "conference", "seminar", "session")),
     enum_4("可能地", "adv.", Arrays.asList("probably", "perhaps", "maybe")),
     enum_5("妥协", "n.", Arrays.asList("concession", "compromise")),
-    enum_6("努力", "v.", Arrays.asList("effort", "endeavour")),
+    enum_6("努力", "v.", Arrays.asList("effort", "endeavour", "strive", "struggle")),
     enum_16("小偷", "n.", Arrays.asList("thief", "pickpocket")),
     enum_18("衣服", "n.", Arrays.asList("clothes", "clothing")),
     enum_20("盘子", "n.", Arrays.asList("dish", "plate")),
@@ -58,7 +58,7 @@ public enum Synonym {
     enum_102("名声", "n.", Arrays.asList("reputation", "fame")),
     enum_104("飞机", "n.", Arrays.asList("airplane", "plane", "aircraft", "flight")),
     enum_107("巨大的", "adj.", Arrays.asList("huge", "immense", "giant", "enormous")),
-    enum_108("病", "n.", Arrays.asList("disease", "illness")),
+    enum_108("病", "n.", Arrays.asList("disease", "illness", "condition")),
     enum_110("完成", "v.", Arrays.asList("complete", "achieve")),
     enum_111("痛", "n.", Arrays.asList("pain", "ache")),
     enum_112("细节", "n.", Arrays.asList("detail", "particular", "specific")),
@@ -139,8 +139,9 @@ public enum Synonym {
     enum_223("担架", "n.", Arrays.asList("litter", "stretcher")),
     enum_224("末尾", "n.", Arrays.asList("tail", "end", "stern")),
     enum_225("裂缝", "n.", Arrays.asList("tail", "end", "stern")),
-    enum_226("擦拭", "v.", Arrays.asList("sponge", "wipe", "mop", "rub")),
+    enum_226("擦拭", "v.", Arrays.asList("sponge", "wipe", "mop", "rub", "scrub")),
     enum_227("穿", "v.", Arrays.asList("wear", "clad", "put on", "dress")),
+    enum_228("结束", "v.", Arrays.asList("terminate", "stop", "kill", "finish")),
 
 
 
