@@ -118,6 +118,9 @@ import java.util.Arrays;
  * beside和besides对比 beside 是介词，主要表示“在……旁边”或“与……相比”；而 besides 可作介词或副词，表示“除……之外（还有）”或“此外”。
  * hold [v.] 拥抱
  * turn to sb./sth. 想某人某物寻求帮助
+ * to a greater or less degree [adv.] 或多或少
+ * inform sb. of sth. 告知某人关于某事的信息或消息。
+ * to go through with sth: 不顾艰难地完成某事
  *
  *
  */

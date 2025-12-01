@@ -13,8 +13,13 @@ public class Welcome10 {
     public String getHeadWord() { return headWord; }
     public void setHeadWord(String value) { this.headWord = value; }
 
-    public Welcome10Content getContent() { return content; }
-    public void setContent(Welcome10Content value) { this.content = value; }
+    public Welcome10Content getContent() {
+        return content;
+    }
+
+    public void setContent(Welcome10Content value) {
+        this.content = value;
+    }
 
     public String getBookID() { return bookID; }
     public void setBookID(String value) { this.bookID = value; }
