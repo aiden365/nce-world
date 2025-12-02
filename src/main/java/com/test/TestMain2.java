@@ -2794,12 +2794,12 @@ public class TestMain2 {
         Double v = new Double(ss);
         BigDecimal decimal1 = new BigDecimal(ss);
         DataSize dataSize = DataSize.ofBytes(v.longValue());
-        silhouette();
         System.out.println(new BigDecimal(dataSize.toMegabytes()).divide(decimal, 2, RoundingMode.HALF_UP).toString());
         System.out.println(dataSize.toKilobytes());
         System.out.println(decimal1.longValue());
         System.out.println("-----------");
 
+        //
 
     }
 

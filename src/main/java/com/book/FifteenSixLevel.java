@@ -27,7 +27,7 @@ import java.util.Arrays;
  * water soluble [adj.] 水溶性的
  * 在主系表结构中，如果表语是形容词，那么可以使用介词来进一步限定形容词的范围，例如this two phones are very similar in design, but different in the price，但后面介词+名词在句中是一个整体，做状语，看似修饰形容词其实修饰的是整个谓语部分(be+adj.)
  * in the shape of 以…的形式；呈…的形状
- * mistake A for B = take A for B 把A误认为B，相反的 regard A as B = see / view A as B = identify A as B = recognize A as B 将A识别为B
+ * mistake A for B = take A for B 把A误认为B，相反的 regard A as B = see / view A as B = identify A as B = recognize A as B = ascertain A as B 将A识别为B
  * the baby boomer [n.] 婴儿潮时代出生的人
  * work with [vt.] 1与某人一起做某事，2利用某物做某事，如：most of the artists who paint prefer to work with watercolor，3对人或事产生效果，如：the new treatment way works with most of advance cancer patients
  * ego [n.] 自尊心
@@ -120,8 +120,15 @@ import java.util.Arrays;
  * turn to sb./sth. 想某人某物寻求帮助
  * to a greater or less degree [adv.] 或多或少
  * inform sb. of sth. 告知某人关于某事的信息或消息。
- * to go through with sth: 不顾艰难地完成某事
- *
+ * to go through with sth: 不顾艰难地完成某事，将某件事进行到底
+ * feel that way 是一个惯用语，意思是 “有那种感觉” 或 “持有那种看法/态度”。它在这里充当表语
+ * hardship [n.] 困难
+ * incubator [n.] 保育箱（用于体弱婴儿或早产儿护理的箱子）
+ * rush [v.] 冲，奔；把（某人或某物）迅速送往某处，如：nurses rushed her into an incubator
+ * correct [v.] 矫正（医疗）
+ * not until 1引导时间状语，译为：直到...才，当 not until 引导的时间状语置于句首时，主句需部分倒装 如：not until Father returned did we begin supper. 2通过 it is/was not until...that... 句式强化时间点，主句无需倒装，that 后接陈述语序 It is not until next week that the sports meet will be held.
+ * majority of 大多数
+ * malformation [n.] 畸形
  *
  */
 
