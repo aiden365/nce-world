@@ -2798,8 +2798,21 @@ public class TestMain2 {
         System.out.println(dataSize.toKilobytes());
         System.out.println(decimal1.longValue());
         System.out.println("-----------");
+        // This most precious of all gifts was going to survive the obstacles ahead of her with my help.
+        // to survive the obstacles ahead of her with my help.
+        // to share my joy in our wonderful daughter 句中的in，该怎么理解？
+        // The Nineteenth Century In the 19th century, the United States was a relative newcomer to the area of international affairs.
+        immigration();
+        emigration();
+        discrimination();
+        pressure();
+        pressurize();
+        // Laws, such as placing a police tax on Chinese people in California in 1862
+        // and The Chinese Exclusion Act passed in 1882,
+        // officially testified to blatant discrimination against Chinese people. (a minute ago)
 
-        //
+
+
 
     }
 

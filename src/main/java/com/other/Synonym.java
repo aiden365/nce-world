@@ -155,6 +155,13 @@ public enum Synonym {
     enum_239("好运的", "adj.", Arrays.asList("lucky", "fortunate", "blessed")),
     enum_240("养育", "v.", Arrays.asList("foster", "rear", "bring up", "nurture")),
     enum_241("障碍", "n.", Arrays.asList("barrier", "hurdle", "obstacle")),
+    enum_242("想要", "v.", Arrays.asList("want", "demand")),
+    enum_243("使痛苦", "v.", Arrays.asList("afflict", "distress")),
+    enum_244("新人", "n.", Arrays.asList("freshman","newcomer")),
+    enum_245("察觉", "v.", Arrays.asList("be aware of","perceive", "sense")),
+    enum_246("压力", "n.", Arrays.asList("stress","pressure")),
+    enum_247("证明", "v.", Arrays.asList("prove","testify")),
+
 
 
 
