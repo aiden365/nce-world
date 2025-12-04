@@ -151,7 +151,7 @@ public enum Synonym {
     enum_235("分娩", "v.", Arrays.asList("bear", "deliver", "labour")),
     enum_236("婴儿", "n.", Arrays.asList("infant", "baby")),
     enum_237("减轻", "v.", Arrays.asList("relieve", "alleviate")),
-    enum_238("财政的", "adj.", Arrays.asList("financial", "monetary")),
+    enum_238("财政的", "adj.", Arrays.asList("financial（金融财务）", "monetary（货币）", "economic（经济）")),
     enum_239("好运的", "adj.", Arrays.asList("lucky", "fortunate", "blessed")),
     enum_240("养育", "v.", Arrays.asList("foster", "rear", "bring up", "nurture")),
     enum_241("障碍", "n.", Arrays.asList("barrier", "hurdle", "obstacle")),
@@ -161,6 +161,11 @@ public enum Synonym {
     enum_245("察觉", "v.", Arrays.asList("be aware of","perceive", "sense")),
     enum_246("压力", "n.", Arrays.asList("stress","pressure")),
     enum_247("证明", "v.", Arrays.asList("prove","testify")),
+    enum_248("敏感的", "adj.", Arrays.asList("sensitive", "susceptible")),
+    enum_249("看起来", "link.", Arrays.asList("seem", "appear", "look")),
+    enum_250("树枝", "n.", Arrays.asList("bough", "branch")),
+    enum_251("建造", "v.", Arrays.asList("build", "construct", "make", "establish", "create")),
+
 
 
 

@@ -27,7 +27,7 @@ import java.util.Arrays;
  * water soluble [adj.] 水溶性的
  * 在主系表结构中，如果表语是形容词，那么可以使用介词来进一步限定形容词的范围，例如this two phones are very similar in design, but different in the price，但后面介词+名词在句中是一个整体，做状语，看似修饰形容词其实修饰的是整个谓语部分(be+adj.)
  * in the shape of 以…的形式；呈…的形状
- * mistake A for B = take A for B 把A误认为B，相反的 regard A as B = see / view A as B = identify A as B = recognize A as B = ascertain A as B = think of A as B  将A识别为B
+ * mistake A for B = take A for B 把A误认为B，相反的 regard A as B = see / view A as B = identify A as B = recognize A as B = ascertain A as B = think of A as B = claim A as B  将A识别为B
  * the baby boomer [n.] 婴儿潮时代出生的人
  * work with [vt.] 1与某人一起做某事，2利用某物做某事，如：most of the artists who paint prefer to work with watercolor，3对人或事产生效果，如：the new treatment way works with most of advance cancer patients
  * ego [n.] 自尊心
@@ -132,6 +132,12 @@ import java.util.Arrays;
  * subtle [adj.] 微妙的，精细的，用于描述不易察觉或间接的呈现方式
  * begin with sth. 以...为起点, 始于
  * 以the Gold Rush of 1849 in California为例，英语中数字是可以作为名词使用的
+ * testify [vi.] testify to sth. 为...作证，如Laws officially testified to blatant discrimination against Chinese people. 法律正式证实了针对中国人的明目张胆的歧视。
+ * push sb. around 欺负某人（把某人推来推去）
+ * It + be + 时间段 + before + 从句，用来强调时间的漫长或等待的久远 译为要过多久...才... 例如 it would be into 20th century before such laws were abolished 也可以用not...until句型，例如 such laws were not abolished until into 20th century
+ * the second half  下半场
+ * preoccupy with sth. 全神贯注于某事
+ * the turn of the century 译为世纪之交 其中turn表示转动，轮转，转折质疑，
  *
  */
 

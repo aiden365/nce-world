@@ -2807,13 +2807,23 @@ public class TestMain2 {
         discrimination();
         pressure();
         pressurize();
-        // Laws, such as placing a police tax on Chinese people in California in 1862
-        // and The Chinese Exclusion Act passed in 1882,
-        // officially testified to blatant discrimination against Chinese people. (a minute ago)
+        // Laws officially testified to blatant discrimination against Chinese people.
+        // The latter felt forced to congregate in areas of big cities, such as San Francisco, New York, and Boston. (19 minutes ago)
+        // Chinatown soon became part of American urban vocabulary.
+        // It seemed that the timid Chinese were susceptible to being pushed around.
+        // It appeared that Chinese and other Oriental immigrants were not welcome with open arms 这句话看上去是个被动语态，但 welcome 为什么不是过去分词形式
+        // but were welcome only when hard labour was needed to do the toughest jobs,
+        // especially in railroad construction and in the new industries that were fast developing at the time.
 
+        // the United States was preoccupied with a civil war and a post civil war industrial revolution.
 
-
-
+        // American foreign policy with China did not really take form until 1899 and 1900. (a minute ago)
+        // By the turn of the century, the United States was ascending as a major player in international affairs,
+        // especially in the western hemisphere. (a minute ago)
+        // However, in 1899, the Americans saw economic opportunities in an already politically suppressed China. (a minute ago)
+        // For decades, European countries had been reaping the economic benefits
+        // by exploiting of the country's resources and markets
+        // while claiming chunks of territory as their own.
     }
 
 }
