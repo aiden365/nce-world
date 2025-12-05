@@ -28,9 +28,14 @@ import java.nio.channels.FileChannel;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Path;
 import java.nio.file.StandardOpenOption;
+import java.time.ZoneId;
+import java.time.ZoneOffset;
+import java.time.ZonedDateTime;
+import java.time.format.TextStyle;
 import java.util.*;
 import java.util.concurrent.CountDownLatch;
 import java.util.stream.Collectors;
+import java.util.stream.IntStream;
 
 import static com.words.TestFour4.*;
 import static com.words.TestCz.*;
@@ -2798,32 +2803,58 @@ public class TestMain2 {
         System.out.println(dataSize.toKilobytes());
         System.out.println(decimal1.longValue());
         System.out.println("-----------");
-        // This most precious of all gifts was going to survive the obstacles ahead of her with my help.
-        // to survive the obstacles ahead of her with my help.
-        // to share my joy in our wonderful daughter 句中的in，该怎么理解？
-        // The Nineteenth Century In the 19th century, the United States was a relative newcomer to the area of international affairs.
-        immigration();
-        emigration();
-        discrimination();
-        pressure();
-        pressurize();
-        // Laws officially testified to blatant discrimination against Chinese people.
-        // The latter felt forced to congregate in areas of big cities, such as San Francisco, New York, and Boston. (19 minutes ago)
-        // Chinatown soon became part of American urban vocabulary.
-        // It seemed that the timid Chinese were susceptible to being pushed around.
-        // It appeared that Chinese and other Oriental immigrants were not welcome with open arms 这句话看上去是个被动语态，但 welcome 为什么不是过去分词形式
-        // but were welcome only when hard labour was needed to do the toughest jobs,
-        // especially in railroad construction and in the new industries that were fast developing at the time.
+        sovereignty();
+        reign();
+        // The United States did not deviate far from this economic policy toward China, 为什么用from而不是for或者to，这太奇怪了，因为policy并不是来源于china
+        // until the communist take over in 1949. (2 minutes ago)
+        // One could only imagine how the Chinese must have felt at the turn of the century. 这句话中使用must have done 这个肯定结构有什么意义呢，他与前面的how完全相反呀
 
-        // the United States was preoccupied with a civil war and a post civil war industrial revolution.
+        // This benchmark intervention by the United States, conferred on all countries, equal and impartial trade with all parts of China, while preserving the territorial and administrative integrity of the country. (moments ago)
 
-        // American foreign policy with China did not really take form until 1899 and 1900. (a minute ago)
-        // By the turn of the century, the United States was ascending as a major player in international affairs,
-        // especially in the western hemisphere. (a minute ago)
-        // However, in 1899, the Americans saw economic opportunities in an already politically suppressed China. (a minute ago)
-        // For decades, European countries had been reaping the economic benefits
-        // by exploiting of the country's resources and markets
-        // while claiming chunks of territory as their own.
+    }
+
+
+    @Test
+    public void test4() throws IOException {
+        int sum = 1;
+        for (int i = 1; i <= 30; i++){
+            sum += 1;
+            for (int j = 1; j <= 10; j++) {
+                sum += 1;
+                for (int k = 1; k <= 7; k++) {
+                    sum += 1;
+                    for (int l = 1; l <= 5; l++) {
+                        sum += 1;
+                    }
+                }
+            }
+        }
+        System.out.println(sum);
+
+        System.out.println(System.getProperty("java.io.tmpdir"));
+
+        TimeZone timeZone = TimeZone.getDefault();
+        ZoneId defaultZone = ZoneId.systemDefault();
+        System.out.println(defaultZone.getId());
+        System.out.println(defaultZone.getDisplayName(TextStyle.FULL, Locale.CHINA));
+        System.out.println(timeZone.getID());  // 获取时区ID
+        System.out.println(timeZone.getDisplayName());  // 获取时区显示名称
+
+        // 获取UTC时间的ZonedDateTime对象
+        ZonedDateTime utcTime = ZonedDateTime.now(ZoneOffset.UTC);
+        System.out.println("UTC Time: " + utcTime);
+
+        // 定义东八区的ID
+        ZoneId zoneIdGmt8 = ZoneId.of("Asia/Shanghai"); // 或者使用"GMT+8"
+
+        // 将UTC时间转换为东八区时间
+        ZonedDateTime gmt8Time = utcTime.withZoneSameInstant(zoneIdGmt8);
+        System.out.println("GMT+8 Time: " + gmt8Time);
+
+        IntStream.range(252,552).forEach(e -> {
+            System.out.println("enum_"+e+"(\"a\", \"v.\", Arrays.asList(\"a\", \"a\")),");
+        });
+
     }
 
 }

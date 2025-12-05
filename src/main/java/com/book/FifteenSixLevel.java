@@ -138,6 +138,12 @@ import java.util.Arrays;
  * the second half  下半场
  * preoccupy with sth. 全神贯注于某事
  * the turn of the century 译为世纪之交 其中turn表示转动，轮转，转折质疑，
+ * establish [v.] 建立 -ed [adj.] 已建立的，站稳脚跟的
+ * lucrative [adj.] 有利可图的，有利润的，赚大钱的
+ * Secretary of State （英）国务大臣；（美）国务卿
+ * is well positioned to do something 有能力、有底气、有条件去完成这件事，句中的 well position 可以理解为具备有利条件、处于有利地位
+ * other = another = one more = 另一个
+ * deny [v.] 剥夺 deny sb. of sth. 等价于 deprive sb. of sth.
  *
  */
 
