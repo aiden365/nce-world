@@ -144,6 +144,9 @@ import java.util.Arrays;
  * is well positioned to do something 有能力、有底气、有条件去完成这件事，句中的 well position 可以理解为具备有利条件、处于有利地位
  * other = another = one more = 另一个
  * deny [v.] 剥夺 deny sb. of sth. 等价于 deprive sb. of sth.
+ * be immune to 免受...的影响, 对...免疫
+ * rid [v.] 使摆脱，使……去除，rid sb. of sth. 如：the doctor had rid her teeth of bad by operation
+ * aside from sth. 除...之外
  *
  */
 

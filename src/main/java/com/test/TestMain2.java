@@ -2803,13 +2803,8 @@ public class TestMain2 {
         System.out.println(dataSize.toKilobytes());
         System.out.println(decimal1.longValue());
         System.out.println("-----------");
-        sovereignty();
-        reign();
-        // The United States did not deviate far from this economic policy toward China, 为什么用from而不是for或者to，这太奇怪了，因为policy并不是来源于china
-        // until the communist take over in 1949. (2 minutes ago)
-        // One could only imagine how the Chinese must have felt at the turn of the century. 这句话中使用must have done 这个肯定结构有什么意义呢，他与前面的how完全相反呀
+        cripple();
 
-        // This benchmark intervention by the United States, conferred on all countries, equal and impartial trade with all parts of China, while preserving the territorial and administrative integrity of the country. (moments ago)
 
     }
 
@@ -2833,6 +2828,7 @@ public class TestMain2 {
 
         System.out.println(System.getProperty("java.io.tmpdir"));
 
+        // Would Americans tolerate their own officials being in collusion with, and being xxx by Chinese Authorities, to let all of above take place
         TimeZone timeZone = TimeZone.getDefault();
         ZoneId defaultZone = ZoneId.systemDefault();
         System.out.println(defaultZone.getId());
