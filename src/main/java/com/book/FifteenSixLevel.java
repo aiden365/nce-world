@@ -147,6 +147,8 @@ import java.util.Arrays;
  * be immune to 免受...的影响, 对...免疫
  * rid [v.] 使摆脱，使……去除，rid sb. of sth. 如：the doctor had rid her teeth of bad by operation
  * aside from sth. 除...之外
+ * for a good century 整整一个世纪 a good 足足
+ * take power 当权；取得政权
  *
  */
 
