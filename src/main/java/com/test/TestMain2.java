@@ -2804,9 +2804,9 @@ public class TestMain2 {
         System.out.println(dataSize.toKilobytes());
         System.out.println(decimal1.longValue());
         System.out.println("-----------");
-        // In 1953, Josef Stalin, the Soviet leader, died. These events helped to bring about a shift in direction in American foreign policy. The United States began to look more to Asian events as major threats to America's national security. (moments ago)
-        jeopardise();
-
+        // at the beginning of the last century.
+        // With the onset of a light sprinkle, I made a hasty retreat to shelter in the doorway of the church.
+        // The familiar refrain of well-known hymns rang out within the church.
     }
 
 

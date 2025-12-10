@@ -149,6 +149,9 @@ import java.util.Arrays;
  * aside from sth. 除...之外
  * for a good century 整整一个世纪 a good 足足
  * take power 当权；取得政权
+ * For the time being 眼下，暂且
+ * in close proximity to 与…靠得很近，接近, proximity [n.] 附近
+ * a load of sth. 一堆...，许多...
  *
  */
 
