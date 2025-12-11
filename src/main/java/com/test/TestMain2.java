@@ -2804,9 +2804,9 @@ public class TestMain2 {
         System.out.println(dataSize.toKilobytes());
         System.out.println(decimal1.longValue());
         System.out.println("-----------");
-        // at the beginning of the last century.
-        // With the onset of a light sprinkle, I made a hasty retreat to shelter in the doorway of the church.
-        // The familiar refrain of well-known hymns rang out within the church.
+        // Best of all, I was allowed to don an exquisite silk embroidered jacket
+        // and play with a blue and tan parasol which was adorned with sprays of plum blossoms and tiny buds.
+
     }
 
 
