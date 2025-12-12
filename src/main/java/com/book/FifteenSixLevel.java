@@ -152,6 +152,29 @@ import java.util.Arrays;
  * For the time being 眼下，暂且
  * in close proximity to 与…靠得很近，接近, proximity [n.] 附近
  * a load of sth. 一堆...，许多...
+ * minimize [v.] 轻视
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
  *
  */
 

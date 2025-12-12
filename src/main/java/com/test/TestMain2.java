@@ -2804,8 +2804,7 @@ public class TestMain2 {
         System.out.println(dataSize.toKilobytes());
         System.out.println(decimal1.longValue());
         System.out.println("-----------");
-        // Best of all, I was allowed to don an exquisite silk embroidered jacket
-        // and play with a blue and tan parasol which was adorned with sprays of plum blossoms and tiny buds.
+
 
     }
 
