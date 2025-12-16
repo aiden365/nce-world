@@ -153,9 +153,24 @@ import java.util.Arrays;
  * in close proximity to 与…靠得很近，接近, proximity [n.] 附近
  * a load of sth. 一堆...，许多...
  * minimize [v.] 轻视
- *
- *
- *
+ * scramble to do 争先恐后地做
+ * five consecutive years 连续五年
+ * token [n.] 标志，符合，记号，[adj.] 象征性的，作为标志的
+ * well [n.] 水井
+ * the ground water [n.] 地下水
+ * poor plan 一个没有被充分思考或者没有被很好地执行的计划
+ * smog [n.] 雾霾
+ * deem [v.] 认为，常用于表达某人认为某事物具有某种特质或价值，如：they deem the new policy to be effective
+ * pollutant [n.] 污染物
+ * breakthrough [n.] 突破，重大进展
+ * obscene [n.] 骇人听闻的，淫秽的，道德上无法接受的
+ * lay siege to 军队包围城市（围攻），对...构成严重威胁
+ * alternative [n.] 替代品 an alternative to sth. 某物的替代品
+ * differ [vi.] 有差异，如：A differ(s) from B in sth. English differs from French in pronunciation
+ * differentiate [vt.] 区分，辨别，It’s hard to differentiate between the two species
+ * leave [vt.] 留下，leave sb. with sth. = leave sth. to sb. = leave sth. for sb.  如 this movie left me with profound impression
+ * pass (on) A. to B. 把A传给B
+ * square meter/feet 平方米/平方英尺， cubic meter/feet 立方米/立方英尺
  *
  *
  *
