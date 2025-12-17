@@ -171,8 +171,13 @@ import java.util.Arrays;
  * leave [vt.] 留下，leave sb. with sth. = leave sth. to sb. = leave sth. for sb.  如 this movie left me with profound impression
  * pass (on) A. to B. 把A传给B
  * square meter/feet 平方米/平方英尺， cubic meter/feet 立方米/立方英尺
- *
- *
+ * floor space [n] [建] 占地面积,建筑面积 living floor space 居住使用面积
+ * skyline [n.] 天际线
+ * manageable [adj.] 可管理的,可做到的
+ * take advantage of sth. 利用
+ * floor和storey  当表示第几层时，‌floor 常与介词on搭配（如I live on the second floor），而 storey 常与介词 in‌搭配（如I live in the second storey），在描述建筑总层数时，‌storey‌更常见（如“a 9-storey apartment building”），而 floor更多用于指内部具体楼层（如“The office is on the 6th floor”）。‌
+ * impression [n.] 印象 impressive [adj.] （令人）印象深刻的
+ * Virility和vitality的区别：他们都表示活力，其次如果你想夸一个人（不管男女）精神好、甚至夸一只狗或者一个创业公司很有干劲，用 Vitality，如果你想形容一个男人很爷们儿、很刚强、或者暗示他性能力很强，用 Virility
  *
  *
  *

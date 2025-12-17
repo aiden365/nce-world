@@ -2804,11 +2804,11 @@ public class TestMain2 {
         System.out.println(dataSize.toKilobytes());
         System.out.println(decimal1.longValue());
         System.out.println("-----------");
-        commission();
-        // His task was evident:
-        // the building must have twelve million square feet of floor space on a sixteen acre parcel of land,
-        // accommodate the new facilities for the Hudson tubes and subway connections,
-        // and be done within the 500 million dollar budget. (a minute ago)
+        // Yamasaki believed that all buildings must be strong in the context of being dominant. (3 minutes ago)
+        // The 208-foot front wall is essentially a pre-assembled steel web with columns on 39-inch centers
+        // providing the wind bracing necessary for a building of this height,
+        // allowing the central core to take only the gravity loads.
+        //
 
     }
 
