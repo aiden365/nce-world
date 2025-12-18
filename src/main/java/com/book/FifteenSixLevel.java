@@ -178,6 +178,16 @@ import java.util.Arrays;
  * floor和storey  当表示第几层时，‌floor 常与介词on搭配（如I live on the second floor），而 storey 常与介词 in‌搭配（如I live in the second storey），在描述建筑总层数时，‌storey‌更常见（如“a 9-storey apartment building”），而 floor更多用于指内部具体楼层（如“The office is on the 6th floor”）。‌
  * impression [n.] 印象 impressive [adj.] （令人）印象深刻的
  * Virility和vitality的区别：他们都表示活力，其次如果你想夸一个人（不管男女）精神好、甚至夸一只狗或者一个创业公司很有干劲，用 Vitality，如果你想形容一个男人很爷们儿、很刚强、或者暗示他性能力很强，用 Virility
+ * on center(s) [n.] 在建筑、木工等领域中，按中心间距是指从一个元素的中心到另一个元素的中心的距离，there are a pair of granitic lion sculptures on 5-meter centers at the front gate
+ * brace [n.] 支架，[v.] 使(身体或身体部位)顶住，使防备，(为困难或坏事)使作准备，如medical kneepad can brace our joints
+ * membrane [n.] (身体内的)膜;(植物的)细胞膜;(可起防水、防风等作用的)膜状物
+ * floor membrane [n.] 楼板
+ * wind-load [n.] 风载[荷]，风压,用于描述风对建筑结构产生的荷载作用
+ * open onto sp. 通往某地
+ * four banks of elevator
+ * groundbreaking [adj.] 动工的，突破性的
+ * the ribbon cutting ceremony [n.] 剪彩仪式
+ * institution [n.] 制度，（社会团体或机构的）建筑物
  *
  *
  *

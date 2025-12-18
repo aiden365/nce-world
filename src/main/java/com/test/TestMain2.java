@@ -2804,11 +2804,9 @@ public class TestMain2 {
         System.out.println(dataSize.toKilobytes());
         System.out.println(decimal1.longValue());
         System.out.println("-----------");
-        // Yamasaki believed that all buildings must be strong in the context of being dominant. (3 minutes ago)
-        // The 208-foot front wall is essentially a pre-assembled steel web with columns on 39-inch centers
-        // providing the wind bracing necessary for a building of this height,
-        // allowing the central core to take only the gravity loads.
-        //
+        // Thus, the working population of the W. T. C. would incorporate a cross-section of nationalities, not just Americans. (moments ago)
+
+
 
     }
 
