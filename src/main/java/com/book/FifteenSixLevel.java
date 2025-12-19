@@ -190,7 +190,8 @@ import java.util.Arrays;
  * institution [n.] 制度，（社会团体或机构的）建筑物
  * cross-section [n.] 横截面
  * eclipse [v.] 使暗淡，AI. has eclipsed human in intelligence  [n.] an eclipse of the sun 日食，an eclipse of the moon 月食
- *
+ * transcontinental [adj.] 洲际的，横穿大陆的
+ * alert [v.] 使警觉，使察觉，使意识到，s.has alerted to sth. 某人被告知了某事 / 某人获悉了某事
  *
  *
  *

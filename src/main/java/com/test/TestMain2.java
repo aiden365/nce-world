@@ -2805,8 +2805,14 @@ public class TestMain2 {
         System.out.println(decimal1.longValue());
 
         System.out.println("-----------");
-        // Who could have conceived an attack so vicious it would eclipse almost every man-made catastrophe?
-
+        // a hijacked 767 commercial airliner with a full load of jet fuel for a transcontinental flight collided with One W. T. C...
+        // As a bewildered public endeavored to assimilate this overwhelming event, at 9:03 a. m., a second hijacked jet crashed into Two W. T. C. (2 minutes ago)
+        // Millions of people around the world,
+        // having been alerted to the incident and now watching the terror unfold on their televisions,
+        // watched in shock as the second plane,
+        // in the blink of an eye,
+        // entered the south tower at approximately the seventy-second floor and partially exited the opposite wall.
+        // having been alerted to the incident 句中的alert to，该怎么理解？
 
     }
 
