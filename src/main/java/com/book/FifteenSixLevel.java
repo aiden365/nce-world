@@ -188,6 +188,8 @@ import java.util.Arrays;
  * groundbreaking [adj.] 动工的，突破性的
  * the ribbon cutting ceremony [n.] 剪彩仪式
  * institution [n.] 制度，（社会团体或机构的）建筑物
+ * cross-section [n.] 横截面
+ * eclipse [v.] 使暗淡，AI. has eclipsed human in intelligence  [n.] an eclipse of the sun 日食，an eclipse of the moon 月食
  *
  *
  *

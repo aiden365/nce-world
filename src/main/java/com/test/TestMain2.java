@@ -2803,9 +2803,9 @@ public class TestMain2 {
         System.out.println(new BigDecimal(dataSize.toMegabytes()).divide(decimal, 2, RoundingMode.HALF_UP).toString());
         System.out.println(dataSize.toKilobytes());
         System.out.println(decimal1.longValue());
-        System.out.println("-----------");
-        // Thus, the working population of the W. T. C. would incorporate a cross-section of nationalities, not just Americans. (moments ago)
 
+        System.out.println("-----------");
+        // Who could have conceived an attack so vicious it would eclipse almost every man-made catastrophe?
 
 
     }
@@ -2830,17 +2830,16 @@ public class TestMain2 {
 
         System.out.println(System.getProperty("java.io.tmpdir"));
 
+
         TimeZone timeZone = TimeZone.getDefault();
         ZoneId defaultZone = ZoneId.systemDefault();
         System.out.println(defaultZone.getId());
         System.out.println(defaultZone.getDisplayName(TextStyle.FULL, Locale.CHINA));
         System.out.println(timeZone.getID());  // 获取时区ID
         System.out.println(timeZone.getDisplayName());  // 获取时区显示名称
-
         // 获取UTC时间的ZonedDateTime对象
         ZonedDateTime utcTime = ZonedDateTime.now(ZoneOffset.UTC);
         System.out.println("UTC Time: " + utcTime);
-
 
         // 定义东八区的ID
         ZoneId zoneIdGmt8 = ZoneId.of("Asia/Shanghai"); // 或者使用"GMT+8"
