@@ -192,11 +192,17 @@ import java.util.Arrays;
  * eclipse [v.] 使暗淡，AI. has eclipsed human in intelligence  [n.] an eclipse of the sun 日食，an eclipse of the moon 月食
  * transcontinental [adj.] 洲际的，横穿大陆的
  * alert [v.] 使警觉，使察觉，使意识到，s.has alerted to sth. 某人被告知了某事 / 某人获悉了某事
- *
- *
- *
- *
- *
+ * commit [v.] 做，干。但多用于不太好的事情，比如犯罪或犯错。如：commit a crime, commit suicide
+ * intent on doing sth. 专心致志于某事
+ * notify sb of sth. 告知/通知某人某事
+ * influx [n.] （人或物的）大量涌入，大量流入
+ * catch fire 着火
+ * Not one of the adjoining structures was left intact. 这句话中的intact并不是省略了being的状语从句，将leave换成成主动语态 Leave + [宾语] + [宾语补足语 (形容词)] The explosion left [the structures] [intact]. 会发现intact使宾语补足语，但是语态变成被动后就自燃成为主语补足语了
+ * puzzle [n.] 难题，拼图游戏
+ * other that [conj.] 除了...之外
+ * loss of life and property 生命财产损失
+ * make sense of 搞清…的意思
+ *　
  *
  *
  *

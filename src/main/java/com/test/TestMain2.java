@@ -2803,16 +2803,8 @@ public class TestMain2 {
         System.out.println(new BigDecimal(dataSize.toMegabytes()).divide(decimal, 2, RoundingMode.HALF_UP).toString());
         System.out.println(dataSize.toKilobytes());
         System.out.println(decimal1.longValue());
-
         System.out.println("-----------");
-        // a hijacked 767 commercial airliner with a full load of jet fuel for a transcontinental flight collided with One W. T. C...
-        // As a bewildered public endeavored to assimilate this overwhelming event, at 9:03 a. m., a second hijacked jet crashed into Two W. T. C. (2 minutes ago)
-        // Millions of people around the world,
-        // having been alerted to the incident and now watching the terror unfold on their televisions,
-        // watched in shock as the second plane,
-        // in the blink of an eye,
-        // entered the south tower at approximately the seventy-second floor and partially exited the opposite wall.
-        // having been alerted to the incident 句中的alert to，该怎么理解？
+
 
     }
 
@@ -2846,14 +2838,11 @@ public class TestMain2 {
         // 获取UTC时间的ZonedDateTime对象
         ZonedDateTime utcTime = ZonedDateTime.now(ZoneOffset.UTC);
         System.out.println("UTC Time: " + utcTime);
-
         // 定义东八区的ID
         ZoneId zoneIdGmt8 = ZoneId.of("Asia/Shanghai"); // 或者使用"GMT+8"
-
         // 将UTC时间转换为东八区时间
         ZonedDateTime gmt8Time = utcTime.withZoneSameInstant(zoneIdGmt8);
         System.out.println("GMT+8 Time: " + gmt8Time);
-
         IntStream.range(252,552).forEach(e -> {
             System.out.println("enum_"+e+"(\"a\", \"v.\", Arrays.asList(\"a\", \"a\")),");
         });
