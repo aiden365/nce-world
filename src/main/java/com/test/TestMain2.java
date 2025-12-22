@@ -2800,12 +2800,6 @@ public class TestMain2 {
         BigDecimal decimal1 = new BigDecimal(ss);
         DataSize dataSize = DataSize.ofBytes(v.longValue());
 
-        System.out.println(new BigDecimal(dataSize.toMegabytes()).divide(decimal, 2, RoundingMode.HALF_UP).toString());
-        System.out.println(dataSize.toKilobytes());
-        System.out.println(decimal1.longValue());
-        System.out.println("-----------");
-
-
     }
 
 
@@ -2846,6 +2840,13 @@ public class TestMain2 {
         IntStream.range(252,552).forEach(e -> {
             System.out.println("enum_"+e+"(\"a\", \"v.\", Arrays.asList(\"a\", \"a\")),");
         });
+
+        IntStream.range(0, 100).forEach(e -> {
+            System.out.println("enum_"+e+"(\"a\", \"v.\", Arrays.asList(\"a\", \"a\")),");
+        });
+        // I give you assurance that all of my words is true。这句话看上去有3个宾语
+
+
 
     }
 

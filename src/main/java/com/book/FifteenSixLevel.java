@@ -202,6 +202,11 @@ import java.util.Arrays;
  * other that [conj.] 除了...之外
  * loss of life and property 生命财产损失
  * make sense of 搞清…的意思
+ * closure [n.] 交代(既包含事件终结之意，又体现对家属的情感抚慰)。宽慰(因困境结束或事情得到妥善处理等的)，but victim families must be given some closure
+ * Marriott hotel [n.] 万豪酒店
+ * stereotype [n.] 刻板印象 [v.] 对...形成刻板印象，认为（刻板的） 如 stereotype sb. as... they immediately stereotype those children as wicked boy as soon as one hear about their unsatisfactory academic record
+ * cynical [n.] 愤世嫉俗，犬儒主义的。 cynicism [n.] 犬儒主义
+ *
  *　
  *
  *
