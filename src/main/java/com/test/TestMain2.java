@@ -33,7 +33,10 @@ import java.time.ZoneOffset;
 import java.time.ZonedDateTime;
 import java.time.format.TextStyle;
 import java.util.*;
+import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.CountDownLatch;
+import java.util.concurrent.Executor;
+import java.util.concurrent.Executors;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
@@ -2830,6 +2833,7 @@ public class TestMain2 {
         System.out.println(timeZone.getID());  // 获取时区ID
         System.out.println(timeZone.getDisplayName());  // 获取时区显示名称
         // 获取UTC时间的ZonedDateTime对象
+
         ZonedDateTime utcTime = ZonedDateTime.now(ZoneOffset.UTC);
         System.out.println("UTC Time: " + utcTime);
         // 定义东八区的ID
@@ -2840,14 +2844,39 @@ public class TestMain2 {
         IntStream.range(252,552).forEach(e -> {
             System.out.println("enum_"+e+"(\"a\", \"v.\", Arrays.asList(\"a\", \"a\")),");
         });
-
+        // those companies that can envisage a future with the best possible work force.
         IntStream.range(0, 100).forEach(e -> {
             System.out.println("enum_"+e+"(\"a\", \"v.\", Arrays.asList(\"a\", \"a\")),");
         });
-        // I give you assurance that all of my words is true。这句话看上去有3个宾语
 
 
+    }
 
+    @Test
+    public void test5() {
+
+        Executor executor = Executors.newFixedThreadPool(10); // 创建一个有10个线程的线程池
+
+        CompletableFuture<String> future1 = CompletableFuture.supplyAsync(() -> {
+            // 执行一些操作
+            try {
+                Thread.sleep(3000);
+            } catch (InterruptedException e) {
+                throw new RuntimeException(e);
+            }
+            log.info("Result1:");
+            return "Result1";
+        }, executor);
+
+        CompletableFuture<String> result = future1.thenCompose(result1 -> {
+            return CompletableFuture.supplyAsync(() -> {
+                // 使用result1进行一些操作
+                log.info("Result2:");
+                return "Result2";
+            }, executor);
+        });
+
+        result.join();
     }
 
 }

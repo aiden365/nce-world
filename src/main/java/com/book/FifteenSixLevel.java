@@ -206,7 +206,10 @@ import java.util.Arrays;
  * Marriott hotel [n.] 万豪酒店
  * stereotype [n.] 刻板印象 [v.] 对...形成刻板印象，认为（刻板的） 如 stereotype sb. as... they immediately stereotype those children as wicked boy as soon as one hear about their unsatisfactory academic record
  * cynical [n.] 愤世嫉俗，犬儒主义的。 cynicism [n.] 犬儒主义
- *
+ * compare [v.] 比较，比喻。1. compare A. with B. 比较两个同类事物（比如两台手机、两个城市、两种文化）的异同点用with，We compared the new model with the old one to see which is faster. 2把A比作，强调它们之间某种神似，we can compare brain to computer 3 过去分词作状语Compared to/with A, B is ... （与 A 相比，B 是……） Compared to his father, he is very shy.
+ * represent [vi.] 在...体现
+ * exemplify [vt.] 是...的典型
+ * incorporate [vt.] 使加入，使包含，如：we must incorporate the miscellaneous in contracts to avoid unexpected situations
  *　
  *
  *
