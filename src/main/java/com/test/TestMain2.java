@@ -2822,8 +2822,8 @@ public class TestMain2 {
             }
         }
         System.out.println(sum);
-
         System.out.println(System.getProperty("java.io.tmpdir"));
+
 
 
         TimeZone timeZone = TimeZone.getDefault();
@@ -2844,7 +2844,6 @@ public class TestMain2 {
         IntStream.range(252,552).forEach(e -> {
             System.out.println("enum_"+e+"(\"a\", \"v.\", Arrays.asList(\"a\", \"a\")),");
         });
-        // those companies that can envisage a future with the best possible work force.
         IntStream.range(0, 100).forEach(e -> {
             System.out.println("enum_"+e+"(\"a\", \"v.\", Arrays.asList(\"a\", \"a\")),");
         });

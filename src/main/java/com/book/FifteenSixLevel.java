@@ -27,7 +27,7 @@ import java.util.Arrays;
  * water soluble [adj.] 水溶性的
  * 在主系表结构中，如果表语是形容词，那么可以使用介词来进一步限定形容词的范围，例如this two phones are very similar in design, but different in the price，但后面介词+名词在句中是一个整体，做状语，看似修饰形容词其实修饰的是整个谓语部分(be+adj.)
  * in the shape of 以…的形式；呈…的形状
- * mistake A for B = take A for B 把A误认为B，相反的 regard A as B = see / view A as B = identify A as B = recognize A as B = ascertain A as B = think of A as B = claim A as B  将A识别为B
+ * mistake A for B = take A for B 把A误认为B，相反的 regard A as B = see / view A as B = identify A as B = recognize A as B = ascertain A as B = think of A as B = claim A as B  = see A as B 将A识别为B
  * the baby boomer [n.] 婴儿潮时代出生的人
  * work with [vt.] 1与某人一起做某事，2利用某物做某事，如：most of the artists who paint prefer to work with watercolor，3对人或事产生效果，如：the new treatment way works with most of advance cancer patients
  * ego [n.] 自尊心
@@ -174,7 +174,7 @@ import java.util.Arrays;
  * floor space [n] [建] 占地面积,建筑面积 living floor space 居住使用面积
  * skyline [n.] 天际线
  * manageable [adj.] 可管理的,可做到的
- * take advantage of sth. 利用
+ * take advantage of sth. 利用  How strange that intelligent men feel entitled to take advantage of females in a subordinate position
  * floor和storey  当表示第几层时，‌floor 常与介词on搭配（如I live on the second floor），而 storey 常与介词 in‌搭配（如I live in the second storey），在描述建筑总层数时，‌storey‌更常见（如“a 9-storey apartment building”），而 floor更多用于指内部具体楼层（如“The office is on the 6th floor”）。‌
  * impression [n.] 印象 impressive [adj.] （令人）印象深刻的
  * Virility和vitality的区别：他们都表示活力，其次如果你想夸一个人（不管男女）精神好、甚至夸一只狗或者一个创业公司很有干劲，用 Vitality，如果你想形容一个男人很爷们儿、很刚强、或者暗示他性能力很强，用 Virility
@@ -210,10 +210,21 @@ import java.util.Arrays;
  * represent [vi.] 在...体现
  * exemplify [vt.] 是...的典型
  * incorporate [vt.] 使加入，使包含，如：we must incorporate the miscellaneous in contracts to avoid unexpected situations
- *　
- *
- *
- *
+ * 不管，无论，in spite of, in despite of, regardless of, despite
+ * refer to A as B. 把A称为B one refer to this city as eastern paris 等价于 address A as B
+ * marital [adj.] 婚姻的
+ * identification [n.] 身份证明
+ * preferential price [n.] 优惠价格
+ * resist [vt.] 抵制
+ * They found the differences to be almost nil. 其中的系动词不定式to be做宾语补足语，说明宾语（被修饰者）是什么？
+ * underlie [vt.] 构成...的基础，如：those basic principles underlie the entire legal system. underlying [adj.] 基础的，根本的
+ * Until this is seen as being abnormal. 其中的being在现代英语中是可以被省略的且更常见的，
+ * designation [n.] 称号
+ * hold [vt.] 担任...职位 Chairman Mao once held the agricultural minister position in Republic of China.
+ * the opium war 鸦片战争 opium [n.] 鸦片
+ * monopoly [n.] 垄断，垄断者，
+ * lose against sb. 输给某人
+ * compensastion [n.] 补贴， 보상
  *
  *
  *
