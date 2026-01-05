@@ -5,6 +5,7 @@ import cn.hutool.core.io.FileUtil;
 import cn.hutool.core.io.IoUtil;
 import cn.hutool.core.io.unit.DataSize;
 import cn.hutool.core.io.unit.DataSizeUtil;
+import cn.hutool.core.util.EscapeUtil;
 import cn.hutool.core.util.StrUtil;
 import cn.hutool.system.SystemUtil;
 import com.alibaba.fastjson.JSONObject;
@@ -2847,7 +2848,13 @@ public class TestMain2 {
         IntStream.range(0, 100).forEach(e -> {
             System.out.println("enum_"+e+"(\"a\", \"v.\", Arrays.asList(\"a\", \"a\")),");
         });
-
+        // 通义大模型介绍 通义大模型是由阿里云自主研发的模型，凭借万亿级大规模数据训练和领先的算法框架，在多个领域和任务中提供智能化服务。通义系列涵盖自然语言、视觉、视频及语音四大方向，包括：通义千问系列、通义万相-图像生成系列、通义万相-视频生成系列、语音合成与识别系列。
+        // 通义千问（英文： Qwen ；读作： kùn）是由阿里巴巴通义千问团队开发的大规模语言和多模态系列模型。通义千问可以执行自然语言理解、文本生成、视觉理解、音频理解、工具调用、角色扮演、智能体等多种任务。语言和多模态模型均在大规模、多语言、多模态数据上进行预训练，并在高质量语料上后训练以与人类偏好对齐。
+        // 通义千问是阿里巴巴达摩院自主研发的超大规模语言模型。诞生源于阿里巴巴对人工智能技术的探索和实践，旨在为各行各业提供优质的自然语言处理服务，并且能够应对各种复杂的任务挑战。
+        // 通义具有知识理解和获取能力。无论是结构化知识还是非结构化知识，模型都能有效理解和抽取，提供相对精确和准确的答案。其次，模型具有泛化能力，无需进行特定任务训练即可进行多模态理解和推理。此外，模型还能够根据给定的情境理解用户的需求，提供相关的、准确的答案。最后，模型具有显著的自适应能力，可以根据不同的应用场景和用户需求进行自我调整。
+        // 通义千问模型是阿里巴巴通义千问团队开发的一系列大型语言模型，旨在推理、编码、多模态理解和多语言能力方面表现出色。这些模型利用包括专家混合（MoE）设计在内的先进架构和创新训练技术，在各种任务中提供最先进的性能。从通用对话到专业编码任务，通义千问模型为开发者和研究人员提供了强大的工具，用于构建下一代人工智能应用，并在推理、工具使用和上下文理解方面表现卓越。
+        // 作为AI系统的“语义翻译器”，向量模型通过将文本、图像等非结构化数据转化为机器可理解的向量空间，支撑着搜索、推荐、多模态交互等场景。
+        //
 
     }
 
@@ -2859,11 +2866,15 @@ public class TestMain2 {
         CompletableFuture<String> future1 = CompletableFuture.supplyAsync(() -> {
             // 执行一些操作
             try {
-                Thread.sleep(3000);
+                Thread.sleep(1000);
             } catch (InterruptedException e) {
                 throw new RuntimeException(e);
             }
-            log.info("Result1:");
+
+            String aa  = "(scene,call,2)\r\n";
+            String bb = "(scene%2Ccall%2C2)%0D%0A";
+            boolean equals = aa.equals(bb);
+
             return "Result1";
         }, executor);
 

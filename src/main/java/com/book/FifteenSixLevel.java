@@ -224,7 +224,8 @@ import java.util.Arrays;
  * the opium war 鸦片战争 opium [n.] 鸦片
  * monopoly [n.] 垄断，垄断者，
  * lose against sb. 输给某人
- * compensastion [n.] 补贴， 보상
+ * compensation [n.] 补贴
+ *
  *
  *
  *
