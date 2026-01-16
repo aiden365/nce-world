@@ -122,6 +122,8 @@ public class TestMain2 {
             StringBuffer stringBuffer = new StringBuffer();
 
             for (int i = 0; i < mac.length; ++i) {
+
+
                 if (i != 0) {
                     stringBuffer.append("-");
                 }
@@ -132,6 +134,11 @@ public class TestMain2 {
                 } else {
                     stringBuffer.append(temp);
                 }
+
+
+
+
+
             }
 
             return stringBuffer.toString().toUpperCase();
@@ -144,6 +151,7 @@ public class TestMain2 {
     @SneakyThrows
     @Test
     public void generationMethods() {
+
 
         Class<TestFour1> testFour1Class = TestFour1.class;
         Method[] methods = testFour1Class.getMethods();
@@ -179,9 +187,11 @@ public class TestMain2 {
 
                 headWord = headWord.replaceAll(" ", "_").replaceAll("-", "_");
 
+
                 if (collect.contains(headWord) || collect2.contains(headWord) || collect3.contains(headWord) || collect4.contains(headWord)) {
                     return;
                 }
+
 
 
                 log.info("/**");
