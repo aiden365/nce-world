@@ -225,7 +225,19 @@ import java.util.Arrays;
  * monopoly [n.] 垄断，垄断者，
  * lose against sb. 输给某人
  * compensation [n.] 补贴
- *
+ * separation of powers 权力分立 the theory stated that three power branches of government, the executive, the legislative, the judicial function separately.
+ * kidnap [vt.] 绑架
+ * portray [vt.] 描绘，描述
+ * linger [vi.] 徘徊，逗留，lingering [adj.] 迟迟不去的，磨磨蹭蹭的
+ * acclimate = acclimatize = adapt [vt.] 使适应 acclimatize sb. to sth.
+ * permeate = penetrate [vt.] 渗透，使进入 指具体的事物或抽象的概念进入进入另一个物体
+ * instrument [n.] 工具 instrumental [adj.] 有帮助的
+ * revolt [n.] 造反、起义 The Wuchang Revolt
+ * vision [n.] 视力，visional [adj.] 视觉的
+ * resign as pos. 辞去某个职位或职务
+ * brought with sb. sth. 给某人带来某物
+ * betray [vt.] 背叛 traitor [n.] 叛徒
+ * solidity [vt.] 团结
  *
  *
  *

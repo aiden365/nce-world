@@ -122,8 +122,6 @@ public class TestMain2 {
             StringBuffer stringBuffer = new StringBuffer();
 
             for (int i = 0; i < mac.length; ++i) {
-
-
                 if (i != 0) {
                     stringBuffer.append("-");
                 }
@@ -134,9 +132,6 @@ public class TestMain2 {
                 } else {
                     stringBuffer.append(temp);
                 }
-
-
-
 
 
             }
