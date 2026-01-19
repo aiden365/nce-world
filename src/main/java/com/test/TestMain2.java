@@ -131,11 +131,13 @@ public class TestMain2 {
                     stringBuffer.append("0" + temp);
                 } else {
                     stringBuffer.append(temp);
-                }
+               }
+
+
+
 
 
             }
-
             return stringBuffer.toString().toUpperCase();
         } catch (SocketException var6) {
             return null;

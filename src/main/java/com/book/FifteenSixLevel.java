@@ -238,7 +238,12 @@ import java.util.Arrays;
  * brought with sb. sth. 给某人带来某物
  * betray [vt.] 背叛 traitor [n.] 叛徒
  * solidity [vt.] 团结
- *
+ * mourn [vt.] 悼念 mourn + (for) + sb. 悼念某人
+ * a man of action
+ * pragmatist [n.] 实干家，实用主义者
+ * turbulent [adj.] 骚乱的，动乱的。turbulence [n.] 骚乱,动乱，气体或水的涡流
+ * stabilization [n.] 稳定性
+ * through [prep.] 凭借
  *
  *
  *
