@@ -244,7 +244,39 @@ import java.util.Arrays;
  * turbulent [adj.] 骚乱的，动乱的。turbulence [n.] 骚乱,动乱，气体或水的涡流
  * stabilization [n.] 稳定性
  * through [prep.] 凭借
- *
+ * profit [n.] 利润，profitable [adj.] 有利可图的
+ * provide sth. for sb. 为某人提供某物
+ * brief [n.] 摘要、简要 [adj.] 简短的 [vt.] brief sb on/about sth 向某人简要说明某事 如：The client briefed his lawyer on the details of the accident.
+ * produce [v.] 生产 production [n.] 生产 product [n.] 产品 productive [adj.] 生产的
+ * oversimplification [n.] 过度简化
+ * ambition [n.] 野心，抱负 ambitious [adj.]  有野心的，雄心勃勃的
+ * formidable [adj.] 难对付的，可怕的
+ * in nature [adv.] 在自然界中;；实际上;
+ * obsession [n.] 痴迷，着迷
+ * allegedly [adv.] 据说
+ * commonplace [n.] 陈腔滥调的事, 老生常谈的事 [adj.] 普通的
+ * promotion [n.] 宣传推广
+ * in particular [adv.] 尤其，特别
+ * contradict [v.] 反驳 contrary [adj.] 相反的 contradiction [n.] 矛盾 contrast [n.] 对比，差异
+ * by leaps and bounds [adv.]  突飞猛进，飞速发展，形容进展快
+ * hence [adv.] 因此 henceforth [adv.] 从此以后
+ * degrading [adj.] 贬低，有辱人格的
+ * to say the least 至少可以说
+ * decide [v.] 决定，下决心 decisive [adj.] 决定性的；果断的，坚定的 decisively [adv.] 决定地,果断地
+ * china-bashing [n.] 辱华,抨击中国
+ * all walks of life [n.] 各行各业 字面意思是“生活的各个步道”，比喻社会中的不同阶层或职业群体
+ * share [v.] 分享 [n.] 股份、份额
+ * indirect [adj.] 间接的
+ * result from [n.] 由……造成
+ * in the short-run [adv.] 短期内
+ * run [n.] 一段时间
+ * gradualism [n.] 渐进主义
+ * hierarchy [n.] 等级制度，统治集团 social hierarchy [n.] 社会等级制度
+ * to endure to the end 指坚持到最后
+ * inertia [n.] 惯性
+ * coincidence [n.] 一致的，不谋而合、巧合
+ * hinge on [vt.] 取决于...
+ * now that [conj.] 由于，既然，考虑到
  *
  *
  *

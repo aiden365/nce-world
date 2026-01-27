@@ -94,11 +94,11 @@ public class TestMain2 {
         List<Method> methodList = Arrays.asList(TestFourClass.getMethods());
 
         methodList.stream().forEach(e -> {
-
             if (e.getDeclaringClass().getName().equals("com.demo.text.TestToefl")) {
                 log.info("TestToefl." + e.getName() + "();");
             }
         });
+
 
         String address = SystemUtil.getHostInfo().getAddress();
         System.out.println(address);
@@ -120,8 +120,10 @@ public class TestMain2 {
         try {
             byte[] mac = NetworkInterface.getByInetAddress(inetAddr).getHardwareAddress();
             StringBuffer stringBuffer = new StringBuffer();
-
+            // equipped in a manner which would make a modern climber shudder at the thought,
+            // but they did not go out of their way to court such excitement. (a minute ago)
             for (int i = 0; i < mac.length; ++i) {
+
                 if (i != 0) {
                     stringBuffer.append("-");
                 }
@@ -131,13 +133,10 @@ public class TestMain2 {
                     stringBuffer.append("0" + temp);
                 } else {
                     stringBuffer.append(temp);
-               }
-
-
-
-
+                }
 
             }
+
             return stringBuffer.toString().toUpperCase();
         } catch (SocketException var6) {
             return null;

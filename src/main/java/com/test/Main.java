@@ -13,7 +13,6 @@ import com.words.TestYschzj;
 import lombok.Data;
 import lombok.SneakyThrows;
 import lombok.extern.slf4j.Slf4j;
-import org.checkerframework.checker.units.qual.A;
 import org.hamcrest.core.Every;
 import org.junit.Test;
 
