@@ -9,6 +9,7 @@ import cn.hutool.core.util.EscapeUtil;
 import cn.hutool.core.util.StrUtil;
 import cn.hutool.system.SystemUtil;
 import com.alibaba.fastjson.JSONObject;
+import com.neclesson.FourthVolume;
 import com.other.Welcome10;
 import com.words.*;
 import kotlin.reflect.KParameter;
@@ -118,10 +119,10 @@ public class TestMain2 {
 
     protected static String getMacByInetAddress(InetAddress inetAddr) {
         try {
+
             byte[] mac = NetworkInterface.getByInetAddress(inetAddr).getHardwareAddress();
             StringBuffer stringBuffer = new StringBuffer();
-            // equipped in a manner which would make a modern climber shudder at the thought,
-            // but they did not go out of their way to court such excitement. (a minute ago)
+
             for (int i = 0; i < mac.length; ++i) {
 
                 if (i != 0) {
@@ -134,6 +135,8 @@ public class TestMain2 {
                 } else {
                     stringBuffer.append(temp);
                 }
+
+
 
             }
 

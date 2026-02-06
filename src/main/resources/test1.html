@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .wrapper{
+            /*width: 1024px;*/
+            display: flex;
+            /*flex-direction: row;
+            flex-wrap: wrap;*/
+            flex-flow: row wrap;
+            border: 2px dotted rgb(96 139 168);
+        }
+        .wrapper >div{
+            flex-basis: auto;
+            flex-grow: 1;
+            flex-shrink: 1;
+            text-align: center;
+            margin-top: 1px;
+            width: 80px;
+            height: 70px;
+            border: 2px solid rgb(96 139 168);
+            border-radius: 5px;
+            background-color: rgb(96 139 168 / 0.2);
+        }
+        .wrapper >div:nth-child(1){
+            flex-grow: 2;
+        }
+        .wrapper >div:nth-child(2){
+            flex-shrink: 2;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <div>one</div>
+        <div>two</div>
+        <div>three</div>
+        <div>four</div>
+        <div>five</div>
+        <div>six</div>
+    </div>
+
+</body>
+</html>

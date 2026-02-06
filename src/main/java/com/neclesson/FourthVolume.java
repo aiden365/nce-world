@@ -12,13 +12,58 @@ package com.neclesson;
  * engage [vi.] 从事，参加
  * content with 满足于…；对…感到满
  * alpinist [n.] 登山者,登山运动员
- *
- *
- *
- *
- *
- *
- *
+ * go out of one's way 后跟不定式，表示 特意费心去做某事 （偏离了原来的路转而去做某事）
+ * except for/as sth. 除...之外
+ * used to do = tended to do 过去常常做某事
+ * -ridden 与名词结合构成复合形容词，译为：充满...， 如 debt-ridden 负债累累的，disease-ridden 疾病肆虐的，
+ * such as 的两种用法：1:A such as B. 像B一样的A，例如animals such as tigers and lions are carnivorous. 2 such + n. + as + 定语从句，使用定语从句进一步修饰such后面的特例，如such books as there are on shelf are old 再如 the persons such knew truth kept silent
+ * safe [n.] 保险箱
+ * do up 整理
+ * opaque [adj.] 不透明的、难以理解的
+ * lottery [n.] 彩票 super lotto [n.] 超级大乐透
+ * blindfold [vt.] 蒙住某人的眼睛，[adj./adv.] 被蒙住眼睛的，盲目的
+ * after all [adv.] 毕竟，说到底、终究
+ * mean [vt.] 意味着 [adj.] 庸俗的 【n.】中庸，折衷
+ * dreary [adj.] 无聊的，枯燥的，令人厌烦的
+ * in contrast with 与…形成对比；与…相比
+ * presumptuous [adj.] 自以为是的
+ * turn to someone/something (for help/protection) 依靠……寻求帮助或庇护
+ * cliche [n.] 陈词滥调
+ * goodwill [n.] 善意，友好
+ * fare [n.] （车、船）费，warfare [n.] 战争 welfare [n.] 幸福，福利
+ * at any rate 无论如何，不管怎样 for short periods 持续很短的一段时间
+ * appreciation [n.] 感激，感谢，理解
+ * The + 比较级..., the + 比较级... 结构 表示：越...就... 如：The harder you work, the more you achieve.
+ * hull [n.] 船体,谷物外壳
+ * sound [n.] 声音，[adj.] 合理的，健康的 [adv.] 彻底地，充分地 [vt.] 测量 [vi.] 听起来，发出声音
+ * in general use 普遍使用
+ * a shoal of fish 鱼群
+ * steer clear of sth. [vt.] 避开；绕开
+ * grace [n.] 优雅 [vt.] 使优雅，装饰
+ * fowl [n.] 鸟，家禽
+ * put sand in the wheels of sth. [vt.] 妨碍，阻碍  [某个进程、系统、计划、谈判等] [vt.]
+ * hit the market [vi.] 突然出现、迅速进入、开始流通 （在市场上）
+ * electrocute [vi.] 电死
+ * in time for + sth. 及时赶上...；赶在...之前做某事，例如：we hope to got the station in time for the train,  please send the documents in time for meeting
+ * hard-pressed [adj.] 很难(做某事);处于强大压力的(尤指工作重、时间紧迫、资金少);
+ * “形容词/副词 + enough + to do something”‌，用于表达“足够……去做某事 如：The details are complex enough to make a deal difficult. 若表达“某事物的程度足以导致某种结果”时，应使用 ‌“so + 形容词/副词 + that”‌ 结构，而不是 “enough that”。
+ * hammer out [vt.] 敲定出（协议、方案等）
+ * spy [n.] 间谍 [vi.] 从事间谍活动 [adj.] 间谍的 espionage [n.] 间谍活动
+ * minstrel [n.] 吟游诗人
+ * vary [vi.] 结构1：vary + 宾语 + with + 具体变化内容，译为 用 B 来使 A 变化 / 丰富 A。结构2：vary + 宾语（不带 with）表示“改变某事” 如：the weather varies from day to day. 结构3：vary between A and B / among A, B, and C 表示“在……之间变化” 如：His mood varies among cheerful, anxious, and irritable.
+ * settle [vi.] 定居，解决，[vt.] 解决 settle with [vt.] 结账，与...清算，和...和解 如 let me settle with you for the meal.  settle in (place.) [vt.] 定居在某地，settle down  [vi.] 安定下来（指结婚、搬家然后过安稳的生活） settle on (place.) [vt.] 停留在某地
+ * discipline [n.] 纪律
+ * denmark [n.] 丹麦 danish [adj.] 丹麦的 [n.] 丹麦语  dane [n.] 丹麦人
+ * casual [adj.] 漫不经心的，随意的
+ * caution [n.] 警告，警示 precaution [n.] 预防措施
+ * live (well) on sth. 靠...生活（地很好）
+ * trivial [adj.] 微不足道的
+ * commissariat [n.] 军需处，后勤补给部门
+ * harry [vt.] 骚扰
+ * patrol [n.] 巡逻队 [vi/vt.] 巡逻，侦察 patrol car 警车
+ * skirmish [n.] 小冲突，遭遇战
+ * episode [n.] 一段插曲，一个小事件，一集（影视）
+ * reasonably [adv.] 完全有理由地，合理地，充分地
  *
  *
  *
@@ -149,7 +194,7 @@ public class FourthVolume {
     /**
      *
      * @title The sporting spirit
-     * @english1 Iam always amazed when I hear people saying that sport creates goodwill between the nations, and that if only the common peoples of the world could meet one another at football or cricket, they would have no inclination to meet on the battlefield. Even if one didn't know from concrete examples (the 1936 Olympic Games, for instance) that international sporting contests lead to orgies of hatred, one could deduce it from general principles.
+     * @english1 I am always amazed when I hear people saying that sport creates goodwill between the nations, and that if only the common peoples of the world could meet one another at football or cricket, they would have no inclination to meet on the battlefield. Even if one didn't know from concrete examples (the 1936 Olympic Games, for instance) that international sporting contests lead to orgies of hatred, one could deduce it from general principles.
      * @english2 Nearly all the sports practised nowadays are competitive. You play to win, and the game has little meaning unless you do your utmost to win. On the village green, where you pick up sides and no feeling of local patriotism is involved, it is possible to play simply for the fun and exercise: but as soon as the question of prestige arises, as soon as you feel that you and some larger unit will be disgraced if you lose, the most savage combative instincts are aroused. Anyone who has played even in a school football match knows this. At the international level sport is frankly mimic warfare. But the significant thing is not the behaviour of the players but the attitude of the spectators: and, behind the spectators, of the nations. who work themselves into furies over these absurd contests, and seriously believe--at any rate for short periods--that running, jumping and kicking a ball are tests of national virtue.
      * @english3 Source: GEORGE ORWELL The Sporting Spirit
      * @chinese1 当我听人们说体育运动可创造国家之间的友谊，还说各国民众若在足球场或板球场上交锋，就不愿在战场上残杀的时候，我总是惊愕不已。一个人即使不能从具体的事例（例如1936年的奥林匹克运动会）了解到国际运动比赛会导致疯狂的仇恨，也可以从常理中推断出结论。 现在开展的体育运动几乎都是竞争性的。参加比赛就是为了取胜。如果不拚命去赢，比赛就没有什么意义了。
